@@ -1,0 +1,6 @@
+{
+    "description": "GitHub上にないプラグインや、自動収集データを上書きしたい場合にここに記載してください。",
+    "plugins": [],
+    "categoryOverrides": {},
+    "excludeRepos": []
+}
