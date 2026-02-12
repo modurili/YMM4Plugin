@@ -80,17 +80,47 @@ function wait(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// ===== トピック検索 =====
+// ===== トピック検索（ページネーション対応） =====
 async function searchByTopic(topic) {
     console.log(`  🔍 トピック "${topic}" を検索中...`);
+    const allItems = [];
+    let page = 1;
+    const perPage = 100;
+    // GitHub Search APIは最大1000件まで取得可能
+    const maxResults = 1000;
+
     try {
         const encoded = encodeURIComponent(`topic:${topic}`);
-        const result = await githubRequest(`/search/repositories?q=${encoded}&per_page=100&sort=updated`);
-        console.log(`    → ${result.items?.length || 0}件のリポジトリを発見`);
-        return result.items || [];
+
+        while (true) {
+            const result = await githubRequest(
+                `/search/repositories?q=${encoded}&per_page=${perPage}&sort=updated&page=${page}`
+            );
+
+            const items = result.items || [];
+            allItems.push(...items);
+
+            const totalCount = result.total_count || 0;
+            console.log(`    → ページ${page}: ${items.length}件取得 (合計: ${allItems.length}/${totalCount}件)`);
+
+            // 全件取得済み、または空ページ、またはGitHub APIの上限に達した場合は終了
+            if (items.length < perPage || allItems.length >= totalCount || allItems.length >= maxResults) {
+                break;
+            }
+
+            page++;
+            await wait(1500); // ページネーション間のRate limit対策
+        }
+
+        console.log(`    ✅ トピック "${topic}": 合計 ${allItems.length}件のリポジトリを発見`);
+        return allItems;
     } catch (error) {
         console.error(`    ⚠️ 検索エラー (${topic}):`, error.message);
-        return [];
+        // 途中まで取得できた分は返す
+        if (allItems.length > 0) {
+            console.log(`    ⚠️ エラー発生前に${allItems.length}件取得済み、そちらを使用します`);
+        }
+        return allItems;
     }
 }
 
