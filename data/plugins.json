@@ -1,23 +1,6 @@
 {
-  "lastUpdated": "2026-02-14T16:02:20.379Z",
+  "lastUpdated": "2026-02-20T13:58:30.660Z",
   "plugins": [
-    {
-      "id": "na-jpbrew-modulator",
-      "name": "Modulator",
-      "description": "説明なし",
-      "author": "NA-JPBrew",
-      "authorUrl": "https://github.com/NA-JPBrew",
-      "repoUrl": "https://github.com/NA-JPBrew/Modulator",
-      "downloadUrl": "https://github.com/NA-JPBrew/Modulator/releases/tag/v1.0.0",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 0,
-      "lastUpdated": "2026-02-14T15:11:20Z",
-      "latestVersion": "v1.0.0",
-      "license": "MIT"
-    },
     {
       "id": "routersys-ymm4-objloader",
       "name": "YMM4-ObjLoader",
@@ -34,8 +17,59 @@
         "windows"
       ],
       "stars": 3,
-      "lastUpdated": "2026-02-14T08:38:55Z",
+      "lastUpdated": "2026-02-20T02:15:43Z",
       "latestVersion": "v2.4.1",
+      "license": "MIT"
+    },
+    {
+      "id": "dolphin-kun-proxyvideosource",
+      "name": "ProxyVideoSource",
+      "description": "説明なし",
+      "author": "Dolphin-kun",
+      "authorUrl": "https://github.com/Dolphin-kun",
+      "repoUrl": "https://github.com/Dolphin-kun/ProxyVideoSource",
+      "downloadUrl": "https://github.com/Dolphin-kun/ProxyVideoSource/releases/tag/v1.0.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "lastUpdated": "2026-02-17T11:50:44Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
+      "id": "hazimeyou-ymmresourcepackager",
+      "name": "YMMResourcePackager",
+      "description": "素材同梱プラグインおよび展開アプリ",
+      "author": "hazimeyou",
+      "authorUrl": "https://github.com/hazimeyou",
+      "repoUrl": "https://github.com/hazimeyou/YMMResourcePackager",
+      "downloadUrl": "https://github.com/hazimeyou/YMMResourcePackager/releases/tag/v0.1.2",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 1,
+      "lastUpdated": "2026-02-15T03:14:41Z",
+      "latestVersion": "v0.1.2",
+      "license": "MIT"
+    },
+    {
+      "id": "na-jpbrew-modulator",
+      "name": "Modulator",
+      "description": "説明なし",
+      "author": "NA-JPBrew",
+      "authorUrl": "https://github.com/NA-JPBrew",
+      "repoUrl": "https://github.com/NA-JPBrew/Modulator",
+      "downloadUrl": "https://github.com/NA-JPBrew/Modulator/releases/tag/v1.0.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "lastUpdated": "2026-02-14T15:11:20Z",
+      "latestVersion": "v1.0.0",
       "license": "MIT"
     },
     {
@@ -295,23 +329,6 @@
       "license": "MIT"
     },
     {
-      "id": "hazimeyou-ymmresourcepackager",
-      "name": "YMMResourcePackager",
-      "description": "素材同梱プラグインおよび展開アプリ",
-      "author": "hazimeyou",
-      "authorUrl": "https://github.com/hazimeyou",
-      "repoUrl": "https://github.com/hazimeyou/YMMResourcePackager",
-      "downloadUrl": "https://github.com/hazimeyou/YMMResourcePackager/releases/tag/v0.1.2",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 1,
-      "lastUpdated": "2026-01-09T04:10:36Z",
-      "latestVersion": "v0.1.2",
-      "license": "MIT"
-    },
-    {
       "id": "haisangames813-addshapeeffect",
       "name": "AddShapeEffect",
       "description": "図形アイテムをエフェクトとして追加するプラグイン",
@@ -484,7 +501,7 @@
     {
       "id": "routersys-ymm4-fontmanager",
       "name": "YMM4-FontManager",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシステムへインストール・管理できます。",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワン���リックでシステムへインストール・管理できます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-FontManager",
@@ -1039,7 +1056,7 @@
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4PerfMonitorPlugin",
-      "downloadUrl": "https://github.com/InuInu2022/YMM4PerfMonitorPlugin/releases",
+      "downloadUrl": "https://github.com/InuInu2022/YMM4PerfMonitorPlugin/releases/tag/v0.1.1",
       "category": "other",
       "tags": [
         "その他",
@@ -1048,7 +1065,7 @@
       ],
       "stars": 0,
       "lastUpdated": "2025-09-13T01:59:14Z",
-      "latestVersion": "",
+      "latestVersion": "v0.1.1",
       "license": "MIT"
     },
     {
@@ -1058,14 +1075,14 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ImageResize",
-      "downloadUrl": "https://github.com/routersys/YMM4-ImageResize/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-ImageResize/releases/tag/v1.0.0",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 0,
       "lastUpdated": "2025-09-12T14:09:27Z",
-      "latestVersion": "",
+      "latestVersion": "v1.0.0",
       "license": "MIT"
     },
     {
@@ -1075,7 +1092,7 @@
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/ymme-vscode-boilerplate",
-      "downloadUrl": "https://github.com/InuInu2022/ymme-vscode-boilerplate/releases",
+      "downloadUrl": "https://github.com/InuInu2022/ymme-vscode-boilerplate/releases/tag/v4.34",
       "category": "other",
       "tags": [
         "その他",
@@ -1084,7 +1101,7 @@
       ],
       "stars": 3,
       "lastUpdated": "2025-09-10T22:33:33Z",
-      "latestVersion": "",
+      "latestVersion": "v4.34",
       "license": "MIT"
     },
     {
@@ -1094,14 +1111,14 @@
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/CustomEffectSelector",
-      "downloadUrl": "https://github.com/dmmo-com-jp/CustomEffectSelector/releases",
+      "downloadUrl": "https://github.com/dmmo-com-jp/CustomEffectSelector/releases/tag/1.0.0",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 1,
       "lastUpdated": "2025-09-11T02:39:06Z",
-      "latestVersion": "",
+      "latestVersion": "1.0.0",
       "license": "MIT"
     },
     {
@@ -1111,14 +1128,14 @@
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/CharacterInversionAndReverseConversionPlugin",
-      "downloadUrl": "https://github.com/HAIsanGames813/CharacterInversionAndReverseConversionPlugin/releases",
+      "downloadUrl": "https://github.com/HAIsanGames813/CharacterInversionAndReverseConversionPlugin/releases/tag/1.0.1",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 0,
       "lastUpdated": "2025-09-07T08:49:18Z",
-      "latestVersion": "",
+      "latestVersion": "1.0.1",
       "license": "MIT"
     },
     {
@@ -1128,14 +1145,14 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PDF",
-      "downloadUrl": "https://github.com/routersys/YMM4-PDF/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-PDF/releases/tag/v1.1.0",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 0,
       "lastUpdated": "2025-09-06T07:55:18Z",
-      "latestVersion": "",
+      "latestVersion": "v1.1.0",
       "license": "MIT"
     },
     {
@@ -1145,31 +1162,31 @@
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
-      "downloadUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect/releases",
+      "downloadUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect/releases/tag/ver.1.2.0",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-09-05T18:21:23Z",
-      "latestVersion": "",
+      "latestVersion": "ver.1.2.0",
       "license": ""
     },
     {
       "id": "routersys-ymm4-combinedeffect",
       "name": "YMM4-CombinedEffect",
-      "description": "YMMの映像エフェクトをまとめ���ことができます。",
+      "description": "YMMの映像エフェクトをまとめることができます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CombinedEffect",
-      "downloadUrl": "https://github.com/routersys/YMM4-CombinedEffect/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-CombinedEffect/releases/tag/v1.0.2",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 2,
       "lastUpdated": "2025-11-05T11:16:39Z",
-      "latestVersion": "",
+      "latestVersion": "v1.0.2",
       "license": "MIT"
     },
     {
@@ -1179,14 +1196,14 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HeatHaze",
-      "downloadUrl": "https://github.com/routersys/YMM4-HeatHaze/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-HeatHaze/releases/tag/v1.1.0",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-10-11T09:30:05Z",
-      "latestVersion": "",
+      "latestVersion": "v1.1.0",
       "license": "MIT"
     },
     {
@@ -1196,14 +1213,14 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PenTool",
-      "downloadUrl": "https://github.com/routersys/YMM4-PenTool/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-PenTool/releases/tag/v2.2.0",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 0,
       "lastUpdated": "2025-09-02T06:09:07Z",
-      "latestVersion": "",
+      "latestVersion": "v2.2.0",
       "license": "LGPL-3.0"
     },
     {
@@ -1213,14 +1230,14 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Browser",
-      "downloadUrl": "https://github.com/routersys/YMM4-Browser/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-Browser/releases/tag/v3.0.1",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 1,
       "lastUpdated": "2025-10-11T09:29:58Z",
-      "latestVersion": "",
+      "latestVersion": "v3.0.1",
       "license": "MIT"
     },
     {
@@ -1230,14 +1247,14 @@
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/AudioLinkPlugin",
-      "downloadUrl": "https://github.com/dmmo-com-jp/AudioLinkPlugin/releases",
+      "downloadUrl": "https://github.com/dmmo-com-jp/AudioLinkPlugin/releases/tag/0.1",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-31T13:15:48Z",
-      "latestVersion": "",
+      "latestVersion": "0.1",
       "license": "MIT"
     },
     {
@@ -1247,14 +1264,14 @@
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/RandomAnglePlugin",
-      "downloadUrl": "https://github.com/dmmo-com-jp/RandomAnglePlugin/releases",
+      "downloadUrl": "https://github.com/dmmo-com-jp/RandomAnglePlugin/releases/tag/1.0",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-31T13:12:56Z",
-      "latestVersion": "",
+      "latestVersion": "1.0",
       "license": "MIT"
     },
     {
@@ -1264,14 +1281,14 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HueCorrection",
-      "downloadUrl": "https://github.com/routersys/YMM4-HueCorrection/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-HueCorrection/releases/tag/v1.0.0",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 1,
       "lastUpdated": "2025-09-13T23:00:09Z",
-      "latestVersion": "",
+      "latestVersion": "v1.0.0",
       "license": "MIT"
     },
     {
@@ -1281,14 +1298,14 @@
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/ImageLoop3D",
-      "downloadUrl": "https://github.com/tetra-te/ImageLoop3D/releases",
+      "downloadUrl": "https://github.com/tetra-te/ImageLoop3D/releases/tag/v1.0.0",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-10-11T09:29:54Z",
-      "latestVersion": "",
+      "latestVersion": "v1.0.0",
       "license": "MIT"
     },
     {
@@ -1298,14 +1315,14 @@
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/MultiCoreImgWavExporter",
-      "downloadUrl": "https://github.com/dmmo-com-jp/MultiCoreImgWavExporter/releases",
+      "downloadUrl": "https://github.com/dmmo-com-jp/MultiCoreImgWavExporter/releases/tag/1.0",
       "category": "video-output",
       "tags": [
         "動画出力"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-28T08:18:07Z",
-      "latestVersion": "",
+      "latestVersion": "1.0",
       "license": "MIT"
     },
     {
@@ -1315,14 +1332,14 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-GodRay",
-      "downloadUrl": "https://github.com/routersys/YMM4-GodRay/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-GodRay/releases/tag/v0.0.1",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 2,
       "lastUpdated": "2025-09-15T15:52:57Z",
-      "latestVersion": "",
+      "latestVersion": "v0.0.1",
       "license": "MIT"
     },
     {
@@ -1332,14 +1349,14 @@
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
-      "downloadUrl": "https://github.com/benikazura/DrawConversionEffect/releases",
+      "downloadUrl": "https://github.com/benikazura/DrawConversionEffect/releases/tag/ver3.1.1",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-24T07:59:24Z",
-      "latestVersion": "",
+      "latestVersion": "ver3.1.1",
       "license": ""
     },
     {
@@ -1349,14 +1366,14 @@
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/LetterBoxShape",
-      "downloadUrl": "https://github.com/benikazura/LetterBoxShape/releases",
+      "downloadUrl": "https://github.com/benikazura/LetterBoxShape/releases/tag/ver1.2.1",
       "category": "shape",
       "tags": [
         "図形"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-24T07:37:15Z",
-      "latestVersion": "",
+      "latestVersion": "ver1.2.1",
       "license": ""
     },
     {
@@ -1366,14 +1383,14 @@
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/ScrollEffect",
-      "downloadUrl": "https://github.com/benikazura/ScrollEffect/releases",
+      "downloadUrl": "https://github.com/benikazura/ScrollEffect/releases/tag/ver1.2.1",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-24T07:21:04Z",
-      "latestVersion": "",
+      "latestVersion": "ver1.2.1",
       "license": ""
     },
     {
@@ -1383,14 +1400,14 @@
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/WaveText",
-      "downloadUrl": "https://github.com/benikazura/WaveText/releases",
+      "downloadUrl": "https://github.com/benikazura/WaveText/releases/tag/ver1.1.1",
       "category": "text",
       "tags": [
         "テキスト"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-24T06:46:02Z",
-      "latestVersion": "",
+      "latestVersion": "ver1.1.1",
       "license": ""
     },
     {
@@ -1400,14 +1417,14 @@
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CharactorMotion",
-      "downloadUrl": "https://github.com/benikazura/CharactorMotion/releases",
+      "downloadUrl": "https://github.com/benikazura/CharactorMotion/releases/tag/ver1.1.1",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-24T06:28:38Z",
-      "latestVersion": "",
+      "latestVersion": "ver1.1.1",
       "license": ""
     },
     {
@@ -1417,14 +1434,14 @@
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/FanClipping",
-      "downloadUrl": "https://github.com/benikazura/FanClipping/releases",
+      "downloadUrl": "https://github.com/benikazura/FanClipping/releases/tag/ver1.1.1",
       "category": "video-output",
       "tags": [
         "動画出力"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-24T06:19:40Z",
-      "latestVersion": "",
+      "latestVersion": "ver1.1.1",
       "license": ""
     },
     {
@@ -1434,14 +1451,14 @@
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/OutlineT",
-      "downloadUrl": "https://github.com/benikazura/OutlineT/releases",
+      "downloadUrl": "https://github.com/benikazura/OutlineT/releases/tag/ver1.0.1",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-24T05:06:16Z",
-      "latestVersion": "",
+      "latestVersion": "ver1.0.1",
       "license": ""
     },
     {
@@ -1451,14 +1468,14 @@
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/BpmSync",
-      "downloadUrl": "https://github.com/benikazura/BpmSync/releases",
+      "downloadUrl": "https://github.com/benikazura/BpmSync/releases/tag/ver1.0.2",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-24T04:45:08Z",
-      "latestVersion": "",
+      "latestVersion": "ver1.0.2",
       "license": ""
     },
     {
@@ -1468,14 +1485,14 @@
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
-      "downloadUrl": "https://github.com/benikazura/PseudoOpacityEffect/releases",
+      "downloadUrl": "https://github.com/benikazura/PseudoOpacityEffect/releases/tag/ver1.1.1",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-24T04:10:43Z",
-      "latestVersion": "",
+      "latestVersion": "ver1.1.1",
       "license": ""
     },
     {
@@ -1485,14 +1502,14 @@
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/GlitchNoiseEffect",
-      "downloadUrl": "https://github.com/benikazura/GlitchNoiseEffect/releases",
+      "downloadUrl": "https://github.com/benikazura/GlitchNoiseEffect/releases/tag/ver1.2.2",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 1,
       "lastUpdated": "2025-08-26T10:37:03Z",
-      "latestVersion": "",
+      "latestVersion": "ver1.2.2",
       "license": ""
     },
     {
@@ -1502,14 +1519,14 @@
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AutomaticAspectRatio",
-      "downloadUrl": "https://github.com/benikazura/AutomaticAspectRatio/releases",
+      "downloadUrl": "https://github.com/benikazura/AutomaticAspectRatio/releases/tag/ver1.0.1",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-24T03:45:18Z",
-      "latestVersion": "",
+      "latestVersion": "ver1.0.1",
       "license": ""
     },
     {
@@ -1519,14 +1536,14 @@
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/FormulaText",
-      "downloadUrl": "https://github.com/Dolphin-kun/FormulaText/releases",
+      "downloadUrl": "https://github.com/Dolphin-kun/FormulaText/releases/tag/v1.2.0",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 3,
       "lastUpdated": "2025-08-05T05:00:33Z",
-      "latestVersion": "",
+      "latestVersion": "v1.2.0",
       "license": "MIT"
     },
     {
@@ -1536,14 +1553,14 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-QBCode",
-      "downloadUrl": "https://github.com/routersys/YMM4-QBCode/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-QBCode/releases/tag/v0.0.3",
       "category": "shape",
       "tags": [
         "図形"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-22T08:41:06Z",
-      "latestVersion": "",
+      "latestVersion": "v0.0.3",
       "license": "MIT"
     },
     {
@@ -1553,14 +1570,14 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ChemicalStructure",
-      "downloadUrl": "https://github.com/routersys/YMM4-ChemicalStructure/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-ChemicalStructure/releases/tag/v0.0.1",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-22T07:17:40Z",
-      "latestVersion": "",
+      "latestVersion": "v0.0.1",
       "license": "MIT"
     },
     {
@@ -1591,14 +1608,14 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ShuffleFont",
-      "downloadUrl": "https://github.com/routersys/YMM4-ShuffleFont/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-ShuffleFont/releases/tag/v1.0.0",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 3,
       "lastUpdated": "2025-12-26T14:22:02Z",
-      "latestVersion": "",
+      "latestVersion": "v1.0.0",
       "license": "MIT"
     },
     {
@@ -1608,14 +1625,14 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ExtendedChromakey",
-      "downloadUrl": "https://github.com/routersys/YMM4-ExtendedChromakey/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-ExtendedChromakey/releases/tag/v0.0.3",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-12T22:27:26Z",
-      "latestVersion": "",
+      "latestVersion": "v0.0.3",
       "license": "MIT"
     },
     {
@@ -1625,14 +1642,14 @@
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/YMM4DiscordTTS",
-      "downloadUrl": "https://github.com/Dolphin-kun/YMM4DiscordTTS/releases",
+      "downloadUrl": "https://github.com/Dolphin-kun/YMM4DiscordTTS/releases/tag/v1.1.0",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 0,
       "lastUpdated": "2025-12-20T12:22:57Z",
-      "latestVersion": "",
+      "latestVersion": "v1.1.0",
       "license": "MIT"
     },
     {
@@ -1642,14 +1659,14 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-GUIEqualizer",
-      "downloadUrl": "https://github.com/routersys/YMM4-GUIEqualizer/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-GUIEqualizer/releases/tag/v0.0.4",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 2,
       "lastUpdated": "2025-12-01T07:05:15Z",
-      "latestVersion": "",
+      "latestVersion": "v0.0.4",
       "license": "MIT"
     },
     {
@@ -1659,14 +1676,14 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CustomEasing",
-      "downloadUrl": "https://github.com/routersys/YMM4-CustomEasing/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-CustomEasing/releases/tag/v0.1.3",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 2,
       "lastUpdated": "2025-08-06T10:30:45Z",
-      "latestVersion": "",
+      "latestVersion": "v0.1.3",
       "license": "MIT"
     },
     {
@@ -1676,14 +1693,14 @@
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/Afterimage",
-      "downloadUrl": "https://github.com/Dolphin-kun/Afterimage/releases",
+      "downloadUrl": "https://github.com/Dolphin-kun/Afterimage/releases/tag/v1.0.2",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 1,
       "lastUpdated": "2025-08-01T10:58:08Z",
-      "latestVersion": "",
+      "latestVersion": "v1.0.2",
       "license": "MIT"
     },
     {
@@ -1693,31 +1710,31 @@
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/MosaicOutlineEffect",
-      "downloadUrl": "https://github.com/tetra-te/MosaicOutlineEffect/releases",
+      "downloadUrl": "https://github.com/tetra-te/MosaicOutlineEffect/releases/tag/v1.0.0",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-10-11T09:30:20Z",
-      "latestVersion": "",
+      "latestVersion": "v1.0.0",
       "license": "MIT"
     },
     {
       "id": "dolphin-kun-partssplitter",
       "name": "PartsSplitter",
-      "description": "「パーツ分解」映像エフェクトプラグ��ンです。",
+      "description": "「パーツ分解」映像エフェクトプラグイン��す。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/PartsSplitter",
-      "downloadUrl": "https://github.com/Dolphin-kun/PartsSplitter/releases",
+      "downloadUrl": "https://github.com/Dolphin-kun/PartsSplitter/releases/tag/v1.1",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 1,
       "lastUpdated": "2025-07-06T13:44:11Z",
-      "latestVersion": "",
+      "latestVersion": "v1.1",
       "license": "MIT"
     },
     {
@@ -1744,14 +1761,14 @@
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/MotionDetection",
-      "downloadUrl": "https://github.com/Dolphin-kun/MotionDetection/releases",
+      "downloadUrl": "https://github.com/Dolphin-kun/MotionDetection/releases/tag/v1.0",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 1,
       "lastUpdated": "2025-07-23T22:23:29Z",
-      "latestVersion": "",
+      "latestVersion": "v1.0",
       "license": "MIT"
     },
     {
@@ -1761,14 +1778,14 @@
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/LyricMotion",
-      "downloadUrl": "https://github.com/Dolphin-kun/LyricMotion/releases",
+      "downloadUrl": "https://github.com/Dolphin-kun/LyricMotion/releases/tag/v2.0",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 2,
       "lastUpdated": "2025-11-04T13:51:00Z",
-      "latestVersion": "",
+      "latestVersion": "v2.0",
       "license": "MIT"
     },
     {
@@ -1778,14 +1795,14 @@
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/AlphaFillEffect",
-      "downloadUrl": "https://github.com/tetra-te/AlphaFillEffect/releases",
+      "downloadUrl": "https://github.com/tetra-te/AlphaFillEffect/releases/tag/v1.1.0",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 2,
       "lastUpdated": "2025-12-26T14:23:25Z",
-      "latestVersion": "",
+      "latestVersion": "v1.1.0",
       "license": "CC0-1.0"
     },
     {
@@ -1795,14 +1812,14 @@
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ShuffleText",
-      "downloadUrl": "https://github.com/Dolphin-kun/ShuffleText/releases",
+      "downloadUrl": "https://github.com/Dolphin-kun/ShuffleText/releases/tag/v1.1",
       "category": "text",
       "tags": [
         "テキスト"
       ],
       "stars": 2,
       "lastUpdated": "2025-06-09T03:27:09Z",
-      "latestVersion": "",
+      "latestVersion": "v1.1",
       "license": "MIT"
     },
     {
@@ -1812,14 +1829,14 @@
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ArcText",
-      "downloadUrl": "https://github.com/Dolphin-kun/ArcText/releases",
+      "downloadUrl": "https://github.com/Dolphin-kun/ArcText/releases/tag/v1.2",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 2,
       "lastUpdated": "2025-12-26T14:23:58Z",
-      "latestVersion": "",
+      "latestVersion": "v1.2",
       "license": "MIT"
     },
     {
@@ -1829,7 +1846,7 @@
       "author": "kotolin-sub",
       "authorUrl": "https://github.com/kotolin-sub",
       "repoUrl": "https://github.com/kotolin-sub/YMM4CustomEasengK",
-      "downloadUrl": "https://github.com/kotolin-sub/YMM4CustomEasengK/releases",
+      "downloadUrl": "https://github.com/kotolin-sub/YMM4CustomEasengK/releases/tag/3.1",
       "category": "other",
       "tags": [
         "その他",
@@ -1837,7 +1854,7 @@
       ],
       "stars": 3,
       "lastUpdated": "2025-04-29T12:54:33Z",
-      "latestVersion": "",
+      "latestVersion": "3.1",
       "license": "Unlicense"
     },
     {
@@ -1847,14 +1864,14 @@
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/FitRotateEffect",
-      "downloadUrl": "https://github.com/tetra-te/FitRotateEffect/releases",
+      "downloadUrl": "https://github.com/tetra-te/FitRotateEffect/releases/tag/v1.0.0",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 1,
       "lastUpdated": "2025-06-15T11:43:49Z",
-      "latestVersion": "",
+      "latestVersion": "v1.0.0",
       "license": "CC0-1.0"
     },
     {
@@ -1864,14 +1881,14 @@
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ReflectEffect",
-      "downloadUrl": "https://github.com/Dolphin-kun/ReflectEffect/releases",
+      "downloadUrl": "https://github.com/Dolphin-kun/ReflectEffect/releases/tag/v1.1",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 1,
       "lastUpdated": "2025-04-17T14:55:43Z",
-      "latestVersion": "",
+      "latestVersion": "v1.1",
       "license": "MIT"
     },
     {
@@ -1881,14 +1898,14 @@
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SimpleMotionBlurEffect",
-      "downloadUrl": "https://github.com/tetra-te/SimpleMotionBlurEffect/releases",
+      "downloadUrl": "https://github.com/tetra-te/SimpleMotionBlurEffect/releases/tag/v1.0.2",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 8,
       "lastUpdated": "2025-12-21T09:11:07Z",
-      "latestVersion": "",
+      "latestVersion": "v1.0.2",
       "license": "MIT"
     },
     {
@@ -1898,14 +1915,14 @@
       "author": "kotolin-sub",
       "authorUrl": "https://github.com/kotolin-sub",
       "repoUrl": "https://github.com/kotolin-sub/YMM4Whisper",
-      "downloadUrl": "https://github.com/kotolin-sub/YMM4Whisper/releases",
+      "downloadUrl": "https://github.com/kotolin-sub/YMM4Whisper/releases/tag/1.1",
       "category": "audio-effect",
       "tags": [
         "音声エフェクト"
       ],
       "stars": 3,
       "lastUpdated": "2025-03-28T12:33:30Z",
-      "latestVersion": "",
+      "latestVersion": "1.1",
       "license": "NOASSERTION"
     },
     {
@@ -1915,14 +1932,14 @@
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RatioCropEffect",
-      "downloadUrl": "https://github.com/tetra-te/RatioCropEffect/releases",
+      "downloadUrl": "https://github.com/tetra-te/RatioCropEffect/releases/tag/v1.2",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 1,
       "lastUpdated": "2025-12-13T18:37:00Z",
-      "latestVersion": "",
+      "latestVersion": "v1.2",
       "license": "CC0-1.0"
     },
     {
@@ -1932,14 +1949,14 @@
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SpecifiedShowEffect",
-      "downloadUrl": "https://github.com/tetra-te/SpecifiedShowEffect/releases",
+      "downloadUrl": "https://github.com/tetra-te/SpecifiedShowEffect/releases/tag/v1.2",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 1,
       "lastUpdated": "2025-06-15T11:44:06Z",
-      "latestVersion": "",
+      "latestVersion": "v1.2",
       "license": "CC0-1.0"
     },
     {
@@ -1949,14 +1966,14 @@
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/ZoomDrawPositionEffect",
-      "downloadUrl": "https://github.com/tetra-te/ZoomDrawPositionEffect/releases",
+      "downloadUrl": "https://github.com/tetra-te/ZoomDrawPositionEffect/releases/tag/v1.2",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 2,
       "lastUpdated": "2025-06-15T11:44:07Z",
-      "latestVersion": "",
+      "latestVersion": "v1.2",
       "license": "CC0-1.0"
     },
     {
@@ -1966,7 +1983,7 @@
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4OpenJTalkPlugin",
-      "downloadUrl": "https://github.com/InuInu2022/YMM4OpenJTalkPlugin/releases",
+      "downloadUrl": "https://github.com/InuInu2022/YMM4OpenJTalkPlugin/releases/tag/v0.1.2",
       "category": "voice-synthesis",
       "tags": [
         "音声合成",
@@ -1976,7 +1993,7 @@
       ],
       "stars": 1,
       "lastUpdated": "2025-02-13T14:14:46Z",
-      "latestVersion": "",
+      "latestVersion": "v0.1.2",
       "license": "MIT"
     },
     {
@@ -1986,14 +2003,14 @@
       "author": "taisan11",
       "authorUrl": "https://github.com/taisan11",
       "repoUrl": "https://github.com/taisan11/YMM4-MoreBOUYOMIPlugin",
-      "downloadUrl": "https://github.com/taisan11/YMM4-MoreBOUYOMIPlugin/releases",
+      "downloadUrl": "https://github.com/taisan11/YMM4-MoreBOUYOMIPlugin/releases/tag/1.0.1",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 1,
       "lastUpdated": "2025-04-03T05:10:36Z",
-      "latestVersion": "",
+      "latestVersion": "1.0.1",
       "license": "MIT"
     },
     {
@@ -2003,14 +2020,14 @@
       "author": "kotolin-sub",
       "authorUrl": "https://github.com/kotolin-sub",
       "repoUrl": "https://github.com/kotolin-sub/YMM4AudioDelayPlugin",
-      "downloadUrl": "https://github.com/kotolin-sub/YMM4AudioDelayPlugin/releases",
+      "downloadUrl": "https://github.com/kotolin-sub/YMM4AudioDelayPlugin/releases/tag/1.0",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-02-10T18:57:03Z",
-      "latestVersion": "",
+      "latestVersion": "1.0",
       "license": "WTFPL"
     },
     {
@@ -2020,7 +2037,7 @@
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4SquirclePlugin",
-      "downloadUrl": "https://github.com/InuInu2022/YMM4SquirclePlugin/releases",
+      "downloadUrl": "https://github.com/InuInu2022/YMM4SquirclePlugin/releases/tag/v1.0.0",
       "category": "other",
       "tags": [
         "その他",
@@ -2028,7 +2045,7 @@
       ],
       "stars": 4,
       "lastUpdated": "2025-12-26T14:21:42Z",
-      "latestVersion": "",
+      "latestVersion": "v1.0.0",
       "license": "MIT"
     },
     {
@@ -2038,14 +2055,14 @@
       "author": "kotolin-sub",
       "authorUrl": "https://github.com/kotolin-sub",
       "repoUrl": "https://github.com/kotolin-sub/YMM4_Console_Plugin",
-      "downloadUrl": "https://github.com/kotolin-sub/YMM4_Console_Plugin/releases",
+      "downloadUrl": "https://github.com/kotolin-sub/YMM4_Console_Plugin/releases/tag/2.5",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 3,
       "lastUpdated": "2025-09-04T04:27:00Z",
-      "latestVersion": "",
+      "latestVersion": "2.5",
       "license": "WTFPL"
     },
     {
@@ -2055,14 +2072,14 @@
       "author": "sinBetaKun",
       "authorUrl": "https://github.com/sinBetaKun",
       "repoUrl": "https://github.com/sinBetaKun/CustomCloneEffectPlugin",
-      "downloadUrl": "https://github.com/sinBetaKun/CustomCloneEffectPlugin/releases",
+      "downloadUrl": "https://github.com/sinBetaKun/CustomCloneEffectPlugin/releases/tag/2.2",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 1,
       "lastUpdated": "2024-10-22T03:58:46Z",
-      "latestVersion": "",
+      "latestVersion": "2.2",
       "license": "MIT"
     },
     {
@@ -2072,14 +2089,14 @@
       "author": "SomeTea01",
       "authorUrl": "https://github.com/SomeTea01",
       "repoUrl": "https://github.com/SomeTea01/YMM4PluginPack_vol1",
-      "downloadUrl": "https://github.com/SomeTea01/YMM4PluginPack_vol1/releases",
+      "downloadUrl": "https://github.com/SomeTea01/YMM4PluginPack_vol1/releases/tag/v1.0.0",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 5,
       "lastUpdated": "2025-12-21T09:12:36Z",
-      "latestVersion": "",
+      "latestVersion": "v1.0.0",
       "license": ""
     },
     {
@@ -2089,14 +2106,14 @@
       "author": "sinBetaKun",
       "authorUrl": "https://github.com/sinBetaKun",
       "repoUrl": "https://github.com/sinBetaKun/ShiftCloneEffectPlugin",
-      "downloadUrl": "https://github.com/sinBetaKun/ShiftCloneEffectPlugin/releases",
+      "downloadUrl": "https://github.com/sinBetaKun/ShiftCloneEffectPlugin/releases/tag/2.1",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 4,
       "lastUpdated": "2024-10-22T03:58:36Z",
-      "latestVersion": "",
+      "latestVersion": "2.1",
       "license": "MIT"
     },
     {
@@ -2106,14 +2123,14 @@
       "author": "taisan11",
       "authorUrl": "https://github.com/taisan11",
       "repoUrl": "https://github.com/taisan11/YMM4-CapCut",
-      "downloadUrl": "https://github.com/taisan11/YMM4-CapCut/releases",
+      "downloadUrl": "https://github.com/taisan11/YMM4-CapCut/releases/tag/1.0.0",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 2,
       "lastUpdated": "2024-10-22T03:59:18Z",
-      "latestVersion": "",
+      "latestVersion": "1.0.0",
       "license": "MIT"
     },
     {
@@ -2123,27 +2140,27 @@
       "author": "YMM4Pp",
       "authorUrl": "https://github.com/YMM4Pp",
       "repoUrl": "https://github.com/YMM4Pp/YMM4PpS",
-      "downloadUrl": "https://github.com/YMM4Pp/YMM4PpS/releases",
+      "downloadUrl": "https://github.com/YMM4Pp/YMM4PpS/releases/tag/v.1.0",
       "category": "shape",
       "tags": [
         "図形"
       ],
       "stars": 2,
       "lastUpdated": "2024-10-22T03:59:24Z",
-      "latestVersion": "",
+      "latestVersion": "v.1.0",
       "license": "BSD-3-Clause"
     },
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフ��クトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
       "downloadUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin/releases",
-      "category": "audio-effect",
+      "category": "video-effect",
       "tags": [
-        "音声エフェクト"
+        "映像エフェクト"
       ],
       "stars": 2,
       "lastUpdated": "2024-12-25T14:29:30Z",
