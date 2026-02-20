@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-20T13:58:30.660Z",
+  "lastUpdated": "2026-02-20T14:08:07.894Z",
   "plugins": [
     {
       "id": "routersys-ymm4-objloader",
@@ -501,7 +501,7 @@
     {
       "id": "routersys-ymm4-fontmanager",
       "name": "YMM4-FontManager",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワン���リックでシステムへインストール・管理できます。",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシステムへインストール・管理できます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-FontManager",
@@ -1124,7 +1124,7 @@
     {
       "id": "haisangames813-characterinversionandreverseconversionplugin",
       "name": "CharacterInversionAndReverseConversionPlugin",
-      "description": "文字反転・逆再生変換ができるツールウィンドウを追加するプラグイン",
+      "description": "文字反転・逆再生変換が��きるツールウィンドウを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/CharacterInversionAndReverseConversionPlugin",
@@ -1158,7 +1158,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位相化するプラグ��ンです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
