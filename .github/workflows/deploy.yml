@@ -50,6 +50,7 @@ jobs:
           git add data/plugins.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: update plugins data [automated]"
+            git pull --rebase origin main
             git push origin HEAD:main
             echo "updated=true" >> $GITHUB_OUTPUT
             echo "✅ プラグインデータを更新しました"
