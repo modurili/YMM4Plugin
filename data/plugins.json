@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-02-20T14:10:22.567Z",
+  "lastUpdated": "2026-02-20T15:10:43.755Z",
   "plugins": [
     {
       "id": "routersys-ymm4-objloader",
       "name": "YMM4-ObjLoader",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモ��ル表示・操作プラグイン",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
@@ -382,14 +382,14 @@
     {
       "id": "benikazura-crossingscreen",
       "name": "CrossingScreen",
-      "description": "画面の端から端に移動させるYMM4用映像エフェクトプラグインです。",
+      "description": "画面の端から端に移動させるYMM4用映像エフェ���トプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CrossingScreen",
       "downloadUrl": "https://github.com/benikazura/CrossingScreen/releases/tag/ver1.1.0",
-      "category": "video-effect",
+      "category": "other",
       "tags": [
-        "映像エフェクト"
+        "その他"
       ],
       "stars": 0,
       "lastUpdated": "2026-01-02T15:19:08Z",
@@ -399,7 +399,7 @@
     {
       "id": "tetra-te-effectcategorycustomizer",
       "name": "EffectCategoryCustomizer",
-      "description": "エフェクトのカテゴリを自由に設定できるYMM4プラグイン",
+      "description": "エフェクトのカテゴリを自由に設定���きるYMM4プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/EffectCategoryCustomizer",
@@ -501,7 +501,7 @@
     {
       "id": "routersys-ymm4-fontmanager",
       "name": "YMM4-FontManager",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシステムへインストール・管理できま��。",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシステムへインストール・管理できます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-FontManager",
@@ -741,7 +741,7 @@
     {
       "id": "thiramisu-ymm4-plugin-long-text-scroller",
       "name": "ymm4-plugin-long-text-scroller",
-      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイン。",
+      "description": "長文テ���ストを軽量にスクロールするための、YMM4の図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-long-text-scroller",
@@ -1723,7 +1723,7 @@
     {
       "id": "dolphin-kun-partssplitter",
       "name": "PartsSplitter",
-      "description": "「パーツ分解」映像エフェクトプラグイン���す。",
+      "description": "「パーツ分解」映像エフェクトプラグインで��。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/PartsSplitter",
@@ -2153,7 +2153,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機���を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
