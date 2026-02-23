@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-02-22T15:53:18.170Z",
+  "lastUpdated": "2026-02-23T15:59:18.767Z",
   "plugins": [
     {
-      "id": "benikazura-texttemplate",
-      "name": "TextTemplate",
-      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せるプラグインです。",
-      "author": "benikazura",
-      "authorUrl": "https://github.com/benikazura",
-      "repoUrl": "https://github.com/benikazura/TextTemplate",
-      "downloadUrl": "https://github.com/benikazura/TextTemplate/releases/tag/ver3.0.2",
+      "id": "na-jpbrew-modulator",
+      "name": "Modulator",
+      "description": "説明なし",
+      "author": "NA-JPBrew",
+      "authorUrl": "https://github.com/NA-JPBrew",
+      "repoUrl": "https://github.com/NA-JPBrew/Modulator",
+      "downloadUrl": "https://github.com/NA-JPBrew/Modulator/releases/tag/v1.0.0",
       "category": "other",
       "tags": [
         "その他"
       ],
-      "stars": 1,
-      "lastUpdated": "2026-02-22T14:27:40Z",
-      "latestVersion": "ver3.0.2",
-      "license": ""
+      "stars": 2,
+      "lastUpdated": "2026-02-23T05:32:02Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
     },
     {
       "id": "routersys-ymm4-objloader",
@@ -34,9 +34,26 @@
         "windows"
       ],
       "stars": 3,
-      "lastUpdated": "2026-02-22T11:27:31Z",
+      "lastUpdated": "2026-02-23T04:49:29Z",
       "latestVersion": "v2.4.1",
       "license": "MIT"
+    },
+    {
+      "id": "benikazura-texttemplate",
+      "name": "TextTemplate",
+      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せるプラグインです。",
+      "author": "benikazura",
+      "authorUrl": "https://github.com/benikazura",
+      "repoUrl": "https://github.com/benikazura/TextTemplate",
+      "downloadUrl": "https://github.com/benikazura/TextTemplate/releases/tag/ver3.0.2",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 1,
+      "lastUpdated": "2026-02-22T14:27:40Z",
+      "latestVersion": "ver3.0.2",
+      "license": ""
     },
     {
       "id": "rindai0123-artifact-ymm4-jetcut-plugin",
@@ -91,23 +108,6 @@
       "license": "MIT"
     },
     {
-      "id": "na-jpbrew-modulator",
-      "name": "Modulator",
-      "description": "説明なし",
-      "author": "NA-JPBrew",
-      "authorUrl": "https://github.com/NA-JPBrew",
-      "repoUrl": "https://github.com/NA-JPBrew/Modulator",
-      "downloadUrl": "https://github.com/NA-JPBrew/Modulator/releases/tag/v1.0.0",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 1,
-      "lastUpdated": "2026-02-22T13:42:22Z",
-      "latestVersion": "v1.0.0",
-      "license": "MIT"
-    },
-    {
       "id": "hazimeyou-ymmprojectmanager",
       "name": "YMMProjectManager",
       "description": "YMM4用プロジェクトマネージャー",
@@ -136,8 +136,8 @@
       "tags": [
         "映像エフェクト"
       ],
-      "stars": 1,
-      "lastUpdated": "2026-02-22T13:42:18Z",
+      "stars": 2,
+      "lastUpdated": "2026-02-23T00:26:09Z",
       "latestVersion": "v1.0.0",
       "license": "CC0-1.0"
     },
@@ -290,8 +290,8 @@
       "tags": [
         "映像エフェクト"
       ],
-      "stars": 1,
-      "lastUpdated": "2026-01-18T10:42:44Z",
+      "stars": 2,
+      "lastUpdated": "2026-02-23T00:26:17Z",
       "latestVersion": "v1.0",
       "license": ""
     },
@@ -417,7 +417,7 @@
     {
       "id": "tetra-te-effectcategorycustomizer",
       "name": "EffectCategoryCustomizer",
-      "description": "エフェクトのカテゴリを自由に設定できるYMM4プラグ��ン",
+      "description": "エフェクトのカテゴリを自由に設定できるYMM4プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/EffectCategoryCustomizer",
@@ -570,7 +570,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載していま��。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -681,8 +681,8 @@
       "tags": [
         "その他"
       ],
-      "stars": 5,
-      "lastUpdated": "2026-01-10T14:59:12Z",
+      "stars": 6,
+      "lastUpdated": "2026-02-23T00:28:17Z",
       "latestVersion": "v1.1.1",
       "license": "NOASSERTION"
     },
@@ -1176,7 +1176,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート��位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -1448,7 +1448,7 @@
     {
       "id": "benikazura-fanclipping",
       "name": "FanClipping",
-      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)の機能の一部を再現��たYMM4用のプラグインです。扇クリッピング(R)としてexo出力することもできます。",
+      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力することもできます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/FanClipping",
@@ -1499,7 +1499,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加す���プラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
@@ -1567,7 +1567,7 @@
     {
       "id": "routersys-ymm4-qbcode",
       "name": "YMM4-QBCode",
-      "description": "YMM4で図形として、QRコードとバーコードを追���できます。",
+      "description": "YMM4で図形として、QRコードとバーコードを追加できます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-QBCode",
@@ -1929,7 +1929,7 @@
     {
       "id": "kotolin-sub-ymm4whisper",
       "name": "YMM4Whisper",
-      "description": "YMM4で音声を囁き声にする音声プラグイン",
+      "description": "YMM4で音声を囁き声にする音声���ラグイン",
       "author": "kotolin-sub",
       "authorUrl": "https://github.com/kotolin-sub",
       "repoUrl": "https://github.com/kotolin-sub/YMM4Whisper",
@@ -1963,7 +1963,7 @@
     {
       "id": "tetra-te-specifiedshoweffect",
       "name": "SpecifiedShowEffect",
-      "description": "再生時、一時停止時、出力時の不透明度を指定できる映像エフェクトプラグイン",
+      "description": "再生��、一時停止時、出力時の不透明度を指定できる映像エフェクトプラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SpecifiedShowEffect",
@@ -2034,7 +2034,7 @@
     {
       "id": "kotolin-sub-ymm4audiodelayplugin",
       "name": "YMM4AudioDelayPlugin",
-      "description": "指定した分遅れて再生されまる音声エフェクトを追加するYMM4のプラグイン",
+      "description": "指定した分遅れて再生されまる���声エフェクトを追加するYMM4のプラグイン",
       "author": "kotolin-sub",
       "authorUrl": "https://github.com/kotolin-sub",
       "repoUrl": "https://github.com/kotolin-sub/YMM4AudioDelayPlugin",
