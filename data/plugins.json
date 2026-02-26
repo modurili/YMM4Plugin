@@ -1,6 +1,43 @@
 {
-  "lastUpdated": "2026-02-25T16:07:12.443Z",
+  "lastUpdated": "2026-02-26T15:56:30.236Z",
   "plugins": [
+    {
+      "id": "haisangames813-weightcontrolplugin",
+      "name": "WeightControlPlugin",
+      "description": "AviUtlにある制御文字を一部利用可能にするプラグインです",
+      "author": "HAIsanGames813",
+      "authorUrl": "https://github.com/HAIsanGames813",
+      "repoUrl": "https://github.com/HAIsanGames813/WeightControlPlugin",
+      "downloadUrl": "https://github.com/HAIsanGames813/WeightControlPlugin/releases",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "lastUpdated": "2026-02-26T12:44:10Z",
+      "latestVersion": "",
+      "license": ""
+    },
+    {
+      "id": "scpgamerscp-ymm4mcp",
+      "name": "ymm4MCP",
+      "description": "説明なし",
+      "author": "SCPgamerscp",
+      "authorUrl": "https://github.com/SCPgamerscp",
+      "repoUrl": "https://github.com/SCPgamerscp/ymm4MCP",
+      "downloadUrl": "https://github.com/SCPgamerscp/ymm4MCP/releases",
+      "category": "other",
+      "tags": [
+        "その他",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol"
+      ],
+      "stars": 0,
+      "lastUpdated": "2026-02-26T06:17:35Z",
+      "latestVersion": "",
+      "license": ""
+    },
     {
       "id": "routersys-ymm4-objloader",
       "name": "YMM4-ObjLoader",
@@ -17,7 +54,7 @@
         "windows"
       ],
       "stars": 3,
-      "lastUpdated": "2026-02-25T08:11:26Z",
+      "lastUpdated": "2026-02-26T01:43:45Z",
       "latestVersion": "v2.4.1",
       "license": "MIT"
     },
@@ -41,7 +78,7 @@
     {
       "id": "benikazura-texttemplate",
       "name": "TextTemplate",
-      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せるプラグインです。",
+      "description": "文字装飾をテンプレートとして保���し、ワンクリックでワンクリックで呼び出せるプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/TextTemplate",
@@ -58,7 +95,7 @@
     {
       "id": "rindai0123-artifact-ymm4-jetcut-plugin",
       "name": "ymm4-jetcut-plugin",
-      "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）���ラグイン",
+      "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）プラグイン",
       "author": "Rindai0123-Artifact",
       "authorUrl": "https://github.com/Rindai0123-Artifact",
       "repoUrl": "https://github.com/Rindai0123-Artifact/ymm4-jetcut-plugin",
@@ -247,7 +284,7 @@
     {
       "id": "haisangames813-inputsoundplugin",
       "name": "InputSoundPlugin",
-      "description": "入力検知で効果音を鳴らす\"ネタ\"プラグインです",
+      "description": "入力検知で効果音を鳴らす\"ネタ\"プラグインで���",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/InputSoundPlugin",
@@ -451,7 +488,7 @@
     {
       "id": "tetra-te-randomswitchingeffect",
       "name": "RandomSwitchingEffect",
-      "description": "エフェク���をランダムに切り替えながら適応する映像エフェクト",
+      "description": "エフェクトをランダムに切り替えながら適応する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomSwitchingEffect",
@@ -596,8 +633,8 @@
       "tags": [
         "その他"
       ],
-      "stars": 4,
-      "lastUpdated": "2026-02-20T19:30:08Z",
+      "stars": 5,
+      "lastUpdated": "2026-02-26T14:00:10Z",
       "latestVersion": "v1.0.0",
       "license": "MIT"
     },
@@ -776,7 +813,7 @@
     {
       "id": "haisangames813-fillerclippingplugin",
       "name": "FillerClippingPlugin",
-      "description": "分断と間詰め、分断後の移動ができるエフェクトを追加��るプラグイン",
+      "description": "分断と間詰め、分断後の移動ができるエフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/FillerClippingPlugin",
@@ -827,7 +864,7 @@
     {
       "id": "benikazura-videochecker",
       "name": "VideoChecker",
-      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることができるYMM4用のプラグイ��です。",
+      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることができるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/VideoChecker",
@@ -895,14 +932,14 @@
     {
       "id": "haisangames813-reverseplaybackaudioeffectplugin",
       "name": "ReversePlaybackAudioEffectPlugin",
-      "description": "逆再生エ���ェクト(音声)を追加するプラグイン",
+      "description": "逆再生エフェクト(音声)を追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/ReversePlaybackAudioEffectPlugin",
       "downloadUrl": "https://github.com/HAIsanGames813/ReversePlaybackAudioEffectPlugin/releases/tag/1.0.0",
-      "category": "audio-effect",
+      "category": "video-effect",
       "tags": [
-        "音声エフェクト"
+        "映像エフェクト"
       ],
       "stars": 1,
       "lastUpdated": "2025-12-26T14:25:41Z",
@@ -1329,7 +1366,7 @@
     {
       "id": "dmmo-com-jp-multicoreimgwavexporter",
       "name": "MultiCoreImgWavExporter",
-      "description": "YMM4の映像をマルチタスクで連番画像とWavファイルとして書き出す出力プラグイン",
+      "description": "YMM4の映像をマルチタスクで連番画像とWav���ァイルとして書き出す出力プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/MultiCoreImgWavExporter",
@@ -1601,7 +1638,7 @@
     {
       "id": "inuinu2022-sampleymmegetprojinfo",
       "name": "SampleYmmeGetProjInfo",
-      "description": "プラグインからYMM4の現在のプロジェクト情報を取得���るためのサンプル",
+      "description": "プラグインからYMM4の現在のプロジェクト情報を取得するためのサンプル",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/SampleYmmeGetProjInfo",
@@ -1707,7 +1744,7 @@
     {
       "id": "dolphin-kun-afterimage",
       "name": "Afterimage",
-      "description": "アイテムに残像を��生させるプラグインです。",
+      "description": "アイテムに残像を発生させるプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/Afterimage",
@@ -1929,7 +1966,7 @@
     {
       "id": "kotolin-sub-ymm4whisper",
       "name": "YMM4Whisper",
-      "description": "YMM4で音声を囁き声にする音声プラグイン",
+      "description": "YMM4で音声を囁き���にする音声プラグイン",
       "author": "kotolin-sub",
       "authorUrl": "https://github.com/kotolin-sub",
       "repoUrl": "https://github.com/kotolin-sub/YMM4Whisper",
@@ -2171,7 +2208,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルで��。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
