@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-26T15:56:30.236Z",
+  "lastUpdated": "2026-02-27T15:40:08.915Z",
   "plugins": [
     {
       "id": "haisangames813-weightcontrolplugin",
@@ -284,7 +284,7 @@
     {
       "id": "haisangames813-inputsoundplugin",
       "name": "InputSoundPlugin",
-      "description": "入力検知で効果音を鳴らす\"ネタ\"プラグインで���",
+      "description": "入力検知で効果音を鳴らす\"ネタ\"プラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/InputSoundPlugin",
@@ -1366,7 +1366,7 @@
     {
       "id": "dmmo-com-jp-multicoreimgwavexporter",
       "name": "MultiCoreImgWavExporter",
-      "description": "YMM4の映像をマルチタスクで連番画像とWav���ァイルとして書き出す出力プラグイン",
+      "description": "YMM4の映像をマルチタスクで連番画像とWavファイルとして書き出す出力プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/MultiCoreImgWavExporter",
@@ -1966,7 +1966,7 @@
     {
       "id": "kotolin-sub-ymm4whisper",
       "name": "YMM4Whisper",
-      "description": "YMM4で音声を囁き���にする音声プラグイン",
+      "description": "YMM4で音声を囁き声にする音声プラグイン",
       "author": "kotolin-sub",
       "authorUrl": "https://github.com/kotolin-sub",
       "repoUrl": "https://github.com/kotolin-sub/YMM4Whisper",
@@ -2191,7 +2191,7 @@
     {
       "id": "ymm4pp-ymm4pps",
       "name": "YMM4PpS",
-      "description": "YMM4用の図形プラグイン群",
+      "description": "YMM4��の図形プラグイン群",
       "author": "YMM4Pp",
       "authorUrl": "https://github.com/YMM4Pp",
       "repoUrl": "https://github.com/YMM4Pp/YMM4PpS",
