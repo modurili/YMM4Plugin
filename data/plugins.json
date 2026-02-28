@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-02-27T15:40:08.915Z",
+  "lastUpdated": "2026-02-28T15:26:12.817Z",
   "plugins": [
+    {
+      "id": "takoyakisoft-vtuberkitforymm4",
+      "name": "VTuberKitForYMM4",
+      "description": "Live2DモデルをYMM4で立ち絵��して使用するためのプラグイン",
+      "author": "takoyakisoft",
+      "authorUrl": "https://github.com/takoyakisoft",
+      "repoUrl": "https://github.com/takoyakisoft/VTuberKitForYMM4",
+      "downloadUrl": "https://github.com/takoyakisoft/VTuberKitForYMM4/releases/tag/v0.1.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "lastUpdated": "2026-02-28T14:51:23Z",
+      "latestVersion": "v0.1.0",
+      "license": "MIT"
+    },
+    {
+      "id": "routersys-ymm4-objloader",
+      "name": "YMM4-ObjLoader",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
+      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v2.4.1",
+      "category": "other",
+      "tags": [
+        "その他",
+        "directx-11",
+        "directx11",
+        "windows"
+      ],
+      "stars": 3,
+      "lastUpdated": "2026-02-28T10:47:32Z",
+      "latestVersion": "v2.4.1",
+      "license": "MIT"
+    },
+    {
+      "id": "takoyakisoft-effekseerforymm4",
+      "name": "EffekseerForYMM4",
+      "description": "YMM4向けEffekseerエフェクト（映像・音声）再生プラグイン",
+      "author": "takoyakisoft",
+      "authorUrl": "https://github.com/takoyakisoft",
+      "repoUrl": "https://github.com/takoyakisoft/EffekseerForYMM4",
+      "downloadUrl": "https://github.com/takoyakisoft/EffekseerForYMM4/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト",
+        "effekseer"
+      ],
+      "stars": 4,
+      "lastUpdated": "2026-02-28T02:48:42Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
     {
       "id": "haisangames813-weightcontrolplugin",
       "name": "WeightControlPlugin",
@@ -39,26 +94,6 @@
       "license": ""
     },
     {
-      "id": "routersys-ymm4-objloader",
-      "name": "YMM4-ObjLoader",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
-      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v2.4.1",
-      "category": "other",
-      "tags": [
-        "その他",
-        "directx-11",
-        "directx11",
-        "windows"
-      ],
-      "stars": 3,
-      "lastUpdated": "2026-02-26T01:43:45Z",
-      "latestVersion": "v2.4.1",
-      "license": "MIT"
-    },
-    {
       "id": "na-jpbrew-modulator",
       "name": "Modulator",
       "description": "説明なし",
@@ -78,7 +113,7 @@
     {
       "id": "benikazura-texttemplate",
       "name": "TextTemplate",
-      "description": "文字装飾をテンプレートとして保���し、ワンクリックでワンクリックで呼び出せるプラグインです。",
+      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せるプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/TextTemplate",
@@ -164,7 +199,7 @@
     {
       "id": "tetra-te-indicator",
       "name": "Indicator",
-      "description": "アイテム情報を表示する映像エフェクト",
+      "description": "ア���テム情報を表示する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/Indicator",
@@ -177,24 +212,6 @@
       "lastUpdated": "2026-02-23T00:26:09Z",
       "latestVersion": "v1.0.0",
       "license": "CC0-1.0"
-    },
-    {
-      "id": "takoyakisoft-effekseerforymm4",
-      "name": "EffekseerForYMM4",
-      "description": "YMM4向けEffekseerエフェクト（映像・音声）再生プラグイン",
-      "author": "takoyakisoft",
-      "authorUrl": "https://github.com/takoyakisoft",
-      "repoUrl": "https://github.com/takoyakisoft/EffekseerForYMM4",
-      "downloadUrl": "https://github.com/takoyakisoft/EffekseerForYMM4/releases/tag/v0.0.7",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト",
-        "effekseer"
-      ],
-      "stars": 4,
-      "lastUpdated": "2026-02-14T06:10:50Z",
-      "latestVersion": "v0.0.7",
-      "license": "MIT"
     },
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
@@ -403,7 +420,7 @@
     {
       "id": "haisangames813-addshapeeffect",
       "name": "AddShapeEffect",
-      "description": "図形アイテムをエフェクトとして追加するプラグイン",
+      "description": "図形ア��テムをエフェクトとして追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/AddShapeEffect",
@@ -1966,7 +1983,7 @@
     {
       "id": "kotolin-sub-ymm4whisper",
       "name": "YMM4Whisper",
-      "description": "YMM4で音声を囁き声にする音声プラグイン",
+      "description": "YMM4で音声を囁き声にする音声プラグイ���",
       "author": "kotolin-sub",
       "authorUrl": "https://github.com/kotolin-sub",
       "repoUrl": "https://github.com/kotolin-sub/YMM4Whisper",
@@ -2000,7 +2017,7 @@
     {
       "id": "tetra-te-specifiedshoweffect",
       "name": "SpecifiedShowEffect",
-      "description": "再生時、一時停止時、出力時の不透明度を指定できる映像エフェクトプラグイン",
+      "description": "再生時、一時��止時、出力時の不透明度を指定できる映像エフェクトプラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SpecifiedShowEffect",
@@ -2191,7 +2208,7 @@
     {
       "id": "ymm4pp-ymm4pps",
       "name": "YMM4PpS",
-      "description": "YMM4��の図形プラグイン群",
+      "description": "YMM4用の図形プラグイン群",
       "author": "YMM4Pp",
       "authorUrl": "https://github.com/YMM4Pp",
       "repoUrl": "https://github.com/YMM4Pp/YMM4PpS",
