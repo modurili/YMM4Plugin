@@ -1,6 +1,60 @@
 {
-  "lastUpdated": "2026-03-01T15:27:14.793Z",
+  "lastUpdated": "2026-03-02T15:44:53.834Z",
   "plugins": [
+    {
+      "id": "tetra-te-ratiooutlineeffect",
+      "name": "RatioOutlineEffect",
+      "description": "比率で指定できる縁取りエフェクト",
+      "author": "tetra-te",
+      "authorUrl": "https://github.com/tetra-te",
+      "repoUrl": "https://github.com/tetra-te/RatioOutlineEffect",
+      "downloadUrl": "https://github.com/tetra-te/RatioOutlineEffect/releases/tag/v1.0.9",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "lastUpdated": "2026-03-01T22:46:20Z",
+      "latestVersion": "v1.0.9",
+      "license": "MIT"
+    },
+    {
+      "id": "routersys-ymm4-objloader",
+      "name": "YMM4-ObjLoader",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
+      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v2.4.1",
+      "category": "other",
+      "tags": [
+        "その他",
+        "directx-11",
+        "directx11",
+        "windows"
+      ],
+      "stars": 3,
+      "lastUpdated": "2026-03-01T22:22:25Z",
+      "latestVersion": "v2.4.1",
+      "license": "MIT"
+    },
+    {
+      "id": "tetra-te-ratiocropeffect",
+      "name": "RatioCropEffect",
+      "description": "比率で指定するクリッピングエフェクト",
+      "author": "tetra-te",
+      "authorUrl": "https://github.com/tetra-te",
+      "repoUrl": "https://github.com/tetra-te/RatioCropEffect",
+      "downloadUrl": "https://github.com/tetra-te/RatioCropEffect/releases/tag/v1.2",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "lastUpdated": "2026-03-01T21:58:26Z",
+      "latestVersion": "v1.2",
+      "license": "CC0-1.0"
+    },
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
@@ -33,26 +87,6 @@
       "stars": 0,
       "lastUpdated": "2026-02-28T14:51:23Z",
       "latestVersion": "v0.1.0",
-      "license": "MIT"
-    },
-    {
-      "id": "routersys-ymm4-objloader",
-      "name": "YMM4-ObjLoader",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
-      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v2.4.1",
-      "category": "other",
-      "tags": [
-        "その他",
-        "directx-11",
-        "directx11",
-        "windows"
-      ],
-      "stars": 3,
-      "lastUpdated": "2026-02-28T10:47:32Z",
-      "latestVersion": "v2.4.1",
       "license": "MIT"
     },
     {
@@ -267,7 +301,7 @@
     {
       "id": "tetra-te-randomimagesource",
       "name": "RandomImageSource",
-      "description": "指定フォルダ内の画像をラン���ムに選んで表示する図形プラグイン",
+      "description": "指定フォルダ内の画像をランダムに選んで表示する図形プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomImageSource",
@@ -401,23 +435,6 @@
       "license": "MIT"
     },
     {
-      "id": "tetra-te-ratiooutlineeffect",
-      "name": "RatioOutlineEffect",
-      "description": "比率で指定できる縁取りエフェクト",
-      "author": "tetra-te",
-      "authorUrl": "https://github.com/tetra-te",
-      "repoUrl": "https://github.com/tetra-te/RatioOutlineEffect",
-      "downloadUrl": "https://github.com/tetra-te/RatioOutlineEffect/releases/tag/v1.0.8",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 1,
-      "lastUpdated": "2026-01-10T18:42:22Z",
-      "latestVersion": "v1.0.8",
-      "license": "MIT"
-    },
-    {
       "id": "haisangames813-addshapeeffect",
       "name": "AddShapeEffect",
       "description": "図形アイテムをエフェクトとして追加するプラグイン",
@@ -505,7 +522,7 @@
     {
       "id": "tetra-te-randomswitchingeffect",
       "name": "RandomSwitchingEffect",
-      "description": "エフェクトをランダムに切り替えながら適���する映像エフェクト",
+      "description": "エフェクトをランダムに切り替えながら適応する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomSwitchingEffect",
@@ -590,7 +607,7 @@
     {
       "id": "benikazura-dropframe",
       "name": "DropFrame",
-      "description": "映像のフレームレートをわざと低下させる映像エフェクトプラグインです。",
+      "description": "映像のフレーム���ートをわざと低下させる映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DropFrame",
@@ -1213,7 +1230,7 @@
     {
       "id": "routersys-ymm4-pdf",
       "name": "YMM4-PDF",
-      "description": "PDFをYMM4で読み込めるようにします。",
+      "description": "PDFをYMM4で��み込めるようにします。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PDF",
@@ -1230,7 +1247,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延さ���るエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -1553,7 +1570,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重���ながら不透明度を調整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
@@ -1676,7 +1693,7 @@
     {
       "id": "routersys-ymm4-shufflefont",
       "name": "YMM4-ShuffleFont",
-      "description": "YMM4でフォントをシャッフルします。",
+      "description": "YMM4でフォント���シャッフルします。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ShuffleFont",
@@ -1812,7 +1829,7 @@
     {
       "id": "ikoma-reunion-ymm4-plugin-document",
       "name": "ymm4-plugin-document",
-      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式で��。　v4.42.1.3",
+      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。　v4.42.1.3",
       "author": "ikoma-reunion",
       "authorUrl": "https://github.com/ikoma-reunion",
       "repoUrl": "https://github.com/ikoma-reunion/ymm4-plugin-document",
@@ -1996,23 +2013,6 @@
       "lastUpdated": "2025-03-28T12:33:30Z",
       "latestVersion": "1.1",
       "license": "NOASSERTION"
-    },
-    {
-      "id": "tetra-te-ratiocropeffect",
-      "name": "RatioCropEffect",
-      "description": "比率で指定するクリッピングエフェクト",
-      "author": "tetra-te",
-      "authorUrl": "https://github.com/tetra-te",
-      "repoUrl": "https://github.com/tetra-te/RatioCropEffect",
-      "downloadUrl": "https://github.com/tetra-te/RatioCropEffect/releases/tag/v1.2",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 1,
-      "lastUpdated": "2025-12-13T18:37:00Z",
-      "latestVersion": "v1.2",
-      "license": "CC0-1.0"
     },
     {
       "id": "tetra-te-specifiedshoweffect",
@@ -2225,7 +2225,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。��だし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
