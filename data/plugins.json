@@ -1,6 +1,23 @@
 {
-  "lastUpdated": "2026-03-02T15:44:53.834Z",
+  "lastUpdated": "2026-03-03T15:50:38.186Z",
   "plugins": [
+    {
+      "id": "haisangames813-weightcontrolplugin",
+      "name": "WeightControlPlugin",
+      "description": "AviUtlにある制御文字を一部利用可能にするプラグインです",
+      "author": "HAIsanGames813",
+      "authorUrl": "https://github.com/HAIsanGames813",
+      "repoUrl": "https://github.com/HAIsanGames813/WeightControlPlugin",
+      "downloadUrl": "https://github.com/HAIsanGames813/WeightControlPlugin/releases/tag/v1.0.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "lastUpdated": "2026-03-03T10:32:06Z",
+      "latestVersion": "v1.0.0",
+      "license": ""
+    },
     {
       "id": "tetra-te-ratiooutlineeffect",
       "name": "RatioOutlineEffect",
@@ -106,23 +123,6 @@
       "lastUpdated": "2026-02-28T02:48:42Z",
       "latestVersion": "v1.0.0",
       "license": "MIT"
-    },
-    {
-      "id": "haisangames813-weightcontrolplugin",
-      "name": "WeightControlPlugin",
-      "description": "AviUtlにある制御文字を一部利用可能にするプラグインです",
-      "author": "HAIsanGames813",
-      "authorUrl": "https://github.com/HAIsanGames813",
-      "repoUrl": "https://github.com/HAIsanGames813/WeightControlPlugin",
-      "downloadUrl": "https://github.com/HAIsanGames813/WeightControlPlugin/releases",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 0,
-      "lastUpdated": "2026-02-26T12:44:10Z",
-      "latestVersion": "",
-      "license": ""
     },
     {
       "id": "scpgamerscp-ymm4mcp",
@@ -607,7 +607,7 @@
     {
       "id": "benikazura-dropframe",
       "name": "DropFrame",
-      "description": "映像のフレーム���ートをわざと低下させる映像エフェクトプラグインです。",
+      "description": "映像のフレームレートをわざと低下させる映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DropFrame",
@@ -760,7 +760,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker4pluginsamples",
       "name": "YukkuriMovieMaker4PluginSamples",
-      "description": "YMM4用プラグインのサンプル集です",
+      "description": "YMM4用プラグイン���サンプル集です",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker4PluginSamples",
@@ -1230,7 +1230,7 @@
     {
       "id": "routersys-ymm4-pdf",
       "name": "YMM4-PDF",
-      "description": "PDFをYMM4で��み込めるようにします。",
+      "description": "PDFをYMM4で読み込めるようにします。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PDF",
@@ -1247,7 +1247,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延さ���るエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -1604,7 +1604,7 @@
     {
       "id": "benikazura-automaticaspectratio",
       "name": "AutomaticAspectRatio",
-      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことができます。",
+      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクト���ラグインです。字幕のサイズ調整を自動で行うことができます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AutomaticAspectRatio",
@@ -1693,7 +1693,7 @@
     {
       "id": "routersys-ymm4-shufflefont",
       "name": "YMM4-ShuffleFont",
-      "description": "YMM4でフォント���シャッフルします。",
+      "description": "YMM4でフォントをシャッフルします。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ShuffleFont",
@@ -2225,7 +2225,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。��だし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
