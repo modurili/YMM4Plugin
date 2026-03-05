@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04T15:44:31.610Z",
+  "lastUpdated": "2026-03-05T15:54:13.075Z",
   "plugins": [
     {
       "id": "tetra-te-mosaicoutlineeffect",
@@ -138,8 +138,8 @@
       "tags": [
         "その他"
       ],
-      "stars": 0,
-      "lastUpdated": "2026-02-28T14:51:23Z",
+      "stars": 2,
+      "lastUpdated": "2026-03-05T05:17:47Z",
       "latestVersion": "v0.1.0",
       "license": "MIT"
     },
@@ -369,7 +369,7 @@
     {
       "id": "haisangames813-pluginlistplugin",
       "name": "PluginListPlugin",
-      "description": "導入しているプ���グインの管理ができるツールプラグインです",
+      "description": "導入しているプラグインの管理ができるツールプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/PluginListPlugin",
@@ -488,7 +488,7 @@
     {
       "id": "benikazura-crossingscreen",
       "name": "CrossingScreen",
-      "description": "画面の端から端に移動させるYMM4用映像エフェクトプラグインです。",
+      "description": "画面の端から端に移動さ���るYMM4用映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CrossingScreen",
@@ -658,7 +658,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載していま���。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -709,7 +709,7 @@
     {
       "id": "dolphin-kun-effecttrigger",
       "name": "EffectTrigger",
-      "description": "「エフェクトト���ガー」プラグイン",
+      "description": "「エフェクトトリガー」プラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/EffectTrigger",
@@ -864,7 +864,7 @@
     {
       "id": "haisangames813-fillerclippingplugin",
       "name": "FillerClippingPlugin",
-      "description": "分断と間詰め、分断後の移動ができるエフェクトを追加するプラグイン",
+      "description": "分断と間詰���、分断後の移動ができるエフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/FillerClippingPlugin",
@@ -1213,7 +1213,7 @@
     {
       "id": "dmmo-com-jp-customeffectselector",
       "name": "CustomEffectSelector",
-      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパティを数式で制御するプラグイン",
+      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパテ���を数式で制御するプラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/CustomEffectSelector",
@@ -1451,7 +1451,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェ��トを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -1966,7 +1966,7 @@
     {
       "id": "dolphin-kun-reflecteffect",
       "name": "ReflectEffect",
-      "description": "「反射」エフェクトプラグイン",
+      "description": "「反��」エフェクトプラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ReflectEffect",
