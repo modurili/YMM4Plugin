@@ -1,6 +1,60 @@
 {
-  "lastUpdated": "2026-03-05T15:54:13.075Z",
+  "lastUpdated": "2026-03-06T15:40:43.692Z",
   "plugins": [
+    {
+      "id": "takoyakisoft-vtuberkitforymm4",
+      "name": "VTuberKitForYMM4",
+      "description": "Live2DモデルをYMM4で立ち絵���して使用するためのプラグイン",
+      "author": "takoyakisoft",
+      "authorUrl": "https://github.com/takoyakisoft",
+      "repoUrl": "https://github.com/takoyakisoft/VTuberKitForYMM4",
+      "downloadUrl": "https://github.com/takoyakisoft/VTuberKitForYMM4/releases/tag/sample_model",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "lastUpdated": "2026-03-06T14:18:57Z",
+      "latestVersion": "sample_model",
+      "license": "MIT"
+    },
+    {
+      "id": "routersys-ymm4-objloader",
+      "name": "YMM4-ObjLoader",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
+      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v2.4.1",
+      "category": "other",
+      "tags": [
+        "その他",
+        "directx-11",
+        "directx11",
+        "windows"
+      ],
+      "stars": 3,
+      "lastUpdated": "2026-03-06T09:07:59Z",
+      "latestVersion": "v2.4.1",
+      "license": "MIT"
+    },
+    {
+      "id": "salmon-p-0517-ymm4-plugin-textbezier",
+      "name": "ymm4-plugin-TextBezier",
+      "description": "説明なし",
+      "author": "Salmon-P-0517",
+      "authorUrl": "https://github.com/Salmon-P-0517",
+      "repoUrl": "https://github.com/Salmon-P-0517/ymm4-plugin-TextBezier",
+      "downloadUrl": "https://github.com/Salmon-P-0517/ymm4-plugin-TextBezier/releases/tag/v1.0.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "lastUpdated": "2026-03-06T02:01:37Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
     {
       "id": "tetra-te-mosaicoutlineeffect",
       "name": "MosaicOutlineEffect",
@@ -33,8 +87,8 @@
         "mcp-server",
         "model-context-protocol"
       ],
-      "stars": 0,
-      "lastUpdated": "2026-03-04T04:00:55Z",
+      "stars": 1,
+      "lastUpdated": "2026-03-06T12:59:41Z",
       "latestVersion": "",
       "license": ""
     },
@@ -73,26 +127,6 @@
       "license": ""
     },
     {
-      "id": "routersys-ymm4-objloader",
-      "name": "YMM4-ObjLoader",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
-      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v2.4.1",
-      "category": "other",
-      "tags": [
-        "その他",
-        "directx-11",
-        "directx11",
-        "windows"
-      ],
-      "stars": 3,
-      "lastUpdated": "2026-03-01T22:22:25Z",
-      "latestVersion": "v2.4.1",
-      "license": "MIT"
-    },
-    {
       "id": "tetra-te-ratiocropeffect",
       "name": "RatioCropEffect",
       "description": "比率で指定するクリッピングエフェクト",
@@ -125,23 +159,6 @@
       "lastUpdated": "2026-03-01T09:44:21Z",
       "latestVersion": "",
       "license": "LGPL-3.0"
-    },
-    {
-      "id": "takoyakisoft-vtuberkitforymm4",
-      "name": "VTuberKitForYMM4",
-      "description": "Live2DモデルをYMM4で立ち絵として使用するためのプラグイン",
-      "author": "takoyakisoft",
-      "authorUrl": "https://github.com/takoyakisoft",
-      "repoUrl": "https://github.com/takoyakisoft/VTuberKitForYMM4",
-      "downloadUrl": "https://github.com/takoyakisoft/VTuberKitForYMM4/releases/tag/v0.1.0",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 2,
-      "lastUpdated": "2026-03-05T05:17:47Z",
-      "latestVersion": "v0.1.0",
-      "license": "MIT"
     },
     {
       "id": "takoyakisoft-effekseerforymm4",
@@ -488,7 +505,7 @@
     {
       "id": "benikazura-crossingscreen",
       "name": "CrossingScreen",
-      "description": "画面の端から端に移動さ���るYMM4用映像エフェクトプラグインです。",
+      "description": "画面の端から端に移動させるYMM4用映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CrossingScreen",
@@ -658,7 +675,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載していま���。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立��機能も搭載しています。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -864,7 +881,7 @@
     {
       "id": "haisangames813-fillerclippingplugin",
       "name": "FillerClippingPlugin",
-      "description": "分断と間詰���、分断後の移動ができるエフェクトを追加するプラグイン",
+      "description": "分断と間詰め、分断後の移動ができるエフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/FillerClippingPlugin",
@@ -1137,7 +1154,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムラ��ン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
@@ -1213,7 +1230,7 @@
     {
       "id": "dmmo-com-jp-customeffectselector",
       "name": "CustomEffectSelector",
-      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパテ���を数式で制御するプラグイン",
+      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパティを数式で制御するプラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/CustomEffectSelector",
@@ -1451,7 +1468,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています��",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -1519,7 +1536,7 @@
     {
       "id": "benikazura-charactormotion",
       "name": "CharactorMotion",
-      "description": "20種類以上の立ち絵用アニメーションを一つの映像エフェクトにまとめたYMM4用のプラグインです。",
+      "description": "20種類以上の立ち絵用アニメーションを一つの映像エフェクトにまとめたYMM4用のプラ���インです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CharactorMotion",
@@ -1536,7 +1553,7 @@
     {
       "id": "benikazura-fanclipping",
       "name": "FanClipping",
-      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力することもできます。",
+      "description": "AviUtlスクリプト\"扇ク��ッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力することもできます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/FanClipping",
@@ -1672,7 +1689,7 @@
     {
       "id": "routersys-ymm4-chemicalstructure",
       "name": "YMM4-ChemicalStructure",
-      "description": "YMM4で化学構造式のモデル表示が可能です",
+      "description": "YMM4で化学構造式のモデル表示が���能です",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ChemicalStructure",
@@ -1949,7 +1966,7 @@
     {
       "id": "tetra-te-fitrotateeffect",
       "name": "FitRotateEffect",
-      "description": "画像の回転に合わせて画像を拡大する映像エフェクト",
+      "description": "画像の回転に合わせて画像を拡��する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/FitRotateEffect",
@@ -1966,7 +1983,7 @@
     {
       "id": "dolphin-kun-reflecteffect",
       "name": "ReflectEffect",
-      "description": "「反��」エフェクトプラグイン",
+      "description": "「反射」エフェクトプラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ReflectEffect",
@@ -2225,7 +2242,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のた���実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
