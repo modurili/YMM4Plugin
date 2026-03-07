@@ -1,10 +1,27 @@
 {
-  "lastUpdated": "2026-03-06T15:40:43.692Z",
+  "lastUpdated": "2026-03-07T15:27:40.318Z",
   "plugins": [
+    {
+      "id": "benikazura-drawconversioneffect",
+      "name": "DrawConversionEffect",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "author": "benikazura",
+      "authorUrl": "https://github.com/benikazura",
+      "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
+      "downloadUrl": "https://github.com/benikazura/DrawConversionEffect/releases/tag/ver4.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "lastUpdated": "2026-03-07T14:28:16Z",
+      "latestVersion": "ver4.0.0",
+      "license": ""
+    },
     {
       "id": "takoyakisoft-vtuberkitforymm4",
       "name": "VTuberKitForYMM4",
-      "description": "Live2DモデルをYMM4で立ち絵���して使用するためのプラグイン",
+      "description": "Live2DモデルをYMM4で立ち絵として使用するためのプラグイン",
       "author": "takoyakisoft",
       "authorUrl": "https://github.com/takoyakisoft",
       "repoUrl": "https://github.com/takoyakisoft/VTuberKitForYMM4",
@@ -13,8 +30,8 @@
       "tags": [
         "その他"
       ],
-      "stars": 0,
-      "lastUpdated": "2026-03-06T14:18:57Z",
+      "stars": 1,
+      "lastUpdated": "2026-03-07T09:34:16Z",
       "latestVersion": "sample_model",
       "license": "MIT"
     },
@@ -87,8 +104,8 @@
         "mcp-server",
         "model-context-protocol"
       ],
-      "stars": 1,
-      "lastUpdated": "2026-03-06T12:59:41Z",
+      "stars": 2,
+      "lastUpdated": "2026-03-07T02:34:16Z",
       "latestVersion": "",
       "license": ""
     },
@@ -386,7 +403,7 @@
     {
       "id": "haisangames813-pluginlistplugin",
       "name": "PluginListPlugin",
-      "description": "導入しているプラグインの管理ができるツールプラグインです",
+      "description": "導入しているプラグインの管理ができるツー���プラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/PluginListPlugin",
@@ -505,7 +522,7 @@
     {
       "id": "benikazura-crossingscreen",
       "name": "CrossingScreen",
-      "description": "画面の端から端に移動させるYMM4用映像エフェクトプラグインです。",
+      "description": "画面の端から端���移動させるYMM4用映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CrossingScreen",
@@ -556,7 +573,7 @@
     {
       "id": "tetra-te-randomswitchingeffect",
       "name": "RandomSwitchingEffect",
-      "description": "エフェクトをランダムに切り替えながら適応する映像エフェクト",
+      "description": "エフェクトをランダムに切り替えながら適応する映像エフェ��ト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomSwitchingEffect",
@@ -675,7 +692,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立��機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -1154,7 +1171,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムラ��ン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
@@ -1230,7 +1247,7 @@
     {
       "id": "dmmo-com-jp-customeffectselector",
       "name": "CustomEffectSelector",
-      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパティを数式で制御するプラグイン",
+      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパテ���を数式で制御するプラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/CustomEffectSelector",
@@ -1466,23 +1483,6 @@
       "license": "MIT"
     },
     {
-      "id": "benikazura-drawconversioneffect",
-      "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています��",
-      "author": "benikazura",
-      "authorUrl": "https://github.com/benikazura",
-      "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
-      "downloadUrl": "https://github.com/benikazura/DrawConversionEffect/releases/tag/ver3.1.1",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 0,
-      "lastUpdated": "2025-08-24T07:59:24Z",
-      "latestVersion": "ver3.1.1",
-      "license": ""
-    },
-    {
       "id": "benikazura-letterboxshape",
       "name": "LetterBoxShape",
       "description": "図形オブジェクトにレターボックス（画面上下や左右の黒帯）を追加します。",
@@ -1536,7 +1536,7 @@
     {
       "id": "benikazura-charactormotion",
       "name": "CharactorMotion",
-      "description": "20種類以上の立ち絵用アニメーションを一つの映像エフェクトにまとめたYMM4用のプラ���インです。",
+      "description": "20種類以上の立ち絵用アニメーションを一つの映像エフェクトにまとめたYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CharactorMotion",
@@ -1553,7 +1553,7 @@
     {
       "id": "benikazura-fanclipping",
       "name": "FanClipping",
-      "description": "AviUtlスクリプト\"扇ク��ッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力することもできます。",
+      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力することもできます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/FanClipping",
@@ -1591,14 +1591,14 @@
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/BpmSync",
-      "downloadUrl": "https://github.com/benikazura/BpmSync/releases/tag/ver1.0.2",
+      "downloadUrl": "https://github.com/benikazura/BpmSync/releases/tag/ver1.0.3",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-24T04:45:08Z",
-      "latestVersion": "ver1.0.2",
+      "latestVersion": "ver1.0.3",
       "license": ""
     },
     {
@@ -1689,7 +1689,7 @@
     {
       "id": "routersys-ymm4-chemicalstructure",
       "name": "YMM4-ChemicalStructure",
-      "description": "YMM4で化学構造式のモデル表示が���能です",
+      "description": "YMM4で化学構造式のモデル表示が可能です",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ChemicalStructure",
@@ -1966,7 +1966,7 @@
     {
       "id": "tetra-te-fitrotateeffect",
       "name": "FitRotateEffect",
-      "description": "画像の回転に合わせて画像を拡��する映像エフェクト",
+      "description": "画像の回転に合わせて画像を拡大する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/FitRotateEffect",
@@ -2242,7 +2242,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のた���実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
