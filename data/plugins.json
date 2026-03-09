@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-08T15:27:43.818Z",
+  "lastUpdated": "2026-03-09T16:01:22.647Z",
   "plugins": [
     {
       "id": "routersys-ymm4-objloader",
       "name": "YMM4-ObjLoader",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデ��表示・操作プラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
@@ -17,7 +17,7 @@
         "windows"
       ],
       "stars": 3,
-      "lastUpdated": "2026-03-08T10:21:50Z",
+      "lastUpdated": "2026-03-09T08:36:38Z",
       "latestVersion": "v3.0.0",
       "license": "MIT"
     },
@@ -241,8 +241,8 @@
       "tags": [
         "その他"
       ],
-      "stars": 2,
-      "lastUpdated": "2026-02-23T05:32:02Z",
+      "stars": 0,
+      "lastUpdated": "2026-03-09T13:34:31Z",
       "latestVersion": "v1.0.0",
       "license": "MIT"
     },
@@ -318,7 +318,7 @@
     {
       "id": "hazimeyou-ymmprojectmanager",
       "name": "YMMProjectManager",
-      "description": "YMM4用プロジェクトマネージャー",
+      "description": "YMM4用プロジェクトマネージ��ー",
       "author": "hazimeyou",
       "authorUrl": "https://github.com/hazimeyou",
       "repoUrl": "https://github.com/hazimeyou/YMMProjectManager",
@@ -454,7 +454,7 @@
     {
       "id": "tenkonta-ymm4-imageoutputeffect",
       "name": "YMM4-ImageOutputEffect",
-      "description": "ア���テムを個別で出力できるYMM4映像エフェクトです。",
+      "description": "アイテムを個別で出力できるYMM4映像エフェクトです。",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/YMM4-ImageOutputEffect",
@@ -721,23 +721,6 @@
       "stars": 1,
       "lastUpdated": "2025-12-20T10:44:54Z",
       "latestVersion": "v8.2.0",
-      "license": "MIT"
-    },
-    {
-      "id": "na-jpbrew-aiucurver",
-      "name": "AiuCurver",
-      "description": "AiuCurver is a plugin that allows you to intuitively adjust playback speed with Bezier curves, similar to the velocity feature in Vegas Pro.",
-      "author": "NA-JPBrew",
-      "authorUrl": "https://github.com/NA-JPBrew",
-      "repoUrl": "https://github.com/NA-JPBrew/AiuCurver",
-      "downloadUrl": "https://github.com/NA-JPBrew/AiuCurver/releases/tag/v1.0.0",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 6,
-      "lastUpdated": "2026-03-08T11:11:15Z",
-      "latestVersion": "v1.0.0",
       "license": "MIT"
     },
     {
@@ -1051,14 +1034,14 @@
     {
       "id": "benikazura-animationpitch",
       "name": "AnimationPitch",
-      "description": "アニメーションスライダーに対応した、キーフレームで音程を変更できるYMM4用音声エフェクトプラグインです。",
+      "description": "アニメーションスライダーに対応した、キーフレームで音程を変更できるYMM4用音声エフェ��トプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AnimationPitch",
       "downloadUrl": "https://github.com/benikazura/AnimationPitch/releases/tag/ver1.0.0",
-      "category": "video-effect",
+      "category": "audio-effect",
       "tags": [
-        "映像エフェクト"
+        "音声エフェクト"
       ],
       "stars": 0,
       "lastUpdated": "2025-10-28T03:08:57Z",
@@ -1468,7 +1451,7 @@
     {
       "id": "dmmo-com-jp-multicoreimgwavexporter",
       "name": "MultiCoreImgWavExporter",
-      "description": "YMM4の映像をマルチタスクで連番画像とWavファイルとして書き出す出力プラグイン",
+      "description": "YMM4の映像をマルチタスクで連��画像とWavファイルとして書き出す出力プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/MultiCoreImgWavExporter",
@@ -1604,7 +1587,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色��画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
@@ -1966,7 +1949,7 @@
     {
       "id": "tetra-te-fitrotateeffect",
       "name": "FitRotateEffect",
-      "description": "画像��回転に合わせて画像を拡大する映像エフェクト",
+      "description": "画像の回転に合わせて画像を拡大する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/FitRotateEffect",
