@@ -1,6 +1,43 @@
 {
-  "lastUpdated": "2026-03-11T15:52:43.080Z",
+  "lastUpdated": "2026-03-12T16:01:18.136Z",
   "plugins": [
+    {
+      "id": "haisangames813-rotationpersecondeffect",
+      "name": "RotationPerSecondEffect",
+      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラグインです",
+      "author": "HAIsanGames813",
+      "authorUrl": "https://github.com/HAIsanGames813",
+      "repoUrl": "https://github.com/HAIsanGames813/RotationPerSecondEffect",
+      "downloadUrl": "https://github.com/HAIsanGames813/RotationPerSecondEffect/releases/tag/v1.0.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "lastUpdated": "2026-03-12T09:04:48Z",
+      "latestVersion": "v1.0.1",
+      "license": ""
+    },
+    {
+      "id": "routersys-ymm4-objloader",
+      "name": "YMM4-ObjLoader",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
+      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v3.2.0",
+      "category": "other",
+      "tags": [
+        "その他",
+        "directx-11",
+        "directx11",
+        "windows"
+      ],
+      "stars": 3,
+      "lastUpdated": "2026-03-12T07:12:29Z",
+      "latestVersion": "v3.2.0",
+      "license": "MIT"
+    },
     {
       "id": "haisangames813-weightcontrolplugin",
       "name": "WeightControlPlugin",
@@ -17,26 +54,6 @@
       "lastUpdated": "2026-03-11T13:21:56Z",
       "latestVersion": "v1.1.0",
       "license": ""
-    },
-    {
-      "id": "routersys-ymm4-objloader",
-      "name": "YMM4-ObjLoader",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
-      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v3.1.0",
-      "category": "other",
-      "tags": [
-        "その他",
-        "directx-11",
-        "directx11",
-        "windows"
-      ],
-      "stars": 3,
-      "lastUpdated": "2026-03-11T12:34:05Z",
-      "latestVersion": "v3.1.0",
-      "license": "MIT"
     },
     {
       "id": "takoyakisoft-vtuberkitforymm4",
@@ -214,7 +231,7 @@
     {
       "id": "takoyakisoft-effekseerforymm4",
       "name": "EffekseerForYMM4",
-      "description": "YMM4向けEffekseerエフェクト（映像・音声）再生プラグ��ン",
+      "description": "YMM4向けEffekseerエフェクト（映像・音声）再生プラグイン",
       "author": "takoyakisoft",
       "authorUrl": "https://github.com/takoyakisoft",
       "repoUrl": "https://github.com/takoyakisoft/EffekseerForYMM4",
@@ -403,7 +420,7 @@
     {
       "id": "hashibutogarasu-loopoverlayassist",
       "name": "LoopOverlayAssist",
-      "description": "ループ開始地点を発見しやすくするプラグインです",
+      "description": "ループ開始��点を発見しやすくするプラグインです",
       "author": "Hashibutogarasu",
       "authorUrl": "https://github.com/Hashibutogarasu",
       "repoUrl": "https://github.com/Hashibutogarasu/LoopOverlayAssist",
@@ -454,7 +471,7 @@
     {
       "id": "tenkonta-ymm4-imageoutputeffect",
       "name": "YMM4-ImageOutputEffect",
-      "description": "アイテムを���別で出力できるYMM4映像エフェクトです。",
+      "description": "アイテムを個別で出力できるYMM4映像エフェクトです。",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/YMM4-ImageOutputEffect",
@@ -658,7 +675,7 @@
     {
       "id": "routersys-ymm4-fontmanager",
       "name": "YMM4-FontManager",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレ��ューし、ワンクリックでシステムへインストール・管理できます。",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシステムへインストール・管理できます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-FontManager",
@@ -777,7 +794,7 @@
     {
       "id": "tetra-te-simplekerningeffect",
       "name": "SimpleKerningEffect",
-      "description": "テキストの位置などを文字ごとに調整する映像エフェクトプラグイン",
+      "description": "テキストの位置などを文字ごとに調整する映像エフェクトプラグイ���",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SimpleKerningEffect",
@@ -1553,14 +1570,14 @@
     {
       "id": "benikazura-fanclipping",
       "name": "FanClipping",
-      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo���力することもできます。",
+      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力することもできます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/FanClipping",
       "downloadUrl": "https://github.com/benikazura/FanClipping/releases/tag/ver1.1.1",
-      "category": "other",
+      "category": "video-output",
       "tags": [
-        "その他"
+        "動画出力"
       ],
       "stars": 0,
       "lastUpdated": "2025-08-24T06:19:40Z",
@@ -1621,7 +1638,7 @@
     {
       "id": "benikazura-automaticaspectratio",
       "name": "AutomaticAspectRatio",
-      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサ��ズ調整を自動で行うことができます。",
+      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことができます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AutomaticAspectRatio",
@@ -2225,7 +2242,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供し���す。ただし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
