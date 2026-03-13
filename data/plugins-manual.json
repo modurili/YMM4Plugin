@@ -1,6 +1,13 @@
 {
     "description": "GitHub上にないプラグインや、自動収集データを上書きしたい場合にここに記載してください。",
     "plugins": [],
-    "categoryOverrides": {},
+    "categoryOverrides": {
+        "dolphin-kun-ymm4physics2d": "video-effect",
+        "panko200-particles3d": "video-effect",
+        "sinbetakun-superexcitingcloneeffect": "video-effect",
+        "kotolin-sub-ymm4customeasengk": "video-effect",
+        "routersys-ymm4-godray": "video-effect",
+        "dolphin-kun-afterimage": "video-effect"
+    },
     "excludeRepos": []
 }

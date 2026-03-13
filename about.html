@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>このサイトについて - YMM4 Plugin Catalog</title>
+  <meta name="description" content="YMM4 Plugin Catalog（ゆっくりMovieMaker4 プラグインカタログ）についての説明、開発者情報、利用規約。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .about-page {
+      position: relative;
+      z-index: 10;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    .about-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      background: var(--bg-glass-strong);
+      border: 1px solid var(--border-glass);
+      border-radius: 100px;
+      color: var(--text-secondary);
+      font-size: 0.82rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all var(--transition-normal);
+      margin-bottom: 32px;
+    }
+    .about-back:hover {
+      background: rgba(167, 139, 250, 0.12);
+      border-color: rgba(167, 139, 250, 0.25);
+      color: var(--accent-purple);
+    }
+    .about-back svg {
+      width: 16px;
+      height: 16px;
+    }
+    .about-hero {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .about-hero h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      background: var(--accent-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 12px;
+    }
+    .about-hero p {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+    .about-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border-glass);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      margin-bottom: 24px;
+      backdrop-filter: blur(10px);
+    }
+    .about-section h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .about-section p,
+    .about-section li {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.8;
+    }
+    .about-section ul {
+      padding-left: 20px;
+      margin-top: 8px;
+    }
+    .about-section li {
+      margin-bottom: 6px;
+    }
+    .about-section a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      transition: color var(--transition-fast);
+    }
+    .about-section a:hover {
+      color: var(--accent-purple);
+    }
+    @media (max-width: 768px) {
+      .about-page {
+        padding: 24px 16px 60px;
+      }
+      .about-hero h1 {
+        font-size: 1.5rem;
+      }
+      .about-section {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Background effects -->
+  <div class="bg-gradient"></div>
+  <div class="bg-grid"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" style="text-decoration:none;">
+        <div class="logo-icon">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="36" height="36" rx="8" stroke="url(#logo-grad)" stroke-width="2.5"/>
+            <path d="M12 14L20 10L28 14V22L20 26L12 22V14Z" fill="url(#logo-grad)" opacity="0.3"/>
+            <path d="M12 14L20 10L28 14V22L20 26L12 22V14Z" stroke="url(#logo-grad)" stroke-width="1.5"/>
+            <circle cx="20" cy="18" r="3" fill="url(#logo-grad)"/>
+            <defs>
+              <linearGradient id="logo-grad" x1="0" y1="0" x2="40" y2="40">
+                <stop offset="0%" stop-color="#a78bfa"/>
+                <stop offset="100%" stop-color="#06b6d4"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <h1>YMM4 Plugins</h1>
+          <span class="logo-subtitle">ゆっくりMovieMaker4 プラグインカタログ</span>
+        </div>
+      </a>
+    </div>
+  </header>
+
+  <!-- About Content -->
+  <main class="about-page">
+    <a href="index.html" class="about-back">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="15 18 9 12 15 6"/>
+      </svg>
+      カタログに戻る
+    </a>
+
+    <div class="about-hero">
+      <h1>YMM4 Plugin Catalog について</h1>
+      <p>ゆっくりMovieMaker4 のプラグインを探しやすくするためのカタログサイトです。</p>
+    </div>
+
+    <div class="about-section">
+      <h2>📦 このサイトについて</h2>
+      <p>
+        YMM4 Plugin Catalog は、GitHub 上で公開されている YMM4（ゆっくりMovieMaker4）向けプラグインを
+        自動的に収集し、カテゴリ別に整理して一覧表示するカタログサイトです。
+      </p>
+      <p style="margin-top: 12px;">
+        プラグインの検索、カテゴリフィルタリング、並べ替え機能を提供し、
+        ユーザーが目的のプラグインを素早く見つけられるようにすることを目指しています。
+      </p>
+    </div>
+
+    <div class="about-section">
+      <h2>🔄 データの収集方法</h2>
+      <p>
+        以下の GitHub トピックが付けられたリポジトリを自動的に検索・収集しています：
+      </p>
+      <ul>
+        <li><code>ymm4-plugin</code></li>
+        <li><code>ymm-plugin</code></li>
+        <li><code>YMM4Plugin</code></li>
+      </ul>
+      <p style="margin-top: 12px;">
+        プラグイン開発者の方は、ご自身のリポジトリに上記いずれかのトピックを追加すると、
+        自動的にこのカタログに掲載されます。
+      </p>
+    </div>
+
+    <div class="about-section">
+      <h2>👤 開発者</h2>
+      <p>
+        このカタログサイトは <a href="https://x.com/modurili" target="_blank" rel="noopener">modurili</a> が開発・運営しています。
+      </p>
+      <p style="margin-top: 12px;">
+        バグ報告や機能要望は
+        <a href="https://x.com/modurili" target="_blank" rel="noopener">X（旧Twitter）</a>
+        にてお気軽にご連絡ください。
+      </p>
+    </div>
+
+    <div class="about-section">
+      <h2>📜 利用規約・免責事項</h2>
+      <ul>
+        <li>本サイトは非公式のコミュニティプロジェクトであり、YMM4 本体の開発者とは直接の関係はありません。</li>
+        <li>掲載されているプラグインの品質・安全性について、本サイトは一切の保証を行いません。</li>
+        <li>プラグインのインストール・使用は自己責任でお願いいたします。</li>
+        <li>プラグインに関する質問・サポートは、各プラグインの開発者にお問い合わせください。</li>
+        <li>本サイトのデータは GitHub API を通じて自動収集されたものであり、最新情報と異なる場合があります。</li>
+      </ul>
+    </div>
+
+    <div class="about-section">
+      <h2>🔗 関連リンク</h2>
+      <ul>
+        <li><a href="https://manjubox.net/ymm4/" target="_blank" rel="noopener">YMM4 公式サイト（饅頭遣いのおもちゃ箱）</a></li>
+        <li><a href="https://github.com/topics/ymm4-plugin" target="_blank" rel="noopener">GitHub: ymm4-plugin トピック</a></li>
+        <li><a href="https://github.com/manju-summoner/YukkuriMovieMaker4PluginSamples" target="_blank" rel="noopener">YMM4 プラグインサンプル集（公式）</a></li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>YMM4 Plugin Catalog &mdash; ゆっくりMovieMaker4 プラグインまとめサイト</p>
+      <p class="footer-sub">
+        YMM4本体: <a href="https://manjubox.net/ymm4/" target="_blank" rel="noopener">饅頭遣いのおもちゃ箱</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

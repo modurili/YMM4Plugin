@@ -107,14 +107,10 @@
         </div>
 
         <div class="sort-controls">
-          <label class="sort-label" for="sort-select">並び替え</label>
-          <select id="sort-select" class="sort-select">
-            <option value="name-asc">名前 (A→Z)</option>
-            <option value="name-desc">名前 (Z→A)</option>
-            <option value="stars-desc">スター数 (多い順)</option>
-            <option value="updated-desc" selected>更新日 (新しい順)</option>
-            <option value="updated-asc">更新日 (古い順)</option>
-          </select>
+          <span class="sort-label">並び替え</span>
+          <div class="sort-dropdown" id="sort-dropdown">
+            <!-- Custom dropdown rendered by JavaScript -->
+          </div>
         </div>
       </div>
     </div>
@@ -173,6 +169,12 @@
       <p class="footer-sub">
         YMM4本体: <a href="https://manjubox.net/ymm4/" target="_blank" rel="noopener">饅頭遣いのおもちゃ箱</a>
       </p>
+      <div class="footer-links">
+        <a href="about.html" class="footer-about-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+          このサイトについて
+        </a>
+      </div>
     </div>
   </footer>
 

@@ -5,6 +5,9 @@
  * GitHub Actionsで定期実行される。
  * 
  * 検索対象トピック: ymm4-plugin, ymm-plugin, YMM4Plugin
+ * 
+ * カテゴリキーワード設定: data/category-keywords.json を編集することで
+ * 分類ルールをカスタマイズできます。
  */
 
 const fs = require('fs');
@@ -16,26 +19,22 @@ const SEARCH_TOPICS = ['ymm4-plugin', 'ymm-plugin', 'YMM4Plugin'];
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const PLUGINS_FILE = path.join(DATA_DIR, 'plugins.json');
 const MANUAL_FILE = path.join(DATA_DIR, 'plugins-manual.json');
+const KEYWORDS_FILE = path.join(DATA_DIR, 'category-keywords.json');
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 
-// カテゴリ推定マッピング（トピック → カテゴリ）
-const TOPIC_CATEGORY_MAP = {
-    'effect': 'video-effect',
-    'video-effect': 'video-effect',
-    'visual-effect': 'video-effect',
-    'audio-effect': 'audio-effect',
-    'sound-effect': 'audio-effect',
-    'voice': 'voice-synthesis',
-    'voice-synthesis': 'voice-synthesis',
-    'tts': 'voice-synthesis',
-    'shape': 'shape',
-    'text': 'text',
-    'subtitle': 'text',
-    'output': 'video-output',
-    'export': 'video-output',
-    'utility': 'utility',
-    'tool': 'utility',
-};
+// ===== カテゴリキーワード読み込み =====
+let keywordsConfig;
+try {
+    keywordsConfig = JSON.parse(fs.readFileSync(KEYWORDS_FILE, 'utf8'));
+    console.log('✅ カテゴリキーワード設定を読み込みました');
+} catch (error) {
+    console.error('⚠️ category-keywords.json の読み込みに失敗しました:', error.message);
+    process.exit(1);
+}
+
+const TOPIC_CATEGORY_MAP = keywordsConfig.topicToCategory || {};
+const DESCRIPTION_KEYWORDS = keywordsConfig.descriptionKeywords || {};
+const DESCRIPTION_EXCLUDE = keywordsConfig.descriptionExcludeKeywords || {};
 
 // ===== HTTP Helper =====
 function githubRequest(urlPath) {
@@ -139,22 +138,33 @@ async function getLatestRelease(owner, repo) {
 
 // ===== カテゴリ推定 =====
 function guessCategory(topics, description) {
-    // トピックからカテゴリを推定
+    // 1. トピックからカテゴリを推定
     for (const topic of (topics || [])) {
         const lower = topic.toLowerCase();
-        if (TOPIC_CATEGORY_MAP[lower]) {
+        // _説明 などの内部キーをスキップ
+        if (TOPIC_CATEGORY_MAP[lower] && !lower.startsWith('_')) {
             return TOPIC_CATEGORY_MAP[lower];
         }
     }
 
-    // 説明文からカテゴリを推定
+    // 2. 説明文からカテゴリを推定（descriptionKeywordsの定義順で優先度判定）
     const desc = (description || '').toLowerCase();
-    if (desc.includes('エフェクト') || desc.includes('effect')) return 'video-effect';
-    if (desc.includes('音声合成') || desc.includes('voice') || desc.includes('tts')) return 'voice-synthesis';
-    if (desc.includes('図形') || desc.includes('shape') || desc.includes('polygon')) return 'shape';
-    if (desc.includes('テキスト') || desc.includes('字幕') || desc.includes('subtitle')) return 'text';
-    if (desc.includes('出力') || desc.includes('export') || desc.includes('output')) return 'video-output';
-    if (desc.includes('音声') || desc.includes('audio') || desc.includes('sound')) return 'audio-effect';
+
+    for (const [category, keywords] of Object.entries(DESCRIPTION_KEYWORDS)) {
+        // _説明 などの内部キーをスキップ
+        if (category.startsWith('_')) continue;
+
+        const excludeWords = DESCRIPTION_EXCLUDE[category] || [];
+        const hasExclude = excludeWords.some(ex => desc.includes(ex.toLowerCase()));
+
+        for (const keyword of keywords) {
+            if (desc.includes(keyword.toLowerCase())) {
+                // 除外キーワードが含まれている場合はスキップ
+                if (hasExclude) continue;
+                return category;
+            }
+        }
+    }
 
     return 'other';
 }
@@ -238,6 +248,7 @@ async function main() {
             category: category,
             tags: tags,
             stars: repo.stargazers_count || 0,
+            createdAt: repo.created_at || '',
             lastUpdated: repo.updated_at || repo.pushed_at || '',
             latestVersion: release.version || '',
             license: repo.license?.spdx_id || '',

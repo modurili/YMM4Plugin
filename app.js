@@ -18,19 +18,30 @@
     'other': { label: 'その他', icon: '📁' },
   };
 
+  const SORT_OPTIONS = [
+    { value: 'updated-desc', label: '更新日（新しい順）', icon: '🕐' },
+    { value: 'updated-asc', label: '更新日（古い順）', icon: '🕐' },
+    { value: 'created-desc', label: '公開日（新しい順）', icon: '📅' },
+    { value: 'created-asc', label: '公開日（古い順）', icon: '📅' },
+    { value: 'stars-desc', label: 'スター数（多い順）', icon: '⭐' },
+    { value: 'name-asc', label: '名前（A→Z）', icon: '🔤' },
+    { value: 'name-desc', label: '名前（Z→A）', icon: '🔤' },
+  ];
+
   // ===== State =====
   let allPlugins = [];
   let filteredPlugins = [];
   let currentCategory = 'all';
   let currentSearch = '';
   let currentSort = 'updated-desc';
+  let sortDropdownOpen = false;
 
   // ===== DOM Elements =====
   const $grid = document.getElementById('plugin-grid');
   const $searchInput = document.getElementById('search-input');
   const $searchClear = document.getElementById('search-clear');
   const $categoryFilters = document.getElementById('category-filters');
-  const $sortSelect = document.getElementById('sort-select');
+  const $sortDropdown = document.getElementById('sort-dropdown');
   const $resultsCount = document.getElementById('results-count');
   const $emptyState = document.getElementById('empty-state');
   const $loadingState = document.getElementById('loading-state');
@@ -60,6 +71,7 @@
       }
 
       updateStats();
+      initSortDropdown();
       applyFilters();
       bindEvents();
       $loadingState.style.display = 'none';
@@ -99,6 +111,50 @@
     }, 30);
   }
 
+  // ===== Custom Sort Dropdown =====
+  function initSortDropdown() {
+    const currentOption = SORT_OPTIONS.find(o => o.value === currentSort) || SORT_OPTIONS[0];
+    $sortDropdown.innerHTML = `
+      <button class="sort-trigger" id="sort-trigger" type="button">
+        <span class="sort-trigger-icon">${currentOption.icon}</span>
+        <span class="sort-trigger-text">${currentOption.label}</span>
+        <svg class="sort-trigger-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </button>
+      <div class="sort-menu" id="sort-menu">
+        ${SORT_OPTIONS.map(opt => `
+          <button class="sort-option ${opt.value === currentSort ? 'active' : ''}" data-value="${opt.value}" type="button">
+            <span class="sort-option-icon">${opt.icon}</span>
+            <span>${opt.label}</span>
+            ${opt.value === currentSort ? '<svg class="sort-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>' : ''}
+          </button>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  function toggleSortDropdown() {
+    sortDropdownOpen = !sortDropdownOpen;
+    const $menu = document.getElementById('sort-menu');
+    const $trigger = document.getElementById('sort-trigger');
+    if (sortDropdownOpen) {
+      $menu.classList.add('open');
+      $trigger.classList.add('open');
+    } else {
+      $menu.classList.remove('open');
+      $trigger.classList.remove('open');
+    }
+  }
+
+  function closeSortDropdown() {
+    sortDropdownOpen = false;
+    const $menu = document.getElementById('sort-menu');
+    const $trigger = document.getElementById('sort-trigger');
+    if ($menu) $menu.classList.remove('open');
+    if ($trigger) $trigger.classList.remove('open');
+  }
+
   // ===== Events =====
   function bindEvents() {
     // Search
@@ -125,10 +181,28 @@
       applyFilters();
     });
 
-    // Sort
-    $sortSelect.addEventListener('change', function () {
-      currentSort = this.value;
-      applyFilters();
+    // Sort dropdown
+    $sortDropdown.addEventListener('click', function (e) {
+      const trigger = e.target.closest('.sort-trigger');
+      if (trigger) {
+        e.stopPropagation();
+        toggleSortDropdown();
+        return;
+      }
+      const option = e.target.closest('.sort-option');
+      if (option) {
+        currentSort = option.dataset.value;
+        closeSortDropdown();
+        initSortDropdown();
+        applyFilters();
+      }
+    });
+
+    // Close dropdown on outside click
+    document.addEventListener('click', function (e) {
+      if (!$sortDropdown.contains(e.target)) {
+        closeSortDropdown();
+      }
     });
 
     // Reset
@@ -140,7 +214,7 @@
       $categoryFilters.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
       $categoryFilters.querySelector('[data-category="all"]').classList.add('active');
       currentSort = 'updated-desc';
-      $sortSelect.value = currentSort;
+      initSortDropdown();
       applyFilters();
     });
 
@@ -150,7 +224,10 @@
       if (e.target === $modalOverlay) closeModal();
     });
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') closeModal();
+      if (e.key === 'Escape') {
+        closeModal();
+        closeSortDropdown();
+      }
     });
   }
 
@@ -187,6 +264,10 @@
           return new Date(b.lastUpdated || 0) - new Date(a.lastUpdated || 0);
         case 'updated-asc':
           return new Date(a.lastUpdated || 0) - new Date(b.lastUpdated || 0);
+        case 'created-desc':
+          return new Date(b.createdAt || 0) - new Date(a.createdAt || 0);
+        case 'created-asc':
+          return new Date(a.createdAt || 0) - new Date(b.createdAt || 0);
         default:
           return 0;
       }
@@ -279,6 +360,9 @@
     const updatedDate = plugin.lastUpdated
       ? new Date(plugin.lastUpdated).toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' })
       : '不明';
+    const createdDate = plugin.createdAt
+      ? new Date(plugin.createdAt).toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' })
+      : '不明';
 
     const tagsHtml = (plugin.tags || []).map(tag =>
       `<span class="modal-tag">${escapeHtml(tag)}</span>`
@@ -309,6 +393,10 @@
         <div class="modal-info-item">
           <div class="modal-info-label">📅 最終更新</div>
           <div class="modal-info-value">${updatedDate}</div>
+        </div>
+        <div class="modal-info-item">
+          <div class="modal-info-label">🆕 初回公開日</div>
+          <div class="modal-info-value">${createdDate}</div>
         </div>
         <div class="modal-info-item">
           <div class="modal-info-label">🏷️ バージョン</div>

@@ -1,0 +1,205 @@
+{
+    "_説明": "カテゴリ自動分類のキーワード設定ファイル。非エンジニアでも編集できます。",
+    "_使い方": "キーワードを追加したい場合は、対応するカテゴリの配列に文字列を追加してください。",
+
+    "topicToCategory": {
+        "_説明": "GitHubリポジトリのトピック（タグ）からカテゴリを判定します。左がトピック名、右がカテゴリIDです。",
+
+        "effect": "video-effect",
+        "video-effect": "video-effect",
+        "visual-effect": "video-effect",
+        "animation": "video-effect",
+        "transition": "video-effect",
+
+        "audio-effect": "audio-effect",
+        "sound-effect": "audio-effect",
+        "audio": "audio-effect",
+
+        "voice": "voice-synthesis",
+        "voice-synthesis": "voice-synthesis",
+        "tts": "voice-synthesis",
+
+        "shape": "shape",
+
+        "text": "text",
+        "subtitle": "text",
+
+        "output": "video-output",
+        "export": "video-output",
+
+        "utility": "utility",
+        "tool": "utility",
+        "3d": "utility",
+        "model": "utility",
+        "directx": "utility",
+        "discord": "utility",
+        "backup": "utility",
+        "management": "utility",
+        "sample": "utility",
+        "template": "utility"
+    },
+
+    "descriptionKeywords": {
+        "_説明": "リポジトリの説明文に含まれるキーワードからカテゴリを判定します。上にあるカテゴリほど優先されます。各カテゴリのキーワード配列に日本語・英語のキーワードを追加できます。",
+
+        "video-effect": [
+            "映像エフェクト",
+            "videoeffect",
+            "エフェクト",
+            "effect",
+            "揺らす",
+            "transition",
+            "トランジション",
+            "場面切り替え",
+            "mosaic",
+            "モザイク",
+            "ぼかし",
+            "blur",
+            "easing",
+            "イージング",
+            "アニメーション",
+            "animation",
+            "クリッピング",
+            "clipping",
+            "クロマキー",
+            "chromakey",
+            "フィルター",
+            "filter",
+            "glitch",
+            "グリッチ",
+            "パーティクル",
+            "particle",
+            "残像",
+            "afterimage",
+            "反射",
+            "reflect",
+            "ループ",
+            "loop",
+            "回転",
+            "rotate",
+            "拡大",
+            "zoom",
+            "縁取り",
+            "outline",
+            "モーション",
+            "motion",
+            "シェーダー",
+            "shader",
+            "hlsl",
+            "リリック",
+            "lyric",
+            "clone",
+            "クローン",
+            "lut"
+        ],
+
+        "voice-synthesis": [
+            "音声合成",
+            "voice",
+            "tts",
+            "読み上げ",
+            "ボイス",
+            "voisona",
+            "bouyomi",
+            "棒読み"
+        ],
+
+        "audio-effect": [
+            "音声エフェクト",
+            "audioeffect",
+            "音声",
+            "audio",
+            "sound",
+            "pitch",
+            "ピッチ",
+            "midi",
+            "イコライザー",
+            "equalizer",
+            "リバーブ",
+            "reverb",
+            "ディレイ",
+            "delay",
+            "囁き",
+            "whisper",
+            "monaural",
+            "モノラル",
+            "逆位相"
+        ],
+
+        "shape": [
+            "図形",
+            "shape",
+            "polygon"
+        ],
+
+        "text": [
+            "テキスト",
+            "字幕",
+            "subtitle",
+            "文字",
+            "フォント",
+            "font"
+        ],
+
+        "video-output": [
+            "出力",
+            "export",
+            "output",
+            "エンコード",
+            "encode",
+            "nvenc"
+        ],
+
+        "utility": [
+            "utility",
+            "tool",
+            "ツール",
+            "管理",
+            "マネージャー",
+            "manager",
+            "backup",
+            "バックアップ",
+            "同期",
+            "ブラウザ",
+            "browser",
+            "discord",
+            "連携",
+            "integration",
+            "サンプル",
+            "sample",
+            "雛形",
+            "template",
+            "テンプレート",
+            "ボイラープレート",
+            "boilerplate",
+            "3d",
+            "モデル",
+            "model",
+            "directx",
+            "api",
+            "document",
+            "リファレンス",
+            "プロジェクト",
+            "project",
+            "リサイズ",
+            "resize",
+            "ペン",
+            "pen",
+            "キャンバス",
+            "canvas",
+            "クリップボード",
+            "clipboard",
+            "コンソール",
+            "console",
+            "pdf",
+            "qr",
+            "バーコード",
+            "barcode"
+        ]
+    },
+
+    "descriptionExcludeKeywords": {
+        "_説明": "特定のキーワードが説明文に含まれている場合、そのカテゴリへの分類を除外します。例: 「音声エフェクト」という説明があるものは video-effect に分類されないようにします。",
+        "video-effect": ["音声", "audio"]
+    }
+}
