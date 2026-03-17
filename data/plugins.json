@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-17T16:08:38.053Z",
+  "lastUpdated": "2026-03-17T19:38:01.559Z",
   "plugins": [
+    {
+      "id": "modurili-imageoverlay",
+      "name": "ImageOverlay",
+      "description": "映像エフェクトで画像・動画を挿入することができるYMM4プラグイン",
+      "author": "modurili",
+      "authorUrl": "https://github.com/modurili",
+      "repoUrl": "https://github.com/modurili/ImageOverlay",
+      "downloadUrl": "https://github.com/modurili/ImageOverlay/releases/tag/v1.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2026-03-17T18:12:51Z",
+      "lastUpdated": "2026-03-17T19:27:41Z",
+      "latestVersion": "v1.0",
+      "license": "MIT"
+    },
     {
       "id": "tanazun-linemarcheffect",
       "name": "LineMarchEffect",
@@ -210,7 +228,7 @@
     {
       "id": "tetra-te-mosaicoutlineeffect",
       "name": "MosaicOutlineEffect",
-      "description": "モザイク縁取りエフェクト",
+      "description": "モザイク縁取りエフェク��",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/MosaicOutlineEffect",
@@ -896,7 +914,7 @@
     {
       "id": "tetra-te-simplekerningeffect",
       "name": "SimpleKerningEffect",
-      "description": "テキストの位置などを文字ごとに調整する映像エフェクトプ��グイン",
+      "description": "テキストの位置などを文字ごとに調整する映像エフェクトプラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SimpleKerningEffect",
@@ -1096,7 +1114,7 @@
     {
       "id": "dolphin-kun-textsplitter",
       "name": "TextSplitter",
-      "description": "テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
+      "description": "テキストを文字ごと��別のアイテムとして分割することができるツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/TextSplitter",
@@ -1186,7 +1204,7 @@
     {
       "id": "benikazura-animationpitch",
       "name": "AnimationPitch",
-      "description": "アニメーションスライ���ーに対応した、キーフレームで音程を変更できるYMM4用音声エフェクトプラグインです。",
+      "description": "アニメーションスライダーに対応した、キーフレームで音程を変更できるYMM4用音声エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AnimationPitch",
@@ -1393,7 +1411,7 @@
     {
       "id": "dmmo-com-jp-customeffectselector",
       "name": "CustomEffectSelector",
-      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパティ��数式で制御するプラグイン",
+      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパティを数式で制御するプラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/CustomEffectSelector",
@@ -1825,7 +1843,7 @@
     {
       "id": "inuinu2022-sampleymmegetprojinfo",
       "name": "SampleYmmeGetProjInfo",
-      "description": "プラグインからYMM4の現在のプロジェ���ト情報を取得するためのサンプル",
+      "description": "プラグインからYMM4の現在のプロジェクト情報を取得するためのサンプル",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/SampleYmmeGetProjInfo",
@@ -2392,7 +2410,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供しま��。ただし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
