@@ -1,6 +1,25 @@
 {
-  "lastUpdated": "2026-03-17T19:38:01.559Z",
+  "lastUpdated": "2026-03-18T16:10:27.828Z",
   "plugins": [
+    {
+      "id": "rindai0123-artifact-ymm4-jetcut-plugin",
+      "name": "ymm4-jetcut-plugin",
+      "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）プラグイン",
+      "author": "Rindai0123-Artifact",
+      "authorUrl": "https://github.com/Rindai0123-Artifact",
+      "repoUrl": "https://github.com/Rindai0123-Artifact/ymm4-jetcut-plugin",
+      "downloadUrl": "https://github.com/Rindai0123-Artifact/ymm4-jetcut-plugin/releases/tag/v2.0.0",
+      "category": "other",
+      "tags": [
+        "その他",
+        "jetcut"
+      ],
+      "stars": 2,
+      "createdAt": "2026-02-22T05:08:13Z",
+      "lastUpdated": "2026-03-18T12:22:29Z",
+      "latestVersion": "v2.0.0",
+      "license": "MIT"
+    },
     {
       "id": "modurili-imageoverlay",
       "name": "ImageOverlay",
@@ -13,9 +32,9 @@
       "tags": [
         "映像エフェクト"
       ],
-      "stars": 1,
+      "stars": 3,
       "createdAt": "2026-03-17T18:12:51Z",
-      "lastUpdated": "2026-03-17T19:27:41Z",
+      "lastUpdated": "2026-03-18T12:49:42Z",
       "latestVersion": "v1.0",
       "license": "MIT"
     },
@@ -69,9 +88,9 @@
       "tags": [
         "ユーティリティ"
       ],
-      "stars": 27,
+      "stars": 28,
       "createdAt": "2024-05-28T09:50:34Z",
-      "lastUpdated": "2026-03-15T01:57:04Z",
+      "lastUpdated": "2026-03-18T02:49:59Z",
       "latestVersion": "",
       "license": "LGPL-3.0"
     },
@@ -228,7 +247,7 @@
     {
       "id": "tetra-te-mosaicoutlineeffect",
       "name": "MosaicOutlineEffect",
-      "description": "モザイク縁取りエフェク��",
+      "description": "モザイク縁取りエフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/MosaicOutlineEffect",
@@ -264,7 +283,7 @@
     {
       "id": "tetra-te-ratiocropeffect",
       "name": "RatioCropEffect",
-      "description": "比率で指定するクリッピングエフェクト",
+      "description": "比率で指定するクリッ��ングエフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RatioCropEffect",
@@ -351,25 +370,6 @@
       "lastUpdated": "2026-03-15T01:58:43Z",
       "latestVersion": "ver3.0.2",
       "license": ""
-    },
-    {
-      "id": "rindai0123-artifact-ymm4-jetcut-plugin",
-      "name": "ymm4-jetcut-plugin",
-      "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）プラグイン",
-      "author": "Rindai0123-Artifact",
-      "authorUrl": "https://github.com/Rindai0123-Artifact",
-      "repoUrl": "https://github.com/Rindai0123-Artifact/ymm4-jetcut-plugin",
-      "downloadUrl": "https://github.com/Rindai0123-Artifact/ymm4-jetcut-plugin/releases/tag/v1.0.0",
-      "category": "other",
-      "tags": [
-        "その他",
-        "jetcut"
-      ],
-      "stars": 2,
-      "createdAt": "2026-02-22T05:08:13Z",
-      "lastUpdated": "2026-03-15T01:58:31Z",
-      "latestVersion": "v1.0.0",
-      "license": "MIT"
     },
     {
       "id": "dolphin-kun-proxyvideosource",
@@ -716,7 +716,7 @@
     {
       "id": "tetra-te-randomswitchingeffect",
       "name": "RandomSwitchingEffect",
-      "description": "エフェクトをランダムに切り替えながら適応する映像エフェクト",
+      "description": "エ���ェクトをランダムに切り替えながら適応する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomSwitchingEffect",
@@ -1114,7 +1114,7 @@
     {
       "id": "dolphin-kun-textsplitter",
       "name": "TextSplitter",
-      "description": "テキストを文字ごと��別のアイテムとして分割することができるツールプラグインです。",
+      "description": "テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/TextSplitter",
@@ -1991,7 +1991,7 @@
     {
       "id": "ikoma-reunion-ymm4-plugin-document",
       "name": "ymm4-plugin-document",
-      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。　v4.42.1.3",
+      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　��公式です。　v4.42.1.3",
       "author": "ikoma-reunion",
       "authorUrl": "https://github.com/ikoma-reunion",
       "repoUrl": "https://github.com/ikoma-reunion/ymm4-plugin-document",
