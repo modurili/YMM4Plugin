@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-19T15:57:59.195Z",
+  "lastUpdated": "2026-03-20T15:46:02.431Z",
   "plugins": [
+    {
+      "id": "dolphin-kun-proxyvideosource",
+      "name": "ProxyVideoSource",
+      "description": "説明なし",
+      "author": "Dolphin-kun",
+      "authorUrl": "https://github.com/Dolphin-kun",
+      "repoUrl": "https://github.com/Dolphin-kun/ProxyVideoSource",
+      "downloadUrl": "https://github.com/Dolphin-kun/ProxyVideoSource/releases/tag/v1.0.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 1,
+      "createdAt": "2026-02-17T04:01:55Z",
+      "lastUpdated": "2026-03-20T01:19:32Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
     {
       "id": "rindai0123-artifact-ymm4-jetcut-plugin",
       "name": "ymm4-jetcut-plugin",
@@ -136,14 +154,14 @@
     {
       "id": "haisangames813-weightcontrolplugin",
       "name": "WeightControlPlugin",
-      "description": "AviUtlにある制御文��を一部利用可能にするプラグインです",
+      "description": "AviUtlにある制御文字を一部利用可能に��るプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/WeightControlPlugin",
       "downloadUrl": "https://github.com/HAIsanGames813/WeightControlPlugin/releases/tag/v1.1.0",
-      "category": "other",
+      "category": "text",
       "tags": [
-        "その他"
+        "テキスト"
       ],
       "stars": 1,
       "createdAt": "2026-02-23T11:20:51Z",
@@ -370,24 +388,6 @@
       "lastUpdated": "2026-03-15T01:58:43Z",
       "latestVersion": "ver3.0.2",
       "license": ""
-    },
-    {
-      "id": "dolphin-kun-proxyvideosource",
-      "name": "ProxyVideoSource",
-      "description": "説明なし",
-      "author": "Dolphin-kun",
-      "authorUrl": "https://github.com/Dolphin-kun",
-      "repoUrl": "https://github.com/Dolphin-kun/ProxyVideoSource",
-      "downloadUrl": "https://github.com/Dolphin-kun/ProxyVideoSource/releases/tag/v1.0.0",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 1,
-      "createdAt": "2026-02-17T04:01:55Z",
-      "lastUpdated": "2026-03-15T01:59:20Z",
-      "latestVersion": "v1.0.0",
-      "license": "MIT"
     },
     {
       "id": "hazimeyou-ymmresourcepackager",
@@ -1114,7 +1114,7 @@
     {
       "id": "dolphin-kun-textsplitter",
       "name": "TextSplitter",
-      "description": "テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
+      "description": "テキストを文字ごとに別のアイテム���して分割することができるツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/TextSplitter",
@@ -1222,7 +1222,7 @@
     {
       "id": "benikazura-automaticaspectratio",
       "name": "AutomaticAspectRatio",
-      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で��うことができます。",
+      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことができます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AutomaticAspectRatio",
@@ -1645,7 +1645,7 @@
     {
       "id": "benikazura-letterboxshape",
       "name": "LetterBoxShape",
-      "description": "図形オブジェクトにレターボックス（画面上下や左右の黒帯）を追加します。",
+      "description": "図形オブジェクトにレターボックス���画面上下や左右の黒帯）を追加します。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/LetterBoxShape",
@@ -1663,7 +1663,7 @@
     {
       "id": "benikazura-scrolleffect",
       "name": "ScrollEffect",
-      "description": "一定の方向に繰り返しスクロールを行う映像エフェクトを追加するYMM4用のプラグインです。",
+      "description": "一定の方向に繰り返しスク���ールを行う映像エフェクトを追加するYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/ScrollEffect",
@@ -1991,7 +1991,7 @@
     {
       "id": "ikoma-reunion-ymm4-plugin-document",
       "name": "ymm4-plugin-document",
-      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。��v4.42.1.3",
+      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。　v4.42.1.3",
       "author": "ikoma-reunion",
       "authorUrl": "https://github.com/ikoma-reunion",
       "repoUrl": "https://github.com/ikoma-reunion/ymm4-plugin-document",
