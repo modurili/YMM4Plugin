@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-21T06:14:33.796Z",
+  "lastUpdated": "2026-03-21T06:16:50.244Z",
   "plugins": [
     {
       "id": "dolphin-kun-proxyvideosource",
@@ -97,7 +97,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねて��ます。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -392,7 +392,7 @@
     {
       "id": "hazimeyou-ymmresourcepackager",
       "name": "YMMResourcePackager",
-      "description": "素材同梱プラグインおよび展開アプリ",
+      "description": "素材同梱プ���グインおよび展開アプリ",
       "author": "hazimeyou",
       "authorUrl": "https://github.com/hazimeyou",
       "repoUrl": "https://github.com/hazimeyou/YMMResourcePackager",
@@ -968,7 +968,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker4pluginsamples",
       "name": "YukkuriMovieMaker4PluginSamples",
-      "description": "YMM4用プラグインのサンプル集です",
+      "description": "YMM4用プラグ��ンのサンプル集です",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker4PluginSamples",
@@ -1132,7 +1132,7 @@
     {
       "id": "benikazura-videochecker",
       "name": "VideoChecker",
-      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることがで��るYMM4用のプラグインです。",
+      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることができるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/VideoChecker",
@@ -1150,7 +1150,7 @@
     {
       "id": "benikazura-benikazuratransitionpacka",
       "name": "BenikazuraTransitionPackA",
-      "description": "汎用的な場面切り替えプラグインを収録したプラグイン10種セット��す。",
+      "description": "汎用的な場面切り替えプラグインを収録したプラグイン10種セットです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/BenikazuraTransitionPackA",
@@ -1937,7 +1937,7 @@
     {
       "id": "routersys-ymm4-customeasing",
       "name": "YMM4-CustomEasing",
-      "description": "YMM4でイージングのような移動を可能にします。",
+      "description": "YMM4でイージングのような移動���可能にします。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CustomEasing",
