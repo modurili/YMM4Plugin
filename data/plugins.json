@@ -1,6 +1,43 @@
 {
-  "lastUpdated": "2026-03-21T06:38:05.285Z",
+  "lastUpdated": "2026-03-21T15:29:18.559Z",
   "plugins": [
+    {
+      "id": "mochinekoo-ymm4-test-plugin",
+      "name": "YMM4_Test_Plugin",
+      "description": "YMM4の練習用プラグイン",
+      "author": "mochinekoo",
+      "authorUrl": "https://github.com/mochinekoo",
+      "repoUrl": "https://github.com/mochinekoo/YMM4_Test_Plugin",
+      "downloadUrl": "https://github.com/mochinekoo/YMM4_Test_Plugin/releases",
+      "category": "other",
+      "tags": [
+        "その他",
+        "wpf"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-21T11:47:00Z",
+      "lastUpdated": "2026-03-21T13:14:49Z",
+      "latestVersion": "",
+      "license": ""
+    },
+    {
+      "id": "tanazun-linemarcheffect",
+      "name": "LineMarchEffect",
+      "description": "YMM4 ライン行進エフェクトプラグイン",
+      "author": "tanazun",
+      "authorUrl": "https://github.com/tanazun",
+      "repoUrl": "https://github.com/tanazun/LineMarchEffect",
+      "downloadUrl": "https://github.com/tanazun/LineMarchEffect/releases/tag/v1.1.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-10T13:05:48Z",
+      "lastUpdated": "2026-03-21T10:03:16Z",
+      "latestVersion": "v1.1.0",
+      "license": "MIT"
+    },
     {
       "id": "dolphin-kun-proxyvideosource",
       "name": "ProxyVideoSource",
@@ -57,24 +94,6 @@
       "license": "MIT"
     },
     {
-      "id": "tanazun-linemarcheffect",
-      "name": "LineMarchEffect",
-      "description": "YMM4 ライン行進エフェクトプラグイン",
-      "author": "tanazun",
-      "authorUrl": "https://github.com/tanazun",
-      "repoUrl": "https://github.com/tanazun/LineMarchEffect",
-      "downloadUrl": "https://github.com/tanazun/LineMarchEffect/releases/tag/v1.0.0",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 0,
-      "createdAt": "2026-03-10T13:05:48Z",
-      "lastUpdated": "2026-03-15T04:29:31Z",
-      "latestVersion": "v1.0.0",
-      "license": "MIT"
-    },
-    {
       "id": "takoyakisoft-vtuberkitforymm4",
       "name": "VTuberKitForYMM4",
       "description": "非公式Live2DモデルをYMM4で立ち絵として使用するためのプラグイン",
@@ -97,7 +116,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねて��ます。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグイ���のサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -500,7 +519,7 @@
     {
       "id": "hashibutogarasu-loopoverlayassist",
       "name": "LoopOverlayAssist",
-      "description": "ループ開始地点を発見しやすくするプラグインです",
+      "description": "ループ開��地点を発見しやすくするプラグインです",
       "author": "Hashibutogarasu",
       "authorUrl": "https://github.com/Hashibutogarasu",
       "repoUrl": "https://github.com/Hashibutogarasu/LoopOverlayAssist",
@@ -1114,7 +1133,7 @@
     {
       "id": "dolphin-kun-textsplitter",
       "name": "TextSplitter",
-      "description": "テキストを文字ごとに別のアイテムとして分割することができるツールプラグインで���。",
+      "description": "テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/TextSplitter",
@@ -1991,7 +2010,7 @@
     {
       "id": "ikoma-reunion-ymm4-plugin-document",
       "name": "ymm4-plugin-document",
-      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　��公式です。　v4.42.1.3",
+      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。　v4.42.1.3",
       "author": "ikoma-reunion",
       "authorUrl": "https://github.com/ikoma-reunion",
       "repoUrl": "https://github.com/ikoma-reunion/ymm4-plugin-document",
@@ -2392,7 +2411,7 @@
     {
       "id": "ymm4pp-ymm4pps",
       "name": "YMM4PpS",
-      "description": "YMM4用の図形プラグイン群",
+      "description": "YMM4用の図形プラグイ��群",
       "author": "YMM4Pp",
       "authorUrl": "https://github.com/YMM4Pp",
       "repoUrl": "https://github.com/YMM4Pp/YMM4PpS",
