@@ -4,8 +4,7 @@
 
 ## 🌐 サイトURL
 
-GitHub Pagesで公開後、以下のURLでアクセスできます:
-`https://<あなたのGitHubユーザー名>.github.io/ymm4-plugins-catalog/`
+https://modurili.github.io/YMM4Plugin
 
 ## ✨ 機能
 
