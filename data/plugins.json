@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-20T15:46:02.431Z",
+  "lastUpdated": "2026-03-21T04:58:27.423Z",
   "plugins": [
     {
       "id": "dolphin-kun-proxyvideosource",
@@ -97,7 +97,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねて���ます。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -154,7 +154,7 @@
     {
       "id": "haisangames813-weightcontrolplugin",
       "name": "WeightControlPlugin",
-      "description": "AviUtlにある制御文字を一部利用可能に��るプラグインです",
+      "description": "AviUtlにある制御文字を一部利用可能にするプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/WeightControlPlugin",
@@ -716,7 +716,7 @@
     {
       "id": "tetra-te-randomswitchingeffect",
       "name": "RandomSwitchingEffect",
-      "description": "エフェクトをランダムに切り替えながら適応する映像エフェクト",
+      "description": "エフェクト���ランダムに切り替えながら適応する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomSwitchingEffect",
@@ -914,7 +914,7 @@
     {
       "id": "tetra-te-simplekerningeffect",
       "name": "SimpleKerningEffect",
-      "description": "テキストの位置などを文字ごとに調整する映像エフェクトプラグイン",
+      "description": "テキストの位置などを文字ごとに調整する映像エフェクト���ラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SimpleKerningEffect",
@@ -1114,7 +1114,7 @@
     {
       "id": "dolphin-kun-textsplitter",
       "name": "TextSplitter",
-      "description": "テキストを文字ごとに別のアイテム���して分割することができるツールプラグインです。",
+      "description": "テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/TextSplitter",
@@ -1645,7 +1645,7 @@
     {
       "id": "benikazura-letterboxshape",
       "name": "LetterBoxShape",
-      "description": "図形オブジェクトにレターボックス���画面上下や左右の黒帯）を追加します。",
+      "description": "図形オブジェクトにレターボックス（画面上下や左右の黒帯）を追加します。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/LetterBoxShape",
@@ -1663,7 +1663,7 @@
     {
       "id": "benikazura-scrolleffect",
       "name": "ScrollEffect",
-      "description": "一定の方向に繰り返しスク���ールを行う映像エフェクトを追加するYMM4用のプラグインです。",
+      "description": "一定の方向に繰り返しスクロールを行う映像エフェクトを追加するYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/ScrollEffect",
@@ -1991,7 +1991,7 @@
     {
       "id": "ikoma-reunion-ymm4-plugin-document",
       "name": "ymm4-plugin-document",
-      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。　v4.42.1.3",
+      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。��v4.42.1.3",
       "author": "ikoma-reunion",
       "authorUrl": "https://github.com/ikoma-reunion",
       "repoUrl": "https://github.com/ikoma-reunion/ymm4-plugin-document",
