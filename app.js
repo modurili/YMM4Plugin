@@ -50,7 +50,6 @@
   const $modalContent = document.getElementById('modal-content');
   const $modalClose = document.getElementById('modal-close');
   const $totalCount = document.getElementById('total-count');
-  const $categoryCount = document.getElementById('category-count');
   const $authorCount = document.getElementById('author-count');
   const $lastUpdated = document.getElementById('last-updated');
 
@@ -87,14 +86,11 @@
   // ===== Stats =====
   function updateStats() {
     $totalCount.textContent = allPlugins.length;
-    const categories = new Set(allPlugins.map(p => p.category));
-    $categoryCount.textContent = categories.size;
     const authors = new Set(allPlugins.map(p => p.author));
     $authorCount.textContent = authors.size;
 
     // Animate numbers
     animateCounter($totalCount, allPlugins.length);
-    animateCounter($categoryCount, categories.size);
     animateCounter($authorCount, authors.size);
   }
 

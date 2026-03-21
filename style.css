@@ -104,6 +104,40 @@ body {
   gap: 24px;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-about-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: var(--bg-glass-strong);
+  border: 1px solid var(--border-glass);
+  border-radius: 100px;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all var(--transition-normal);
+  flex-shrink: 0;
+}
+
+.header-about-btn svg {
+  width: 15px;
+  height: 15px;
+}
+
+.header-about-btn:hover {
+  background: rgba(167, 139, 250, 0.12);
+  border-color: rgba(167, 139, 250, 0.25);
+  color: var(--accent-purple);
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -469,6 +503,9 @@ body {
   opacity: 0;
   transform: translateY(20px);
   animation: cardFadeIn 0.5s ease forwards;
+  /* カードサイズ統一: flexで縦方向に均等配置 */
+  display: flex;
+  flex-direction: column;
 }
 
 .plugin-card::before {
@@ -515,6 +552,13 @@ body {
   color: var(--text-primary);
   line-height: 1.3;
   letter-spacing: -0.01em;
+  /* タイトルが長い場合は2行まで表示して省略 */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: calc(1.05rem * 1.3 * 2); /* 2行分の最小高さを確保 */
 }
 
 .card-category-badge {
@@ -539,8 +583,10 @@ body {
   margin-bottom: 16px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  flex: 1; /* 説明文が可変長でもfooterを下に固定 */
 }
 
 .card-tags {
@@ -566,6 +612,7 @@ body {
   justify-content: space-between;
   padding-top: 14px;
   border-top: 1px solid var(--border-glass);
+  margin-top: auto; /* 常にカード下部に配置 */
 }
 
 .card-author {
@@ -992,6 +1039,16 @@ body {
     align-items: flex-start;
     gap: 12px;
     padding: 14px 16px;
+  }
+
+  .header-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .header-about-btn {
+    font-size: 0.75rem;
+    padding: 7px 12px;
   }
 
   .header-stats {
