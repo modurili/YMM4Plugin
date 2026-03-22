@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-21T15:29:18.559Z",
+  "lastUpdated": "2026-03-22T15:29:49.958Z",
   "plugins": [
+    {
+      "id": "tetra-te-partssplittetra",
+      "name": "PartsSplitTetra",
+      "description": "パーツ分解エフェクト",
+      "author": "tetra-te",
+      "authorUrl": "https://github.com/tetra-te",
+      "repoUrl": "https://github.com/tetra-te/PartsSplitTetra",
+      "downloadUrl": "https://github.com/tetra-te/PartsSplitTetra/releases/tag/v1.0.2",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2026-03-22T00:20:23Z",
+      "lastUpdated": "2026-03-22T14:45:39Z",
+      "latestVersion": "v1.0.2",
+      "license": "MIT"
+    },
     {
       "id": "mochinekoo-ymm4-test-plugin",
       "name": "YMM4_Test_Plugin",
@@ -16,9 +34,27 @@
       ],
       "stars": 0,
       "createdAt": "2026-03-21T11:47:00Z",
-      "lastUpdated": "2026-03-21T13:14:49Z",
+      "lastUpdated": "2026-03-22T10:40:32Z",
       "latestVersion": "",
       "license": ""
+    },
+    {
+      "id": "dolphin-kun-partssplitter",
+      "name": "PartsSplitter",
+      "description": "「パーツ分解」映像エフェクトプラグインです。",
+      "author": "Dolphin-kun",
+      "authorUrl": "https://github.com/Dolphin-kun",
+      "repoUrl": "https://github.com/Dolphin-kun/PartsSplitter",
+      "downloadUrl": "https://github.com/Dolphin-kun/PartsSplitter/releases/tag/v1.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 2,
+      "createdAt": "2025-06-09T03:18:48Z",
+      "lastUpdated": "2026-03-22T03:37:17Z",
+      "latestVersion": "v1.1",
+      "license": "MIT"
     },
     {
       "id": "tanazun-linemarcheffect",
@@ -116,7 +152,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグイ���のサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -284,7 +320,7 @@
     {
       "id": "tetra-te-mosaicoutlineeffect",
       "name": "MosaicOutlineEffect",
-      "description": "モザイク縁取りエフェクト",
+      "description": "モザイク縁取り���フェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/MosaicOutlineEffect",
@@ -519,7 +555,7 @@
     {
       "id": "hashibutogarasu-loopoverlayassist",
       "name": "LoopOverlayAssist",
-      "description": "ループ開��地点を発見しやすくするプラグインです",
+      "description": "ループ開始地点を発見しやすくするプラグインです",
       "author": "Hashibutogarasu",
       "authorUrl": "https://github.com/Hashibutogarasu",
       "repoUrl": "https://github.com/Hashibutogarasu/LoopOverlayAssist",
@@ -1061,7 +1097,7 @@
     {
       "id": "thiramisu-ymm4-plugin-long-text-scroller",
       "name": "ymm4-plugin-long-text-scroller",
-      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイン。",
+      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイ��。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-long-text-scroller",
@@ -1115,7 +1151,7 @@
     {
       "id": "thiramisu-ymm4-plugin-general-in-out",
       "name": "ymm4-plugin-general-in-out",
-      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
+      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェクト・図形���ラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-general-in-out",
@@ -1205,7 +1241,7 @@
     {
       "id": "haisangames813-reverseplaybackaudioeffectplugin",
       "name": "ReversePlaybackAudioEffectPlugin",
-      "description": "逆再生エフェクト(音声)を追加するプラグイン",
+      "description": "逆再生エフェク��(音声)を追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/ReversePlaybackAudioEffectPlugin",
@@ -1259,7 +1295,7 @@
     {
       "id": "tenkonta-checkpatterncollection",
       "name": "CheckPatternCollection",
-      "description": "YMM4にチェック柄の模様5種類を追加するプラグイン",
+      "description": "YMM4にチェック柄の模様5種類を追加するプラ���イン",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/CheckPatternCollection",
@@ -1592,7 +1628,7 @@
     {
       "id": "routersys-ymm4-huecorrection",
       "name": "YMM4-HueCorrection",
-      "description": "YMM4で色相スライダーを使って色相補正をおこないます。",
+      "description": "YMM4で色相スライダーを使って色相��正をおこないます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HueCorrection",
@@ -1790,7 +1826,7 @@
     {
       "id": "benikazura-glitchnoiseeffect",
       "name": "GlitchNoiseEffect",
-      "description": "グリッチノイズの映像エフェクトを追加します。",
+      "description": "グリッチノイズの映像エフェクトを追加しま���。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/GlitchNoiseEffect",
@@ -1826,7 +1862,7 @@
     {
       "id": "routersys-ymm4-qbcode",
       "name": "YMM4-QBCode",
-      "description": "YMM4で図形として、QRコードとバーコードを追加できます。",
+      "description": "YMM4で図形と���て、QRコードとバーコードを追加できます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-QBCode",
@@ -1987,24 +2023,6 @@
       "createdAt": "2025-07-22T16:00:44Z",
       "lastUpdated": "2026-03-15T01:57:59Z",
       "latestVersion": "v1.0.2",
-      "license": "MIT"
-    },
-    {
-      "id": "dolphin-kun-partssplitter",
-      "name": "PartsSplitter",
-      "description": "「パーツ分解」映像エフェクトプラグインです。",
-      "author": "Dolphin-kun",
-      "authorUrl": "https://github.com/Dolphin-kun",
-      "repoUrl": "https://github.com/Dolphin-kun/PartsSplitter",
-      "downloadUrl": "https://github.com/Dolphin-kun/PartsSplitter/releases/tag/v1.1",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 2,
-      "createdAt": "2025-06-09T03:18:48Z",
-      "lastUpdated": "2026-03-15T01:58:59Z",
-      "latestVersion": "v1.1",
       "license": "MIT"
     },
     {
@@ -2411,7 +2429,7 @@
     {
       "id": "ymm4pp-ymm4pps",
       "name": "YMM4PpS",
-      "description": "YMM4用の図形プラグイ��群",
+      "description": "YMM4用の図形プラグイン群",
       "author": "YMM4Pp",
       "authorUrl": "https://github.com/YMM4Pp",
       "repoUrl": "https://github.com/YMM4Pp/YMM4PpS",
