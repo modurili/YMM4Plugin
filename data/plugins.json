@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T04:22:30.883Z",
+  "lastUpdated": "2026-03-23T04:32:06.261Z",
   "plugins": [
     {
       "id": "hazimeyou-ymmresourcepackager",
@@ -190,7 +190,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォル��で組み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -229,7 +229,7 @@
     {
       "id": "haisangames813-rotationpersecondeffect",
       "name": "RotationPerSecondEffect",
-      "description": "指定した秒数で何回回転するかを指定できる映像エフェクト���追加するプラグインです",
+      "description": "指定した秒数��何回回転するかを指定できる映像エフェクトを追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/RotationPerSecondEffect",
@@ -467,7 +467,7 @@
     {
       "id": "benikazura-texttemplate",
       "name": "TextTemplate",
-      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せ���プラグインです。",
+      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せるプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/TextTemplate",
@@ -917,7 +917,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声フ��イルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -1279,7 +1279,7 @@
     {
       "id": "benikazura-animationpitch",
       "name": "AnimationPitch",
-      "description": "アニメーションスライダーに対応した、キーフレームで音程を変更できるYMM4用音声エフェクトプラグインです。",
+      "description": "アニメーションスライダーに対応した、キーフレームで音程を���更できるYMM4用音声エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AnimationPitch",
@@ -1504,7 +1504,7 @@
     {
       "id": "haisangames813-characterinversionandreverseconversionplugin",
       "name": "CharacterInversionAndReverseConversionPlugin",
-      "description": "文字反転・逆再生変換ができるツールウィンドウを追加するプラグイ���",
+      "description": "文字反転・逆再生変換ができるツールウィンドウを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/CharacterInversionAndReverseConversionPlugin",
@@ -1630,7 +1630,7 @@
     {
       "id": "dmmo-com-jp-randomangleplugin",
       "name": "RandomAnglePlugin",
-      "description": "YMM4で映像エフェクト「ランダム角度」を追加するプラグイン。",
+      "description": "YMM4で映像エフェクト「��ンダム角度」を追加するプラグイン。",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/RandomAnglePlugin",
@@ -1684,7 +1684,7 @@
     {
       "id": "dmmo-com-jp-multicoreimgwavexporter",
       "name": "MultiCoreImgWavExporter",
-      "description": "YMM4の映像をマルチタスクで連番画像とWavファイルとして��き出す出力プラグイン",
+      "description": "YMM4の映像をマルチタスクで連番画像とWavファイルとして書き出す出力プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/MultiCoreImgWavExporter",
