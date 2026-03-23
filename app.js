@@ -1,218 +1,456 @@
-<!DOCTYPE html>
-<html lang="ja">
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YMM4 Plugin Catalog | ゆっくりMovieMaker4 プラグイン一覧</title>
-  <meta name="description" content="YMM4（ゆっくりMovieMaker4）のプラグインを一覧で検索・閲覧できるカタログサイト。映像エフェクト、音声合成、テキスト、図形、ユーティリティなど多数のプラグインを掲載。GitHubから自動収集。">
-  <meta name="keywords" content="YMM4, ゆっくりMovieMaker4, プラグイン, エフェクト, 動画編集, ゆっくり實況, ゆっくり茶番, 映像エフェクト, 音声合成">
-  <meta name="robots" content="index, follow">
-  <meta name="author" content="modurili">
-  <meta property="og:title" content="YMM4 Plugin Catalog | ゆっくりMovieMaker4 プラグイン一覧">
-  <meta property="og:description" content="YMM4プラグインを一覧で検索・閲覧できるカタログサイト。映像エフェクト、音声合成、ユーティリティなど多数のプラグインを掲載。">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="ja_JP">
-  <meta property="og:site_name" content="YMM4 Plugin Catalog">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="YMM4 Plugin Catalog">
-  <meta name="twitter:description" content="YMM4プラグインを検索・閲覧できるカタログサイト。GitHubから自動収集。">
-  <link rel="canonical" href="https://modurili.github.io/ymm4-plugins-catalog/">
-  <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="apple-touch-icon" href="favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <meta name="google-site-verification" content="UJ30S6abTE9dyknzBQzSN0gD45bHF-pYRFPIs-YpJ1I" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "YMM4 Plugin Catalog",
-    "description": "ゆっくりMovieMaker4（YMM4）のプラグインを検索・閲覧できるカタログサイト",
-    "url": "https://modurili.github.io/ymm4-plugins-catalog/",
-    "inLanguage": "ja",
-    "author": { "@type": "Person", "name": "modurili" }
+/* ===================================================
+   YMM4 Plugin Catalog - Application Logic
+   =================================================== */
+
+(function () {
+  'use strict';
+
+  // ===== Constants =====
+  const CATEGORY_MAP = {
+    'all': { label: 'すべて', icon: '📦' },
+    'video-effect': { label: '映像エフェクト', icon: '🎬' },
+    'audio-effect': { label: '音声エフェクト', icon: '🔊' },
+    'voice-synthesis': { label: '音声合成', icon: '🗣️' },
+    'shape': { label: '図形', icon: '🔷' },
+    'text': { label: 'テキスト', icon: '✏️' },
+    'video-output': { label: '動画出力', icon: '📹' },
+    'utility': { label: 'ユーティリティ', icon: '🔧' },
+    'other': { label: 'その他', icon: '📁' },
+  };
+
+  const SORT_OPTIONS = [
+    { value: 'updated-desc', label: '更新日（新しい順）', icon: '🕐' },
+    { value: 'updated-asc', label: '更新日（古い順）', icon: '🕐' },
+    { value: 'created-desc', label: '公開日（新しい順）', icon: '📅' },
+    { value: 'created-asc', label: '公開日（古い順）', icon: '📅' },
+    { value: 'stars-desc', label: 'スター数（多い順）', icon: '⭐' },
+    { value: 'name-asc', label: '名前（A→Z）', icon: '🔤' },
+    { value: 'name-desc', label: '名前（Z→A）', icon: '🔤' },
+  ];
+
+  // ===== State =====
+  let allPlugins = [];
+  let filteredPlugins = [];
+  let currentCategory = 'all';
+  let currentSearch = '';
+  let currentSort = 'updated-desc';
+  let sortDropdownOpen = false;
+
+  // ===== DOM Elements =====
+  const $grid = document.getElementById('plugin-grid');
+  const $searchInput = document.getElementById('search-input');
+  const $searchClear = document.getElementById('search-clear');
+  const $categoryFilters = document.getElementById('category-filters');
+  const $sortDropdown = document.getElementById('sort-dropdown');
+  const $resultsCount = document.getElementById('results-count');
+  const $emptyState = document.getElementById('empty-state');
+  const $loadingState = document.getElementById('loading-state');
+  const $btnReset = document.getElementById('btn-reset');
+  const $modalOverlay = document.getElementById('modal-overlay');
+  const $modalContent = document.getElementById('modal-content');
+  const $modalClose = document.getElementById('modal-close');
+  const $totalCount = document.getElementById('total-count');
+  const $authorCount = document.getElementById('author-count');
+  const $lastUpdated = document.getElementById('last-updated');
+
+  // ===== Initialization =====
+  async function init() {
+    try {
+      const response = await fetch('data/plugins.json');
+      if (!response.ok) throw new Error('データの読み込みに失敗しました');
+      const data = await response.json();
+      allPlugins = data.plugins || [];
+
+      // Update last updated
+      if (data.lastUpdated) {
+        const date = new Date(data.lastUpdated);
+        $lastUpdated.textContent = date.toLocaleDateString('ja-JP', {
+          year: 'numeric', month: 'long', day: 'numeric'
+        });
+      }
+
+      updateStats();
+      initSortDropdown();
+      applyFilters();
+      bindEvents();
+      $loadingState.style.display = 'none';
+    } catch (error) {
+      console.error('Error loading plugins:', error);
+      $loadingState.innerHTML = `
+        <p style="color: #f87171;">⚠️ データの読み込みに失敗しました</p>
+        <p style="margin-top:8px; font-size:0.82rem;">${error.message}</p>
+      `;
+    }
   }
-  </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="path/to/font.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
-    <style>
-        @font-face {
-            font-family: 'MyFont';
-            src: url('path/to/font.woff2') format('woff2');
-            font-display: swap;
-        }
-    </style>
-    <title>Improved Performance</title>
-</head>
-<body>
-  <!-- Background effects -->
-  <div class="bg-gradient"></div>
-  <div class="bg-grid"></div>
 
-  <!-- Header -->
-  <header class="header" id="header">
-    <div class="header-inner">
-      <div class="logo">
-        <div class="logo-icon">
-          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="2" y="2" width="36" height="36" rx="8" stroke="url(#logo-grad)" stroke-width="2.5"/>
-            <path d="M12 14L20 10L28 14V22L20 26L12 22V14Z" fill="url(#logo-grad)" opacity="0.3"/>
-            <path d="M12 14L20 10L28 14V22L20 26L12 22V14Z" stroke="url(#logo-grad)" stroke-width="1.5"/>
-            <circle cx="20" cy="18" r="3" fill="url(#logo-grad)"/>
-            <defs>
-              <linearGradient id="logo-grad" x1="0" y1="0" x2="40" y2="40">
-                <stop offset="0%" stop-color="#a78bfa"/>
-                <stop offset="100%" stop-color="#06b6d4"/>
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
-        <div class="logo-text">
-          <h1>YMM4 Plugin Catalog</h1>
-          <span class="logo-subtitle">YMM4のプラグインを一覧で検索・閲覧できるカタログサイト</span>
-        </div>
-      </div>
-      <div class="header-right">
-        <div class="header-stats" id="header-stats">
-          <div class="stat-item">
-            <span class="stat-number" id="total-count">0</span>
-            <span class="stat-label">プラグイン</span>
-          </div>
-          <div class="stat-item">
-            <span class="stat-number" id="author-count">0</span>
-            <span class="stat-label">開発者</span>
-          </div>
-        </div>
-        <a href="about.html" class="header-about-btn" id="header-about-btn">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
-          このサイトについて
-        </a>
-      </div>
-    </div>
-  </header>
+  // ===== Stats =====
+  function updateStats() {
+    $totalCount.textContent = allPlugins.length;
+    const authors = new Set(allPlugins.map(p => p.author));
+    $authorCount.textContent = authors.size;
 
-  <!-- Search & Filters -->
-  <section class="controls" id="controls">
-    <div class="controls-inner">
-      <div class="search-box">
-        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="11" cy="11" r="8"/>
-          <path d="m21 21-4.35-4.35"/>
-        </svg>
-        <input type="text" id="search-input" placeholder="プラグインを検索..." autocomplete="off">
-        <button class="search-clear" id="search-clear" title="クリア" style="display:none;">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M18 6 6 18M6 6l12 12"/>
-          </svg>
-        </button>
-      </div>
+    // Animate numbers
+    animateCounter($totalCount, allPlugins.length);
+    animateCounter($authorCount, authors.size);
+  }
 
-      <div class="filter-row">
-        <div class="category-filters" id="category-filters">
-          <button class="filter-chip active" data-category="all">
-            <span class="chip-icon">📦</span>すべて
-          </button>
-          <button class="filter-chip" data-category="video-effect">
-            <span class="chip-icon">🎬</span>映像エフェクト
-          </button>
-          <button class="filter-chip" data-category="audio-effect">
-            <span class="chip-icon">🔊</span>音声エフェクト
-          </button>
-          <button class="filter-chip" data-category="voice-synthesis">
-            <span class="chip-icon">🗣️</span>音声合成
-          </button>
-          <button class="filter-chip" data-category="shape">
-            <span class="chip-icon">🔷</span>図形
-          </button>
-          <button class="filter-chip" data-category="text">
-            <span class="chip-icon">✏️</span>テキスト
-          </button>
-          <button class="filter-chip" data-category="video-output">
-            <span class="chip-icon">📹</span>動画出力
-          </button>
-          <button class="filter-chip" data-category="utility">
-            <span class="chip-icon">🔧</span>ユーティリティ
-          </button>
-          <button class="filter-chip" data-category="other">
-            <span class="chip-icon">📁</span>その他
-          </button>
-        </div>
+  function animateCounter(el, target) {
+    let current = 0;
+    const step = Math.max(1, Math.floor(target / 20));
+    const interval = setInterval(() => {
+      current += step;
+      if (current >= target) {
+        current = target;
+        clearInterval(interval);
+      }
+      el.textContent = current;
+    }, 30);
+  }
 
-        <div class="sort-controls">
-          <span class="sort-label">並び替え</span>
-          <div class="sort-dropdown" id="sort-dropdown">
-            <!-- Custom dropdown rendered by JavaScript -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Results info -->
-  <section class="results-info" id="results-info">
-    <span id="results-count"></span>
-  </section>
-
-  <!-- Plugin Grid -->
-  <main class="plugin-grid" id="plugin-grid">
-    <!-- Cards are rendered by JavaScript -->
-  </main>
-
-  <!-- Empty state -->
-  <div class="empty-state" id="empty-state" style="display:none;">
-    <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="60" cy="60" r="50" stroke="currentColor" stroke-width="2" opacity="0.2"/>
-      <circle cx="60" cy="52" r="20" stroke="currentColor" stroke-width="2" opacity="0.3"/>
-      <path d="M44 52 L60 72 L76 52" stroke="currentColor" stroke-width="2" opacity="0.3"/>
-      <path d="M38 85 Q60 95 82 85" stroke="currentColor" stroke-width="2" opacity="0.3"/>
-    </svg>
-    <p>条件に一致するプラグインが見つかりませんでした</p>
-    <button class="btn-reset" id="btn-reset">フィルタをリセット</button>
-  </div>
-
-  <!-- Loading state -->
-  <div class="loading-state" id="loading-state">
-    <div class="loading-spinner"></div>
-    <p>プラグインデータを読み込み中...</p>
-  </div>
-
-  <!-- Plugin Detail Modal -->
-  <div class="modal-overlay" id="modal-overlay">
-    <div class="modal" id="modal">
-      <button class="modal-close" id="modal-close" title="閉じる">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M18 6 6 18M6 6l12 12"/>
+  // ===== Custom Sort Dropdown =====
+  function initSortDropdown() {
+    const currentOption = SORT_OPTIONS.find(o => o.value === currentSort) || SORT_OPTIONS[0];
+    $sortDropdown.innerHTML = `
+      <button class="sort-trigger" id="sort-trigger" type="button">
+        <span class="sort-trigger-icon">${currentOption.icon}</span>
+        <span class="sort-trigger-text">${currentOption.label}</span>
+        <svg class="sort-trigger-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="6 9 12 15 18 9"/>
         </svg>
       </button>
-      <div class="modal-content" id="modal-content">
-        <!-- Modal content rendered by JavaScript -->
+      <div class="sort-menu" id="sort-menu">
+        ${SORT_OPTIONS.map(opt => `
+          <button class="sort-option ${opt.value === currentSort ? 'active' : ''}" data-value="${opt.value}" type="button">
+            <span class="sort-option-icon">${opt.icon}</span>
+            <span>${opt.label}</span>
+            ${opt.value === currentSort ? '<svg class="sort-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>' : ''}
+          </button>
+        `).join('')}
       </div>
-    </div>
-  </div>
+    `;
+  }
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-inner">
-      <p>YMM4 Plugin Catalog &mdash; ゆっくりMovieMaker4 プラグインまとめサイト</p>
-      <p class="footer-sub">
-        最終更新: <span id="last-updated">-</span> ・
-        データは <a href="https://github.com/topics/ymm4-plugin" target="_blank" rel="noopener">GitHub</a> から自動収集されます
-      </p>
-      <p class="footer-sub">
-        YMM4本体: <a href="https://manjubox.net/ymm4/" target="_blank" rel="noopener">饅頭遣いのおもちゃ箱</a>
-      </p>
-    </div>
-  </footer>
+  function toggleSortDropdown() {
+    sortDropdownOpen = !sortDropdownOpen;
+    const $menu = document.getElementById('sort-menu');
+    const $trigger = document.getElementById('sort-trigger');
+    if (sortDropdownOpen) {
+      $menu.classList.add('open');
+      $trigger.classList.add('open');
+    } else {
+      $menu.classList.remove('open');
+      $trigger.classList.remove('open');
+    }
+  }
 
-  <script src="app.js"></script>
-    <h1>Hello, World!</h1>
-    <script defer src="script.js"></script>
-</body>
-</html>
+  function closeSortDropdown() {
+    sortDropdownOpen = false;
+    const $menu = document.getElementById('sort-menu');
+    const $trigger = document.getElementById('sort-trigger');
+    if ($menu) $menu.classList.remove('open');
+    if ($trigger) $trigger.classList.remove('open');
+  }
+
+  // ===== Events =====
+  function bindEvents() {
+    // Search
+    $searchInput.addEventListener('input', debounce(function () {
+      currentSearch = this.value.trim().toLowerCase();
+      $searchClear.style.display = currentSearch ? 'flex' : 'none';
+      applyFilters();
+    }, 200));
+
+    $searchClear.addEventListener('click', function () {
+      $searchInput.value = '';
+      currentSearch = '';
+      $searchClear.style.display = 'none';
+      applyFilters();
+    });
+
+    // Category filters
+    $categoryFilters.addEventListener('click', function (e) {
+      const chip = e.target.closest('.filter-chip');
+      if (!chip) return;
+      $categoryFilters.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      currentCategory = chip.dataset.category;
+      applyFilters();
+    });
+
+    // Sort dropdown
+    $sortDropdown.addEventListener('click', function (e) {
+      const trigger = e.target.closest('.sort-trigger');
+      if (trigger) {
+        e.stopPropagation();
+        toggleSortDropdown();
+        return;
+      }
+      const option = e.target.closest('.sort-option');
+      if (option) {
+        currentSort = option.dataset.value;
+        closeSortDropdown();
+        initSortDropdown();
+        applyFilters();
+      }
+    });
+
+    // Close dropdown on outside click
+    document.addEventListener('click', function (e) {
+      if (!$sortDropdown.contains(e.target)) {
+        closeSortDropdown();
+      }
+    });
+
+    // Reset
+    $btnReset.addEventListener('click', function () {
+      $searchInput.value = '';
+      currentSearch = '';
+      $searchClear.style.display = 'none';
+      currentCategory = 'all';
+      $categoryFilters.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+      $categoryFilters.querySelector('[data-category="all"]').classList.add('active');
+      currentSort = 'updated-desc';
+      initSortDropdown();
+      applyFilters();
+    });
+
+    // Modal close
+    $modalClose.addEventListener('click', closeModal);
+    $modalOverlay.addEventListener('click', function (e) {
+      if (e.target === $modalOverlay) closeModal();
+    });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') {
+        closeModal();
+        closeSortDropdown();
+      }
+    });
+  }
+
+  // ===== Filtering & Sorting =====
+  function applyFilters() {
+    filteredPlugins = allPlugins.filter(plugin => {
+      // Category filter
+      if (currentCategory !== 'all' && plugin.category !== currentCategory) return false;
+
+      // Search filter
+      if (currentSearch) {
+        const searchFields = [
+          plugin.name,
+          plugin.description,
+          plugin.author,
+          ...(plugin.tags || []),
+          CATEGORY_MAP[plugin.category]?.label || ''
+        ].join(' ').toLowerCase();
+        return searchFields.includes(currentSearch);
+      }
+      return true;
+    });
+
+    // Sort
+    filteredPlugins.sort((a, b) => {
+      switch (currentSort) {
+        case 'name-asc':
+          return a.name.localeCompare(b.name);
+        case 'name-desc':
+          return b.name.localeCompare(a.name);
+        case 'stars-desc':
+          return (b.stars || 0) - (a.stars || 0);
+        case 'updated-desc':
+          return new Date(b.lastUpdated || 0) - new Date(a.lastUpdated || 0);
+        case 'updated-asc':
+          return new Date(a.lastUpdated || 0) - new Date(b.lastUpdated || 0);
+        case 'created-desc':
+          return new Date(b.createdAt || 0) - new Date(a.createdAt || 0);
+        case 'created-asc':
+          return new Date(a.createdAt || 0) - new Date(b.createdAt || 0);
+        default:
+          return 0;
+      }
+    });
+
+    renderGrid();
+    updateResultsCount();
+  }
+
+  function updateResultsCount() {
+    if (currentSearch || currentCategory !== 'all') {
+      $resultsCount.textContent = `${filteredPlugins.length}件のプラグインが見つかりました`;
+    } else {
+      $resultsCount.textContent = `全${allPlugins.length}件のプラグイン`;
+    }
+  }
+
+  // ===== Rendering =====
+  function renderGrid() {
+    if (filteredPlugins.length === 0) {
+      $grid.style.display = 'none';
+      $emptyState.style.display = 'block';
+      return;
+    }
+
+    $grid.style.display = 'grid';
+    $emptyState.style.display = 'none';
+
+    $grid.innerHTML = filteredPlugins.map((plugin, index) => createCard(plugin, index)).join('');
+
+    // Bind card click events
+    $grid.querySelectorAll('.plugin-card').forEach(card => {
+      card.addEventListener('click', function () {
+        const pluginId = this.dataset.pluginId;
+        const plugin = allPlugins.find(p => p.id === pluginId);
+        if (plugin) openModal(plugin);
+      });
+    });
+  }
+
+  function createCard(plugin, index) {
+    const categoryInfo = CATEGORY_MAP[plugin.category] || CATEGORY_MAP['other'];
+    const badgeClass = `badge-${plugin.category}`;
+    const authorInitial = (plugin.author || '?')[0].toUpperCase();
+    const stars = plugin.stars || 0;
+    const updatedDate = plugin.lastUpdated
+      ? new Date(plugin.lastUpdated).toLocaleDateString('ja-JP', { year: 'numeric', month: 'short', day: 'numeric' })
+      : '-';
+
+    const tagsHtml = (plugin.tags || []).slice(0, 4).map(tag =>
+      `<span class="card-tag">${escapeHtml(tag)}</span>`
+    ).join('');
+
+    return `
+      <article class="plugin-card" data-plugin-id="${escapeHtml(plugin.id)}" style="animation-delay: ${index * 0.05}s">
+        <div class="card-header">
+          <h2 class="card-title">${escapeHtml(plugin.name)}</h2>
+          <span class="card-category-badge ${badgeClass}">
+            ${categoryInfo.icon} ${categoryInfo.label}
+          </span>
+        </div>
+        <p class="card-description">${escapeHtml(plugin.description)}</p>
+        ${tagsHtml ? `<div class="card-tags">${tagsHtml}</div>` : ''}
+        <div class="card-footer">
+          <div class="card-author">
+            <span class="card-author-avatar">${authorInitial}</span>
+            ${escapeHtml(plugin.author)}
+          </div>
+          <div class="card-meta">
+            ${stars > 0 ? `
+              <span class="card-meta-item">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                ${stars}
+              </span>
+            ` : ''}
+            <span class="card-meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              ${updatedDate}
+            </span>
+          </div>
+        </div>
+      </article>
+    `;
+  }
+
+  // ===== Modal =====
+  function openModal(plugin) {
+    const categoryInfo = CATEGORY_MAP[plugin.category] || CATEGORY_MAP['other'];
+    const badgeClass = `badge-${plugin.category}`;
+    const updatedDate = plugin.lastUpdated
+      ? new Date(plugin.lastUpdated).toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' })
+      : '不明';
+    const createdDate = plugin.createdAt
+      ? new Date(plugin.createdAt).toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' })
+      : '不明';
+
+    const tagsHtml = (plugin.tags || []).map(tag =>
+      `<span class="modal-tag">${escapeHtml(tag)}</span>`
+    ).join('');
+
+    $modalContent.innerHTML = `
+      <span class="modal-badge card-category-badge ${badgeClass}">
+        ${categoryInfo.icon} ${categoryInfo.label}
+      </span>
+      <h2 class="modal-title">${escapeHtml(plugin.name)}</h2>
+      <div class="modal-author">
+        <span class="card-author-avatar" style="width:28px;height:28px;font-size:0.75rem;">
+          ${(plugin.author || '?')[0].toUpperCase()}
+        </span>
+        作者:
+        <a href="${escapeHtml(plugin.authorUrl)}" target="_blank" rel="noopener">
+          ${escapeHtml(plugin.author)}
+        </a>
+      </div>
+      <div class="modal-description">
+        ${escapeHtml(plugin.description)}
+      </div>
+      <div class="modal-info-grid">
+        <div class="modal-info-item">
+          <div class="modal-info-label">⭐ スター数</div>
+          <div class="modal-info-value">${plugin.stars || 0}</div>
+        </div>
+        <div class="modal-info-item">
+          <div class="modal-info-label">📅 最終更新</div>
+          <div class="modal-info-value">${updatedDate}</div>
+        </div>
+        <div class="modal-info-item">
+          <div class="modal-info-label">🆕 初回公開日</div>
+          <div class="modal-info-value">${createdDate}</div>
+        </div>
+        <div class="modal-info-item">
+          <div class="modal-info-label">🏷️ バージョン</div>
+          <div class="modal-info-value">${escapeHtml(plugin.latestVersion || '不明')}</div>
+        </div>
+        <div class="modal-info-item">
+          <div class="modal-info-label">📜 ライセンス</div>
+          <div class="modal-info-value">${escapeHtml(plugin.license || '不明')}</div>
+        </div>
+      </div>
+      ${tagsHtml ? `<div class="modal-tags">${tagsHtml}</div>` : ''}
+      <div class="modal-actions">
+        ${plugin.downloadUrl ? `
+          <a href="${escapeHtml(plugin.downloadUrl)}" target="_blank" rel="noopener" class="modal-btn modal-btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            ダウンロード
+          </a>
+        ` : ''}
+        ${plugin.repoUrl ? `
+          <a href="${escapeHtml(plugin.repoUrl)}" target="_blank" rel="noopener" class="modal-btn modal-btn-secondary">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.73.083-.73 1.205.085 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            GitHub
+          </a>
+        ` : ''}
+      </div>
+    `;
+
+    $modalOverlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    $modalOverlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  // ===== Utilities =====
+  function escapeHtml(str) {
+    if (!str) return '';
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  function debounce(fn, delay) {
+    let timer;
+    return function (...args) {
+      clearTimeout(timer);
+      timer = setTimeout(() => fn.apply(this, args), delay);
+    };
+  }
+
+  // ===== Start =====
+  document.addEventListener('DOMContentLoaded', init);
+})();
