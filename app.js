@@ -59,7 +59,20 @@
       const response = await fetch('data/plugins.json');
       if (!response.ok) throw new Error('データの読み込みに失敗しました');
       const data = await response.json();
-      allPlugins = data.plugins || [];
+      allPlugins = (data.plugins || []).map(plugin => ({
+        ...plugin,
+        // Pre-parse dates to timestamps for faster sorting
+        _updatedAt: plugin.lastUpdated ? new Date(plugin.lastUpdated).getTime() : 0,
+        _createdAt: plugin.createdAt ? new Date(plugin.createdAt).getTime() : 0,
+        // Pre-generate search string for faster filtering
+        _searchStr: [
+          plugin.name,
+          plugin.description,
+          plugin.author,
+          ...(plugin.tags || []),
+          CATEGORY_MAP[plugin.category]?.label || ''
+        ].join(' ').toLowerCase()
+      }));
 
       // Update last updated
       if (data.lastUpdated) {
@@ -96,15 +109,26 @@
 
   function animateCounter(el, target) {
     let current = 0;
-    const step = Math.max(1, Math.floor(target / 20));
-    const interval = setInterval(() => {
-      current += step;
-      if (current >= target) {
-        current = target;
-        clearInterval(interval);
-      }
+    const duration = 600; // ms
+    const start = performance.now();
+
+    function update(timestamp) {
+      const elapsed = timestamp - start;
+      const progress = Math.min(elapsed / duration, 1);
+      
+      // Easing function (outQuad)
+      const easeProgress = progress * (2 - progress);
+      current = Math.floor(easeProgress * target);
+      
       el.textContent = current;
-    }, 30);
+
+      if (progress < 1) {
+        requestAnimationFrame(update);
+      } else {
+        el.textContent = target;
+      }
+    }
+    requestAnimationFrame(update);
   }
 
   // ===== Custom Sort Dropdown =====
@@ -235,14 +259,7 @@
 
       // Search filter
       if (currentSearch) {
-        const searchFields = [
-          plugin.name,
-          plugin.description,
-          plugin.author,
-          ...(plugin.tags || []),
-          CATEGORY_MAP[plugin.category]?.label || ''
-        ].join(' ').toLowerCase();
-        return searchFields.includes(currentSearch);
+        return plugin._searchStr.indexOf(currentSearch) !== -1;
       }
       return true;
     });
@@ -257,13 +274,13 @@
         case 'stars-desc':
           return (b.stars || 0) - (a.stars || 0);
         case 'updated-desc':
-          return new Date(b.lastUpdated || 0) - new Date(a.lastUpdated || 0);
+          return b._updatedAt - a._updatedAt;
         case 'updated-asc':
-          return new Date(a.lastUpdated || 0) - new Date(b.lastUpdated || 0);
+          return a._updatedAt - b._updatedAt;
         case 'created-desc':
-          return new Date(b.createdAt || 0) - new Date(a.createdAt || 0);
+          return b._createdAt - a._createdAt;
         case 'created-asc':
-          return new Date(a.createdAt || 0) - new Date(b.createdAt || 0);
+          return a._createdAt - b._createdAt;
         default:
           return 0;
       }
@@ -294,14 +311,15 @@
 
     $grid.innerHTML = filteredPlugins.map((plugin, index) => createCard(plugin, index)).join('');
 
-    // Bind card click events
-    $grid.querySelectorAll('.plugin-card').forEach(card => {
-      card.addEventListener('click', function () {
-        const pluginId = this.dataset.pluginId;
-        const plugin = allPlugins.find(p => p.id === pluginId);
-        if (plugin) openModal(plugin);
-      });
-    });
+    // Use event delegation for card clicks
+    $grid.onclick = function (e) {
+      const card = e.target.closest('.plugin-card');
+      if (!card) return;
+      
+      const pluginId = card.dataset.pluginId;
+      const plugin = allPlugins.find(p => p.id === pluginId);
+      if (plugin) openModal(plugin);
+    };
   }
 
   function createCard(plugin, index) {
@@ -313,12 +331,9 @@
       ? new Date(plugin.lastUpdated).toLocaleDateString('ja-JP', { year: 'numeric', month: 'short', day: 'numeric' })
       : '-';
 
-    const tagsHtml = (plugin.tags || []).slice(0, 4).map(tag =>
-      `<span class="card-tag">${escapeHtml(tag)}</span>`
-    ).join('');
-
+    const animationDelay = Math.min(index * 0.05, 1.2);
     return `
-      <article class="plugin-card" data-plugin-id="${escapeHtml(plugin.id)}" style="animation-delay: ${index * 0.05}s">
+      <article class="plugin-card" data-plugin-id="${escapeHtml(plugin.id)}" style="animation-delay: ${animationDelay}s">
         <div class="card-header">
           <h2 class="card-title">${escapeHtml(plugin.name)}</h2>
           <span class="card-category-badge ${badgeClass}">
@@ -438,9 +453,12 @@
   // ===== Utilities =====
   function escapeHtml(str) {
     if (!str) return '';
-    const div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
+    return str
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
   }
 
   function debounce(fn, delay) {

@@ -238,7 +238,6 @@ body {
   font-size: 0.95rem;
   outline: none;
   transition: all var(--transition-normal);
-  backdrop-filter: blur(10px);
 }
 
 #search-input::placeholder {
@@ -311,7 +310,6 @@ body {
   cursor: pointer;
   transition: all var(--transition-normal);
   white-space: nowrap;
-  backdrop-filter: blur(4px);
 }
 
 .filter-chip .chip-icon {
@@ -366,7 +364,6 @@ body {
   cursor: pointer;
   transition: all var(--transition-normal);
   white-space: nowrap;
-  backdrop-filter: blur(4px);
   outline: none;
 }
 
@@ -499,7 +496,6 @@ body {
   transition: all var(--transition-slow);
   position: relative;
   overflow: hidden;
-  backdrop-filter: blur(10px);
   opacity: 0;
   transform: translateY(20px);
   animation: cardFadeIn 0.5s ease forwards;
