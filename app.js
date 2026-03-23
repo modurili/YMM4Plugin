@@ -330,6 +330,10 @@
     const updatedDate = plugin.lastUpdated
       ? new Date(plugin.lastUpdated).toLocaleDateString('ja-JP', { year: 'numeric', month: 'short', day: 'numeric' })
       : '-';
+    
+    const tagsHtml = (plugin.tags || []).slice(0, 4).map(tag =>
+      `<span class="card-tag">${escapeHtml(tag)}</span>`
+    ).join('');
 
     const animationDelay = Math.min(index * 0.05, 1.2);
     return `
@@ -452,8 +456,8 @@
 
   // ===== Utilities =====
   function escapeHtml(str) {
-    if (!str) return '';
-    return str
+    if (str === null || str === undefined) return '';
+    return String(str)
       .replace(/&/g, '&amp;')
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
