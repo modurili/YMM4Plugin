@@ -1,6 +1,63 @@
 {
-  "lastUpdated": "2026-03-22T15:29:49.958Z",
+  "lastUpdated": "2026-03-23T04:17:08.862Z",
   "plugins": [
+    {
+      "id": "hazimeyou-ymmresourcepackager",
+      "name": "YMMResourcePackager",
+      "description": "素材同梱プラグインおよび展開アプリ",
+      "author": "hazimeyou",
+      "authorUrl": "https://github.com/hazimeyou",
+      "repoUrl": "https://github.com/hazimeyou/YMMResourcePackager",
+      "downloadUrl": "https://github.com/hazimeyou/YMMResourcePackager/releases/tag/v0.1.2",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 3,
+      "createdAt": "2025-10-31T15:23:23Z",
+      "lastUpdated": "2026-03-23T03:35:00Z",
+      "latestVersion": "v0.1.2",
+      "license": "MIT"
+    },
+    {
+      "id": "mochinekoo-ymm4-template-manager",
+      "name": "YMM4_Template_Manager",
+      "description": "YMM4のテンプレート管理プラグイン",
+      "author": "mochinekoo",
+      "authorUrl": "https://github.com/mochinekoo",
+      "repoUrl": "https://github.com/mochinekoo/YMM4_Template_Manager",
+      "downloadUrl": "https://github.com/mochinekoo/YMM4_Template_Manager/releases",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ",
+        "c-sharp",
+        "wpf"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-22T21:58:11Z",
+      "lastUpdated": "2026-03-23T02:21:21Z",
+      "latestVersion": "",
+      "license": ""
+    },
+    {
+      "id": "mochinekoo-ymm4-test-plugin",
+      "name": "YMM4_Test_Plugin",
+      "description": "YMM4の練習用プラグイン",
+      "author": "mochinekoo",
+      "authorUrl": "https://github.com/mochinekoo",
+      "repoUrl": "https://github.com/mochinekoo/YMM4_Test_Plugin",
+      "downloadUrl": "https://github.com/mochinekoo/YMM4_Test_Plugin/releases",
+      "category": "other",
+      "tags": [
+        "その他",
+        "wpf"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-21T11:47:00Z",
+      "lastUpdated": "2026-03-22T20:58:22Z",
+      "latestVersion": "",
+      "license": ""
+    },
     {
       "id": "tetra-te-partssplittetra",
       "name": "PartsSplitTetra",
@@ -18,25 +75,6 @@
       "lastUpdated": "2026-03-22T14:45:39Z",
       "latestVersion": "v1.0.2",
       "license": "MIT"
-    },
-    {
-      "id": "mochinekoo-ymm4-test-plugin",
-      "name": "YMM4_Test_Plugin",
-      "description": "YMM4の練習用プラグイン",
-      "author": "mochinekoo",
-      "authorUrl": "https://github.com/mochinekoo",
-      "repoUrl": "https://github.com/mochinekoo/YMM4_Test_Plugin",
-      "downloadUrl": "https://github.com/mochinekoo/YMM4_Test_Plugin/releases",
-      "category": "other",
-      "tags": [
-        "その他",
-        "wpf"
-      ],
-      "stars": 0,
-      "createdAt": "2026-03-21T11:47:00Z",
-      "lastUpdated": "2026-03-22T10:40:32Z",
-      "latestVersion": "",
-      "license": ""
     },
     {
       "id": "dolphin-kun-partssplitter",
@@ -320,7 +358,7 @@
     {
       "id": "tetra-te-mosaicoutlineeffect",
       "name": "MosaicOutlineEffect",
-      "description": "モザイク縁取り���フェクト",
+      "description": "モザイク縁取りエフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/MosaicOutlineEffect",
@@ -443,24 +481,6 @@
       "lastUpdated": "2026-03-15T01:58:43Z",
       "latestVersion": "ver3.0.2",
       "license": ""
-    },
-    {
-      "id": "hazimeyou-ymmresourcepackager",
-      "name": "YMMResourcePackager",
-      "description": "素材同梱プラグインおよび展開アプリ",
-      "author": "hazimeyou",
-      "authorUrl": "https://github.com/hazimeyou",
-      "repoUrl": "https://github.com/hazimeyou/YMMResourcePackager",
-      "downloadUrl": "https://github.com/hazimeyou/YMMResourcePackager/releases/tag/v0.1.2",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 3,
-      "createdAt": "2025-10-31T15:23:23Z",
-      "lastUpdated": "2026-03-15T01:58:21Z",
-      "latestVersion": "v0.1.2",
-      "license": "MIT"
     },
     {
       "id": "hazimeyou-ymmprojectmanager",
@@ -681,7 +701,7 @@
     {
       "id": "haisangames813-canvasplugin",
       "name": "CanvasPlugin",
-      "description": "ツールウィンドウ「キャンバス」を追加するプラグイン",
+      "description": "ツールウィンドウ「キャンバス」を追���するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/CanvasPlugin",
@@ -861,14 +881,14 @@
     {
       "id": "benikazura-dropframe",
       "name": "DropFrame",
-      "description": "映像のフレームレートをわざと低下させる映像エフェクトプラグインです。",
+      "description": "映像のフレームレートをわざと低下させる映像エフェク��プラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DropFrame",
       "downloadUrl": "https://github.com/benikazura/DropFrame/releases/tag/ver1.0.3",
-      "category": "video-effect",
+      "category": "other",
       "tags": [
-        "映像エフェクト"
+        "その他"
       ],
       "stars": 1,
       "createdAt": "2025-08-23T13:06:29Z",
@@ -897,7 +917,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加���て、MIDI作成・編集に役立つ機能も搭載しています。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -915,7 +935,7 @@
     {
       "id": "dmmo-com-jp-textyurashiplugin",
       "name": "TextYurashiPlugin",
-      "description": "YMM4で映像エフェクト「揺らす」を追加するプラグイン",
+      "description": "YMM4で映像エ���ェクト「揺らす」を追加するプラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/TextYurashiPlugin",
@@ -1097,7 +1117,7 @@
     {
       "id": "thiramisu-ymm4-plugin-long-text-scroller",
       "name": "ymm4-plugin-long-text-scroller",
-      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイ��。",
+      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-long-text-scroller",
@@ -1151,7 +1171,7 @@
     {
       "id": "thiramisu-ymm4-plugin-general-in-out",
       "name": "ymm4-plugin-general-in-out",
-      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェクト・図形���ラグイン。",
+      "description": "汎用的な登場・退場アニメーションを実現するため��、YMM4のエフェクト・図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-general-in-out",
@@ -1241,7 +1261,7 @@
     {
       "id": "haisangames813-reverseplaybackaudioeffectplugin",
       "name": "ReversePlaybackAudioEffectPlugin",
-      "description": "逆再生エフェク��(音声)を追加するプラグイン",
+      "description": "逆再生エフェクト(音声)を追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/ReversePlaybackAudioEffectPlugin",
@@ -1295,7 +1315,7 @@
     {
       "id": "tenkonta-checkpatterncollection",
       "name": "CheckPatternCollection",
-      "description": "YMM4にチェック柄の模様5種類を追加するプラ���イン",
+      "description": "YMM4にチェック柄の模様5種類を追加するプラグイン",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/CheckPatternCollection",
@@ -1628,7 +1648,7 @@
     {
       "id": "routersys-ymm4-huecorrection",
       "name": "YMM4-HueCorrection",
-      "description": "YMM4で色相スライダーを使って色相��正をおこないます。",
+      "description": "YMM4で色��スライダーを使って色相補正をおこないます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HueCorrection",
@@ -1808,7 +1828,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色化画像を重ねながら不透明��を調整できるエフェクトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
@@ -1826,7 +1846,7 @@
     {
       "id": "benikazura-glitchnoiseeffect",
       "name": "GlitchNoiseEffect",
-      "description": "グリッチノイズの映像エフェクトを追加しま���。",
+      "description": "グリッチノイズの映像エフェクトを追加します。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/GlitchNoiseEffect",
@@ -1862,7 +1882,7 @@
     {
       "id": "routersys-ymm4-qbcode",
       "name": "YMM4-QBCode",
-      "description": "YMM4で図形と���て、QRコードとバーコードを追加できます。",
+      "description": "YMM4で図形として、QRコードとバーコードを追加できます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-QBCode",
@@ -1992,7 +2012,7 @@
     {
       "id": "routersys-ymm4-customeasing",
       "name": "YMM4-CustomEasing",
-      "description": "YMM4でイージングのような移動を可能にします。",
+      "description": "YMM4でイージングのような移動を可��にします。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CustomEasing",
