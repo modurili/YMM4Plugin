@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-03-26T16:14:01.906Z",
+  "lastUpdated": "2026-03-27T15:56:11.181Z",
   "plugins": [
+    {
+      "id": "routersys-ymm4-spaceaudio",
+      "name": "YMM4-SpaceAudio",
+      "description": "説明なし",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-SpaceAudio",
+      "downloadUrl": "https://github.com/routersys/YMM4-SpaceAudio/releases",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-27T00:21:55Z",
+      "lastUpdated": "2026-03-27T11:34:41Z",
+      "latestVersion": "",
+      "license": "MIT"
+    },
     {
       "id": "routersys-ymm4-pentool",
       "name": "YMM4-PenTool",
@@ -223,7 +241,7 @@
     {
       "id": "routersys-ymm4-equalizer",
       "name": "YMM4-Equalizer",
-      "description": "YMM4向け高機能パラメトリックイコライザープラグイン。最大32バンド・Biquad/TPT-SVF対応・スペクトラムアナライザー��プリセット管理・アニメーション統合",
+      "description": "YMM4向け高機能パラメトリックイコライザープラグイン。最大32バンド・Biquad/TPT-SVF対応・スペクトラムアナライザー・プリセット管理・アニメーション統合",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Equalizer",
@@ -1096,7 +1114,7 @@
     {
       "id": "tetra-te-videooutputmessage",
       "name": "VideoOutputMessage",
-      "description": "動画出力ウィンドウ��メッセージを表示するYMM4プラグイン",
+      "description": "動画出力ウィンドウにメッセージを表示するYMM4プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/VideoOutputMessage",
@@ -1314,7 +1332,7 @@
     {
       "id": "benikazura-videochecker",
       "name": "VideoChecker",
-      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を��べることができるYMM4用のプラグインです。",
+      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることができるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/VideoChecker",
@@ -1611,7 +1629,7 @@
     {
       "id": "haisangames813-characterinversionandreverseconversionplugin",
       "name": "CharacterInversionAndReverseConversionPlugin",
-      "description": "文字反転・逆再生変換ができるツールウィンドウを追加するプラグイン",
+      "description": "文字反転・逆��生変換ができるツールウィンドウを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/CharacterInversionAndReverseConversionPlugin",
@@ -1647,7 +1665,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位相化��るプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -1773,7 +1791,7 @@
     {
       "id": "dmmo-com-jp-multicoreimgwavexporter",
       "name": "MultiCoreImgWavExporter",
-      "description": "YMM4の映像をマルチタスクで連番画像とWavファイルとして書き出す出力プラグイン",
+      "description": "YMM4の映像をマルチタスクで連番画像とWavファイルとして書き出��出力プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/MultiCoreImgWavExporter",
@@ -1809,7 +1827,7 @@
     {
       "id": "benikazura-letterboxshape",
       "name": "LetterBoxShape",
-      "description": "図形オブジェクトにレターボックス（画面上下や左右の黒帯）を追加します。",
+      "description": "図形オブジェクトにレターボックス（画面上下や左��の黒帯）を追加します。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/LetterBoxShape",
@@ -1827,7 +1845,7 @@
     {
       "id": "benikazura-scrolleffect",
       "name": "ScrollEffect",
-      "description": "一定の方向に繰り返しスクロールを行う映像エフェクト���追加するYMM4用のプラグインです。",
+      "description": "一定の方向に繰り返しスクロールを行う映��エフェクトを追加するYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/ScrollEffect",
@@ -2101,7 +2119,7 @@
     {
       "id": "ikoma-reunion-ymm4-plugin-document",
       "name": "ymm4-plugin-document",
-      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。��v4.42.1.3",
+      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。　v4.42.1.3",
       "author": "ikoma-reunion",
       "authorUrl": "https://github.com/ikoma-reunion",
       "repoUrl": "https://github.com/ikoma-reunion/ymm4-plugin-document",
@@ -2520,7 +2538,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装の��め実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
