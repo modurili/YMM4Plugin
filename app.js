@@ -456,16 +456,17 @@
 
     // スクロールバーが消えることによるガタつき（レイアウトシフト）を防ぐ
     var scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-    if (scrollbarWidth > 0 && document.documentElement.scrollHeight > window.innerHeight) {
+    var needsPadding = scrollbarWidth > 0 && document.documentElement.scrollHeight > window.innerHeight;
+
+    // 非同期で処理すると数フレーム間ガタ落ちするので、同期的にスタイルを適応する
+    if (needsPadding) {
       document.body.style.paddingRight = scrollbarWidth + 'px';
     }
+    document.body.style.overflow = 'hidden';
 
-    // DOMへの挿入完了とスタイル計算を待ってからアニメーションを開始する
+    // コンテンツ描画後のアニメーション開始
     requestAnimationFrame(function() {
-      requestAnimationFrame(function() {
-        $modalOverlay.classList.add('active');
-        document.body.style.overflow = 'hidden';
-      });
+      $modalOverlay.classList.add('active');
     });
   }
 
