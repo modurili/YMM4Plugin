@@ -454,13 +454,30 @@
         ) +
       '</div>';
 
-    $modalOverlay.classList.add('active');
-    document.body.style.overflow = 'hidden';
+    // スクロールバーが消えることによるガタつき（レイアウトシフト）を防ぐ
+    var scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+    if (scrollbarWidth > 0 && document.documentElement.scrollHeight > window.innerHeight) {
+      document.body.style.paddingRight = scrollbarWidth + 'px';
+    }
+
+    // DOMへの挿入完了とスタイル計算を待ってからアニメーションを開始する
+    requestAnimationFrame(function() {
+      requestAnimationFrame(function() {
+        $modalOverlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    });
   }
 
   function closeModal() {
     $modalOverlay.classList.remove('active');
-    document.body.style.overflow = '';
+    // トランジション（0.25s～0.4s）の完了を待ってからスクロールを戻す
+    setTimeout(function() {
+      if (!$modalOverlay.classList.contains('active')) {
+        document.body.style.overflow = '';
+        document.body.style.paddingRight = '';
+      }
+    }, 300);
   }
 
   // ===== Utilities =====
