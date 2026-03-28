@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-28T01:25:40.923Z",
+  "lastUpdated": "2026-03-28T01:51:03.007Z",
   "plugins": [
     {
       "id": "routersys-ymm4-spaceaudio",
       "name": "YMM4-SpaceAudio",
-      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイ��。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完全統合",
+      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイ���。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完全統合",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-SpaceAudio",
@@ -445,7 +445,7 @@
     {
       "id": "haisangames813-weightcontrolplugin",
       "name": "WeightControlPlugin",
-      "description": "AviUtlに���る制御文字を一部利用可能にするプラグインです",
+      "description": "AviUtlにある制御文字を一部利用可能にするプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/WeightControlPlugin",
@@ -463,7 +463,7 @@
     {
       "id": "haisangames813-pluginlistplugin",
       "name": "PluginListPlugin",
-      "description": "導入しているプラグインの管理ができるツールプラグインです",
+      "description": "導入しているプラグインの管理��できるツールプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/PluginListPlugin",
@@ -499,7 +499,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理され���拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -1132,7 +1132,7 @@
     {
       "id": "tetra-te-videooutputmessage",
       "name": "VideoOutputMessage",
-      "description": "動画出力ウィンドウにメッセージを表示するYMM4プラグイン",
+      "description": "動画出力ウィンドウにメッセージを表示するYMM4プラグイ���",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/VideoOutputMessage",
@@ -1476,7 +1476,7 @@
     {
       "id": "megria-scarlet-waveoutput",
       "name": "WaveOutput",
-      "description": "YMM4の動画出力の項目に[WAV 出力]を追��します。",
+      "description": "YMM4の動画出力の項目に[WAV 出力]を追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/WaveOutput",
@@ -1827,7 +1827,7 @@
     {
       "id": "benikazura-letterboxshape",
       "name": "LetterBoxShape",
-      "description": "図形オブジェクトにレターボックス（画面上下や左右の黒帯）を追加します。",
+      "description": "図形オブジェクトにレターボックス（画面上下や��右の黒帯）を追加します。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/LetterBoxShape",
@@ -1845,7 +1845,7 @@
     {
       "id": "benikazura-scrolleffect",
       "name": "ScrollEffect",
-      "description": "一定の方向に繰り返しスクロールを行う映像エフェクトを追加するYMM4用のプラグインです。",
+      "description": "一定の方向に繰り返しスクロールを行う��像エフェクトを追加するYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/ScrollEffect",
@@ -2246,7 +2246,7 @@
     {
       "id": "tetra-te-fitrotateeffect",
       "name": "FitRotateEffect",
-      "description": "画像の回転に合わせて画像を拡大する��像エフェクト",
+      "description": "画像の回転に合わせて画像を拡大する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/FitRotateEffect",
@@ -2318,7 +2318,7 @@
     {
       "id": "tetra-te-specifiedshoweffect",
       "name": "SpecifiedShowEffect",
-      "description": "再生時、一時停止時、出力時の不透明度を指定できる映像エフェクトプラグイン",
+      "description": "再生時、一時停止時、出力時の不透明度を指定できる映��エフェクトプラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SpecifiedShowEffect",
