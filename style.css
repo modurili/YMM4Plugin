@@ -42,6 +42,8 @@ html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* スクロールバーの幅を常に確保し、モーダルによるレイアウトシフト（ガくつき）を根本的になくす */
+  scrollbar-gutter: stable;
 }
 
 body {

@@ -454,29 +454,22 @@
         ) +
       '</div>';
 
-    // スクロールバーが消えることによるガタつき（レイアウトシフト）を防ぐ
-    var scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-    var needsPadding = scrollbarWidth > 0 && document.documentElement.scrollHeight > window.innerHeight;
-
-    // 非同期で処理すると数フレーム間ガタ落ちするので、同期的にスタイルを適応する
-    if (needsPadding) {
-      document.body.style.paddingRight = scrollbarWidth + 'px';
-    }
     document.body.style.overflow = 'hidden';
 
-    // コンテンツ描画後のアニメーション開始
+    // DOMの反映（レイアウト計算・ペイント）が確実に終わってからアニメーションを開始しカクつきを防止
     requestAnimationFrame(function() {
-      $modalOverlay.classList.add('active');
+      requestAnimationFrame(function() {
+        $modalOverlay.classList.add('active');
+      });
     });
   }
 
   function closeModal() {
     $modalOverlay.classList.remove('active');
-    // トランジション（0.25s～0.4s）の完了を待ってからスクロールを戻す
+    // トランジションの完了を待ってからスクロールを再度有効化
     setTimeout(function() {
       if (!$modalOverlay.classList.contains('active')) {
         document.body.style.overflow = '';
-        document.body.style.paddingRight = '';
       }
     }, 300);
   }
