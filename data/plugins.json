@@ -1,23 +1,78 @@
 {
-  "lastUpdated": "2026-03-27T15:56:11.181Z",
+  "lastUpdated": "2026-03-28T01:08:19.601Z",
   "plugins": [
     {
       "id": "routersys-ymm4-spaceaudio",
       "name": "YMM4-SpaceAudio",
-      "description": "説明なし",
+      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完全統合",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-SpaceAudio",
-      "downloadUrl": "https://github.com/routersys/YMM4-SpaceAudio/releases",
+      "downloadUrl": "https://github.com/routersys/YMM4-SpaceAudio/releases/tag/v1.0.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-27T00:21:55Z",
+      "lastUpdated": "2026-03-28T00:33:43Z",
+      "latestVersion": "v1.0.1",
+      "license": "MIT"
+    },
+    {
+      "id": "routersys-ymm4-equalizer",
+      "name": "YMM4-Equalizer",
+      "description": "YMM4向け高機能パラメトリックイコライザープラグイン。最大32バンド・Biquad/TPT-SVF対応・スペクトラムアナライザー・プリセット管理・アニメーション統合",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-Equalizer",
+      "downloadUrl": "https://github.com/routersys/YMM4-Equalizer/releases/tag/v1.1.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト",
+        "equalizer"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-22T09:42:01Z",
+      "lastUpdated": "2026-03-27T23:33:06Z",
+      "latestVersion": "v1.1.1",
+      "license": "MIT"
+    },
+    {
+      "id": "routersys-ymm4-proxyforge",
+      "name": "YMM4-ProxyForge",
+      "description": "YMM4向け動画プロキシ自動生成プラグイン。H.264プロキシ・HWアクセラレーション・永続キャッシュ・エクスポート時自動切替",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-ProxyForge",
+      "downloadUrl": "https://github.com/routersys/YMM4-ProxyForge/releases/tag/v1.0.2",
       "category": "other",
       "tags": [
         "その他"
       ],
-      "stars": 0,
-      "createdAt": "2026-03-27T00:21:55Z",
-      "lastUpdated": "2026-03-27T11:34:41Z",
-      "latestVersion": "",
+      "stars": 1,
+      "createdAt": "2026-03-25T10:28:26Z",
+      "lastUpdated": "2026-03-27T23:12:40Z",
+      "latestVersion": "v1.0.2",
       "license": "MIT"
+    },
+    {
+      "id": "panko200-particles3d",
+      "name": "Particles3D",
+      "description": "説明なし",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Particles3D",
+      "downloadUrl": "https://github.com/panko200/Particles3D/releases/tag/v2.0.0",
+      "category": "video-effect",
+      "tags": [
+        "その他"
+      ],
+      "stars": 7,
+      "createdAt": "2025-11-02T09:10:33Z",
+      "lastUpdated": "2026-03-27T17:19:55Z",
+      "latestVersion": "v2.0.0",
+      "license": "NOASSERTION"
     },
     {
       "id": "routersys-ymm4-pentool",
@@ -107,24 +162,6 @@
       "createdAt": "2026-02-17T04:01:55Z",
       "lastUpdated": "2026-03-26T08:37:46Z",
       "latestVersion": "v1.0.0",
-      "license": "MIT"
-    },
-    {
-      "id": "routersys-ymm4-proxyforge",
-      "name": "YMM4-ProxyForge",
-      "description": "YMM4向け動画プロキシ自動生成プラグイン。H.264プロキシ・HWアクセラレーション・永続キャッシュ・エクスポート時自動切替",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-ProxyForge",
-      "downloadUrl": "https://github.com/routersys/YMM4-ProxyForge/releases/tag/v1.0.1",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 1,
-      "createdAt": "2026-03-25T10:28:26Z",
-      "lastUpdated": "2026-03-26T12:21:36Z",
-      "latestVersion": "v1.0.1",
       "license": "MIT"
     },
     {
@@ -237,25 +274,6 @@
       "lastUpdated": "2026-03-23T08:18:37Z",
       "latestVersion": "v1.0.0",
       "license": ""
-    },
-    {
-      "id": "routersys-ymm4-equalizer",
-      "name": "YMM4-Equalizer",
-      "description": "YMM4向け高機能パラメトリックイコライザープラグイン。最大32バンド・Biquad/TPT-SVF対応・スペクトラムアナライザー・プリセット管理・アニメーション統合",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-Equalizer",
-      "downloadUrl": "https://github.com/routersys/YMM4-Equalizer/releases/tag/v1.1.0",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト",
-        "equalizer"
-      ],
-      "stars": 0,
-      "createdAt": "2026-03-22T09:42:01Z",
-      "lastUpdated": "2026-03-23T05:49:04Z",
-      "latestVersion": "v1.1.0",
-      "license": "MIT"
     },
     {
       "id": "mochinekoo-ymm4-test-plugin",
@@ -988,7 +1006,7 @@
     {
       "id": "haisangames813-drawingsettingseffect",
       "name": "DrawingSettingsEffect",
-      "description": "基本的な描画設定ができる「描画設定」エフェクトを追加するプラグイン",
+      "description": "���本的な描画設定ができる「描画設定」エフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/DrawingSettingsEffect",
@@ -1148,24 +1166,6 @@
       "license": "CC0-1.0"
     },
     {
-      "id": "panko200-particles3d",
-      "name": "Particles3D",
-      "description": "説明なし",
-      "author": "panko200",
-      "authorUrl": "https://github.com/panko200",
-      "repoUrl": "https://github.com/panko200/Particles3D",
-      "downloadUrl": "https://github.com/panko200/Particles3D/releases/tag/v1.1.1",
-      "category": "video-effect",
-      "tags": [
-        "その他"
-      ],
-      "stars": 7,
-      "createdAt": "2025-11-02T09:10:33Z",
-      "lastUpdated": "2026-03-15T01:57:14Z",
-      "latestVersion": "v1.1.1",
-      "license": "NOASSERTION"
-    },
-    {
       "id": "tenkonta-ymm4-custombar",
       "name": "YMM4-CustomBar",
       "description": "説明なし",
@@ -1186,7 +1186,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker4pluginsamples",
       "name": "YukkuriMovieMaker4PluginSamples",
-      "description": "YMM4用プラグインのサンプル集です",
+      "description": "YMM4用プラグイン��サンプル集です",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker4PluginSamples",
@@ -1629,7 +1629,7 @@
     {
       "id": "haisangames813-characterinversionandreverseconversionplugin",
       "name": "CharacterInversionAndReverseConversionPlugin",
-      "description": "文字反転・逆��生変換ができるツールウィンドウを追加するプラグイン",
+      "description": "文字反転・逆再生変換ができるツールウィンドウを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/CharacterInversionAndReverseConversionPlugin",
@@ -1665,7 +1665,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化��るプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -1791,7 +1791,7 @@
     {
       "id": "dmmo-com-jp-multicoreimgwavexporter",
       "name": "MultiCoreImgWavExporter",
-      "description": "YMM4の映像をマルチタスクで連番画像とWavファイルとして書き出��出力プラグイン",
+      "description": "YMM4の映像をマルチタスクで連番画像とWavファイルとして書き出す出力プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/MultiCoreImgWavExporter",
@@ -1827,7 +1827,7 @@
     {
       "id": "benikazura-letterboxshape",
       "name": "LetterBoxShape",
-      "description": "図形オブジェクトにレターボックス（画面上下や左��の黒帯）を追加します。",
+      "description": "図形オブジェクトにレターボックス（画面上下や左���の黒帯）を追加します。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/LetterBoxShape",
@@ -1845,7 +1845,7 @@
     {
       "id": "benikazura-scrolleffect",
       "name": "ScrollEffect",
-      "description": "一定の方向に繰り返しスクロールを行う映��エフェクトを追加するYMM4用のプラグインです。",
+      "description": "一定の方向に繰り返しスクロールを行う映���エフェクトを追加するYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/ScrollEffect",
@@ -2137,7 +2137,7 @@
     {
       "id": "dolphin-kun-motiondetection",
       "name": "MotionDetection",
-      "description": "「動作検知」映像エフェクトプラグインです。",
+      "description": "「��作検知」映像エフェクトプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/MotionDetection",
@@ -2538,7 +2538,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装の��め実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
