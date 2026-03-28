@@ -346,7 +346,7 @@
       return '<span class="card-tag">' + escapeHtml(tag) + '</span>';
     }).join('');
 
-    var animationDelay = Math.min(index * 0.05, 1.2);
+    var animationDelay = index < 20 ? index * 0.04 : 0;
     
     return '<article class="plugin-card" data-plugin-id="' + escapeHtml(plugin.id) + '" style="animation-delay: ' + animationDelay + 's">' +
         '<div class="card-header">' +
