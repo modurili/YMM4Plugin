@@ -1,10 +1,29 @@
 {
-  "lastUpdated": "2026-03-28T01:51:03.007Z",
+  "lastUpdated": "2026-03-28T15:35:05.018Z",
   "plugins": [
+    {
+      "id": "routersys-ymm4-equalizer",
+      "name": "YMM4-Equalizer",
+      "description": "YMM4向け高機能パラメトリックイコライザープラグイン。最大32バンド・Biquad/TPT-SVF対応・スペクトラムアナライザー・プリセット管理・アニメーション統合",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-Equalizer",
+      "downloadUrl": "https://github.com/routersys/YMM4-Equalizer/releases/tag/1.2.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト",
+        "equalizer"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-22T09:42:01Z",
+      "lastUpdated": "2026-03-28T05:43:42Z",
+      "latestVersion": "1.2.0",
+      "license": "MIT"
+    },
     {
       "id": "routersys-ymm4-spaceaudio",
       "name": "YMM4-SpaceAudio",
-      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイ���。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完全統合",
+      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完全統合",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-SpaceAudio",
@@ -17,25 +36,6 @@
       "createdAt": "2026-03-27T00:21:55Z",
       "lastUpdated": "2026-03-28T00:33:43Z",
       "latestVersion": "v1.0.1",
-      "license": "MIT"
-    },
-    {
-      "id": "routersys-ymm4-equalizer",
-      "name": "YMM4-Equalizer",
-      "description": "YMM4向け高機能パラメトリックイコライザープラグイン。最大32バンド・Biquad/TPT-SVF対応・スペクトラムアナライザー・プリセット管理・アニメーション統合",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-Equalizer",
-      "downloadUrl": "https://github.com/routersys/YMM4-Equalizer/releases/tag/v1.1.1",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト",
-        "equalizer"
-      ],
-      "stars": 0,
-      "createdAt": "2026-03-22T09:42:01Z",
-      "lastUpdated": "2026-03-27T23:33:06Z",
-      "latestVersion": "v1.1.1",
       "license": "MIT"
     },
     {
@@ -379,16 +379,16 @@
       "tags": [
         "映像エフェクト"
       ],
-      "stars": 4,
+      "stars": 5,
       "createdAt": "2026-03-17T18:12:51Z",
-      "lastUpdated": "2026-03-19T06:05:57Z",
+      "lastUpdated": "2026-03-28T06:43:20Z",
       "latestVersion": "v1.0",
       "license": "MIT"
     },
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "description": "YMM4コミュニティで開��するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -463,7 +463,7 @@
     {
       "id": "haisangames813-pluginlistplugin",
       "name": "PluginListPlugin",
-      "description": "導入しているプラグインの管理��できるツールプラグインです",
+      "description": "導入しているプラグインの管理ができるツールプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/PluginListPlugin",
@@ -499,7 +499,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理され���拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -790,7 +790,7 @@
     {
       "id": "tenkonta-ymm4-imageoutputeffect",
       "name": "YMM4-ImageOutputEffect",
-      "description": "アイテムを個別で出力できるYMM4映像エフェクトです。",
+      "description": "アイテムを個別で��力できるYMM4映像エフェクトです。",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/YMM4-ImageOutputEffect",
@@ -1078,7 +1078,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編��に役立つ機能も搭載しています。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -1132,7 +1132,7 @@
     {
       "id": "tetra-te-videooutputmessage",
       "name": "VideoOutputMessage",
-      "description": "動画出力ウィンドウにメッセージを表示するYMM4プラグイ���",
+      "description": "動画出力ウィンドウにメッセージを表示するYMM4プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/VideoOutputMessage",
@@ -1647,7 +1647,7 @@
     {
       "id": "routersys-ymm4-pdf",
       "name": "YMM4-PDF",
-      "description": "PDFをYMM4で読み込めるようにします。",
+      "description": "PDFをYMM4で��み込めるようにします。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PDF",
@@ -1665,7 +1665,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延さ���るエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -2191,7 +2191,7 @@
     {
       "id": "dolphin-kun-shuffletext",
       "name": "ShuffleText",
-      "description": "シャッフルテキストプラグイン",
+      "description": "シャッ���ルテキストプラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ShuffleText",
@@ -2318,7 +2318,7 @@
     {
       "id": "tetra-te-specifiedshoweffect",
       "name": "SpecifiedShowEffect",
-      "description": "再生時、一時停止時、出力時の不透明度を指定できる映��エフェクトプラグイン",
+      "description": "再生時、一時停止時、出力時の不透明度を指定できる映像エフェクトプラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SpecifiedShowEffect",
