@@ -1,6 +1,81 @@
 {
-  "lastUpdated": "2026-03-28T15:35:05.018Z",
+  "lastUpdated": "2026-03-29T15:36:00.833Z",
   "plugins": [
+    {
+      "id": "tanazun-linemarcheffect",
+      "name": "LineMarchEffect",
+      "description": "YMM4 ライン行進エフェクトプラグイン",
+      "author": "tanazun",
+      "authorUrl": "https://github.com/tanazun",
+      "repoUrl": "https://github.com/tanazun/LineMarchEffect",
+      "downloadUrl": "https://github.com/tanazun/LineMarchEffect/releases/tag/v1.2.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2026-03-10T13:05:48Z",
+      "lastUpdated": "2026-03-29T08:51:57Z",
+      "latestVersion": "v1.2.0",
+      "license": "MIT"
+    },
+    {
+      "id": "benikazura-bpmsync",
+      "name": "BpmSync",
+      "description": "リズムに合わせてエフェクトを制御する映像エフェクトプラグインです。",
+      "author": "benikazura",
+      "authorUrl": "https://github.com/benikazura",
+      "repoUrl": "https://github.com/benikazura/BpmSync",
+      "downloadUrl": "https://github.com/benikazura/BpmSync/releases/tag/ver1.1.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2025-08-23T13:38:23Z",
+      "lastUpdated": "2026-03-29T06:30:41Z",
+      "latestVersion": "ver1.1.1",
+      "license": ""
+    },
+    {
+      "id": "routersys-ymm4-waveclipping",
+      "name": "YMM4-WaveClipping",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
+      "downloadUrl": "https://github.com/routersys/YMM4-WaveClipping/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-29T05:15:53Z",
+      "lastUpdated": "2026-03-29T06:23:02Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
+      "id": "routersys-ymm4-objloader",
+      "name": "YMM4-ObjLoader",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を���用したYMM4向け高性能3Dモデル表示・操作プラグイン",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
+      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v3.2.2",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ",
+        "directx-11",
+        "directx11",
+        "windows"
+      ],
+      "stars": 5,
+      "createdAt": "2025-12-30T05:32:27Z",
+      "lastUpdated": "2026-03-29T01:08:09Z",
+      "latestVersion": "v3.2.2",
+      "license": "MIT"
+    },
     {
       "id": "routersys-ymm4-equalizer",
       "name": "YMM4-Equalizer",
@@ -68,9 +143,9 @@
       "tags": [
         "その他"
       ],
-      "stars": 7,
+      "stars": 8,
       "createdAt": "2025-11-02T09:10:33Z",
-      "lastUpdated": "2026-03-27T17:19:55Z",
+      "lastUpdated": "2026-03-28T23:06:46Z",
       "latestVersion": "v2.0.0",
       "license": "NOASSERTION"
     },
@@ -251,9 +326,9 @@
       "tags": [
         "テキスト"
       ],
-      "stars": 1,
+      "stars": 2,
       "createdAt": "2026-03-23T14:00:45Z",
-      "lastUpdated": "2026-03-24T14:19:48Z",
+      "lastUpdated": "2026-03-29T04:12:49Z",
       "latestVersion": "v1.0.0",
       "license": ""
     },
@@ -306,9 +381,9 @@
       "tags": [
         "映像エフェクト"
       ],
-      "stars": 1,
+      "stars": 2,
       "createdAt": "2026-03-22T00:20:23Z",
-      "lastUpdated": "2026-03-22T14:45:39Z",
+      "lastUpdated": "2026-03-28T23:03:44Z",
       "latestVersion": "v1.0.2",
       "license": "MIT"
     },
@@ -331,24 +406,6 @@
       "license": "MIT"
     },
     {
-      "id": "tanazun-linemarcheffect",
-      "name": "LineMarchEffect",
-      "description": "YMM4 ライン行進エフェクトプラグイン",
-      "author": "tanazun",
-      "authorUrl": "https://github.com/tanazun",
-      "repoUrl": "https://github.com/tanazun/LineMarchEffect",
-      "downloadUrl": "https://github.com/tanazun/LineMarchEffect/releases/tag/v1.1.0",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 0,
-      "createdAt": "2026-03-10T13:05:48Z",
-      "lastUpdated": "2026-03-21T10:03:16Z",
-      "latestVersion": "v1.1.0",
-      "license": "MIT"
-    },
-    {
       "id": "rindai0123-artifact-ymm4-jetcut-plugin",
       "name": "ymm4-jetcut-plugin",
       "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）プラグイン",
@@ -361,9 +418,9 @@
         "その他",
         "jetcut"
       ],
-      "stars": 2,
+      "stars": 3,
       "createdAt": "2026-02-22T05:08:13Z",
-      "lastUpdated": "2026-03-18T12:22:29Z",
+      "lastUpdated": "2026-03-29T04:18:35Z",
       "latestVersion": "v2.0.0",
       "license": "MIT"
     },
@@ -388,7 +445,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開��するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "description": "YMM4���ミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -402,27 +459,6 @@
       "lastUpdated": "2026-03-18T02:49:59Z",
       "latestVersion": "",
       "license": "LGPL-3.0"
-    },
-    {
-      "id": "routersys-ymm4-objloader",
-      "name": "YMM4-ObjLoader",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
-      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v3.2.2",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ",
-        "directx-11",
-        "directx11",
-        "windows"
-      ],
-      "stars": 5,
-      "createdAt": "2025-12-30T05:32:27Z",
-      "lastUpdated": "2026-03-16T14:39:59Z",
-      "latestVersion": "v3.2.2",
-      "license": "MIT"
     },
     {
       "id": "haisangames813-rotationpersecondeffect",
@@ -479,27 +515,9 @@
       "license": ""
     },
     {
-      "id": "benikazura-bpmsync",
-      "name": "BpmSync",
-      "description": "リズムに合わせてエフェクトを制御する映像エフェクトプラグインです。",
-      "author": "benikazura",
-      "authorUrl": "https://github.com/benikazura",
-      "repoUrl": "https://github.com/benikazura/BpmSync",
-      "downloadUrl": "https://github.com/benikazura/BpmSync/releases/tag/ver1.0.3",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 1,
-      "createdAt": "2025-08-23T13:38:23Z",
-      "lastUpdated": "2026-03-15T01:59:59Z",
-      "latestVersion": "ver1.0.3",
-      "license": ""
-    },
-    {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した���に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -664,7 +682,7 @@
     {
       "id": "tetra-te-indicator",
       "name": "Indicator",
-      "description": "アイテム情報を表示する映像エフェクト",
+      "description": "アイテム情��を表示する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/Indicator",
@@ -700,14 +718,14 @@
     {
       "id": "tanazun-ejecteffectplugin",
       "name": "EjectEffectPlugin",
-      "description": "YMM4射出エフェクトプラグイン",
+      "description": "YMM4射出���フェクトプラグイン",
       "author": "tanazun",
       "authorUrl": "https://github.com/tanazun",
       "repoUrl": "https://github.com/tanazun/EjectEffectPlugin",
       "downloadUrl": "https://github.com/tanazun/EjectEffectPlugin/releases/tag/v2.1.1",
-      "category": "video-effect",
+      "category": "other",
       "tags": [
-        "映像エフェクト"
+        "その他"
       ],
       "stars": 3,
       "createdAt": "2025-06-12T11:59:37Z",
@@ -790,7 +808,7 @@
     {
       "id": "tenkonta-ymm4-imageoutputeffect",
       "name": "YMM4-ImageOutputEffect",
-      "description": "アイテムを個別で��力できるYMM4映像エフェクトです。",
+      "description": "アイテムを個別で出力できるYMM4映像エフェクトです。",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/YMM4-ImageOutputEffect",
@@ -1078,7 +1096,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編��に役立つ機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -1404,7 +1422,7 @@
     {
       "id": "benikazura-animationpitch",
       "name": "AnimationPitch",
-      "description": "アニメーションスライダーに対応した、キーフレームで音程を変更できるYMM4用音声エフェクトプラグインです。",
+      "description": "アニメーションスライダーに対応した、キー��レームで音程を変更できるYMM4用音声エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AnimationPitch",
@@ -1647,7 +1665,7 @@
     {
       "id": "routersys-ymm4-pdf",
       "name": "YMM4-PDF",
-      "description": "PDFをYMM4で��み込めるようにします。",
+      "description": "PDFをYMM4で読み込めるようにします。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PDF",
@@ -1665,7 +1683,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延さ���るエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -1827,7 +1845,7 @@
     {
       "id": "benikazura-letterboxshape",
       "name": "LetterBoxShape",
-      "description": "図形オブジェクトにレターボックス（画面上下や��右の黒帯）を追加します。",
+      "description": "図形オブジェクトにレターボックス（画面上下や左右の黒帯）を追加します。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/LetterBoxShape",
@@ -1845,7 +1863,7 @@
     {
       "id": "benikazura-scrolleffect",
       "name": "ScrollEffect",
-      "description": "一定の方向に繰り返しスクロールを行う��像エフェクトを追加するYMM4用のプラグインです。",
+      "description": "一定の方向に繰り返しスクロールを行う映像エフェクトを追加するYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/ScrollEffect",
@@ -2191,7 +2209,7 @@
     {
       "id": "dolphin-kun-shuffletext",
       "name": "ShuffleText",
-      "description": "シャッ���ルテキストプラグイン",
+      "description": "シャッフルテキストプラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ShuffleText",
