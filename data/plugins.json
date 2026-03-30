@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T15:36:00.833Z",
+  "lastUpdated": "2026-03-30T16:08:53.567Z",
   "plugins": [
     {
       "id": "tanazun-linemarcheffect",
@@ -58,7 +58,7 @@
     {
       "id": "routersys-ymm4-objloader",
       "name": "YMM4-ObjLoader",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を���用したYMM4向け高性能3Dモデル表示・操作プラグイン",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
@@ -152,7 +152,7 @@
     {
       "id": "routersys-ymm4-pentool",
       "name": "YMM4-PenTool",
-      "description": "YMM4向け高機能ペン描画プラグイン。ペン・マーカー・鉛筆・消しゴムの4種ブラシ・レイヤー管理・アンドゥ/リドゥ・Direct2Dレンダリング・アニメーション統合・フローティングUIレイアウト対応",
+      "description": "YMM4向け高機能ペン描画プラグイン。ペン・マーカー・鉛筆・消���ゴムの4種ブラシ・レイヤー管理・アンドゥ/リドゥ・Direct2Dレンダリング・アニメーション統合・フローティングUIレイアウト対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PenTool",
@@ -445,7 +445,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4���ミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -517,7 +517,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した���に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -682,7 +682,7 @@
     {
       "id": "tetra-te-indicator",
       "name": "Indicator",
-      "description": "アイテム情��を表示する映像エフェクト",
+      "description": "アイテム情報を表示する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/Indicator",
@@ -718,14 +718,14 @@
     {
       "id": "tanazun-ejecteffectplugin",
       "name": "EjectEffectPlugin",
-      "description": "YMM4射出���フェクトプラグイン",
+      "description": "YMM4射出エフェクトプラグイン",
       "author": "tanazun",
       "authorUrl": "https://github.com/tanazun",
       "repoUrl": "https://github.com/tanazun/EjectEffectPlugin",
       "downloadUrl": "https://github.com/tanazun/EjectEffectPlugin/releases/tag/v2.1.1",
-      "category": "other",
+      "category": "video-effect",
       "tags": [
-        "その他"
+        "映像エフェクト"
       ],
       "stars": 3,
       "createdAt": "2025-06-12T11:59:37Z",
@@ -1024,7 +1024,7 @@
     {
       "id": "haisangames813-drawingsettingseffect",
       "name": "DrawingSettingsEffect",
-      "description": "基本的な描画設定ができる「描画設定」エフェクトを追加するプラグイン",
+      "description": "基本的な描画設定��できる「描画設定」エフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/DrawingSettingsEffect",
@@ -1422,7 +1422,7 @@
     {
       "id": "benikazura-animationpitch",
       "name": "AnimationPitch",
-      "description": "アニメーションスライダーに対応した、キー��レームで音程を変更できるYMM4用音声エフェクトプラグインです。",
+      "description": "アニメーションスライダーに対応した、キーフレームで音程を変更できるYMM4用音声エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AnimationPitch",
@@ -2173,7 +2173,7 @@
     {
       "id": "dolphin-kun-lyricmotion",
       "name": "LyricMotion",
-      "description": "YMM4のリリックモーションしながら登場退場プラグインです。",
+      "description": "YMM4のリリックモーションしながら登場退場プラグイ���です。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/LyricMotion",
@@ -2191,14 +2191,14 @@
     {
       "id": "tetra-te-alphafilleffect",
       "name": "AlphaFillEffect",
-      "description": "画像の薄い部分を塗りつぶす映像エフェクト",
+      "description": "画像の薄い部分を塗りつぶす映像エフェク���",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/AlphaFillEffect",
       "downloadUrl": "https://github.com/tetra-te/AlphaFillEffect/releases/tag/v1.1.0",
-      "category": "video-effect",
+      "category": "other",
       "tags": [
-        "映像エフェクト"
+        "その他"
       ],
       "stars": 3,
       "createdAt": "2025-06-10T13:16:11Z",
