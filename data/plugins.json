@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2026-03-31T16:08:02.615Z",
+  "lastUpdated": "2026-04-01T16:08:35.017Z",
   "plugins": [
+    {
+      "id": "mochinekoo-ymm4-earthquake-plugin",
+      "name": "YMM4_Earthquake_Plugin",
+      "description": "YMM4の地震情報プラグイン",
+      "author": "mochinekoo",
+      "authorUrl": "https://github.com/mochinekoo",
+      "repoUrl": "https://github.com/mochinekoo/YMM4_Earthquake_Plugin",
+      "downloadUrl": "https://github.com/mochinekoo/YMM4_Earthquake_Plugin/releases",
+      "category": "other",
+      "tags": [
+        "その他",
+        "wpf"
+      ],
+      "stars": 0,
+      "createdAt": "2026-04-01T10:09:21Z",
+      "lastUpdated": "2026-04-01T12:36:55Z",
+      "latestVersion": "",
+      "license": ""
+    },
+    {
+      "id": "haisangames813-weightcontrolplugin",
+      "name": "WeightControlPlugin",
+      "description": "AviUtlにある制御文字を一部利用可能にするプラグインです",
+      "author": "HAIsanGames813",
+      "authorUrl": "https://github.com/HAIsanGames813",
+      "repoUrl": "https://github.com/HAIsanGames813/WeightControlPlugin",
+      "downloadUrl": "https://github.com/HAIsanGames813/WeightControlPlugin/releases/tag/v1.1.0",
+      "category": "text",
+      "tags": [
+        "テキスト"
+      ],
+      "stars": 1,
+      "createdAt": "2026-02-23T11:20:51Z",
+      "lastUpdated": "2026-04-01T11:18:56Z",
+      "latestVersion": "v1.1.0",
+      "license": ""
+    },
+    {
+      "id": "routersys-ymm4-spaceaudio",
+      "name": "YMM4-SpaceAudio",
+      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完全統合",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-SpaceAudio",
+      "downloadUrl": "https://github.com/routersys/YMM4-SpaceAudio/releases/tag/v1.0.2",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-27T00:21:55Z",
+      "lastUpdated": "2026-04-01T06:14:15Z",
+      "latestVersion": "v1.0.2",
+      "license": "MIT"
+    },
     {
       "id": "tetra-te-partssplittetra",
       "name": "PartsSplitTetra",
@@ -22,7 +77,7 @@
     {
       "id": "routersys-ymm4-equalizer",
       "name": "YMM4-Equalizer",
-      "description": "YMM4向け高機能パラメトリックイコライザープラグイン。最���32バンド・Biquad/TPT-SVF対応・スペクトラムアナライザー・プリセット管理・アニメーション統合",
+      "description": "YMM4向け高機能パラメトリックイコライザープラグイン。最大32バンド・Biquad/TPT-SVF対応・スペクトラムアナライザー・プリセット管理・アニメーション統合",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Equalizer",
@@ -36,24 +91,6 @@
       "createdAt": "2026-03-22T09:42:01Z",
       "lastUpdated": "2026-03-31T10:52:52Z",
       "latestVersion": "v1.2.2",
-      "license": "MIT"
-    },
-    {
-      "id": "routersys-ymm4-spaceaudio",
-      "name": "YMM4-SpaceAudio",
-      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完全統合",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-SpaceAudio",
-      "downloadUrl": "https://github.com/routersys/YMM4-SpaceAudio/releases/tag/v1.0.2",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 0,
-      "createdAt": "2026-03-27T00:21:55Z",
-      "lastUpdated": "2026-03-31T10:37:28Z",
-      "latestVersion": "v1.0.2",
       "license": "MIT"
     },
     {
@@ -87,9 +124,9 @@
         "ユーティリティ",
         "minecraft"
       ],
-      "stars": 0,
+      "stars": 9,
       "createdAt": "2026-03-17T01:29:50Z",
-      "lastUpdated": "2026-03-31T06:39:07Z",
+      "lastUpdated": "2026-04-01T12:14:39Z",
       "latestVersion": "v1.0.2",
       "license": "MIT"
     },
@@ -464,7 +501,7 @@
     {
       "id": "modurili-imageoverlay",
       "name": "ImageOverlay",
-      "description": "映像エフェクトで画像・動画を挿入することができるYMM4プラグイン",
+      "description": "映像エフェクトで画像・動画を挿入することができるYMM4プラグイ���",
       "author": "modurili",
       "authorUrl": "https://github.com/modurili",
       "repoUrl": "https://github.com/modurili/ImageOverlay",
@@ -513,24 +550,6 @@
       "createdAt": "2026-03-12T07:02:45Z",
       "lastUpdated": "2026-03-15T01:59:40Z",
       "latestVersion": "v1.0.1",
-      "license": ""
-    },
-    {
-      "id": "haisangames813-weightcontrolplugin",
-      "name": "WeightControlPlugin",
-      "description": "AviUtlにある制御文字を一部利用可能にするプラグインです",
-      "author": "HAIsanGames813",
-      "authorUrl": "https://github.com/HAIsanGames813",
-      "repoUrl": "https://github.com/HAIsanGames813/WeightControlPlugin",
-      "downloadUrl": "https://github.com/HAIsanGames813/WeightControlPlugin/releases/tag/v1.1.0",
-      "category": "text",
-      "tags": [
-        "テキスト"
-      ],
-      "stars": 1,
-      "createdAt": "2026-02-23T11:20:51Z",
-      "lastUpdated": "2026-03-15T02:00:07Z",
-      "latestVersion": "v1.1.0",
       "license": ""
     },
     {
@@ -701,7 +720,7 @@
     {
       "id": "benikazura-texttemplate",
       "name": "TextTemplate",
-      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せるプラグインです。",
+      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで��び出せるプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/TextTemplate",
@@ -845,7 +864,7 @@
     {
       "id": "tenkonta-ymm4-imageoutputeffect",
       "name": "YMM4-ImageOutputEffect",
-      "description": "アイテムを個別で出���できるYMM4映像エフェクトです。",
+      "description": "アイテムを個別で出力できるYMM4映像エフェクトです。",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/YMM4-ImageOutputEffect",
@@ -953,7 +972,7 @@
     {
       "id": "benikazura-crossingscreen",
       "name": "CrossingScreen",
-      "description": "画面の端から端に移動させるYMM4用映像エフェクトプラグインです。",
+      "description": "画面の端から端に移動させるYMM4用映像エフェクトプラグインで���。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CrossingScreen",
@@ -1810,7 +1829,7 @@
     {
       "id": "routersys-ymm4-huecorrection",
       "name": "YMM4-HueCorrection",
-      "description": "YMM4で色相スライダーを使って色相補正をおこないます。",
+      "description": "YMM4で色相スライダーを使って色相補正をおこないま���。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HueCorrection",
@@ -2593,7 +2612,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能���提供します。ただし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
