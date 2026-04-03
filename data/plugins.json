@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-04-02T16:03:10.650Z",
+  "lastUpdated": "2026-04-03T15:41:51.131Z",
   "plugins": [
+    {
+      "id": "routersys-ymm4-spaceaudio",
+      "name": "YMM4-SpaceAudio",
+      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完全統合",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-SpaceAudio",
+      "downloadUrl": "https://github.com/routersys/YMM4-SpaceAudio/releases/tag/v1.0.2",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-27T00:21:55Z",
+      "lastUpdated": "2026-04-03T11:18:38Z",
+      "latestVersion": "v1.0.2",
+      "license": "MIT"
+    },
+    {
+      "id": "tenkonta-itemparametertextshape",
+      "name": "ItemParameterTextShape",
+      "description": "アイテムのパラメーターを取得しテキストとして表示できる図形アイテム。",
+      "author": "tenkonta",
+      "authorUrl": "https://github.com/tenkonta",
+      "repoUrl": "https://github.com/tenkonta/ItemParameterTextShape",
+      "downloadUrl": "https://github.com/tenkonta/ItemParameterTextShape/releases/tag/0.1.0",
+      "category": "shape",
+      "tags": [
+        "図形"
+      ],
+      "stars": 0,
+      "createdAt": "2026-04-03T09:39:48Z",
+      "lastUpdated": "2026-04-03T09:44:42Z",
+      "latestVersion": "0.1.0",
+      "license": ""
+    },
     {
       "id": "mochinekoo-ymm4-earthquake-plugin",
       "name": "YMM4_Earthquake_Plugin",
@@ -16,27 +52,9 @@
       ],
       "stars": 0,
       "createdAt": "2026-04-01T10:09:21Z",
-      "lastUpdated": "2026-04-02T13:02:09Z",
+      "lastUpdated": "2026-04-03T07:51:46Z",
       "latestVersion": "v0.0.2",
       "license": ""
-    },
-    {
-      "id": "routersys-ymm4-spaceaudio",
-      "name": "YMM4-SpaceAudio",
-      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完全統合",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-SpaceAudio",
-      "downloadUrl": "https://github.com/routersys/YMM4-SpaceAudio/releases/tag/v1.0.2",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 0,
-      "createdAt": "2026-03-27T00:21:55Z",
-      "lastUpdated": "2026-04-02T00:10:49Z",
-      "latestVersion": "v1.0.2",
-      "license": "MIT"
     },
     {
       "id": "haisangames813-weightcontrolplugin",
@@ -518,7 +536,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "description": "YMM4コミュ���ティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -791,7 +809,7 @@
     {
       "id": "tetra-te-randomimagesource",
       "name": "RandomImageSource",
-      "description": "���定フォルダ内の画像をランダムに選んで表示する図形プラグイン",
+      "description": "指定フォルダ内の画像をランダムに選んで表示する図形プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomImageSource",
@@ -971,14 +989,14 @@
     {
       "id": "benikazura-crossingscreen",
       "name": "CrossingScreen",
-      "description": "画面の端から端に移動させるYMM4用映像エフェクトプラグインです。",
+      "description": "画面の端から端に移動させるYMM4用映像エフ��クトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CrossingScreen",
       "downloadUrl": "https://github.com/benikazura/CrossingScreen/releases/tag/ver1.1.0",
-      "category": "video-effect",
+      "category": "other",
       "tags": [
-        "映像エフェクト"
+        "その他"
       ],
       "stars": 1,
       "createdAt": "2025-08-23T13:50:43Z",
@@ -989,7 +1007,7 @@
     {
       "id": "tetra-te-effectcategorycustomizer",
       "name": "EffectCategoryCustomizer",
-      "description": "エフェクトのカテゴリを自由に設定できるYMM4プラグイン",
+      "description": "エフェクトのカテゴリを自由に設��できるYMM4プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/EffectCategoryCustomizer",
@@ -1115,7 +1133,7 @@
     {
       "id": "benikazura-dropframe",
       "name": "DropFrame",
-      "description": "映像のフレームレートをわざと低下させ���映像エフェクトプラグインです。",
+      "description": "映像のフレームレートをわざと低下させる映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DropFrame",
@@ -1810,7 +1828,7 @@
     {
       "id": "dmmo-com-jp-randomangleplugin",
       "name": "RandomAnglePlugin",
-      "description": "YMM4で映像エフェクト「ランダム角度」を追加するプラグイン。",
+      "description": "YMM4で映像エフェクト「ランダム角��」を追加するプラグイン。",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/RandomAnglePlugin",
@@ -1936,7 +1954,7 @@
     {
       "id": "benikazura-wavetext",
       "name": "WaveText",
-      "description": "テキストアイテム���波状に配置できるYMM4用のプラグインです。",
+      "description": "テキストアイテムを波状に配置できるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/WaveText",
@@ -1972,7 +1990,7 @@
     {
       "id": "benikazura-fanclipping",
       "name": "FanClipping",
-      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力する��ともできます。",
+      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力することもできます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/FanClipping",
@@ -2593,7 +2611,7 @@
     {
       "id": "ymm4pp-ymm4pps",
       "name": "YMM4PpS",
-      "description": "YMM4用の図形プラグイ���群",
+      "description": "YMM4用の図形プラグイン群",
       "author": "YMM4Pp",
       "authorUrl": "https://github.com/YMM4Pp",
       "repoUrl": "https://github.com/YMM4Pp/YMM4PpS",
@@ -2629,14 +2647,14 @@
     {
       "id": "34j-yukkurimoviemaker4sovitssvcfork",
       "name": "YukkuriMovieMaker4SoVitsSvcFork",
-      "description": "YMM4用`so-vits-svc-fork`音声エフェクト",
+      "description": "YMM4用`so-vits-svc-fork`��声エフェクト",
       "author": "34j",
       "authorUrl": "https://github.com/34j",
       "repoUrl": "https://github.com/34j/YukkuriMovieMaker4SoVitsSvcFork",
       "downloadUrl": "https://github.com/34j/YukkuriMovieMaker4SoVitsSvcFork/releases",
-      "category": "audio-effect",
+      "category": "video-effect",
       "tags": [
-        "音声エフェクト"
+        "映像エフェクト"
       ],
       "stars": 4,
       "createdAt": "2023-11-24T05:45:31Z",
