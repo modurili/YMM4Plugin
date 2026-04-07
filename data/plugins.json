@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T15:52:06.294Z",
+  "lastUpdated": "2026-04-07T16:12:49.762Z",
   "plugins": [
     {
       "id": "hazimeyou-ymmresourcepackager",
@@ -8,15 +8,15 @@
       "author": "hazimeyou",
       "authorUrl": "https://github.com/hazimeyou",
       "repoUrl": "https://github.com/hazimeyou/YMMResourcePackager",
-      "downloadUrl": "https://github.com/hazimeyou/YMMResourcePackager/releases/tag/v0.1.3",
+      "downloadUrl": "https://github.com/hazimeyou/YMMResourcePackager/releases/tag/v0.2.0",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 3,
       "createdAt": "2025-10-31T15:23:23Z",
-      "lastUpdated": "2026-04-06T15:12:59Z",
-      "latestVersion": "v0.1.3",
+      "lastUpdated": "2026-04-06T16:20:27Z",
+      "latestVersion": "v0.2.0",
       "license": "MIT"
     },
     {
@@ -196,9 +196,9 @@
         "ユーティリティ",
         "minecraft"
       ],
-      "stars": 12,
+      "stars": 11,
       "createdAt": "2026-03-17T01:29:50Z",
-      "lastUpdated": "2026-04-05T13:12:18Z",
+      "lastUpdated": "2026-04-07T06:52:10Z",
       "latestVersion": "v1.0.2",
       "license": "MIT"
     },
@@ -826,7 +826,7 @@
     {
       "id": "tetra-te-randomimagesource",
       "name": "RandomImageSource",
-      "description": "指定フォルダ内の画像をランダムに選んで表示する図形プラグイン",
+      "description": "指��フォルダ内の画像をランダムに選んで表示する図形プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomImageSource",
@@ -1368,14 +1368,14 @@
     {
       "id": "haisangames813-fillerclippingplugin",
       "name": "FillerClippingPlugin",
-      "description": "分断と間詰め、分断後の移動ができるエフェクトを追加するプラグイン",
+      "description": "分断と間詰め、分断後の移動ができるエ��ェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/FillerClippingPlugin",
       "downloadUrl": "https://github.com/HAIsanGames813/FillerClippingPlugin/releases/tag/1.0.0",
-      "category": "video-effect",
+      "category": "other",
       "tags": [
-        "映像エフェクト"
+        "その他"
       ],
       "stars": 1,
       "createdAt": "2025-11-07T10:33:19Z",
@@ -1476,7 +1476,7 @@
     {
       "id": "dolphin-kun-ymm4clipboard",
       "name": "YMM4Clipboard",
-      "description": "YMM4内���クリップボードツールを表示するプラグインです。",
+      "description": "YMM4内でクリップボードツールを表示するプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/YMM4Clipboard",
@@ -1512,7 +1512,7 @@
     {
       "id": "benikazura-animationpitch",
       "name": "AnimationPitch",
-      "description": "アニメーションスライダーに対応した、キーフレームで音程を変更できるYMM4用音声エフェクトプラグインです��",
+      "description": "アニメーションスライダーに対応した、キーフレームで音程を変更できるYMM4用音声エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AnimationPitch",
@@ -1530,7 +1530,7 @@
     {
       "id": "benikazura-automaticaspectratio",
       "name": "AutomaticAspectRatio",
-      "description": "画面に収めるように拡大縮小を片方向に限定���たYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことができます。",
+      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことができます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AutomaticAspectRatio",
@@ -1827,7 +1827,7 @@
     {
       "id": "dmmo-com-jp-randomangleplugin",
       "name": "RandomAnglePlugin",
-      "description": "YMM4で映像エフェクト「ランダム��度」を追加するプラグイン。",
+      "description": "YMM4で映像エフェクト「ランダム角���」を追加するプラグイン。",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/RandomAnglePlugin",
@@ -2025,7 +2025,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグ���ンです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
