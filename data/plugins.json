@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T16:12:49.762Z",
+  "lastUpdated": "2026-04-08T16:17:09.531Z",
   "plugins": [
     {
       "id": "hazimeyou-ymmresourcepackager",
@@ -168,7 +168,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメー��ョン対応・HLSLカスタムシェーダーによるGPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -826,7 +826,7 @@
     {
       "id": "tetra-te-randomimagesource",
       "name": "RandomImageSource",
-      "description": "指��フォルダ内の画像をランダムに選んで表示する図形プラグイン",
+      "description": "指定フォルダ内の画像をランダムに選んで表示する図形プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomImageSource",
@@ -952,7 +952,7 @@
     {
       "id": "haisangames813-addshapeeffect",
       "name": "AddShapeEffect",
-      "description": "図形アイテムをエフェクトとして追加するプラグイン",
+      "description": "図形アイテムをエフェクトとして追加するプラ��イン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/AddShapeEffect",
@@ -1350,7 +1350,7 @@
     {
       "id": "thiramisu-ymm4-plugin-long-text-scroller",
       "name": "ymm4-plugin-long-text-scroller",
-      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイン。",
+      "description": "長文テキストを軽量にスク���ールするための、YMM4の図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-long-text-scroller",
@@ -1368,14 +1368,14 @@
     {
       "id": "haisangames813-fillerclippingplugin",
       "name": "FillerClippingPlugin",
-      "description": "分断と間詰め、分断後の移動ができるエ��ェクトを追加するプラグイン",
+      "description": "分断と間詰め、分断後の移動ができるエフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/FillerClippingPlugin",
       "downloadUrl": "https://github.com/HAIsanGames813/FillerClippingPlugin/releases/tag/1.0.0",
-      "category": "other",
+      "category": "video-effect",
       "tags": [
-        "その他"
+        "映像エフェクト"
       ],
       "stars": 1,
       "createdAt": "2025-11-07T10:33:19Z",
@@ -1386,7 +1386,7 @@
     {
       "id": "routersys-ymm4-browser",
       "name": "YMM4-Browser",
-      "description": "YMM4で簡易的なウェブブラウジングが可能になります。",
+      "description": "YMM4で簡易的なウェブブラウジングが可能にな���ます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Browser",
@@ -2025,7 +2025,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグ���ンです。",
+      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
