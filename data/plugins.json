@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-04-08T16:17:09.531Z",
+  "lastUpdated": "2026-04-09T16:21:05.599Z",
   "plugins": [
+    {
+      "id": "hazimeyou-ymm-rec-plugin",
+      "name": "YMM-REC-Plugin",
+      "description": "説明なし",
+      "author": "hazimeyou",
+      "authorUrl": "https://github.com/hazimeyou",
+      "repoUrl": "https://github.com/hazimeyou/YMM-REC-Plugin",
+      "downloadUrl": "https://github.com/hazimeyou/YMM-REC-Plugin/releases/tag/v0.3.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "createdAt": "2025-09-05T10:16:37Z",
+      "lastUpdated": "2026-04-09T11:44:57Z",
+      "latestVersion": "v0.3.0",
+      "license": "MIT"
+    },
     {
       "id": "hazimeyou-ymmresourcepackager",
       "name": "YMMResourcePackager",
@@ -168,7 +186,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメー��ョン対応・HLSLカスタムシェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -637,9 +655,9 @@
         "mcp-server",
         "model-context-protocol"
       ],
-      "stars": 5,
+      "stars": 6,
       "createdAt": "2026-02-26T05:58:21Z",
-      "lastUpdated": "2026-04-06T05:21:34Z",
+      "lastUpdated": "2026-04-09T00:04:24Z",
       "latestVersion": "",
       "license": ""
     },
@@ -952,7 +970,7 @@
     {
       "id": "haisangames813-addshapeeffect",
       "name": "AddShapeEffect",
-      "description": "図形アイテムをエフェクトとして追加するプラ��イン",
+      "description": "図形アイテムをエフェクトとして追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/AddShapeEffect",
@@ -1350,7 +1368,7 @@
     {
       "id": "thiramisu-ymm4-plugin-long-text-scroller",
       "name": "ymm4-plugin-long-text-scroller",
-      "description": "長文テキストを軽量にスク���ールするための、YMM4の図形プラグイン。",
+      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-long-text-scroller",
@@ -1386,7 +1404,7 @@
     {
       "id": "routersys-ymm4-browser",
       "name": "YMM4-Browser",
-      "description": "YMM4で簡易的なウェブブラウジングが可能にな���ます。",
+      "description": "YMM4で簡易的��ウェブブラウジングが可能になります。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Browser",
@@ -1404,7 +1422,7 @@
     {
       "id": "thiramisu-ymm4-plugin-general-in-out",
       "name": "ymm4-plugin-general-in-out",
-      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
+      "description": "汎用的���登場・退場アニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-general-in-out",
@@ -1641,7 +1659,7 @@
     {
       "id": "routersys-ymm4-crt",
       "name": "YMM4-CRT",
-      "description": "YMM4でブラウン管のような表現ができます。",
+      "description": "YMM4でブラウン管のような表現���できます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CRT",
@@ -1827,7 +1845,7 @@
     {
       "id": "dmmo-com-jp-randomangleplugin",
       "name": "RandomAnglePlugin",
-      "description": "YMM4で映像エフェクト「ランダム角���」を追加するプラグイン。",
+      "description": "YMM4で映像エフェクト「ランダム角度」を追加するプラグイン。",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/RandomAnglePlugin",
@@ -2025,7 +2043,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色化画像を重ね��がら不透明度を調整できるエフェクトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
