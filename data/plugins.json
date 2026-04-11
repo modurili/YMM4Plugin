@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-04-10T15:57:08.554Z",
+  "lastUpdated": "2026-04-11T15:36:39.490Z",
   "plugins": [
+    {
+      "id": "routersys-ymm4-objloader",
+      "name": "YMM4-ObjLoader",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
+      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v3.2.2",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ",
+        "directx-11",
+        "directx11",
+        "windows"
+      ],
+      "stars": 5,
+      "createdAt": "2025-12-30T05:32:27Z",
+      "lastUpdated": "2026-04-11T14:27:35Z",
+      "latestVersion": "v3.2.2",
+      "license": "MIT"
+    },
     {
       "id": "hazimeyou-ymm-rec-plugin",
       "name": "YMM-REC-Plugin",
@@ -186,7 +207,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタ���シェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -257,30 +278,9 @@
       "license": ""
     },
     {
-      "id": "routersys-ymm4-objloader",
-      "name": "YMM4-ObjLoader",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
-      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v3.2.2",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ",
-        "directx-11",
-        "directx11",
-        "windows"
-      ],
-      "stars": 5,
-      "createdAt": "2025-12-30T05:32:27Z",
-      "lastUpdated": "2026-03-29T01:08:09Z",
-      "latestVersion": "v3.2.2",
-      "license": "MIT"
-    },
-    {
       "id": "routersys-ymm4-proxyforge",
       "name": "YMM4-ProxyForge",
-      "description": "YMM4向け動画プロキシ自動生成プラグイン。H.264���ロキシ・HWアクセラレーション・永続キャッシュ・エクスポート時自動切替",
+      "description": "YMM4向け動画プロキシ自動生成プラグイン。H.264プロキシ・HWアクセラレーション・永続キャッシュ・エクスポート時自動切替",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ProxyForge",
@@ -316,7 +316,7 @@
     {
       "id": "routersys-ymm4-pentool",
       "name": "YMM4-PenTool",
-      "description": "YMM4向け高機能ペン描画プラグイン。ペン・マーカー・鉛筆��消しゴムの4種ブラシ・レイヤー管理・アンドゥ/リドゥ・Direct2Dレンダリング・アニメーション統合・フローティングUIレイアウト対応",
+      "description": "YMM4向け高機能ペン描画プラグイン。ペン・マーカー・鉛筆・消しゴムの4種ブラシ・レイヤー管理・アンドゥ/リドゥ・Direct2Dレンダリング・アニメーション統合・フローティングUIレイアウト対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PenTool",
@@ -443,7 +443,7 @@
     {
       "id": "rindai0123-artifact-ymm4-text-splitter-plugin",
       "name": "ymm4-text-splitter-plugin",
-      "description": "YMM4（ゆっくりMovieMaker4）用テキスト座標自動計算分割プラグイン",
+      "description": "YMM4（ゆっくりMovieMaker4）用テキスト座標自動��算分割プラグイン",
       "author": "Rindai0123-Artifact",
       "authorUrl": "https://github.com/Rindai0123-Artifact",
       "repoUrl": "https://github.com/Rindai0123-Artifact/ymm4-text-splitter-plugin",
@@ -498,7 +498,7 @@
     {
       "id": "dolphin-kun-partssplitter",
       "name": "PartsSplitter",
-      "description": "「パーツ分解」映像エフェクトプラグインです。",
+      "description": "「パーツ分解」映���エフェクトプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/PartsSplitter",
@@ -589,7 +589,7 @@
     {
       "id": "haisangames813-rotationpersecondeffect",
       "name": "RotationPerSecondEffect",
-      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラグインです",
+      "description": "指定した��数で何回回転するかを指定できる映像エフェクトを追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/RotationPerSecondEffect",
@@ -625,7 +625,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイ���ングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -862,7 +862,7 @@
     {
       "id": "hashibutogarasu-loopoverlayassist",
       "name": "LoopOverlayAssist",
-      "description": "ループ開始地点を発見しやすくするプラグインです",
+      "description": "ループ開始地点を��見しやすくするプラグインです",
       "author": "Hashibutogarasu",
       "authorUrl": "https://github.com/Hashibutogarasu",
       "repoUrl": "https://github.com/Hashibutogarasu/LoopOverlayAssist",
@@ -1640,7 +1640,7 @@
     {
       "id": "inuinu2022-ymm4tableshapeplugin",
       "name": "YMM4TableShapePlugin",
-      "description": "ゆっくりムービーメーカー4 (YMM4) 用の表を描ける図形プラグインです。",
+      "description": "ゆっくりムービーメ��カー4 (YMM4) 用の表を描ける図形プラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4TableShapePlugin",
@@ -1737,7 +1737,7 @@
     {
       "id": "dmmo-com-jp-customeffectselector",
       "name": "CustomEffectSelector",
-      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパティを数式で制御するプラグイン",
+      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパティ���数式で制御するプラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/CustomEffectSelector",
@@ -1827,7 +1827,7 @@
     {
       "id": "dmmo-com-jp-audiolinkplugin",
       "name": "AudioLinkPlugin",
-      "description": "条件が真なら対応している音声エフ��クトを実行するYMM4Plugin",
+      "description": "条件が真なら対応している音声エフェ���トを実行するYMM4Plugin",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/AudioLinkPlugin",
@@ -2043,7 +2043,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色化画像を重ね��がら不透明度を調整できるエフェクトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
@@ -2061,7 +2061,7 @@
     {
       "id": "benikazura-glitchnoiseeffect",
       "name": "GlitchNoiseEffect",
-      "description": "グリッチノイズの映���エフェクトを追加します。",
+      "description": "グリッチノイズの映像エフェクトを追加します。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/GlitchNoiseEffect",
@@ -2115,14 +2115,14 @@
     {
       "id": "routersys-ymm4-chemicalstructure",
       "name": "YMM4-ChemicalStructure",
-      "description": "YMM4で化学構造式の��デル表示が可能です",
+      "description": "YMM4で化学構造式のモデル表示が可能です",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ChemicalStructure",
       "downloadUrl": "https://github.com/routersys/YMM4-ChemicalStructure/releases/tag/v0.0.1",
-      "category": "other",
+      "category": "utility",
       "tags": [
-        "その他"
+        "ユーティリティ"
       ],
       "stars": 1,
       "createdAt": "2025-08-22T05:16:05Z",
@@ -2133,7 +2133,7 @@
     {
       "id": "inuinu2022-sampleymmegetprojinfo",
       "name": "SampleYmmeGetProjInfo",
-      "description": "プラグインからYMM4の���在のプロジェクト情報を取得するためのサンプル",
+      "description": "プラグインからYMM4の現在のプロジェクト情報を取得するためのサンプル",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/SampleYmmeGetProjInfo",
@@ -2372,7 +2372,7 @@
     {
       "id": "dolphin-kun-reflecteffect",
       "name": "ReflectEffect",
-      "description": "「反射」エフェクトプラグイ���",
+      "description": "「反射」エフェクトプラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ReflectEffect",
@@ -2390,7 +2390,7 @@
     {
       "id": "tetra-te-simplemotionblureffect",
       "name": "SimpleMotionBlurEffect",
-      "description": "簡易的なモーションブラーエフェクト",
+      "description": "簡易的なモ��ションブラーエフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SimpleMotionBlurEffect",
