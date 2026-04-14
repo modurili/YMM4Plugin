@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T16:16:13.072Z",
+  "lastUpdated": "2026-04-14T16:09:48.561Z",
   "plugins": [
     {
       "id": "routersys-ymm4-combinedeffect",
@@ -15,7 +15,7 @@
       ],
       "stars": 3,
       "createdAt": "2025-09-04T00:48:44Z",
-      "lastUpdated": "2026-04-13T14:28:18Z",
+      "lastUpdated": "2026-04-14T13:12:54Z",
       "latestVersion": "v2.0.0",
       "license": ""
     },
@@ -170,7 +170,7 @@
     {
       "id": "haisangames813-weightcontrolplugin",
       "name": "WeightControlPlugin",
-      "description": "AviUtlに���る制御文字を一部利用可能にするプラグインです",
+      "description": "AviUtlにある制御文字を一部利用可能にするプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/WeightControlPlugin",
@@ -589,7 +589,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ね��います。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -1530,7 +1530,7 @@
     {
       "id": "haisangames813-reverseplaybackaudioeffectplugin",
       "name": "ReversePlaybackAudioEffectPlugin",
-      "description": "逆再生エフェクト(音声)を追加���るプラグイン",
+      "description": "逆再生エフェクト(音声)を追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/ReversePlaybackAudioEffectPlugin",
@@ -1755,7 +1755,7 @@
     {
       "id": "dmmo-com-jp-customeffectselector",
       "name": "CustomEffectSelector",
-      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパティを数式で制御するプラグイン",
+      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパ���ィを数式で制御するプラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/CustomEffectSelector",
@@ -1827,7 +1827,7 @@
     {
       "id": "dmmo-com-jp-audiolinkplugin",
       "name": "AudioLinkPlugin",
-      "description": "条件が真なら対応している音声エフ��クトを実行するYMM4Plugin",
+      "description": "条件が真なら対応している音声エフェ���トを実行するYMM4Plugin",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/AudioLinkPlugin",
