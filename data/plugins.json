@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-04-14T16:09:48.561Z",
+  "lastUpdated": "2026-04-15T16:08:32.077Z",
   "plugins": [
     {
       "id": "routersys-ymm4-combinedeffect",
       "name": "YMM4-CombinedEffect",
-      "description": "YMMの映像エフェクトをまとめることができます。",
+      "description": "YMM4向けの映像エフェクト管理プラグイン。複数のエ���ェクトをグループ化してプリセット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CombinedEffect",
-      "downloadUrl": "https://github.com/routersys/YMM4-CombinedEffect/releases/tag/v2.0.0",
+      "downloadUrl": "https://github.com/routersys/YMM4-CombinedEffect/releases/tag/v2.1.0",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 3,
       "createdAt": "2025-09-04T00:48:44Z",
-      "lastUpdated": "2026-04-14T13:12:54Z",
-      "latestVersion": "v2.0.0",
-      "license": ""
+      "lastUpdated": "2026-04-15T14:28:06Z",
+      "latestVersion": "v2.1.0",
+      "license": "MIT"
     },
     {
       "id": "routersys-ymm4-objloader",
@@ -225,7 +225,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニ���ーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -589,7 +589,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ね��います。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "description": "YMM4コミュニティで開発するYMM4プラグイン���す。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -607,7 +607,7 @@
     {
       "id": "haisangames813-rotationpersecondeffect",
       "name": "RotationPerSecondEffect",
-      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラグインです",
+      "description": "指定した秒数で何回回転するかを指定���きる映像エフェクトを追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/RotationPerSecondEffect",
@@ -988,7 +988,7 @@
     {
       "id": "haisangames813-addshapeeffect",
       "name": "AddShapeEffect",
-      "description": "図形アイテムをエフェクトとして追加するプラグイン",
+      "description": "図形アイテムをエフェクトとし���追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/AddShapeEffect",
@@ -1168,7 +1168,7 @@
     {
       "id": "routersys-ymm4-fontmanager",
       "name": "YMM4-FontManager",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシステムへインストール・管理できます。",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビュー��、ワンクリックでシステムへインストール・管理できます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-FontManager",
@@ -1755,7 +1755,7 @@
     {
       "id": "dmmo-com-jp-customeffectselector",
       "name": "CustomEffectSelector",
-      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパ���ィを数式で制御するプラグイン",
+      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパティを数式で制御するプラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/CustomEffectSelector",
@@ -1827,7 +1827,7 @@
     {
       "id": "dmmo-com-jp-audiolinkplugin",
       "name": "AudioLinkPlugin",
-      "description": "条件が真なら対応している音声エフェ���トを実行するYMM4Plugin",
+      "description": "条件が真なら対応している音声エフェクトを実行するYMM4Plugin",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/AudioLinkPlugin",
