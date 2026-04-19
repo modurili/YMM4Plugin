@@ -1,22 +1,58 @@
 {
-  "lastUpdated": "2026-04-18T15:40:02.053Z",
+  "lastUpdated": "2026-04-19T15:40:01.107Z",
   "plugins": [
+    {
+      "id": "hazimeyou-ymmprojectmanager",
+      "name": "YMMProjectManager",
+      "description": "YMM4用プロジェクトマネージャー",
+      "author": "hazimeyou",
+      "authorUrl": "https://github.com/hazimeyou",
+      "repoUrl": "https://github.com/hazimeyou/YMMProjectManager",
+      "downloadUrl": "https://github.com/hazimeyou/YMMProjectManager/releases/tag/v0.1.0",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 1,
+      "createdAt": "2026-01-15T02:49:12Z",
+      "lastUpdated": "2026-04-19T15:37:28Z",
+      "latestVersion": "v0.1.0",
+      "license": "MIT"
+    },
+    {
+      "id": "hazimeyou-ymmresourcepackager",
+      "name": "YMMResourcePackager",
+      "description": "素材同梱プラグインおよび展開アプリ",
+      "author": "hazimeyou",
+      "authorUrl": "https://github.com/hazimeyou",
+      "repoUrl": "https://github.com/hazimeyou/YMMResourcePackager",
+      "downloadUrl": "https://github.com/hazimeyou/YMMResourcePackager/releases/tag/v0.2.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 3,
+      "createdAt": "2025-10-31T15:23:23Z",
+      "lastUpdated": "2026-04-19T15:35:18Z",
+      "latestVersion": "v0.2.0",
+      "license": "MIT"
+    },
     {
       "id": "routersys-ymm4-combinedeffect",
       "name": "YMM4-CombinedEffect",
-      "description": "YMM4向けの映像エフェクト管理プラグイン。複数の��フェクトをグループ化してプリセット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
+      "description": "YMM4向けの映像エフェクト管理プラグイン。複数のエフェクトをグループ化してプリセット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CombinedEffect",
-      "downloadUrl": "https://github.com/routersys/YMM4-CombinedEffect/releases/tag/v2.1.0",
+      "downloadUrl": "https://github.com/routersys/YMM4-CombinedEffect/releases/tag/v2.2.0",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 3,
       "createdAt": "2025-09-04T00:48:44Z",
-      "lastUpdated": "2026-04-16T04:33:24Z",
-      "latestVersion": "v2.1.0",
+      "lastUpdated": "2026-04-19T12:27:02Z",
+      "latestVersion": "v2.2.0",
       "license": "MIT"
     },
     {
@@ -59,24 +95,6 @@
       "license": "MIT"
     },
     {
-      "id": "hazimeyou-ymmresourcepackager",
-      "name": "YMMResourcePackager",
-      "description": "素材同梱プラグインおよび展開アプリ",
-      "author": "hazimeyou",
-      "authorUrl": "https://github.com/hazimeyou",
-      "repoUrl": "https://github.com/hazimeyou/YMMResourcePackager",
-      "downloadUrl": "https://github.com/hazimeyou/YMMResourcePackager/releases/tag/v0.2.0",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 3,
-      "createdAt": "2025-10-31T15:23:23Z",
-      "lastUpdated": "2026-04-06T16:20:27Z",
-      "latestVersion": "v0.2.0",
-      "license": "MIT"
-    },
-    {
       "id": "routersys-ymm4-pdf",
       "name": "YMM4-PDF",
       "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
@@ -115,7 +133,7 @@
     {
       "id": "routersys-ymm4-spaceaudio",
       "name": "YMM4-SpaceAudio",
-      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完全統合",
+      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完���統合",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-SpaceAudio",
@@ -422,24 +440,6 @@
       "license": "MIT"
     },
     {
-      "id": "hazimeyou-ymmprojectmanager",
-      "name": "YMMProjectManager",
-      "description": "YMM4用プロジェクトマネージャー",
-      "author": "hazimeyou",
-      "authorUrl": "https://github.com/hazimeyou",
-      "repoUrl": "https://github.com/hazimeyou/YMMProjectManager",
-      "downloadUrl": "https://github.com/hazimeyou/YMMProjectManager/releases/tag/v0.1.0",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 1,
-      "createdAt": "2026-01-15T02:49:12Z",
-      "lastUpdated": "2026-03-26T04:38:35Z",
-      "latestVersion": "v0.1.0",
-      "license": "MIT"
-    },
-    {
       "id": "takoyakisoft-effekseerforymm4",
       "name": "EffekseerForYMM4",
       "description": "YMM4向けEffekseerエフェクト（映像・音声）再生プラグイン",
@@ -589,7 +589,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4��ラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -754,7 +754,7 @@
     {
       "id": "sinbetakun-sintachieplugin",
       "name": "SinTachiePlugin",
-      "description": "『sin型カスタムパーツ立ち絵』のリポジトリ",
+      "description": "『sin型カスタムパー��立ち絵』のリポジトリ",
       "author": "sinBetaKun",
       "authorUrl": "https://github.com/sinBetaKun",
       "repoUrl": "https://github.com/sinBetaKun/SinTachiePlugin",
@@ -790,7 +790,7 @@
     {
       "id": "benikazura-texttemplate",
       "name": "TextTemplate",
-      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せるプラグインです。",
+      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せるプラグインで���。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/TextTemplate",
@@ -1386,14 +1386,14 @@
     {
       "id": "thiramisu-ymm4-plugin-long-text-scroller",
       "name": "ymm4-plugin-long-text-scroller",
-      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイン。",
+      "description": "長文テキストを軽量にスクロールするための、YMM4の図��プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-long-text-scroller",
       "downloadUrl": "https://github.com/thiramisu/ymm4-plugin-long-text-scroller/releases/tag/v1.2.4",
-      "category": "shape",
+      "category": "text",
       "tags": [
-        "図形"
+        "テキスト"
       ],
       "stars": 1,
       "createdAt": "2025-09-15T16:22:47Z",
@@ -1440,7 +1440,7 @@
     {
       "id": "thiramisu-ymm4-plugin-general-in-out",
       "name": "ymm4-plugin-general-in-out",
-      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
+      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェ���ト・図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-general-in-out",
@@ -1530,7 +1530,7 @@
     {
       "id": "haisangames813-reverseplaybackaudioeffectplugin",
       "name": "ReversePlaybackAudioEffectPlugin",
-      "description": "逆再生エ��ェクト(音声)を追加するプラグイン",
+      "description": "逆再��エフェクト(音声)を追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/ReversePlaybackAudioEffectPlugin",
@@ -2191,7 +2191,7 @@
     {
       "id": "routersys-ymm4-guiequalizer",
       "name": "YMM4-GUIEqualizer",
-      "description": "視覚的にわ���りやすいイコライザープラグインです。",
+      "description": "視覚的にわかりやすいイコライザープラグインです。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-GUIEqualizer",
