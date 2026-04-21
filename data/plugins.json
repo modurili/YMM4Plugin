@@ -1,14 +1,50 @@
 {
-  "lastUpdated": "2026-04-20T16:13:16.796Z",
+  "lastUpdated": "2026-04-21T16:13:04.693Z",
   "plugins": [
+    {
+      "id": "hazimeyou-ymmprojectmanager",
+      "name": "YMMProjectManager",
+      "description": "YMM4用プロジェクトマネージャー",
+      "author": "hazimeyou",
+      "authorUrl": "https://github.com/hazimeyou",
+      "repoUrl": "https://github.com/hazimeyou/YMMProjectManager",
+      "downloadUrl": "https://github.com/hazimeyou/YMMProjectManager/releases/tag/v0.2.0",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 1,
+      "createdAt": "2026-01-15T02:49:12Z",
+      "lastUpdated": "2026-04-21T13:42:44Z",
+      "latestVersion": "v0.2.0",
+      "license": "MIT"
+    },
+    {
+      "id": "routersys-ymm4-combinedeffect",
+      "name": "YMM4-CombinedEffect",
+      "description": "YMM4向けの映像エフェクト管理プラグイン。複数のエフェクトをグループ化してプリセット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-CombinedEffect",
+      "downloadUrl": "https://github.com/routersys/YMM4-CombinedEffect/releases/tag/v2.2.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 3,
+      "createdAt": "2025-09-04T00:48:44Z",
+      "lastUpdated": "2026-04-21T12:28:21Z",
+      "latestVersion": "v2.2.1",
+      "license": "MIT"
+    },
     {
       "id": "routersys-ymm4-objloader",
       "name": "YMM4-ObjLoader",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデ���表示・操作プラグイン",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
-      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v3.3.0",
+      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v3.3.1",
       "category": "utility",
       "tags": [
         "ユーティリティ",
@@ -18,8 +54,26 @@
       ],
       "stars": 5,
       "createdAt": "2025-12-30T05:32:27Z",
-      "lastUpdated": "2026-04-20T11:42:33Z",
-      "latestVersion": "v3.3.0",
+      "lastUpdated": "2026-04-21T03:30:41Z",
+      "latestVersion": "v3.3.1",
+      "license": "MIT"
+    },
+    {
+      "id": "modurili-audiorepeater",
+      "name": "AudioRepeater",
+      "description": "音声アイテムを簡単に連続再生させることができるYMM4プラグイン",
+      "author": "modurili",
+      "authorUrl": "https://github.com/modurili",
+      "repoUrl": "https://github.com/modurili/AudioRepeater",
+      "downloadUrl": "https://github.com/modurili/AudioRepeater/releases/tag/v1.0",
+      "category": "audio-effect",
+      "tags": [
+        "音声エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-04-20T18:03:30Z",
+      "lastUpdated": "2026-04-20T18:57:16Z",
+      "latestVersion": "v1.0",
       "license": "MIT"
     },
     {
@@ -38,42 +92,6 @@
       "createdAt": "2025-10-31T15:23:23Z",
       "lastUpdated": "2026-04-19T15:47:19Z",
       "latestVersion": "v0.2.0",
-      "license": "MIT"
-    },
-    {
-      "id": "hazimeyou-ymmprojectmanager",
-      "name": "YMMProjectManager",
-      "description": "YMM4用プロジェクトマネージャー",
-      "author": "hazimeyou",
-      "authorUrl": "https://github.com/hazimeyou",
-      "repoUrl": "https://github.com/hazimeyou/YMMProjectManager",
-      "downloadUrl": "https://github.com/hazimeyou/YMMProjectManager/releases/tag/v0.1.0",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 1,
-      "createdAt": "2026-01-15T02:49:12Z",
-      "lastUpdated": "2026-04-19T15:37:28Z",
-      "latestVersion": "v0.1.0",
-      "license": "MIT"
-    },
-    {
-      "id": "routersys-ymm4-combinedeffect",
-      "name": "YMM4-CombinedEffect",
-      "description": "YMM4向けの映像エフェクト管理プラグイン。複数のエフェクトをグループ化してプリセット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-CombinedEffect",
-      "downloadUrl": "https://github.com/routersys/YMM4-CombinedEffect/releases/tag/v2.2.0",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 3,
-      "createdAt": "2025-09-04T00:48:44Z",
-      "lastUpdated": "2026-04-19T12:27:02Z",
-      "latestVersion": "v2.2.0",
       "license": "MIT"
     },
     {
@@ -133,7 +151,7 @@
     {
       "id": "routersys-ymm4-spaceaudio",
       "name": "YMM4-SpaceAudio",
-      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・イン��ラクティブ3Dルームエディタ・アニメーション完全統合",
+      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完全統合",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-SpaceAudio",
@@ -243,7 +261,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSL���スタムシェーダーによるGPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -352,14 +370,14 @@
     {
       "id": "routersys-ymm4-pentool",
       "name": "YMM4-PenTool",
-      "description": "YMM4向け高機能ペン描画プラグイン。ペン・マーカー・鉛筆・消しゴムの4種ブラシ・レイヤー管理・アンドゥ/リドゥ・Direct2Dレンダリング・アニ���ーション統合・フローティングUIレイアウト対応",
+      "description": "YMM4向け高機能ペン描画プラグイン。ペン・マーカー・鉛筆・消しゴムの4種ブラシ・レイヤー管理・アンドゥ/リドゥ・Direct2Dレンダリング・アニメーション統合・フローティングUIレイアウト対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PenTool",
       "downloadUrl": "https://github.com/routersys/YMM4-PenTool/releases/tag/v3.0.0",
-      "category": "utility",
+      "category": "video-effect",
       "tags": [
-        "ユーティリティ"
+        "映像エフェクト"
       ],
       "stars": 2,
       "createdAt": "2025-09-01T04:10:06Z",
@@ -988,7 +1006,7 @@
     {
       "id": "haisangames813-addshapeeffect",
       "name": "AddShapeEffect",
-      "description": "図形アイテムをエフェクトとして追加するプラグイン",
+      "description": "図形アイテムをエフェクトと���て追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/AddShapeEffect",
@@ -1372,7 +1390,7 @@
       "author": "sinBetaKun",
       "authorUrl": "https://github.com/sinBetaKun",
       "repoUrl": "https://github.com/sinBetaKun/SuperExcitingCloneEffect",
-      "downloadUrl": "https://github.com/sinBetaKun/SuperExcitingCloneEffect/releases/tag/v1.0.2.0",
+      "downloadUrl": "https://github.com/sinBetaKun/SuperExcitingCloneEffect/releases/tag/v1.0.3",
       "category": "video-effect",
       "tags": [
         "その他"
@@ -1380,7 +1398,7 @@
       "stars": 2,
       "createdAt": "2025-10-16T13:26:57Z",
       "lastUpdated": "2026-03-15T01:58:26Z",
-      "latestVersion": "v1.0.2.0",
+      "latestVersion": "v1.0.3",
       "license": "MIT"
     },
     {
@@ -1440,7 +1458,7 @@
     {
       "id": "thiramisu-ymm4-plugin-general-in-out",
       "name": "ymm4-plugin-general-in-out",
-      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
+      "description": "汎用的な登場・退場��ニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-general-in-out",
@@ -1695,7 +1713,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）���作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選���・操作できるプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
@@ -1827,7 +1845,7 @@
     {
       "id": "dmmo-com-jp-audiolinkplugin",
       "name": "AudioLinkPlugin",
-      "description": "条件が真なら対応している音声エフェ��トを実行するYMM4Plugin",
+      "description": "条件が真なら対応している音声エ���ェクトを実行するYMM4Plugin",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/AudioLinkPlugin",
@@ -2043,7 +2061,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色化画像を���ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
@@ -2227,7 +2245,7 @@
     {
       "id": "ikoma-reunion-ymm4-plugin-document",
       "name": "ymm4-plugin-document",
-      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファ���ンスのようなもの。　非公式です。　v4.42.1.3",
+      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。　v4.42.1.3",
       "author": "ikoma-reunion",
       "authorUrl": "https://github.com/ikoma-reunion",
       "repoUrl": "https://github.com/ikoma-reunion/ymm4-plugin-document",
@@ -2408,7 +2426,7 @@
     {
       "id": "kotolin-sub-ymm4whisper",
       "name": "YMM4Whisper",
-      "description": "YMM4で音声を囁き声にする音声プラグイ���",
+      "description": "YMM4で音声を囁き声にする音声プラグイン",
       "author": "kotolin-sub",
       "authorUrl": "https://github.com/kotolin-sub",
       "repoUrl": "https://github.com/kotolin-sub/YMM4Whisper",
