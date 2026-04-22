@@ -1,10 +1,28 @@
 {
-  "lastUpdated": "2026-04-21T16:13:04.693Z",
+  "lastUpdated": "2026-04-22T16:10:56.514Z",
   "plugins": [
+    {
+      "id": "manju-summoner-yukkurimoviemaker-plugin-community",
+      "name": "YukkuriMovieMaker.Plugin.Community",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "author": "manju-summoner",
+      "authorUrl": "https://github.com/manju-summoner",
+      "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
+      "downloadUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community/releases",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 28,
+      "createdAt": "2024-05-28T09:50:34Z",
+      "lastUpdated": "2026-04-22T09:17:50Z",
+      "latestVersion": "",
+      "license": "LGPL-3.0"
+    },
     {
       "id": "hazimeyou-ymmprojectmanager",
       "name": "YMMProjectManager",
-      "description": "YMM4用プロジェクトマネージャー",
+      "description": "YMM4用プロジェクトマ��ージャー",
       "author": "hazimeyou",
       "authorUrl": "https://github.com/hazimeyou",
       "repoUrl": "https://github.com/hazimeyou/YMMProjectManager",
@@ -151,7 +169,7 @@
     {
       "id": "routersys-ymm4-spaceaudio",
       "name": "YMM4-SpaceAudio",
-      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完全統合",
+      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニ���ーション完全統合",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-SpaceAudio",
@@ -261,7 +279,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSL���スタムシェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -605,24 +623,6 @@
       "license": "MIT"
     },
     {
-      "id": "manju-summoner-yukkurimoviemaker-plugin-community",
-      "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
-      "author": "manju-summoner",
-      "authorUrl": "https://github.com/manju-summoner",
-      "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
-      "downloadUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community/releases",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 28,
-      "createdAt": "2024-05-28T09:50:34Z",
-      "lastUpdated": "2026-03-18T02:49:59Z",
-      "latestVersion": "",
-      "license": "LGPL-3.0"
-    },
-    {
       "id": "haisangames813-rotationpersecondeffect",
       "name": "RotationPerSecondEffect",
       "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラグインです",
@@ -916,7 +916,7 @@
     {
       "id": "haisangames813-inputsoundplugin",
       "name": "InputSoundPlugin",
-      "description": "入力検知で効果音を鳴らす\"ネタ\"プラグインです",
+      "description": "入力検知で効果音を鳴らす\"ネタ\"プラグインで���",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/InputSoundPlugin",
@@ -1006,7 +1006,7 @@
     {
       "id": "haisangames813-addshapeeffect",
       "name": "AddShapeEffect",
-      "description": "図形アイテムをエフェクトと���て追加するプラグイン",
+      "description": "図形アイテムをエフェクトとして追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/AddShapeEffect",
@@ -1060,7 +1060,7 @@
     {
       "id": "benikazura-crossingscreen",
       "name": "CrossingScreen",
-      "description": "画面の端から端に移動させるYMM4用映像エフェクトプラグインです。",
+      "description": "���面の端から端に移動させるYMM4用映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CrossingScreen",
@@ -1114,7 +1114,7 @@
     {
       "id": "tetra-te-randomswitchingeffect",
       "name": "RandomSwitchingEffect",
-      "description": "エフェクトをランダムに切り替えながら適応する映像エフェクト",
+      "description": "エフェクトをランダムに切り替えながら適応��る映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomSwitchingEffect",
@@ -1458,7 +1458,7 @@
     {
       "id": "thiramisu-ymm4-plugin-general-in-out",
       "name": "ymm4-plugin-general-in-out",
-      "description": "汎用的な登場・退場��ニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
+      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-general-in-out",
@@ -1845,7 +1845,7 @@
     {
       "id": "dmmo-com-jp-audiolinkplugin",
       "name": "AudioLinkPlugin",
-      "description": "条件が真なら対応している音声エ���ェクトを実行するYMM4Plugin",
+      "description": "条件が真なら対応している音声���フェクトを実行するYMM4Plugin",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/AudioLinkPlugin",
@@ -2061,7 +2061,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を���ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
@@ -2444,14 +2444,14 @@
     {
       "id": "tetra-te-specifiedshoweffect",
       "name": "SpecifiedShowEffect",
-      "description": "再生時、一時停止時、出力時の不透明度を指定できる映像エフェクトプラグイン",
+      "description": "再生時、一時停止時、出力時の不透明度を指定できる映像エフェク��プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SpecifiedShowEffect",
       "downloadUrl": "https://github.com/tetra-te/SpecifiedShowEffect/releases/tag/v1.2",
-      "category": "video-effect",
+      "category": "video-output",
       "tags": [
-        "映像エフェクト"
+        "動画出力"
       ],
       "stars": 2,
       "createdAt": "2024-12-29T08:37:09Z",
