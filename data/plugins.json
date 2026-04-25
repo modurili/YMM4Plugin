@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T16:07:09.980Z",
+  "lastUpdated": "2026-04-25T15:41:50.946Z",
   "plugins": [
     {
       "id": "hazimeyou-ymmresourcepackager",
@@ -8,15 +8,33 @@
       "author": "hazimeyou",
       "authorUrl": "https://github.com/hazimeyou",
       "repoUrl": "https://github.com/hazimeyou/YMMResourcePackager",
-      "downloadUrl": "https://github.com/hazimeyou/YMMResourcePackager/releases/tag/v0.2.0",
+      "downloadUrl": "https://github.com/hazimeyou/YMMResourcePackager/releases/tag/v0.2.1",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 3,
       "createdAt": "2025-10-31T15:23:23Z",
-      "lastUpdated": "2026-04-23T19:09:20Z",
-      "latestVersion": "v0.2.0",
+      "lastUpdated": "2026-04-25T12:12:27Z",
+      "latestVersion": "v0.2.1",
+      "license": "MIT"
+    },
+    {
+      "id": "sinbetakun-superexcitingcloneeffect",
+      "name": "SuperExcitingCloneEffect",
+      "description": "説明なし",
+      "author": "sinBetaKun",
+      "authorUrl": "https://github.com/sinBetaKun",
+      "repoUrl": "https://github.com/sinBetaKun/SuperExcitingCloneEffect",
+      "downloadUrl": "https://github.com/sinBetaKun/SuperExcitingCloneEffect/releases/tag/v1.0.3",
+      "category": "video-effect",
+      "tags": [
+        "その他"
+      ],
+      "stars": 2,
+      "createdAt": "2025-10-16T13:26:57Z",
+      "lastUpdated": "2026-04-24T22:44:12Z",
+      "latestVersion": "v1.0.3",
       "license": "MIT"
     },
     {
@@ -151,7 +169,7 @@
     {
       "id": "routersys-ymm4-pdf",
       "name": "YMM4-PDF",
-      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
+      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター���画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PDF",
@@ -169,7 +187,7 @@
     {
       "id": "benikazura-individualkeyframe",
       "name": "IndividualKeyFrame",
-      "description": "子エフェクトに独自の中間点を設定できる映像エフェクトプラグインです。",
+      "description": "子エフェクトに独自の中間点を設定できる映像エフェクトプラグイン��す。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/IndividualKeyFrame",
@@ -496,7 +514,7 @@
     {
       "id": "takoyakisoft-effekseerforymm4",
       "name": "EffekseerForYMM4",
-      "description": "YMM4向けEffekseerエフェクト（映像・音声）再生プラグイン",
+      "description": "YMM4向けEffekseerエフェク���（映像・音声）再生プラグイン",
       "author": "takoyakisoft",
       "authorUrl": "https://github.com/takoyakisoft",
       "repoUrl": "https://github.com/takoyakisoft/EffekseerForYMM4",
@@ -533,7 +551,7 @@
     {
       "id": "haisangames813-usedmediafinderplugin",
       "name": "UsedMediaFinderPlugin",
-      "description": "使用/未使用メディアを検出しリネームを行えるツールプラグインです",
+      "description": "使用/未使用メディ���を検出しリネームを行えるツールプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/UsedMediaFinderPlugin",
@@ -1042,7 +1060,7 @@
     {
       "id": "haisangames813-canvasplugin",
       "name": "CanvasPlugin",
-      "description": "ツールウィンドウ「キャンバス」を追加するプラグイン",
+      "description": "ツールウィンドウ「キャンバス」を追��するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/CanvasPlugin",
@@ -1132,7 +1150,7 @@
     {
       "id": "tetra-te-randomswitchingeffect",
       "name": "RandomSwitchingEffect",
-      "description": "エフェクトをランダムに切り替えながら適応する映像エフェクト",
+      "description": "エフェクトをランダ��に切り替えながら適応する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomSwitchingEffect",
@@ -1258,7 +1276,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加��て、MIDI作成・編集に役立つ機能も搭載しています。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -1276,7 +1294,7 @@
     {
       "id": "dmmo-com-jp-textyurashiplugin",
       "name": "TextYurashiPlugin",
-      "description": "YMM4で映像エフェクト「揺らす」を追加するプラグイン",
+      "description": "YMM4で映像エ��ェクト「揺らす」を追加するプラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/TextYurashiPlugin",
@@ -1402,24 +1420,6 @@
       "license": "MIT"
     },
     {
-      "id": "sinbetakun-superexcitingcloneeffect",
-      "name": "SuperExcitingCloneEffect",
-      "description": "説明なし",
-      "author": "sinBetaKun",
-      "authorUrl": "https://github.com/sinBetaKun",
-      "repoUrl": "https://github.com/sinBetaKun/SuperExcitingCloneEffect",
-      "downloadUrl": "https://github.com/sinBetaKun/SuperExcitingCloneEffect/releases/tag/v1.0.3",
-      "category": "video-effect",
-      "tags": [
-        "その他"
-      ],
-      "stars": 2,
-      "createdAt": "2025-10-16T13:26:57Z",
-      "lastUpdated": "2026-03-15T01:58:26Z",
-      "latestVersion": "v1.0.3",
-      "license": "MIT"
-    },
-    {
       "id": "thiramisu-ymm4-plugin-long-text-scroller",
       "name": "ymm4-plugin-long-text-scroller",
       "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイン。",
@@ -1512,7 +1512,7 @@
     {
       "id": "benikazura-videochecker",
       "name": "VideoChecker",
-      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることができるYMM4用のプラグインです。",
+      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることが��きるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/VideoChecker",
@@ -1530,7 +1530,7 @@
     {
       "id": "benikazura-benikazuratransitionpacka",
       "name": "BenikazuraTransitionPackA",
-      "description": "汎用的な場面切り替えプラグインを収録したプラグイン10種セットです。",
+      "description": "汎用的な場面切り替えプラグインを収録したプラグイン10種セッ��です。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/BenikazuraTransitionPackA",
@@ -2444,14 +2444,14 @@
     {
       "id": "tetra-te-specifiedshoweffect",
       "name": "SpecifiedShowEffect",
-      "description": "再生時、一時停止時、出力時の不透明度を指定できる映像エフェクトプラグイン",
+      "description": "再生時、一時停止時、出力時の不透明度を指定できる映像エフェ���トプラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SpecifiedShowEffect",
       "downloadUrl": "https://github.com/tetra-te/SpecifiedShowEffect/releases/tag/v1.2",
-      "category": "video-effect",
+      "category": "video-output",
       "tags": [
-        "映像エフェクト"
+        "動画出力"
       ],
       "stars": 2,
       "createdAt": "2024-12-29T08:37:09Z",
@@ -2664,7 +2664,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
+      "description": "キャ��シュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
