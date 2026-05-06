@@ -1,22 +1,40 @@
 {
-  "lastUpdated": "2026-05-05T16:27:24.993Z",
+  "lastUpdated": "2026-05-06T16:44:03.909Z",
   "plugins": [
+    {
+      "id": "hazimeyou-ymmprojectmanager",
+      "name": "YMMProjectManager",
+      "description": "YMM4用プロジェクトマネージャー",
+      "author": "hazimeyou",
+      "authorUrl": "https://github.com/hazimeyou",
+      "repoUrl": "https://github.com/hazimeyou/YMMProjectManager",
+      "downloadUrl": "https://github.com/hazimeyou/YMMProjectManager/releases/tag/v0.2.0",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 1,
+      "createdAt": "2026-01-15T02:49:12Z",
+      "lastUpdated": "2026-05-06T16:35:38Z",
+      "latestVersion": "v0.2.0",
+      "license": "MIT"
+    },
     {
       "id": "routersys-ymm4-timeline",
       "name": "YMM4-Timeline",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、現在開いているタイムライ���をツールパネルとして複製表示するプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、現在開いているタイムラインをツールパネルとして複製表示するプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Timeline",
-      "downloadUrl": "https://github.com/routersys/YMM4-Timeline/releases/tag/v1.0.0",
+      "downloadUrl": "https://github.com/routersys/YMM4-Timeline/releases/tag/v1.1.0",
       "category": "utility",
       "tags": [
         "ユーティリティ"
       ],
       "stars": 0,
       "createdAt": "2026-05-05T11:45:48Z",
-      "lastUpdated": "2026-05-05T12:46:00Z",
-      "latestVersion": "v1.0.0",
+      "lastUpdated": "2026-05-06T08:09:25Z",
+      "latestVersion": "v1.1.0",
       "license": "MIT"
     },
     {
@@ -185,27 +203,9 @@
       "license": "MIT"
     },
     {
-      "id": "hazimeyou-ymmprojectmanager",
-      "name": "YMMProjectManager",
-      "description": "YMM4用プロジェクトマネージャー",
-      "author": "hazimeyou",
-      "authorUrl": "https://github.com/hazimeyou",
-      "repoUrl": "https://github.com/hazimeyou/YMMProjectManager",
-      "downloadUrl": "https://github.com/hazimeyou/YMMProjectManager/releases/tag/v0.2.0",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 1,
-      "createdAt": "2026-01-15T02:49:12Z",
-      "lastUpdated": "2026-04-21T13:42:44Z",
-      "latestVersion": "v0.2.0",
-      "license": "MIT"
-    },
-    {
       "id": "haisangames813-instantloopaudioeffect",
       "name": "InstantLoopAudioEffect",
-      "description": "音声の先頭部分をル��プできる音声エフェクトです",
+      "description": "音声の先頭部分をループできる音声エフェクトです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/InstantLoopAudioEffect",
@@ -769,7 +769,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透���度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -826,7 +826,7 @@
     {
       "id": "tetra-te-mosaicoutlineeffect",
       "name": "MosaicOutlineEffect",
-      "description": "モザイク縁取りエフェクト",
+      "description": "モザイク縁取り���フェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/MosaicOutlineEffect",
@@ -934,7 +934,7 @@
     {
       "id": "tetra-te-indicator",
       "name": "Indicator",
-      "description": "アイテム情報を表��する映像エフェクト",
+      "description": "アイテム情報を表示する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/Indicator",
@@ -988,7 +988,7 @@
     {
       "id": "tetra-te-randomimagesource",
       "name": "RandomImageSource",
-      "description": "指定フォルダ内の画像をランダムに選んで表示す���図形プラグイン",
+      "description": "指定フォルダ内の画像をランダムに選んで表示する図形プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomImageSource",
@@ -1222,7 +1222,7 @@
     {
       "id": "tetra-te-randomswitchingeffect",
       "name": "RandomSwitchingEffect",
-      "description": "エフェクトをランダムに切り替えながら適応する映像エフェクト",
+      "description": "エフェクトをラン���ムに切り替えながら適応する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomSwitchingEffect",
@@ -1620,7 +1620,7 @@
     {
       "id": "dolphin-kun-ymm4clipboard",
       "name": "YMM4Clipboard",
-      "description": "YMM4内でクリップボードツールを表示するプラグインです。",
+      "description": "YMM4内でクリップボードツー���を表示するプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/YMM4Clipboard",
@@ -1803,7 +1803,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェク���（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
