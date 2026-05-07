@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T16:44:03.909Z",
+  "lastUpdated": "2026-05-07T16:53:47.151Z",
   "plugins": [
     {
       "id": "hazimeyou-ymmprojectmanager",
@@ -15,8 +15,44 @@
       ],
       "stars": 1,
       "createdAt": "2026-01-15T02:49:12Z",
-      "lastUpdated": "2026-05-06T16:35:38Z",
+      "lastUpdated": "2026-05-07T15:13:53Z",
       "latestVersion": "v0.2.0",
+      "license": "MIT"
+    },
+    {
+      "id": "manju-summoner-yukkurimoviemaker-plugin-community",
+      "name": "YukkuriMovieMaker.Plugin.Community",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "author": "manju-summoner",
+      "authorUrl": "https://github.com/manju-summoner",
+      "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
+      "downloadUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community/releases",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 29,
+      "createdAt": "2024-05-28T09:50:34Z",
+      "lastUpdated": "2026-05-07T12:56:31Z",
+      "latestVersion": "",
+      "license": "LGPL-3.0"
+    },
+    {
+      "id": "routersys-ymm4-dynamiceffect",
+      "name": "YMM4-DynamicEffect",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、音量レベルに応じて異なるエフェクトを自動で切り替える音声エフェクトプラグイン",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-DynamicEffect",
+      "downloadUrl": "https://github.com/routersys/YMM4-DynamicEffect/releases/tag/v1.0.1",
+      "category": "audio-effect",
+      "tags": [
+        "音声エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-05-07T02:26:10Z",
+      "lastUpdated": "2026-05-07T12:49:10Z",
+      "latestVersion": "v1.0.1",
       "license": "MIT"
     },
     {
@@ -33,7 +69,7 @@
       ],
       "stars": 0,
       "createdAt": "2026-05-05T11:45:48Z",
-      "lastUpdated": "2026-05-06T08:09:25Z",
+      "lastUpdated": "2026-05-07T03:23:17Z",
       "latestVersion": "v1.1.0",
       "license": "MIT"
     },
@@ -69,27 +105,9 @@
       ],
       "stars": 0,
       "createdAt": "2026-05-04T09:30:47Z",
-      "lastUpdated": "2026-05-05T12:07:10Z",
+      "lastUpdated": "2026-05-07T03:23:23Z",
       "latestVersion": "v1.1.0",
       "license": "MIT"
-    },
-    {
-      "id": "manju-summoner-yukkurimoviemaker-plugin-community",
-      "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
-      "author": "manju-summoner",
-      "authorUrl": "https://github.com/manju-summoner",
-      "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
-      "downloadUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community/releases",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 29,
-      "createdAt": "2024-05-28T09:50:34Z",
-      "lastUpdated": "2026-05-02T10:12:34Z",
-      "latestVersion": "",
-      "license": "LGPL-3.0"
     },
     {
       "id": "modurili-nineslice",
@@ -387,7 +405,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形���スク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -769,7 +787,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透���度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -826,7 +844,7 @@
     {
       "id": "tetra-te-mosaicoutlineeffect",
       "name": "MosaicOutlineEffect",
-      "description": "モザイク縁取り���フェクト",
+      "description": "モザイク縁取りエフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/MosaicOutlineEffect",
@@ -1222,7 +1240,7 @@
     {
       "id": "tetra-te-randomswitchingeffect",
       "name": "RandomSwitchingEffect",
-      "description": "エフェクトをラン���ムに切り替えながら適応する映像エフェクト",
+      "description": "エフェクトをランダムに切り替えながら適応する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomSwitchingEffect",
@@ -1602,7 +1620,7 @@
     {
       "id": "benikazura-benikazuratransitionpacka",
       "name": "BenikazuraTransitionPackA",
-      "description": "汎用的な場面切り替えプラグインを収録したプラグイン10種セットです。",
+      "description": "汎用的な場面切り替えプラグインを収録し��プラグイン10種セットです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/BenikazuraTransitionPackA",
@@ -1620,7 +1638,7 @@
     {
       "id": "dolphin-kun-ymm4clipboard",
       "name": "YMM4Clipboard",
-      "description": "YMM4内でクリップボードツー���を表示するプラグインです。",
+      "description": "YMM4内でクリップボードツールを表示するプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/YMM4Clipboard",
@@ -1803,7 +1821,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェク���（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
@@ -1953,7 +1971,7 @@
     {
       "id": "dmmo-com-jp-randomangleplugin",
       "name": "RandomAnglePlugin",
-      "description": "YMM4で映像エフェクト「ランダム角度」を追加するプラグイン。",
+      "description": "YMM4で映像エフェクト���ランダム角度」を追加するプラグイン。",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/RandomAnglePlugin",
@@ -2664,7 +2682,7 @@
     {
       "id": "sometea01-ymm4pluginpack-vol1",
       "name": "YMM4PluginPack_vol1",
-      "description": "YMM4のプラグウインを集めたパックです",
+      "description": "YMM4のプラ���ウインを集めたパックです",
       "author": "SomeTea01",
       "authorUrl": "https://github.com/SomeTea01",
       "repoUrl": "https://github.com/SomeTea01/YMM4PluginPack_vol1",
