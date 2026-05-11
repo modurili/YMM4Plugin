@@ -1,24 +1,6 @@
 {
-  "lastUpdated": "2026-05-10T15:58:07.251Z",
+  "lastUpdated": "2026-05-11T17:28:15.622Z",
   "plugins": [
-    {
-      "id": "hazimeyou-ymmprojectmanager",
-      "name": "YMMProjectManager",
-      "description": "YMM4用プロジェクトマネージャー",
-      "author": "hazimeyou",
-      "authorUrl": "https://github.com/hazimeyou",
-      "repoUrl": "https://github.com/hazimeyou/YMMProjectManager",
-      "downloadUrl": "https://github.com/hazimeyou/YMMProjectManager/releases/tag/v0.2.0",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 1,
-      "createdAt": "2026-01-15T02:49:12Z",
-      "lastUpdated": "2026-05-10T12:25:13Z",
-      "latestVersion": "v0.2.0",
-      "license": "MIT"
-    },
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
@@ -33,9 +15,27 @@
       ],
       "stars": 29,
       "createdAt": "2024-05-28T09:50:34Z",
-      "lastUpdated": "2026-05-09T20:29:07Z",
+      "lastUpdated": "2026-05-11T16:14:22Z",
       "latestVersion": "",
       "license": "LGPL-3.0"
+    },
+    {
+      "id": "hazimeyou-ymmprojectmanager",
+      "name": "YMMProjectManager",
+      "description": "YMM4用プロジェクトマ���ージャー",
+      "author": "hazimeyou",
+      "authorUrl": "https://github.com/hazimeyou",
+      "repoUrl": "https://github.com/hazimeyou/YMMProjectManager",
+      "downloadUrl": "https://github.com/hazimeyou/YMMProjectManager/releases/tag/v0.2.0",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 1,
+      "createdAt": "2026-01-15T02:49:12Z",
+      "lastUpdated": "2026-05-11T05:54:39Z",
+      "latestVersion": "v0.2.0",
+      "license": "MIT"
     },
     {
       "id": "routersys-ymm4-godray",
@@ -220,7 +220,7 @@
     {
       "id": "routersys-ymm4-combinedeffect",
       "name": "YMM4-CombinedEffect",
-      "description": "YMM4向けの映像エフェクト管理プラグイン。複��のエフェクトをグループ化してプリセット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
+      "description": "YMM4向けの映像エフェクト管理プラグイン。複数のエフェクトをグループ化してプリセット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CombinedEffect",
@@ -295,7 +295,7 @@
     {
       "id": "routersys-ymm4-pdf",
       "name": "YMM4-PDF",
-      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサ��ネイル付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
+      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PDF",
@@ -368,7 +368,7 @@
     {
       "id": "tenkonta-itemparametertextshape",
       "name": "ItemParameterTextShape",
-      "description": "アイテムのパラメーターを取得しテキストとして表示できる図形アイテム。",
+      "description": "アイテム���パラメーターを取得しテキストとして表示できる図形アイテム。",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/ItemParameterTextShape",
@@ -441,7 +441,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによ���GPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -550,7 +550,7 @@
     {
       "id": "routersys-ymm4-pentool",
       "name": "YMM4-PenTool",
-      "description": "YMM4向け高機能ペン描画プラグイン。ペン・マーカー・鉛筆・消しゴムの4種ブラシ・レイヤー管理・アンドゥ/リドゥ・Direct2Dレンダリング・アニメーション統合・フローティングUIレイアウト対応",
+      "description": "YMM4向���高機能ペン描画プラグイン。ペン・マーカー・鉛筆・消しゴムの4種ブラシ・レイヤー管理・アンドゥ/リドゥ・Direct2Dレンダリング・アニメーション統合・フローティングUIレイアウト対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PenTool",
@@ -732,7 +732,7 @@
     {
       "id": "rindai0123-artifact-ymm4-jetcut-plugin",
       "name": "ymm4-jetcut-plugin",
-      "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）プラグイン",
+      "description": "YMM4（ゆっくりMovieMaker4）用ジェッ���カット（無音カット）プラグイン",
       "author": "Rindai0123-Artifact",
       "authorUrl": "https://github.com/Rindai0123-Artifact",
       "repoUrl": "https://github.com/Rindai0123-Artifact/ymm4-jetcut-plugin",
@@ -787,7 +787,7 @@
     {
       "id": "haisangames813-rotationpersecondeffect",
       "name": "RotationPerSecondEffect",
-      "description": "指定した秒数で何回回転するかを指定できる映���エフェクトを追加するプラグインです",
+      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/RotationPerSecondEffect",
@@ -1042,7 +1042,7 @@
     {
       "id": "tetra-te-randomimagesource",
       "name": "RandomImageSource",
-      "description": "指定フォルダ内の画像をランダムに選んで表示する図形プラ���イン",
+      "description": "指定フォルダ内の画���をランダムに選んで表示する図形プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomImageSource",
@@ -1510,14 +1510,14 @@
     {
       "id": "manju-summoner-yukkurimoviemaker4pluginsamples",
       "name": "YukkuriMovieMaker4PluginSamples",
-      "description": "YMM4用プラグインのサンプル集です",
+      "description": "YMM4用プラグインの���ンプル集です",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker4PluginSamples",
       "downloadUrl": "https://github.com/manju-summoner/YukkuriMovieMaker4PluginSamples/releases",
-      "category": "utility",
+      "category": "other",
       "tags": [
-        "ユーティリティ"
+        "その他"
       ],
       "stars": 43,
       "createdAt": "2023-09-01T11:04:29Z",
@@ -1548,7 +1548,7 @@
     {
       "id": "thiramisu-ymm4-plugin-long-text-scroller",
       "name": "ymm4-plugin-long-text-scroller",
-      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイン。",
+      "description": "長文テキストを軽量にスクロールするための、YMM4の図形���ラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-long-text-scroller",
@@ -2025,7 +2025,7 @@
     {
       "id": "routersys-ymm4-huecorrection",
       "name": "YMM4-HueCorrection",
-      "description": "YMM4で色相��ライダーを使って色相補正をおこないます。",
+      "description": "YMM4で色相スライダーを��って色相補正をおこないます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HueCorrection",
@@ -2389,7 +2389,7 @@
     {
       "id": "dolphin-kun-lyricmotion",
       "name": "LyricMotion",
-      "description": "YMM4のリリックモーションしなが��登場退場プラグインです。",
+      "description": "YMM4のリリックモーションしながら登場退場プラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/LyricMotion",
@@ -2407,7 +2407,7 @@
     {
       "id": "tetra-te-alphafilleffect",
       "name": "AlphaFillEffect",
-      "description": "画像の薄い部分を塗り��ぶす映像エフェクト",
+      "description": "画像の薄い部分を塗りつぶす映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/AlphaFillEffect",
