@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-05-16T16:01:05.302Z",
+  "lastUpdated": "2026-05-17T16:01:28.664Z",
   "plugins": [
+    {
+      "id": "mochinekoo-ymm4-snipping-tool",
+      "name": "YMM4_Snipping_Tool",
+      "description": "YMM4のスクショプラグイン",
+      "author": "mochinekoo",
+      "authorUrl": "https://github.com/mochinekoo",
+      "repoUrl": "https://github.com/mochinekoo/YMM4_Snipping_Tool",
+      "downloadUrl": "https://github.com/mochinekoo/YMM4_Snipping_Tool/releases",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "createdAt": "2026-05-17T01:54:40Z",
+      "lastUpdated": "2026-05-17T13:06:07Z",
+      "latestVersion": "",
+      "license": ""
+    },
+    {
+      "id": "routersys-ymm4-trimmargin",
+      "name": "YMM4-TrimMargin",
+      "description": "アイテムの透明余白をピクセル単位で検出、除去する映像エフェクト",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-TrimMargin",
+      "downloadUrl": "https://github.com/routersys/YMM4-TrimMargin/releases/tag/v1.0.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-05-16T23:54:56Z",
+      "lastUpdated": "2026-05-17T01:10:39Z",
+      "latestVersion": "v1.0.1",
+      "license": "MIT"
+    },
     {
       "id": "hazimeyou-ymmprojectmanager",
       "name": "YMMProjectManager",
@@ -256,7 +292,7 @@
     {
       "id": "routersys-ymm4-combinedeffect",
       "name": "YMM4-CombinedEffect",
-      "description": "YMM4向けの映像エフェクト管理プラグイン。複数のエ���ェクトをグループ化してプリセット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
+      "description": "YMM4向けの映像エフェクト管理プラグイン。複数のエフェクトをグループ化してプリセット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対��、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CombinedEffect",
@@ -331,7 +367,7 @@
     {
       "id": "routersys-ymm4-pdf",
       "name": "YMM4-PDF",
-      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイ���付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
+      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PDF",
@@ -805,7 +841,7 @@
     {
       "id": "modurili-imageoverlay",
       "name": "ImageOverlay",
-      "description": "映像エフェクトで画像・動画を挿入することがで���るYMM4プラグイン",
+      "description": "映像エフェクトで画像・動画を挿入することができるYMM4プラグイン",
       "author": "modurili",
       "authorUrl": "https://github.com/modurili",
       "repoUrl": "https://github.com/modurili/ImageOverlay",
@@ -1078,7 +1114,7 @@
     {
       "id": "tetra-te-randomimagesource",
       "name": "RandomImageSource",
-      "description": "指定フォルダ内の画像をランダムに選んで表示する図形プラグイン",
+      "description": "指定フォルダ内の画像をランダ���に選んで表示する図形プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomImageSource",
@@ -1818,7 +1854,7 @@
     {
       "id": "megria-scarlet-waveoutput",
       "name": "WaveOutput",
-      "description": "YMM4の動画出力の項��に[WAV 出力]を追加します。",
+      "description": "YMM4の動画出力の項目に[WAV 出力]を追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/WaveOutput",
@@ -1989,7 +2025,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加し���す。",
+      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -2061,7 +2097,7 @@
     {
       "id": "routersys-ymm4-huecorrection",
       "name": "YMM4-HueCorrection",
-      "description": "YMM4で色相スライダーを使って色相補正をおこないます。",
+      "description": "YMM4で色相���ライダーを使って色相補正をおこないます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HueCorrection",
@@ -2808,7 +2844,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。た���し、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
