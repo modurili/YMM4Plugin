@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T17:55:55.588Z",
+  "lastUpdated": "2026-05-21T17:32:51.365Z",
   "plugins": [
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
@@ -22,7 +22,7 @@
     {
       "id": "mochinekoo-ymm4-snipping-tool",
       "name": "YMM4_Snipping_Tool",
-      "description": "YMM4のスクショプラグイン",
+      "description": "YMM4���スクショプラグイン",
       "author": "mochinekoo",
       "authorUrl": "https://github.com/mochinekoo",
       "repoUrl": "https://github.com/mochinekoo/YMM4_Snipping_Tool",
@@ -310,7 +310,7 @@
     {
       "id": "routersys-ymm4-combinedeffect",
       "name": "YMM4-CombinedEffect",
-      "description": "YMM4向けの映像エフェクト管理プラグイン。複数のエフェクトをグループ化してプリセット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミッ���書き込みによる安全な永続化を実装",
+      "description": "YMM4向けの映像エフェクト管理プラグイン。複数のエフェクトをグループ化してプリセット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CombinedEffect",
@@ -767,7 +767,7 @@
     {
       "id": "mochinekoo-ymm4-test-plugin",
       "name": "YMM4_Test_Plugin",
-      "description": "YMM4の練習用プラグイン",
+      "description": "YMM4の練習用プラグイ���",
       "author": "mochinekoo",
       "authorUrl": "https://github.com/mochinekoo",
       "repoUrl": "https://github.com/mochinekoo/YMM4_Test_Plugin",
@@ -1294,7 +1294,7 @@
     {
       "id": "benikazura-crossingscreen",
       "name": "CrossingScreen",
-      "description": "画面の端から端に移動させるYMM4用映像エフェクトプラグインです。",
+      "description": "��面の端から端に移動させるYMM4用映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CrossingScreen",
@@ -1474,7 +1474,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役��つ機能も搭載しています。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -1800,7 +1800,7 @@
     {
       "id": "benikazura-automaticaspectratio",
       "name": "AutomaticAspectRatio",
-      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自���で行うことができます。",
+      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことができます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AutomaticAspectRatio",
@@ -1818,7 +1818,7 @@
     {
       "id": "tenkonta-checkpatterncollection",
       "name": "CheckPatternCollection",
-      "description": "YMM4にチェック柄の模様5種類を追加するプラグ���ン",
+      "description": "YMM4にチェック柄の模様5種類を追加するプラグ��ン",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/CheckPatternCollection",
@@ -2223,7 +2223,7 @@
     {
       "id": "benikazura-fanclipping",
       "name": "FanClipping",
-      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力することもでき���す。",
+      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力することもできます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/FanClipping",
@@ -2259,7 +2259,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
+      "description": "���面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
@@ -2461,7 +2461,7 @@
     {
       "id": "dolphin-kun-lyricmotion",
       "name": "LyricMotion",
-      "description": "YMM4のリリックモーショ��しながら登場退場プラグインです。",
+      "description": "YMM4のリリックモーションしながら登場退場プラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/LyricMotion",
@@ -2479,7 +2479,7 @@
     {
       "id": "tetra-te-alphafilleffect",
       "name": "AlphaFillEffect",
-      "description": "画像の薄い部��を塗りつぶす映像エフェクト",
+      "description": "画像の薄い部分を塗りつぶす映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/AlphaFillEffect",
