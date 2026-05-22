@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-05-21T17:32:51.365Z",
+  "lastUpdated": "2026-05-22T17:11:25.306Z",
   "plugins": [
+    {
+      "id": "routersys-ymm4-shapepaste",
+      "name": "YMM4-ShapePaste",
+      "description": "アイテムの上に図形を描画・合成する映像エフェク��",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-ShapePaste",
+      "downloadUrl": "https://github.com/routersys/YMM4-ShapePaste/releases/tag/v1.0.0",
+      "category": "shape",
+      "tags": [
+        "図形"
+      ],
+      "stars": 0,
+      "createdAt": "2026-05-22T12:47:33Z",
+      "lastUpdated": "2026-05-22T13:07:32Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
+      "id": "routersys-ymm4-textpaste",
+      "name": "YMM4-TextPaste",
+      "description": "アイテムの上にテキストを描画・合成する映像エフェクト",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-TextPaste",
+      "downloadUrl": "https://github.com/routersys/YMM4-TextPaste/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-05-22T12:17:38Z",
+      "lastUpdated": "2026-05-22T12:47:16Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
@@ -15,14 +51,14 @@
       ],
       "stars": 29,
       "createdAt": "2024-05-28T09:50:34Z",
-      "lastUpdated": "2026-05-18T07:32:48Z",
+      "lastUpdated": "2026-05-22T12:03:53Z",
       "latestVersion": "",
       "license": "LGPL-3.0"
     },
     {
       "id": "mochinekoo-ymm4-snipping-tool",
       "name": "YMM4_Snipping_Tool",
-      "description": "YMM4���スクショプラグイン",
+      "description": "YMM4のスクショプラグイン",
       "author": "mochinekoo",
       "authorUrl": "https://github.com/mochinekoo",
       "repoUrl": "https://github.com/mochinekoo/YMM4_Snipping_Tool",
@@ -220,7 +256,7 @@
     {
       "id": "modurili-nineslice",
       "name": "NineSlice",
-      "description": "9スライスを使って画像の引き伸ばしやタイリングができるYMM4プラグイン",
+      "description": "9スライスを使って画像の引き伸ばし���タイリングができるYMM4プラグイン",
       "author": "modurili",
       "authorUrl": "https://github.com/modurili",
       "repoUrl": "https://github.com/modurili/NineSlice",
@@ -531,7 +567,7 @@
     {
       "id": "routersys-ymm4-mcserver",
       "name": "YMM4-MCServer",
-      "description": "YMM4上で動作するMinecraftサーバー管理ツールプラグイン。Vanilla/Paper/Fabric/Forge/Bedrockに対応し、JAR取得・整合性検証・起動停止・プラグイン管理・認可システムを提供します",
+      "description": "YMM4上で動��するMinecraftサーバー管理ツールプラグイン。Vanilla/Paper/Fabric/Forge/Bedrockに対応し、JAR取得・整合性検証・起動停止・プラグイン管理・認可システムを提供します",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MCServer",
@@ -586,7 +622,7 @@
     {
       "id": "routersys-ymm4-proxyforge",
       "name": "YMM4-ProxyForge",
-      "description": "YMM4向け動画プロキシ自動生成プラグイン。H.264プロキシ・HWアクセラレーション・永続キャッシュ・エクスポート時自動切替",
+      "description": "YMM4向け動画プロキシ自動生成プラグイン。H.264プロキシ・HWアクセラレーション・永続キャッシュ・エ��スポート時自動切替",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ProxyForge",
@@ -767,7 +803,7 @@
     {
       "id": "mochinekoo-ymm4-test-plugin",
       "name": "YMM4_Test_Plugin",
-      "description": "YMM4の練習用プラグイ���",
+      "description": "YMM4の練習用プラグイン",
       "author": "mochinekoo",
       "authorUrl": "https://github.com/mochinekoo",
       "repoUrl": "https://github.com/mochinekoo/YMM4_Test_Plugin",
@@ -1294,7 +1330,7 @@
     {
       "id": "benikazura-crossingscreen",
       "name": "CrossingScreen",
-      "description": "��面の端から端に移動させるYMM4用映像エフェクトプラグインです。",
+      "description": "画面の端から端に移動させるYMM4用映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CrossingScreen",
@@ -1474,7 +1510,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役��つ機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機���も搭載しています。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -1492,7 +1528,7 @@
     {
       "id": "dmmo-com-jp-textyurashiplugin",
       "name": "TextYurashiPlugin",
-      "description": "YMM4で映像エフェクト「揺らす」を追加するプラグイン",
+      "description": "YMM4で映像エフェクト「揺らす」を追加する��ラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/TextYurashiPlugin",
@@ -1782,7 +1818,7 @@
     {
       "id": "benikazura-animationpitch",
       "name": "AnimationPitch",
-      "description": "アニメーションスライダーに対応した、キーフレームで音程を変更できるYMM4用音声エフェクトプラグインです。",
+      "description": "アニメーションスライダーに対応した、キ��フレームで音程を変更できるYMM4用音声エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AnimationPitch",
@@ -1818,7 +1854,7 @@
     {
       "id": "tenkonta-checkpatterncollection",
       "name": "CheckPatternCollection",
-      "description": "YMM4にチェック柄の模様5種類を追加するプラグ��ン",
+      "description": "YMM4にチェック柄の模様5種類を追加するプラグイン",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/CheckPatternCollection",
@@ -1892,7 +1928,7 @@
     {
       "id": "inuinu2022-ymm4tableshapeplugin",
       "name": "YMM4TableShapePlugin",
-      "description": "ゆっくりムービーメーカー4 (YMM4) 用の表を描ける図形プラグインです。",
+      "description": "ゆっくりムービーメーカー4 (YMM4) 用の表を���ける図形プラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4TableShapePlugin",
@@ -1989,7 +2025,7 @@
     {
       "id": "dmmo-com-jp-customeffectselector",
       "name": "CustomEffectSelector",
-      "description": "VideoEffectSelectorの子映像エフェクトの呼び出しに使う各プロパティを数式で制御するプラグイン",
+      "description": "VideoEffectSelectorの子映像エフェクトの呼び出し���使う各プロパティを数式で制御するプラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/CustomEffectSelector",
@@ -2223,7 +2259,7 @@
     {
       "id": "benikazura-fanclipping",
       "name": "FanClipping",
-      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力することもできます。",
+      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力することも���きます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/FanClipping",
@@ -2259,7 +2295,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "���面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
