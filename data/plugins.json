@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-24T16:03:49.859Z",
+  "lastUpdated": "2026-05-25T17:08:49.308Z",
   "plugins": [
     {
       "id": "dmmo-com-jp-rotationcoordinateplugin",
       "name": "RotationCoordinatePlugin",
-      "description": "エフェク��による座標移動を回転させるYMM4プラグイン",
+      "description": "エフェクト��よる座標移動を回転させるYMM4プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/RotationCoordinatePlugin",
@@ -22,7 +22,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグ��ンのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -58,7 +58,7 @@
     {
       "id": "routersys-ymm4-textpaste",
       "name": "YMM4-TextPaste",
-      "description": "アイテムの上にテキストを描画・合成する��像エフェクト",
+      "description": "アイテムの上にテキストを描画・合成する映像エフェクト",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-TextPaste",
@@ -220,14 +220,14 @@
     {
       "id": "routersys-ymm4-timeline",
       "name": "YMM4-Timeline",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、現在開いているタイムラインをツールパネルとして複製表示するプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、現在開いているタイムラインを���ールパネルとして複製表示するプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Timeline",
       "downloadUrl": "https://github.com/routersys/YMM4-Timeline/releases/tag/v1.1.0",
-      "category": "utility",
+      "category": "other",
       "tags": [
-        "ユーティリティ"
+        "その他"
       ],
       "stars": 0,
       "createdAt": "2026-05-05T11:45:48Z",
@@ -494,7 +494,7 @@
     {
       "id": "tenkonta-itemparametertextshape",
       "name": "ItemParameterTextShape",
-      "description": "アイテムのパラメーターを取得しテキストとして表示できる図形���イテム。",
+      "description": "アイテムのパラメーターを取得しテキストとして表示できる図形アイテム。",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/ItemParameterTextShape",
@@ -1114,7 +1114,7 @@
     {
       "id": "tetra-te-indicator",
       "name": "Indicator",
-      "description": "アイテム情報を表示す���映像エフェクト",
+      "description": "アイテム情報を表示する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/Indicator",
@@ -1564,7 +1564,7 @@
     {
       "id": "dolphin-kun-effecttrigger",
       "name": "EffectTrigger",
-      "description": "「エフェクトトリガー」プラグイン",
+      "description": "「エフェクトトリガー」��ラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/EffectTrigger",
@@ -1674,7 +1674,7 @@
     {
       "id": "thiramisu-ymm4-plugin-long-text-scroller",
       "name": "ymm4-plugin-long-text-scroller",
-      "description": "長文テキ���トを軽量にスクロールするための、YMM4の図形プラグイン。",
+      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-long-text-scroller",
@@ -2187,7 +2187,7 @@
     {
       "id": "dmmo-com-jp-multicoreimgwavexporter",
       "name": "MultiCoreImgWavExporter",
-      "description": "YMM4���映像をマルチタスクで連番画像とWavファイルとして書き出す出力プラグイン",
+      "description": "YMM4の映像をマルチタスクで連番画像とWavファイルとして書き出す出力プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/MultiCoreImgWavExporter",
@@ -2241,7 +2241,7 @@
     {
       "id": "benikazura-wavetext",
       "name": "WaveText",
-      "description": "テキストアイテムを波状に配置できるYMM4用のプラグインです。",
+      "description": "テキストアイテムを波状に配置できるYMM4用���プラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/WaveText",
@@ -2678,7 +2678,7 @@
     {
       "id": "tetra-te-specifiedshoweffect",
       "name": "SpecifiedShowEffect",
-      "description": "再生時、一時停止時、出力時の不透明度を指定できる映像エフェクトプラグイン",
+      "description": "再生時、一時停止���、出力時の不透明度を指定できる映像エフェクトプラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SpecifiedShowEffect",
