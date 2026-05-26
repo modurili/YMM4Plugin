@@ -1,10 +1,28 @@
 {
-  "lastUpdated": "2026-05-25T17:08:49.308Z",
+  "lastUpdated": "2026-05-26T17:58:13.670Z",
   "plugins": [
+    {
+      "id": "routersys-ymm4-textpaste",
+      "name": "YMM4-TextPaste",
+      "description": "アイテムの上にテキストを描画・合成する映像エフェ��ト",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-TextPaste",
+      "downloadUrl": "https://github.com/routersys/YMM4-TextPaste/releases/tag/v1.0.1",
+      "category": "text",
+      "tags": [
+        "テキスト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-05-22T12:17:38Z",
+      "lastUpdated": "2026-05-26T09:29:09Z",
+      "latestVersion": "v1.0.1",
+      "license": "MIT"
+    },
     {
       "id": "dmmo-com-jp-rotationcoordinateplugin",
       "name": "RotationCoordinatePlugin",
-      "description": "エフェクト��よる座標移動を回転させるYMM4プラグイン",
+      "description": "エフェクトによる座標移動を回転させるYMM4プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/RotationCoordinatePlugin",
@@ -52,24 +70,6 @@
       "stars": 0,
       "createdAt": "2026-05-22T12:47:33Z",
       "lastUpdated": "2026-05-22T13:07:32Z",
-      "latestVersion": "v1.0.0",
-      "license": "MIT"
-    },
-    {
-      "id": "routersys-ymm4-textpaste",
-      "name": "YMM4-TextPaste",
-      "description": "アイテムの上にテキストを描画・合成する映像エフェクト",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-TextPaste",
-      "downloadUrl": "https://github.com/routersys/YMM4-TextPaste/releases/tag/v1.0.0",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 0,
-      "createdAt": "2026-05-22T12:17:38Z",
-      "lastUpdated": "2026-05-22T12:47:16Z",
       "latestVersion": "v1.0.0",
       "license": "MIT"
     },
@@ -220,14 +220,14 @@
     {
       "id": "routersys-ymm4-timeline",
       "name": "YMM4-Timeline",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、現在開いているタイムラインを���ールパネルとして複製表示するプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、現在開いているタイムラインをツールパネルとして複製表示するプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Timeline",
       "downloadUrl": "https://github.com/routersys/YMM4-Timeline/releases/tag/v1.1.0",
-      "category": "other",
+      "category": "utility",
       "tags": [
-        "その他"
+        "ユーティリティ"
       ],
       "stars": 0,
       "createdAt": "2026-05-05T11:45:48Z",
@@ -1240,7 +1240,7 @@
     {
       "id": "tenkonta-ymm4-imageoutputeffect",
       "name": "YMM4-ImageOutputEffect",
-      "description": "アイテムを個別で出力できるYMM4映像エフェクトです。",
+      "description": "アイテムを個別で出力できるYMM4映���エフェクトです。",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/YMM4-ImageOutputEffect",
@@ -1564,7 +1564,7 @@
     {
       "id": "dolphin-kun-effecttrigger",
       "name": "EffectTrigger",
-      "description": "「エフェクトトリガー」��ラグイン",
+      "description": "「エフェクトトリガー」プラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/EffectTrigger",
@@ -1800,7 +1800,7 @@
     {
       "id": "dolphin-kun-ymm4clipboard",
       "name": "YMM4Clipboard",
-      "description": "YMM4内でクリップボードツールを表示するプラグインです。",
+      "description": "YMM4内でクリップボードツールを表示するプラグインです��",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/YMM4Clipboard",
@@ -2187,7 +2187,7 @@
     {
       "id": "dmmo-com-jp-multicoreimgwavexporter",
       "name": "MultiCoreImgWavExporter",
-      "description": "YMM4の映像をマルチタスクで連番画像とWavファイルとして書き出す出力プラグイン",
+      "description": "YMM4���映像をマルチタスクで連番画像とWavファイルとして書き出す出力プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/MultiCoreImgWavExporter",
@@ -2241,7 +2241,7 @@
     {
       "id": "benikazura-wavetext",
       "name": "WaveText",
-      "description": "テキストアイテムを波状に配置できるYMM4用���プラグインです。",
+      "description": "テキストアイテムを波状に配置できるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/WaveText",
@@ -2678,7 +2678,7 @@
     {
       "id": "tetra-te-specifiedshoweffect",
       "name": "SpecifiedShowEffect",
-      "description": "再生時、一時停止���、出力時の不透明度を指定できる映像エフェクトプラグイン",
+      "description": "再生時、一時停止時、出力時の不透明度を指定できる映像エフェクトプラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SpecifiedShowEffect",
