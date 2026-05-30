@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-05-29T18:14:40.941Z",
+  "lastUpdated": "2026-05-30T16:07:27.470Z",
   "plugins": [
     {
       "id": "routersys-ymm4-puppetdeformation",
       "name": "YMM4-PuppetDeformation",
-      "description": "ピンを打って画像を自由に変形させる���ペットワープ映像エフェクト",
+      "description": "ピンを打って画像を自由に変形させ���パペットワープ映像エフェクト",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PuppetDeformation",
@@ -58,7 +58,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
       "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組���込まれます。",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで���み込まれます。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
@@ -112,7 +112,7 @@
     {
       "id": "routersys-ymm4-trimmargin",
       "name": "YMM4-TrimMargin",
-      "description": "アイテムの透明余白をピクセル単位で検出、除去する映像エフェクト",
+      "description": "アイテムの透明余白をピクセル単���で検出、除去する映像エフェクト",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-TrimMargin",
@@ -130,7 +130,7 @@
     {
       "id": "hazimeyou-ymmprojectmanager",
       "name": "YMMProjectManager",
-      "description": "YMM4用プロジ���クトマネージャー",
+      "description": "YMM4用プロジェクトマネージャー",
       "author": "hazimeyou",
       "authorUrl": "https://github.com/hazimeyou",
       "repoUrl": "https://github.com/hazimeyou/YMMProjectManager",
@@ -292,7 +292,7 @@
     {
       "id": "modurili-nineslice",
       "name": "NineSlice",
-      "description": "9スライスを使って画像の��き伸ばしやタイリングができるYMM4プラグイン",
+      "description": "9スライスを使って画像の引き伸ばしやタイリングができるYMM4プラグイン",
       "author": "modurili",
       "authorUrl": "https://github.com/modurili",
       "repoUrl": "https://github.com/modurili/NineSlice",
@@ -310,7 +310,7 @@
     {
       "id": "modurili-audiorepeater",
       "name": "AudioRepeater",
-      "description": "音声アイテムを簡単に連続再生させることができるYMM4プラグイン",
+      "description": "音声アイテムを簡単に連続再生させる��とができるYMM4プラグイン",
       "author": "modurili",
       "authorUrl": "https://github.com/modurili",
       "repoUrl": "https://github.com/modurili/AudioRepeater",
@@ -475,7 +475,7 @@
     {
       "id": "routersys-ymm4-spaceaudio",
       "name": "YMM4-SpaceAudio",
-      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・インタラクティブ3Dルームエディタ・アニメーション完全統合",
+      "description": "YukkuriMovieMaker4 向けルームリバーブシミュレータープラグイン。初期反射エンジン・8ラインFDN・インタラクティブ3Dルー��エディタ・アニメーション完全統合",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-SpaceAudio",
@@ -521,9 +521,9 @@
       "tags": [
         "図形"
       ],
-      "stars": 0,
+      "stars": 1,
       "createdAt": "2026-04-03T09:39:48Z",
-      "lastUpdated": "2026-04-03T09:44:42Z",
+      "lastUpdated": "2026-05-30T01:20:35Z",
       "latestVersion": "0.1.0",
       "license": ""
     },
@@ -585,7 +585,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダ��によるGPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -1510,7 +1510,7 @@
     {
       "id": "benikazura-dropframe",
       "name": "DropFrame",
-      "description": "映像のフレームレートをわ��と低下させる映像エフェクトプラグインです。",
+      "description": "映像のフレームレートをわざと低下させる映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DropFrame",
@@ -1546,7 +1546,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを���生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -1654,7 +1654,7 @@
     {
       "id": "manju-summoner-yukkurimoviemaker4pluginsamples",
       "name": "YukkuriMovieMaker4PluginSamples",
-      "description": "YMM4用プラグインのサンプル集です",
+      "description": "YMM4���プラグインのサンプル集です",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker4PluginSamples",
@@ -1692,7 +1692,7 @@
     {
       "id": "thiramisu-ymm4-plugin-long-text-scroller",
       "name": "ymm4-plugin-long-text-scroller",
-      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイン。",
+      "description": "長文テキストを軽量にスクロールするた��の、YMM4の図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-long-text-scroller",
@@ -1782,7 +1782,7 @@
     {
       "id": "benikazura-videochecker",
       "name": "VideoChecker",
-      "description": "映像アイテム(図形アイテムや動画アイテム��)の内部数値を調べることができるYMM4用のプラグインです。",
+      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることができるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/VideoChecker",
@@ -1818,7 +1818,7 @@
     {
       "id": "dolphin-kun-ymm4clipboard",
       "name": "YMM4Clipboard",
-      "description": "YMM4内でクリップボードツールを表示���るプラグインです。",
+      "description": "YMM4内でクリップボードツールを表���するプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/YMM4Clipboard",
@@ -2421,7 +2421,7 @@
     {
       "id": "inuinu2022-sampleymmegetprojinfo",
       "name": "SampleYmmeGetProjInfo",
-      "description": "プラグインからYMM4の現在��プロジェクト情報を取得するためのサンプル",
+      "description": "プラグインからYMM4の現在のプロジェクト情報を取得するためのサンプル",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/SampleYmmeGetProjInfo",
@@ -2533,7 +2533,7 @@
     {
       "id": "dolphin-kun-lyricmotion",
       "name": "LyricMotion",
-      "description": "YMM4のリリックモーションしながら登場退��プラグインです。",
+      "description": "YMM4のリリックモーションしながら登場退場プラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/LyricMotion",
@@ -2551,7 +2551,7 @@
     {
       "id": "tetra-te-alphafilleffect",
       "name": "AlphaFillEffect",
-      "description": "画像の薄い部分を塗りつぶす映��エフェクト",
+      "description": "画像の薄い部分を塗りつぶす映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/AlphaFillEffect",
@@ -2771,7 +2771,7 @@
     {
       "id": "kotolin-sub-ymm4audiodelayplugin",
       "name": "YMM4AudioDelayPlugin",
-      "description": "指定した分遅れて再生されまる音声エフェクトを追加するYMM4のプラグイン",
+      "description": "指定した分遅れて再生さ���まる音声エフェクトを追加するYMM4のプラグイン",
       "author": "kotolin-sub",
       "authorUrl": "https://github.com/kotolin-sub",
       "repoUrl": "https://github.com/kotolin-sub/YMM4AudioDelayPlugin",
