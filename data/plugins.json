@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T19:57:17.764Z",
+  "lastUpdated": "2026-06-02T18:42:10.281Z",
   "plugins": [
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
@@ -292,7 +292,7 @@
     {
       "id": "hazimeyou-ymmresourcepackager",
       "name": "YMMResourcePackager",
-      "description": "素材同梱プラグインおよび展開アプリ",
+      "description": "素材同��プラグインおよび展開アプリ",
       "author": "hazimeyou",
       "authorUrl": "https://github.com/hazimeyou",
       "repoUrl": "https://github.com/hazimeyou/YMMResourcePackager",
@@ -912,7 +912,7 @@
     {
       "id": "rindai0123-artifact-ymm4-jetcut-plugin",
       "name": "ymm4-jetcut-plugin",
-      "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）プラグイン",
+      "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）���ラグイン",
       "author": "Rindai0123-Artifact",
       "authorUrl": "https://github.com/Rindai0123-Artifact",
       "repoUrl": "https://github.com/Rindai0123-Artifact/ymm4-jetcut-plugin",
@@ -1510,7 +1510,7 @@
     {
       "id": "haisangames813-drawingsettingseffect",
       "name": "DrawingSettingsEffect",
-      "description": "基本的な描画設定ができる「描画設定」エフェクトを追加するプラグイン",
+      "description": "基本的な描画���定ができる「描画設定」エフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/DrawingSettingsEffect",
@@ -1528,7 +1528,7 @@
     {
       "id": "routersys-ymm4-fontmanager",
       "name": "YMM4-FontManager",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシ���テムへインストール・管理できます。",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシステムへインストール・管理できます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-FontManager",
@@ -1800,7 +1800,7 @@
     {
       "id": "dolphin-kun-textsplitter",
       "name": "TextSplitter",
-      "description": "テキストを��字ごとに別のアイテムとして分割することができるツールプラグインです。",
+      "description": "テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/TextSplitter",
@@ -2037,7 +2037,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作で��るプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
@@ -2169,7 +2169,7 @@
     {
       "id": "dmmo-com-jp-audiolinkplugin",
       "name": "AudioLinkPlugin",
-      "description": "条件が真なら対応して��る音声エフェクトを実行するYMM4Plugin",
+      "description": "条件が真なら対応している音声エフェクトを実行するYMM4Plugin",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/AudioLinkPlugin",
@@ -2367,7 +2367,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色化画像を重ねながら不透明度を���整できるエフェクトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
@@ -2551,7 +2551,7 @@
     {
       "id": "dolphin-kun-motiondetection",
       "name": "MotionDetection",
-      "description": "「動作検��」映像エフェクトプラグインです。",
+      "description": "「動作検知」映像エフェクトプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/MotionDetection",
