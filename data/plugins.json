@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T18:42:10.281Z",
+  "lastUpdated": "2026-06-03T18:46:33.199Z",
   "plugins": [
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
@@ -15,7 +15,7 @@
       ],
       "stars": 29,
       "createdAt": "2024-05-28T09:50:34Z",
-      "lastUpdated": "2026-06-01T10:26:12Z",
+      "lastUpdated": "2026-06-02T20:23:08Z",
       "latestVersion": "",
       "license": "LGPL-3.0"
     },
@@ -292,7 +292,7 @@
     {
       "id": "hazimeyou-ymmresourcepackager",
       "name": "YMMResourcePackager",
-      "description": "素材同��プラグインおよび展開アプリ",
+      "description": "素材同梱プラグインおよび展開アプリ",
       "author": "hazimeyou",
       "authorUrl": "https://github.com/hazimeyou",
       "repoUrl": "https://github.com/hazimeyou/YMMResourcePackager",
@@ -436,7 +436,7 @@
     {
       "id": "routersys-ymm4-objloader",
       "name": "YMM4-ObjLoader",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使用したYMM4向け高性能3Dモデル表示・操作プラグイン",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のDirectX 11を使��したYMM4向け高性能3Dモデル表示・操作プラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
@@ -548,14 +548,14 @@
     {
       "id": "tenkonta-itemparametertextshape",
       "name": "ItemParameterTextShape",
-      "description": "アイテムのパラメーターを取得しテキストとして表示できる図形アイテム。",
+      "description": "アイテムのパラメーターを取得しテキストとして表示できる���形アイテム。",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/ItemParameterTextShape",
       "downloadUrl": "https://github.com/tenkonta/ItemParameterTextShape/releases/tag/0.1.0",
-      "category": "shape",
+      "category": "text",
       "tags": [
-        "図形"
+        "テキスト"
       ],
       "stars": 1,
       "createdAt": "2026-04-03T09:39:48Z",
@@ -639,7 +639,7 @@
     {
       "id": "routersys-ymm4-mcserver",
       "name": "YMM4-MCServer",
-      "description": "YMM4上で動作するMinecraftサーバー管理ツールプラグイン。Vanilla/Paper/Fabric/Forge/Bedrockに対応し、JAR取得・整合性検証・起動停止・プラグイン管理・認可システムを提供します",
+      "description": "YMM4上で動作するMinecraftサーバー管理ツールプラグイン。Vanilla/Paper/Fabric/Forge/Bedrockに対応し、JAR取得・整合性検証・起動停止・プラグイン管理・認可システム���提供します",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MCServer",
@@ -676,7 +676,7 @@
     {
       "id": "benikazura-bpmsync",
       "name": "BpmSync",
-      "description": "リズムに合わせてエフェクトを制御する映像エフェクトプラグインです。",
+      "description": "リズムに合わせてエフェクトを制御する映��エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/BpmSync",
@@ -912,7 +912,7 @@
     {
       "id": "rindai0123-artifact-ymm4-jetcut-plugin",
       "name": "ymm4-jetcut-plugin",
-      "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）���ラグイン",
+      "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）プラグイン",
       "author": "Rindai0123-Artifact",
       "authorUrl": "https://github.com/Rindai0123-Artifact",
       "repoUrl": "https://github.com/Rindai0123-Artifact/ymm4-jetcut-plugin",
@@ -985,7 +985,7 @@
     {
       "id": "haisangames813-pluginlistplugin",
       "name": "PluginListPlugin",
-      "description": "導入しているプラグインの管理ができるツールプラグインです",
+      "description": "導入して��るプラグインの管理ができるツールプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/PluginListPlugin",
@@ -1096,7 +1096,7 @@
     {
       "id": "tetra-te-ratiocropeffect",
       "name": "RatioCropEffect",
-      "description": "比率で指定するクリッピングエフェクト",
+      "description": "比率で指定するクリッピングエフェク���",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RatioCropEffect",
@@ -1510,7 +1510,7 @@
     {
       "id": "haisangames813-drawingsettingseffect",
       "name": "DrawingSettingsEffect",
-      "description": "基本的な描画���定ができる「描画設定」エフェクトを追加するプラグイン",
+      "description": "基本的な描画設定ができる「描画設定」エフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/DrawingSettingsEffect",
@@ -1818,7 +1818,7 @@
     {
       "id": "benikazura-videochecker",
       "name": "VideoChecker",
-      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることができるYMM4用のプラグインです。",
+      "description": "映像アイテム(図形アイテムや動画アイテム等)の内���数値を調べることができるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/VideoChecker",
@@ -1836,7 +1836,7 @@
     {
       "id": "benikazura-benikazuratransitionpacka",
       "name": "BenikazuraTransitionPackA",
-      "description": "汎用的な場面切り替えプラグインを収��したプラグイン10種セットです。",
+      "description": "汎用的な場面切り替えプラグインを収録したプラグイン10種セットです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/BenikazuraTransitionPackA",
@@ -2367,7 +2367,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度を���整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
@@ -2385,7 +2385,7 @@
     {
       "id": "benikazura-glitchnoiseeffect",
       "name": "GlitchNoiseEffect",
-      "description": "グリッチノイズの映像エフェクトを追加します。",
+      "description": "グリッチ��イズの映像エフェクトを追加します。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/GlitchNoiseEffect",
@@ -2952,7 +2952,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しま���ん。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
