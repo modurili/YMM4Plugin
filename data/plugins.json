@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T16:07:56.357Z",
+  "lastUpdated": "2026-06-07T16:20:15.706Z",
   "plugins": [
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
@@ -851,9 +851,9 @@
         "音声エフェクト",
         "effekseer"
       ],
-      "stars": 4,
+      "stars": 5,
       "createdAt": "2026-02-08T14:24:49Z",
-      "lastUpdated": "2026-03-25T10:45:04Z",
+      "lastUpdated": "2026-06-07T00:45:46Z",
       "latestVersion": "v1.1.0",
       "license": "MIT"
     },
@@ -1060,7 +1060,7 @@
     {
       "id": "tetra-te-mosaicoutlineeffect",
       "name": "MosaicOutlineEffect",
-      "description": "モザイク縁取りエフェク��",
+      "description": "モザイク縁取りエフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/MosaicOutlineEffect",
@@ -1078,7 +1078,7 @@
     {
       "id": "tetra-te-ratiooutlineeffect",
       "name": "RatioOutlineEffect",
-      "description": "比率で指定できる縁取りエフェクト",
+      "description": "比率で指定でき��縁取りエフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RatioOutlineEffect",
@@ -1294,7 +1294,7 @@
     {
       "id": "tenkonta-ymm4-imageoutputeffect",
       "name": "YMM4-ImageOutputEffect",
-      "description": "アイテムを個��で出力できるYMM4映像エフェクトです。",
+      "description": "アイテムを個別で出力できるYMM4映像エフェクトです。",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/YMM4-ImageOutputEffect",
@@ -1782,7 +1782,7 @@
     {
       "id": "thiramisu-ymm4-plugin-general-in-out",
       "name": "ymm4-plugin-general-in-out",
-      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
+      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4の��フェクト・図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-general-in-out",
@@ -1962,7 +1962,7 @@
     {
       "id": "megria-scarlet-waveoutput",
       "name": "WaveOutput",
-      "description": "YMM4の動画出力の項目に[WAV 出力]を追加します。",
+      "description": "YMM4の動画出力の項目に[WAV 出力]を��加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/WaveOutput",
@@ -2205,7 +2205,7 @@
     {
       "id": "routersys-ymm4-huecorrection",
       "name": "YMM4-HueCorrection",
-      "description": "YMM4で色相スライダーを使って色相補正をおこないます。",
+      "description": "YMM4で色相スライダーを使って色��補正をおこないます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HueCorrection",
@@ -2533,7 +2533,7 @@
     {
       "id": "ikoma-reunion-ymm4-plugin-document",
       "name": "ymm4-plugin-document",
-      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。　v4.42.1.3",
+      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。��v4.42.1.3",
       "author": "ikoma-reunion",
       "authorUrl": "https://github.com/ikoma-reunion",
       "repoUrl": "https://github.com/ikoma-reunion/ymm4-plugin-document",
