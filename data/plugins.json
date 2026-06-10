@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T17:30:12.560Z",
+  "lastUpdated": "2026-06-10T17:59:57.844Z",
   "plugins": [
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
@@ -15,7 +15,7 @@
       ],
       "stars": 30,
       "createdAt": "2024-05-28T09:50:34Z",
-      "lastUpdated": "2026-06-09T15:04:59Z",
+      "lastUpdated": "2026-06-10T16:00:17Z",
       "latestVersion": "",
       "license": "LGPL-3.0"
     },
@@ -33,7 +33,7 @@
       ],
       "stars": 1,
       "createdAt": "2026-01-15T02:49:12Z",
-      "lastUpdated": "2026-06-08T15:09:12Z",
+      "lastUpdated": "2026-06-09T22:46:11Z",
       "latestVersion": "v0.2.0",
       "license": "MIT"
     },
@@ -367,7 +367,7 @@
     {
       "id": "modurili-nineslice",
       "name": "NineSlice",
-      "description": "9スライスを使って画像の引き伸ばしやタイリングができるYMM4プラグイン",
+      "description": "9スライスを使って画像の��き伸ばしやタイリングができるYMM4プラグイン",
       "author": "modurili",
       "authorUrl": "https://github.com/modurili",
       "repoUrl": "https://github.com/modurili/NineSlice",
@@ -751,7 +751,7 @@
     {
       "id": "routersys-ymm4-pentool",
       "name": "YMM4-PenTool",
-      "description": "YMM4向け高機能ペン描画プラグイン。ペン・マーカー・鉛筆・消しゴムの4種ブラシ・レイヤー管理・ア��ドゥ/リドゥ・Direct2Dレンダリング・アニメーション統合・フローティングUIレイアウト対応",
+      "description": "YMM4向け高機能ペン描画プラグイン。ペン・マーカー・鉛筆・消しゴムの4種ブラシ・レイヤー管理・アンドゥ/リドゥ・Direct2Dレンダリング・アニメーション統合・フローティングUIレイアウト対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PenTool",
@@ -988,7 +988,7 @@
     {
       "id": "haisangames813-rotationpersecondeffect",
       "name": "RotationPerSecondEffect",
-      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラ���インです",
+      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/RotationPerSecondEffect",
@@ -1240,7 +1240,7 @@
     {
       "id": "hashibutogarasu-loopoverlayassist",
       "name": "LoopOverlayAssist",
-      "description": "ループ開始地点を発見しやすくするプラグインです",
+      "description": "ループ開始地点を発��しやすくするプラグインです",
       "author": "Hashibutogarasu",
       "authorUrl": "https://github.com/Hashibutogarasu",
       "repoUrl": "https://github.com/Hashibutogarasu/LoopOverlayAssist",
@@ -1276,7 +1276,7 @@
     {
       "id": "enu-dayo-ymm4tritonevideoeffect",
       "name": "YMM4TritoneVideoEffect",
-      "description": "YMM4用のトライトーンエフェクトです",
+      "description": "YMM4用のトライトー���エフェクトです",
       "author": "ENU-DAYO",
       "authorUrl": "https://github.com/ENU-DAYO",
       "repoUrl": "https://github.com/ENU-DAYO/YMM4TritoneVideoEffect",
@@ -1600,7 +1600,7 @@
     {
       "id": "dmmo-com-jp-textyurashiplugin",
       "name": "TextYurashiPlugin",
-      "description": "YMM4で映像エフェクト「揺らす」を追加するプラグイ���",
+      "description": "YMM4で映像エフェクト「揺らす」を追加するプラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/TextYurashiPlugin",
@@ -1746,14 +1746,14 @@
     {
       "id": "haisangames813-fillerclippingplugin",
       "name": "FillerClippingPlugin",
-      "description": "分断と間詰め、分断後の移動ができるエフェ���トを追加するプラグイン",
+      "description": "分断と間詰め、分断後の移動ができるエフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/FillerClippingPlugin",
       "downloadUrl": "https://github.com/HAIsanGames813/FillerClippingPlugin/releases/tag/1.0.0",
-      "category": "other",
+      "category": "video-effect",
       "tags": [
-        "その他"
+        "映像エフェクト"
       ],
       "stars": 1,
       "createdAt": "2025-11-07T10:33:19Z",
@@ -2037,7 +2037,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作で��るプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジ���クト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
@@ -2124,9 +2124,9 @@
       "tags": [
         "テキスト"
       ],
-      "stars": 1,
+      "stars": 2,
       "createdAt": "2025-09-07T08:20:27Z",
-      "lastUpdated": "2026-03-15T02:00:13Z",
+      "lastUpdated": "2026-06-09T22:53:36Z",
       "latestVersion": "1.0.1",
       "license": "MIT"
     },
@@ -2169,7 +2169,7 @@
     {
       "id": "dmmo-com-jp-audiolinkplugin",
       "name": "AudioLinkPlugin",
-      "description": "条件が真なら対応して��る音声エフェクトを実行するYMM4Plugin",
+      "description": "条件が真なら対応している音声エフェクトを実行するYMM4Plugin",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/AudioLinkPlugin",
@@ -2678,7 +2678,7 @@
     {
       "id": "dolphin-kun-reflecteffect",
       "name": "ReflectEffect",
-      "description": "「反射」エフェクトプラグイン",
+      "description": "「反射」エフェクトプラ��イン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ReflectEffect",
