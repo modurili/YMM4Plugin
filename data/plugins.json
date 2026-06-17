@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-06-16T18:56:44.263Z",
+  "lastUpdated": "2026-06-17T17:51:39.291Z",
   "plugins": [
+    {
+      "id": "scpgamerscp-ymm4mcp",
+      "name": "ymm4MCP",
+      "description": "説明なし",
+      "author": "SCPgamerscp",
+      "authorUrl": "https://github.com/SCPgamerscp",
+      "repoUrl": "https://github.com/SCPgamerscp/ymm4MCP",
+      "downloadUrl": "https://github.com/SCPgamerscp/ymm4MCP/releases",
+      "category": "other",
+      "tags": [
+        "その他",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol"
+      ],
+      "stars": 11,
+      "createdAt": "2026-02-26T05:58:21Z",
+      "lastUpdated": "2026-06-17T10:25:44Z",
+      "latestVersion": "",
+      "license": ""
+    },
     {
       "id": "hazimeyou-ymmresourcepackager",
       "name": "YMMResourcePackager",
@@ -40,7 +61,7 @@
     {
       "id": "benikazura-timestamp",
       "name": "Timestamp",
-      "description": "専用のアイテムを配置するだけで簡単にYouTubeとニコニコ動画のタイムスタンプを作成できるYMM4用のプラグインです。",
+      "description": "専用のアイテムを配置するだけで簡単にYouTubeとニコニコ動��のタイムスタンプを作成できるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/Timestamp",
@@ -110,27 +131,6 @@
       "license": "MIT"
     },
     {
-      "id": "scpgamerscp-ymm4mcp",
-      "name": "ymm4MCP",
-      "description": "説明なし",
-      "author": "SCPgamerscp",
-      "authorUrl": "https://github.com/SCPgamerscp",
-      "repoUrl": "https://github.com/SCPgamerscp/ymm4MCP",
-      "downloadUrl": "https://github.com/SCPgamerscp/ymm4MCP/releases",
-      "category": "other",
-      "tags": [
-        "その他",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol"
-      ],
-      "stars": 11,
-      "createdAt": "2026-02-26T05:58:21Z",
-      "lastUpdated": "2026-06-15T19:38:43Z",
-      "latestVersion": "",
-      "license": ""
-    },
-    {
       "id": "yurklyk-ymm4musiccontroller",
       "name": "Ymm4MusicController",
       "description": "説明なし",
@@ -151,7 +151,7 @@
     {
       "id": "3e456-123abc-ymm4togpt-sovits-character",
       "name": "ymm4ToGPT_SoVITS_character",
-      "description": "YMM4(ゆっくりムービーメーカー)��らGPT_SoVITSを使えるようにするプラグインとか",
+      "description": "YMM4(ゆっくりムービーメーカー)からGPT_SoVITSを使えるようにするプラグインとか",
       "author": "3e456-123abc",
       "authorUrl": "https://github.com/3e456-123abc",
       "repoUrl": "https://github.com/3e456-123abc/ymm4ToGPT_SoVITS_character",
@@ -169,7 +169,7 @@
     {
       "id": "routersys-ymm4-puppetdeformation",
       "name": "YMM4-PuppetDeformation",
-      "description": "ピンを打って画像を自由に変形させるパペットワープ映像エフェクト",
+      "description": "ピンを打って画像を自由���変形させるパペットワープ映像エフェクト",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PuppetDeformation",
@@ -259,7 +259,7 @@
     {
       "id": "routersys-ymm4-trimmargin",
       "name": "YMM4-TrimMargin",
-      "description": "アイテムの透明余白をピクセル���位で検出、除去する映像エフェクト",
+      "description": "アイテムの透明余白をピクセル単位で検出、除去する映像エフェクト",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-TrimMargin",
@@ -457,7 +457,7 @@
     {
       "id": "routersys-ymm4-combinedeffect",
       "name": "YMM4-CombinedEffect",
-      "description": "YMM4向けの映像エフェクト管理プラグイン。複数のエフェクトをグループ化してプリセ��ト保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
+      "description": "YMM4向けの映像エフェクト管理プラグイン。複数のエフェクトをグループ化してプリセット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CombinedEffect",
@@ -514,7 +514,7 @@
     {
       "id": "routersys-ymm4-pdf",
       "name": "YMM4-PDF",
-      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイ���選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
+      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル��択UIを実現。ページ番号など全パラメーターがアニメーション対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PDF",
@@ -678,7 +678,7 @@
     {
       "id": "routersys-ymm4-mcserver",
       "name": "YMM4-MCServer",
-      "description": "YMM4上で動作するMinecraftサーバー管理ツールプラグイン。Vanilla/Paper/Fabric/Forge/Bedrockに対応し、JAR取得・整合性検証・起動停止・プラグイン管理・認可��ステムを提供します",
+      "description": "YMM4上で動作するMinecraftサーバー管理ツールプラグイン。Vanilla/Paper/Fabric/Forge/Bedrockに対応し、JAR取得・整合性検証・起動停止・プラグイン管理・認可システムを提供します",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MCServer",
@@ -697,7 +697,7 @@
     {
       "id": "tanazun-linemarcheffect",
       "name": "LineMarchEffect",
-      "description": "YMM4 ライン行進エフェクト���ラグイン",
+      "description": "YMM4 ライン行進エフェクトプラグイン",
       "author": "tanazun",
       "authorUrl": "https://github.com/tanazun",
       "repoUrl": "https://github.com/tanazun/LineMarchEffect",
@@ -970,7 +970,7 @@
     {
       "id": "haisangames813-shrinkcompositeeffect",
       "name": "ShrinkCompositeEffect",
-      "description": "ドロステ効果が使えるエフェクトを追加す���プラグインです",
+      "description": "ドロステ効果が使えるエフェクトを追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/ShrinkCompositeEffect",
@@ -1042,7 +1042,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理さ��る拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -1546,7 +1546,7 @@
     {
       "id": "routersys-ymm4-fontmanager",
       "name": "YMM4-FontManager",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシステムへインストール・管理できます。",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシステムへインストール��管理できます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-FontManager",
@@ -1636,7 +1636,7 @@
     {
       "id": "dolphin-kun-effecttrigger",
       "name": "EffectTrigger",
-      "description": "「エフェクトトリガー���プラグイン",
+      "description": "「エフェクトトリガー」プラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/EffectTrigger",
@@ -1818,7 +1818,7 @@
     {
       "id": "dolphin-kun-textsplitter",
       "name": "TextSplitter",
-      "description": "テキストを文字ごとに別のアイテムとし���分割することができるツールプラグインです。",
+      "description": "テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/TextSplitter",
@@ -2055,7 +2055,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイ��ライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
@@ -2277,7 +2277,7 @@
     {
       "id": "benikazura-letterboxshape",
       "name": "LetterBoxShape",
-      "description": "図形オブジェクトにレターボックス（画面上下���左右の黒帯）を追加します。",
+      "description": "図形オブジェクトにレターボックス（画面上下や左右の黒帯）を追加します。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/LetterBoxShape",
@@ -2295,7 +2295,7 @@
     {
       "id": "benikazura-scrolleffect",
       "name": "ScrollEffect",
-      "description": "一定の方向に繰り返しスクロールを行���映像エフェクトを追加するYMM4用のプラグインです。",
+      "description": "一定の方向に繰り返しスクロールを行う映像エフェクトを追加するYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/ScrollEffect",
@@ -2367,7 +2367,7 @@
     {
       "id": "benikazura-outlinet",
       "name": "OutlineT",
-      "description": "縁��りT(作 : ティム)としてExo出力される縁取りエフェクトです。",
+      "description": "縁取りT(作 : ティム)としてExo出力される縁取りエフェクトです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/OutlineT",
