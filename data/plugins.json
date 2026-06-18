@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-17T17:51:39.291Z",
+  "lastUpdated": "2026-06-18T18:07:24.394Z",
   "plugins": [
+    {
+      "id": "manju-summoner-yukkurimoviemaker-plugin-community",
+      "name": "YukkuriMovieMaker.Plugin.Community",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "author": "manju-summoner",
+      "authorUrl": "https://github.com/manju-summoner",
+      "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
+      "downloadUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community/releases",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 31,
+      "createdAt": "2024-05-28T09:50:34Z",
+      "lastUpdated": "2026-06-18T13:53:54Z",
+      "latestVersion": "",
+      "license": "LGPL-3.0"
+    },
     {
       "id": "scpgamerscp-ymm4mcp",
       "name": "ymm4MCP",
@@ -41,27 +59,9 @@
       "license": "MIT"
     },
     {
-      "id": "manju-summoner-yukkurimoviemaker-plugin-community",
-      "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
-      "author": "manju-summoner",
-      "authorUrl": "https://github.com/manju-summoner",
-      "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
-      "downloadUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community/releases",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 31,
-      "createdAt": "2024-05-28T09:50:34Z",
-      "lastUpdated": "2026-06-15T19:33:10Z",
-      "latestVersion": "",
-      "license": "LGPL-3.0"
-    },
-    {
       "id": "benikazura-timestamp",
       "name": "Timestamp",
-      "description": "専用のアイテムを配置するだけで簡単にYouTubeとニコニコ動��のタイムスタンプを作成できるYMM4用のプラグインです。",
+      "description": "専用のアイテムを配置するだけで簡単にYouTubeとニコニコ動���のタイムスタンプを作成できるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/Timestamp",
@@ -151,7 +151,7 @@
     {
       "id": "3e456-123abc-ymm4togpt-sovits-character",
       "name": "ymm4ToGPT_SoVITS_character",
-      "description": "YMM4(ゆっくりムービーメーカー)からGPT_SoVITSを使えるようにするプラグインとか",
+      "description": "YMM4(ゆっくりムービーメーカー)からGPT_SoVITSを���えるようにするプラグインとか",
       "author": "3e456-123abc",
       "authorUrl": "https://github.com/3e456-123abc",
       "repoUrl": "https://github.com/3e456-123abc/ymm4ToGPT_SoVITS_character",
@@ -169,7 +169,7 @@
     {
       "id": "routersys-ymm4-puppetdeformation",
       "name": "YMM4-PuppetDeformation",
-      "description": "ピンを打って画像を自由���変形させるパペットワープ映像エフェクト",
+      "description": "ピンを打って画像を自由に変形させるパペットワープ映像エフェクト",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PuppetDeformation",
@@ -349,7 +349,7 @@
     {
       "id": "routersys-ymm4-dynamiceffect",
       "name": "YMM4-DynamicEffect",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、音量レベルに応じて異なるエフェクトを自動で切り替える音声エフェクトプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、音量レベルに応��て異なるエフェクトを自動で切り替える音声エフェクトプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-DynamicEffect",
@@ -514,7 +514,7 @@
     {
       "id": "routersys-ymm4-pdf",
       "name": "YMM4-PDF",
-      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル��択UIを実現。ページ番号など全パラメーターがアニメーション対応",
+      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PDF",
@@ -896,7 +896,7 @@
     {
       "id": "haisangames813-usedmediafinderplugin",
       "name": "UsedMediaFinderPlugin",
-      "description": "使用/未使用メディアを検出しリネームを行えるツールプラグインです",
+      "description": "使��/未使用メディアを検出しリネームを行えるツールプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/UsedMediaFinderPlugin",
@@ -1042,7 +1042,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理さ��る拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -1078,7 +1078,7 @@
     {
       "id": "tetra-te-mosaicoutlineeffect",
       "name": "MosaicOutlineEffect",
-      "description": "モザイク縁取りエフェクト",
+      "description": "モザ��ク縁取りエフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/MosaicOutlineEffect",
@@ -1546,7 +1546,7 @@
     {
       "id": "routersys-ymm4-fontmanager",
       "name": "YMM4-FontManager",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシステムへインストール��管理できます。",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシステムへインストール・管理できます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-FontManager",
@@ -1818,7 +1818,7 @@
     {
       "id": "dolphin-kun-textsplitter",
       "name": "TextSplitter",
-      "description": "テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
+      "description": "テキストを文字ごとに別のアイテム��して分割することができるツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/TextSplitter",
@@ -2055,7 +2055,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイ��ライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
