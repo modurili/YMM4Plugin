@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-06-19T17:21:39.705Z",
+  "lastUpdated": "2026-06-20T16:21:33.257Z",
   "plugins": [
+    {
+      "id": "routersys-ymm4-directionalcolorkey",
+      "name": "YMM4-DirectionalColorKey",
+      "description": "背景色からの色変位方向をクラ���タリングして前景を分離する映像エフェクト",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-DirectionalColorKey",
+      "downloadUrl": "https://github.com/routersys/YMM4-DirectionalColorKey/releases/tag/v1.0.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2026-06-10T07:44:45Z",
+      "lastUpdated": "2026-06-20T14:25:09Z",
+      "latestVersion": "v1.0.1",
+      "license": "LGPL-3.0"
+    },
     {
       "id": "hazimeyou-ymmprojectmanager",
       "name": "YMMProjectManager",
@@ -15,7 +33,7 @@
       ],
       "stars": 1,
       "createdAt": "2026-01-15T02:49:12Z",
-      "lastUpdated": "2026-06-19T16:18:10Z",
+      "lastUpdated": "2026-06-20T13:05:40Z",
       "latestVersion": "v0.2.0",
       "license": "MIT"
     },
@@ -26,7 +44,7 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ObjLoader",
-      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v3.3.2",
+      "downloadUrl": "https://github.com/routersys/YMM4-ObjLoader/releases/tag/v3.4.0",
       "category": "utility",
       "tags": [
         "ユーティリティ",
@@ -36,8 +54,45 @@
       ],
       "stars": 6,
       "createdAt": "2025-12-30T05:32:27Z",
-      "lastUpdated": "2026-06-19T08:41:48Z",
-      "latestVersion": "v3.3.2",
+      "lastUpdated": "2026-06-20T10:08:51Z",
+      "latestVersion": "v3.4.0",
+      "license": "MIT"
+    },
+    {
+      "id": "bluemistel-em-filtersets",
+      "name": "EM-FilterSets",
+      "description": "エモそうなフィルター(画面エフェクト)のセットをYMM4の映像エフェクトとして追加するプラグインです。",
+      "author": "bluemistel",
+      "authorUrl": "https://github.com/bluemistel",
+      "repoUrl": "https://github.com/bluemistel/EM-FilterSets",
+      "downloadUrl": "https://github.com/bluemistel/EM-FilterSets/releases",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-06-19T08:04:16Z",
+      "lastUpdated": "2026-06-20T09:43:59Z",
+      "latestVersion": "",
+      "license": "MIT"
+    },
+    {
+      "id": "routersys-ymm4-equalizer",
+      "name": "YMM4-Equalizer",
+      "description": "YMM4向け高機能パラメトリックイコライザープラグイン。最大32バンド・Biquad/TPT-SVF対応・スペクトラムアナライザー・プリセット管理・アニメーション統合",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-Equalizer",
+      "downloadUrl": "https://github.com/routersys/YMM4-Equalizer/releases/tag/v1.2.3",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト",
+        "equalizer"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-22T09:42:01Z",
+      "lastUpdated": "2026-06-20T05:08:43Z",
+      "latestVersion": "v1.2.3",
       "license": "MIT"
     },
     {
@@ -100,7 +155,7 @@
     {
       "id": "hazimeyou-ymmresourcepackager",
       "name": "YMMResourcePackager",
-      "description": "素材同梱プラグインおよび展開アプリ",
+      "description": "���材同梱プラグインおよび展開アプリ",
       "author": "hazimeyou",
       "authorUrl": "https://github.com/hazimeyou",
       "repoUrl": "https://github.com/hazimeyou/YMMResourcePackager",
@@ -226,7 +281,7 @@
     {
       "id": "dmmo-com-jp-rotationcoordinateplugin",
       "name": "RotationCoordinatePlugin",
-      "description": "エフェクトによる座標移動を回転させるYMM4プラグイン",
+      "description": "エフェクト��よる座標移動を回転させるYMM4プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/RotationCoordinatePlugin",
@@ -514,14 +569,14 @@
     {
       "id": "routersys-ymm4-pdf",
       "name": "YMM4-PDF",
-      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーシ���ン対応",
+      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PDF",
       "downloadUrl": "https://github.com/routersys/YMM4-PDF/releases/tag/v2.0.0",
-      "category": "shape",
+      "category": "video-effect",
       "tags": [
-        "図形"
+        "映像エフェクト"
       ],
       "stars": 1,
       "createdAt": "2025-08-03T08:21:46Z",
@@ -636,25 +691,6 @@
       "createdAt": "2026-03-22T00:20:23Z",
       "lastUpdated": "2026-03-31T14:31:03Z",
       "latestVersion": "v1.0.3",
-      "license": "MIT"
-    },
-    {
-      "id": "routersys-ymm4-equalizer",
-      "name": "YMM4-Equalizer",
-      "description": "YMM4向け高機能パラメトリックイコライザープラグイン。最大32バンド・Biquad/TPT-SVF対応・スペクトラムアナライザー・プリセット管理・アニメーション統合",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-Equalizer",
-      "downloadUrl": "https://github.com/routersys/YMM4-Equalizer/releases/tag/v1.2.2",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト",
-        "equalizer"
-      ],
-      "stars": 0,
-      "createdAt": "2026-03-22T09:42:01Z",
-      "lastUpdated": "2026-03-31T10:52:52Z",
-      "latestVersion": "v1.2.2",
       "license": "MIT"
     },
     {
@@ -951,7 +987,7 @@
     {
       "id": "rindai0123-artifact-ymm4-jetcut-plugin",
       "name": "ymm4-jetcut-plugin",
-      "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）プラグイン",
+      "description": "YMM4（ゆっくりMovieMaker4）用ジ���ットカット（無音カット）プラグイン",
       "author": "Rindai0123-Artifact",
       "authorUrl": "https://github.com/Rindai0123-Artifact",
       "repoUrl": "https://github.com/Rindai0123-Artifact/ymm4-jetcut-plugin",
@@ -1042,7 +1078,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除さ���てます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -1600,7 +1636,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役��つ機能も搭載しています。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -1800,7 +1836,7 @@
     {
       "id": "thiramisu-ymm4-plugin-general-in-out",
       "name": "ymm4-plugin-general-in-out",
-      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
+      "description": "汎用的な登場・退場アニメーションを実現するため���、YMM4のエフェクト・図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-general-in-out",
@@ -1818,7 +1854,7 @@
     {
       "id": "dolphin-kun-textsplitter",
       "name": "TextSplitter",
-      "description": "テキストを文字ごとに別のアイテム��して分割することができるツールプラグインです。",
+      "description": "テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/TextSplitter",
@@ -1980,7 +2016,7 @@
     {
       "id": "megria-scarlet-waveoutput",
       "name": "WaveOutput",
-      "description": "YMM4の動画出力の項目に[WAV 出力]を追加します。",
+      "description": "YMM4の動画出力の項目に[WAV 出力]を��加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/WaveOutput",
@@ -2055,7 +2091,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で��業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
@@ -2151,7 +2187,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位��化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -2277,7 +2313,7 @@
     {
       "id": "benikazura-letterboxshape",
       "name": "LetterBoxShape",
-      "description": "図形オブジェクトにレターボックス（画面上下や左右の黒帯）を追加しま���。",
+      "description": "図形オブジェクトにレターボックス（画面上下や左右の黒帯）を追加します。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/LetterBoxShape",
@@ -2295,7 +2331,7 @@
     {
       "id": "benikazura-scrolleffect",
       "name": "ScrollEffect",
-      "description": "一定の方向に繰り返しスクロールを行う映像エフェクトを追加す���YMM4用のプラグインです。",
+      "description": "一定の方向に繰り返しスクロールを行う映像エフェクトを追加するYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/ScrollEffect",
@@ -2970,7 +3006,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです��音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
