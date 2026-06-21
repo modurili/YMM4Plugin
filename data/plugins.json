@@ -1,22 +1,58 @@
 {
-  "lastUpdated": "2026-06-20T16:21:33.257Z",
+  "lastUpdated": "2026-06-21T16:48:07.048Z",
   "plugins": [
+    {
+      "id": "routersys-ymm4-luascript",
+      "name": "YMM4-LuaScript",
+      "description": "Luaスクリプトでオブジェクトの座標・拡縮・回転・不���明度・ピクセルを直接制御できる映像エフェクト",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-LuaScript",
+      "downloadUrl": "https://github.com/routersys/YMM4-LuaScript/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-06-21T02:40:43Z",
+      "lastUpdated": "2026-06-21T07:49:15Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
     {
       "id": "routersys-ymm4-directionalcolorkey",
       "name": "YMM4-DirectionalColorKey",
-      "description": "背景色からの色変位方向をクラ���タリングして前景を分離する映像エフェクト",
+      "description": "背景色からの色変位方向をクラスタリングして前景を分離する映像エフェクト",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-DirectionalColorKey",
-      "downloadUrl": "https://github.com/routersys/YMM4-DirectionalColorKey/releases/tag/v1.0.1",
+      "downloadUrl": "https://github.com/routersys/YMM4-DirectionalColorKey/releases/tag/v1.0.2",
       "category": "video-effect",
       "tags": [
         "映像エフェクト"
       ],
       "stars": 1,
       "createdAt": "2026-06-10T07:44:45Z",
-      "lastUpdated": "2026-06-20T14:25:09Z",
-      "latestVersion": "v1.0.1",
+      "lastUpdated": "2026-06-21T01:56:53Z",
+      "latestVersion": "v1.0.2",
+      "license": "LGPL-3.0"
+    },
+    {
+      "id": "manju-summoner-yukkurimoviemaker-plugin-community",
+      "name": "YukkuriMovieMaker.Plugin.Community",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "author": "manju-summoner",
+      "authorUrl": "https://github.com/manju-summoner",
+      "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
+      "downloadUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community/releases",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 31,
+      "createdAt": "2024-05-28T09:50:34Z",
+      "lastUpdated": "2026-06-21T09:54:53Z",
+      "latestVersion": "",
       "license": "LGPL-3.0"
     },
     {
@@ -26,7 +62,7 @@
       "author": "hazimeyou",
       "authorUrl": "https://github.com/hazimeyou",
       "repoUrl": "https://github.com/hazimeyou/YMMProjectManager",
-      "downloadUrl": "https://github.com/hazimeyou/YMMProjectManager/releases/tag/v0.2.0",
+      "downloadUrl": "https://github.com/hazimeyou/YMMProjectManager/releases/tag/v0.3.0",
       "category": "utility",
       "tags": [
         "ユーティリティ"
@@ -34,7 +70,7 @@
       "stars": 1,
       "createdAt": "2026-01-15T02:49:12Z",
       "lastUpdated": "2026-06-20T13:05:40Z",
-      "latestVersion": "v0.2.0",
+      "latestVersion": "v0.3.0",
       "license": "MIT"
     },
     {
@@ -135,27 +171,9 @@
       "license": ""
     },
     {
-      "id": "manju-summoner-yukkurimoviemaker-plugin-community",
-      "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
-      "author": "manju-summoner",
-      "authorUrl": "https://github.com/manju-summoner",
-      "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
-      "downloadUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community/releases",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 31,
-      "createdAt": "2024-05-28T09:50:34Z",
-      "lastUpdated": "2026-06-18T13:53:54Z",
-      "latestVersion": "",
-      "license": "LGPL-3.0"
-    },
-    {
       "id": "hazimeyou-ymmresourcepackager",
       "name": "YMMResourcePackager",
-      "description": "���材同梱プラグインおよび展開アプリ",
+      "description": "素材同梱プラグインおよび展開アプリ",
       "author": "hazimeyou",
       "authorUrl": "https://github.com/hazimeyou",
       "repoUrl": "https://github.com/hazimeyou/YMMResourcePackager",
@@ -173,7 +191,7 @@
     {
       "id": "benikazura-timestamp",
       "name": "Timestamp",
-      "description": "専用のアイテムを配置するだけで簡単にYouTubeとニコニコ動画のタイムスタンプを作成できるYMM4用のプラグインです。",
+      "description": "専用のアイテムを配置するだけで簡単にYouTubeとニコニコ動画のタ���ムスタンプを作成できるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/Timestamp",
@@ -281,7 +299,7 @@
     {
       "id": "dmmo-com-jp-rotationcoordinateplugin",
       "name": "RotationCoordinatePlugin",
-      "description": "エフェクト��よる座標移動を回転させるYMM4プラグイン",
+      "description": "エフェクトによる座標移動を回転させるYMM4プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/RotationCoordinatePlugin",
@@ -389,7 +407,7 @@
     {
       "id": "routersys-ymm4-godray",
       "name": "YMM4-GodRay",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、映像に放射状の光線（ゴッドレイ）を付加するエフェクトプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で���作する、映像に放射状の光線（ゴッドレイ）を付加するエフェクトプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-GodRay",
@@ -987,7 +1005,7 @@
     {
       "id": "rindai0123-artifact-ymm4-jetcut-plugin",
       "name": "ymm4-jetcut-plugin",
-      "description": "YMM4（ゆっくりMovieMaker4）用ジ���ットカット（無音カット）プラグイン",
+      "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）プラグイン",
       "author": "Rindai0123-Artifact",
       "authorUrl": "https://github.com/Rindai0123-Artifact",
       "repoUrl": "https://github.com/Rindai0123-Artifact/ymm4-jetcut-plugin",
@@ -1636,7 +1654,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役��つ機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -1836,7 +1854,7 @@
     {
       "id": "thiramisu-ymm4-plugin-general-in-out",
       "name": "ymm4-plugin-general-in-out",
-      "description": "汎用的な登場・退場アニメーションを実現するため���、YMM4のエフェクト・図形プラグイン。",
+      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-general-in-out",
@@ -1872,7 +1890,7 @@
     {
       "id": "benikazura-videochecker",
       "name": "VideoChecker",
-      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることができるYMM4用のプラグインです。",
+      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数��を調べることができるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/VideoChecker",
@@ -1890,7 +1908,7 @@
     {
       "id": "benikazura-benikazuratransitionpacka",
       "name": "BenikazuraTransitionPackA",
-      "description": "汎用的な場面切り替えプラグインを収録したプラグイン10種セットです。",
+      "description": "汎用的な場面切り替えプラグインを収録したプ���グイン10種セットです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/BenikazuraTransitionPackA",
@@ -2016,7 +2034,7 @@
     {
       "id": "megria-scarlet-waveoutput",
       "name": "WaveOutput",
-      "description": "YMM4の動画出力の項目に[WAV 出力]を��加します。",
+      "description": "YMM4の動画出力の項目に[WAV 出力]を追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/WaveOutput",
@@ -2091,7 +2109,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラ��インです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
@@ -2187,7 +2205,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位��化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -2223,7 +2241,7 @@
     {
       "id": "dmmo-com-jp-audiolinkplugin",
       "name": "AudioLinkPlugin",
-      "description": "条件が真なら対応している音声エフェクトを実行するYMM4Plugin",
+      "description": "条件が真なら対応している音声��フェクトを実行するYMM4Plugin",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/AudioLinkPlugin",
@@ -2468,7 +2486,7 @@
       ],
       "stars": 5,
       "createdAt": "2025-05-12T10:45:38Z",
-      "lastUpdated": "2026-06-14T02:50:24Z",
+      "lastUpdated": "2026-06-21T09:54:40Z",
       "latestVersion": "v1.2.0",
       "license": "MIT"
     },
@@ -2659,14 +2677,14 @@
     {
       "id": "dolphin-kun-shuffletext",
       "name": "ShuffleText",
-      "description": "シャッフルテキストプラグイン",
+      "description": "シャッフル���キストプラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ShuffleText",
       "downloadUrl": "https://github.com/Dolphin-kun/ShuffleText/releases/tag/v1.1",
-      "category": "text",
+      "category": "other",
       "tags": [
-        "テキスト"
+        "その他"
       ],
       "stars": 3,
       "createdAt": "2025-04-08T08:31:46Z",
@@ -3006,7 +3024,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです��音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
@@ -3024,7 +3042,7 @@
     {
       "id": "34j-yukkurimoviemaker4sovitssvcfork",
       "name": "YukkuriMovieMaker4SoVitsSvcFork",
-      "description": "YMM4用`so-vits-svc-fork`音声エフェクト",
+      "description": "YMM4���`so-vits-svc-fork`音声エフェクト",
       "author": "34j",
       "authorUrl": "https://github.com/34j",
       "repoUrl": "https://github.com/34j/YukkuriMovieMaker4SoVitsSvcFork",
