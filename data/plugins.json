@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-06-25T17:14:11.661Z",
+  "lastUpdated": "2026-06-26T17:02:57.388Z",
   "plugins": [
+    {
+      "id": "routersys-ymm4-crosshatching",
+      "name": "YMM4-CrossHatching",
+      "description": "YMM4 向け映像エフェクトプラグイン。輝度と明���勾配からクロスハッチ線を Direct2D シェーダーで生成し、ペン画・版画・漫画・設計図風の陰影へ変換。暗部ほど線層が増え、勾配に沿う線方向・輪郭・粒状感・色モード・アニメーション・8 言語対応",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-CrossHatching",
+      "downloadUrl": "https://github.com/routersys/YMM4-CrossHatching/releases/tag/v1.0.2",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-06-26T02:25:41Z",
+      "lastUpdated": "2026-06-26T10:21:29Z",
+      "latestVersion": "v1.0.2",
+      "license": "MIT"
+    },
+    {
+      "id": "routersys-ymm4-facetedglass",
+      "name": "YMM4-FacetedGlass",
+      "description": "YMM4 向けの映像エフェクトプラグイン。三角形格子で映像を多面体ガラスに分割し、共有頂点の高さから面法線を求めて Direct2D カスタムピクセルシェーダーで屈折・反射を合成する幾何光学エフェクト。三角形格子の生成（面サイズ・分割角度・シード）・共有頂点の高さ差による凹凸・Cauchy 分散モデルによる波長別屈折と色分離・Fresnel 反射と鏡面ハイライト・面境界の反射線・方位/高度指定の指向性ライティング・アニメーション対応・8 言語対応を実装",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-FacetedGlass",
+      "downloadUrl": "https://github.com/routersys/YMM4-FacetedGlass/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-06-25T23:36:56Z",
+      "lastUpdated": "2026-06-25T23:47:23Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
     {
       "id": "hazimeyou-ymmprojectmanager",
       "name": "YMMProjectManager",
@@ -76,7 +112,7 @@
     {
       "id": "routersys-ymm4-waveoptics",
       "name": "YMM4-WaveOptics",
-      "description": "YMM4 向けの映像エフェクトプラグイン。フラウンホーファー回折理論に基づき FFT で点像分布関数を計算し、Direct2D カスタムピクセルシェーダーで映像に畳み込む波動光学エフェクト。円形・正多角形開口・中央遮蔽・6 種類のゼルニケ波面収差・3 段階の品質設定・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。フラウンホーファー回折理論に基づき FFT で��像分布関数を計算し、Direct2D カスタムピクセルシェーダーで映像に畳み込む波動光学エフェクト。円形・正多角形開口・中央遮蔽・6 種類のゼルニケ波面収差・3 段階の品質設定・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveOptics",
@@ -295,7 +331,7 @@
     {
       "id": "routersys-ymm4-vectorfieldwarp",
       "name": "YMM4-VectorFieldWarp",
-      "description": "YMM4 向けの映像エフェクトプラグイン。��御点ごとに放射場と渦場を生成し、中点法による数値積分でピクセルを変位させるベクトル場変形エフェクト。最大32制御点・アニメーション対応・プレビュー上でのドラッグ編集・8言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。制御点ごとに放射場と渦場を生成し、中点法による数値積分でピクセルを変位させるベクトル場変形エフェクト。最大32制御点・アニメーション対応・プレビュー上でのドラッグ編集・8言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-VectorFieldWarp",
@@ -352,18 +388,20 @@
     {
       "id": "bluemistel-em-filtersets",
       "name": "EM-FilterSets",
-      "description": "エモそうなフィルター(画面エフェクト)のセットをYMM4の映像エフェ���トとして追加するプラグインです。",
+      "description": "エモそうなフィルター(画面エフェクト)のセットをYMM4の映像エフェクトとして追加するプラグインです。",
       "author": "bluemistel",
       "authorUrl": "https://github.com/bluemistel",
       "repoUrl": "https://github.com/bluemistel/EM-FilterSets",
       "downloadUrl": "https://github.com/bluemistel/EM-FilterSets/releases/tag/v1.0.1",
       "category": "video-effect",
       "tags": [
-        "映像エフェクト"
+        "映像エフェクト",
+        "filters",
+        "hlsl-shader"
       ],
       "stars": 0,
       "createdAt": "2026-06-19T08:04:16Z",
-      "lastUpdated": "2026-06-20T09:43:59Z",
+      "lastUpdated": "2026-06-26T10:21:15Z",
       "latestVersion": "v1.0.1",
       "license": "MIT"
     },
@@ -659,7 +697,7 @@
     {
       "id": "routersys-ymm4-dynamiceffect",
       "name": "YMM4-DynamicEffect",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、音量レベルに応じて異なるエフェクトを自動で切り替える音声エフェクトプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、音量レベルに応じて���なるエフェクトを自動で切り替える音声エフェクトプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-DynamicEffect",
@@ -912,7 +950,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境���による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -1201,6 +1239,25 @@
       "license": "MIT"
     },
     {
+      "id": "bluemistel-katasumicapture",
+      "name": "KatasumiCapture",
+      "description": "デスクトップ上の任意の範囲を矩形選択し、クリップボードへコピーするか、タイムラインへ画像として貼り付けるYMM4プラグイン",
+      "author": "bluemistel",
+      "authorUrl": "https://github.com/bluemistel",
+      "repoUrl": "https://github.com/bluemistel/KatasumiCapture",
+      "downloadUrl": "https://github.com/bluemistel/KatasumiCapture/releases/tag/1.0.1",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ",
+        "capture-screen"
+      ],
+      "stars": 2,
+      "createdAt": "2026-03-20T08:59:56Z",
+      "lastUpdated": "2026-06-26T10:00:51Z",
+      "latestVersion": "1.0.1",
+      "license": "MIT"
+    },
+    {
       "id": "rindai0123-artifact-ymm4-jetcut-plugin",
       "name": "ymm4-jetcut-plugin",
       "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）プラグイン",
@@ -1258,7 +1315,7 @@
     {
       "id": "haisangames813-rotationpersecondeffect",
       "name": "RotationPerSecondEffect",
-      "description": "指定した秒数で何回回転するかを指定できる映���エフェクトを追加するプラグインです",
+      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/RotationPerSecondEffect",
@@ -1384,7 +1441,7 @@
     {
       "id": "sinbetakun-sintachieplugin",
       "name": "SinTachiePlugin",
-      "description": "『sin型カスタムパーツ立ち絵』のリポジトリ",
+      "description": "『sin型カスタムパーツ立ち絵��のリポジトリ",
       "author": "sinBetaKun",
       "authorUrl": "https://github.com/sinBetaKun",
       "repoUrl": "https://github.com/sinBetaKun/SinTachiePlugin",
@@ -1528,7 +1585,7 @@
     {
       "id": "haisangames813-inputsoundplugin",
       "name": "InputSoundPlugin",
-      "description": "入��検知で効果音を鳴らす\"ネタ\"プラグインです",
+      "description": "入力検知で効果音を鳴らす\"ネタ\"プラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/InputSoundPlugin",
@@ -1636,7 +1693,7 @@
     {
       "id": "haisangames813-canvasplugin",
       "name": "CanvasPlugin",
-      "description": "ツールウィンドウ「キャンバス」を追加���るプラグイン",
+      "description": "ツールウィンドウ「キャンバス」を追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/CanvasPlugin",
@@ -2052,7 +2109,7 @@
     {
       "id": "benikazura-benikazuratransitionpacka",
       "name": "BenikazuraTransitionPackA",
-      "description": "汎用的な場面切り替えプラグインを収録したプラグイン10種セットです。",
+      "description": "汎用的な場面切り替えプラグイ���を収録したプラグイン10種セットです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/BenikazuraTransitionPackA",
@@ -2331,7 +2388,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させる��フェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -2403,7 +2460,7 @@
     {
       "id": "routersys-ymm4-huecorrection",
       "name": "YMM4-HueCorrection",
-      "description": "YMM4で色相スライダーを使って色相補正をお���ないます。",
+      "description": "YMM4で色相スライダーを使って色相補正をおこないます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HueCorrection",
@@ -2439,7 +2496,7 @@
     {
       "id": "dmmo-com-jp-multicoreimgwavexporter",
       "name": "MultiCoreImgWavExporter",
-      "description": "YMM4の映像をマルチタスクで連番画像とWav��ァイルとして書き出す出力プラグイン",
+      "description": "YMM4の映像をマルチタスクで連番画像とWavファイルとして書き出す出力プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/MultiCoreImgWavExporter",
@@ -2511,7 +2568,7 @@
     {
       "id": "benikazura-charactormotion",
       "name": "CharactorMotion",
-      "description": "20種類以上の立ち絵用アニメーションを一つの映像エフェクトにまとめたYMM4用のプラグインです。",
+      "description": "20種類以上の立ち絵用アニメーションを一つの映像エフェク��にまとめたYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CharactorMotion",
@@ -2713,14 +2770,14 @@
     {
       "id": "routersys-ymm4-customeasing",
       "name": "YMM4-CustomEasing",
-      "description": "YMM4で���ージングのような移動を可能にします。",
+      "description": "YMM4でイージングのような移動を可能にします。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CustomEasing",
       "downloadUrl": "https://github.com/routersys/YMM4-CustomEasing/releases/tag/v0.1.3",
-      "category": "other",
+      "category": "video-effect",
       "tags": [
-        "その他"
+        "映像エフェクト"
       ],
       "stars": 8,
       "createdAt": "2025-08-01T13:32:23Z",
