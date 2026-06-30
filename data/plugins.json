@@ -1,6 +1,27 @@
 {
-  "lastUpdated": "2026-06-29T17:40:12.869Z",
+  "lastUpdated": "2026-06-30T17:09:00.233Z",
   "plugins": [
+    {
+      "id": "scpgamerscp-ymm4mcp",
+      "name": "ymm4MCP",
+      "description": "説明なし",
+      "author": "SCPgamerscp",
+      "authorUrl": "https://github.com/SCPgamerscp",
+      "repoUrl": "https://github.com/SCPgamerscp/ymm4MCP",
+      "downloadUrl": "https://github.com/SCPgamerscp/ymm4MCP/releases",
+      "category": "other",
+      "tags": [
+        "その他",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol"
+      ],
+      "stars": 12,
+      "createdAt": "2026-02-26T05:58:21Z",
+      "lastUpdated": "2026-06-30T15:15:50Z",
+      "latestVersion": "",
+      "license": ""
+    },
     {
       "id": "routersys-ymm4-luascript",
       "name": "YMM4-LuaScript",
@@ -8,7 +29,7 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-LuaScript",
-      "downloadUrl": "https://github.com/routersys/YMM4-LuaScript/releases/tag/v1.9.1",
+      "downloadUrl": "https://github.com/routersys/YMM4-LuaScript/releases/tag/v1.9.4",
       "category": "video-effect",
       "tags": [
         "映像エフェクト",
@@ -18,8 +39,8 @@
       ],
       "stars": 2,
       "createdAt": "2026-06-21T02:40:43Z",
-      "lastUpdated": "2026-06-29T14:30:18Z",
-      "latestVersion": "v1.9.1",
+      "lastUpdated": "2026-06-30T14:44:03Z",
+      "latestVersion": "v1.9.4",
       "license": "MIT"
     },
     {
@@ -63,7 +84,7 @@
     {
       "id": "routersys-ymm4-papercutout",
       "name": "YMM4-PaperCutout",
-      "description": "YMM4 向け映像エフェクトプラグイン。輝度と明暗勾配から紙の階層を Direct2D シェーダーで自動生成し、切り絵・紙工作風の立体感へ変換。暗部ほど手前の紙として扱い、階層境界に影・段差・ハイライトを合成。紙目・元色比率・光角度��紙色・アニメーション・8言語対応",
+      "description": "YMM4 向け映像エフェクトプラグイン。輝度と明暗勾配から紙の階層を Direct2D シェーダーで自動生成し、切り絵・紙工作風の立体感へ変換。暗部ほど手前の紙として扱い、階層境界に影・段差・ハイライトを合成。紙目・元色比率・光角度・紙色・アニメーション・8言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PaperCutout",
@@ -117,7 +138,7 @@
     {
       "id": "routersys-ymm4-facetedglass",
       "name": "YMM4-FacetedGlass",
-      "description": "YMM4 向けの映像エフェクトプラグイン。三角形格子で映像を多面体ガラスに分割し、共有頂点の高さから面法線を求めて Direct2D カスタムピクセルシェーダーで屈折・反射を合成する幾何光学エフェクト。三角形格子の生成（面サイズ・分割角度・シード）・共有頂点の高さ差による凹凸・Cauchy 分散モデルによる波長別屈折と色分離・Fresnel 反射と鏡面ハイライト・面境界の反射線・方位/高度指定の指向性ライティング・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。三角形格子で映像を多面体ガラスに分割し、共有頂点の高さから面法線を求めて Direct2D カスタムピクセルシェーダーで屈折・反射を合���する幾何光学エフェクト。三角形格子の生成（面サイズ・分割角度・シード）・共有頂点の高さ差による凹凸・Cauchy 分散モデルによる波長別屈折と色分離・Fresnel 反射と鏡面ハイライト・面境界の反射線・方位/高度指定の指向性ライティング・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-FacetedGlass",
@@ -225,7 +246,7 @@
     {
       "id": "routersys-ymm4-holographicfoil",
       "name": "YMM4-HolographicFoil",
-      "description": "YMM4 向けの映像エフェクトプラグイン。視線角度に応じて変���する回折細線・虹彩・疑似凹凸・きらめきを Direct2D カスタムピクセルシェーダーで映像に合成するホログラフィック箔エフェクト。カメラ・アイテム回転・手動の角度ソース・ギロシェおよび画像アトラスの潜像モード・アルファ／輝度マスク・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン��視線角度に応じて変化する回折細線・虹彩・疑似凹凸・きらめきを Direct2D カスタムピクセルシェーダーで映像に合成するホログラフィック箔エフェクト。カメラ・アイテム回転・手動の角度ソース・ギロシェおよび画像アトラスの潜像モード・アルファ／輝度マスク・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HolographicFoil",
@@ -367,27 +388,6 @@
       "license": "LGPL-3.0"
     },
     {
-      "id": "scpgamerscp-ymm4mcp",
-      "name": "ymm4MCP",
-      "description": "説明なし",
-      "author": "SCPgamerscp",
-      "authorUrl": "https://github.com/SCPgamerscp",
-      "repoUrl": "https://github.com/SCPgamerscp/ymm4MCP",
-      "downloadUrl": "https://github.com/SCPgamerscp/ymm4MCP/releases",
-      "category": "other",
-      "tags": [
-        "その他",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol"
-      ],
-      "stars": 12,
-      "createdAt": "2026-02-26T05:58:21Z",
-      "lastUpdated": "2026-06-27T13:19:43Z",
-      "latestVersion": "",
-      "license": ""
-    },
-    {
       "id": "tetra-te-tadokoronodefixpatch",
       "name": "TadokoroNodeFixPatch",
       "description": "タドコロノードの修正パッチプラグイン",
@@ -408,7 +408,7 @@
     {
       "id": "routersys-ymm4-vectorfieldwarp",
       "name": "YMM4-VectorFieldWarp",
-      "description": "YMM4 向けの映像エフェクトプラグ��ン。制御点ごとに放射場と渦場を生成し、中点法による数値積分でピクセルを変位させるベクトル場変形エフェクト。最大32制御点・アニメーション対応・プレビュー上でのドラッグ編集・8言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。制御点ごとに放射場と渦場を生成し、中点法による数値積分でピクセルを変位させるベクトル場変形エフェクト。最大32制御点・アニメーション対応・プレビュー上でのドラッグ編集・8言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-VectorFieldWarp",
@@ -538,7 +538,7 @@
     {
       "id": "hazimeyou-ymmpxlib",
       "name": "YmmpxLib",
-      "description": "Ymmpxを��うためのライブラリ",
+      "description": "Ymmpxを扱うためのライブラリ",
       "author": "hazimeyou",
       "authorUrl": "https://github.com/hazimeyou",
       "repoUrl": "https://github.com/hazimeyou/YmmpxLib",
@@ -574,7 +574,7 @@
     {
       "id": "3e456-123abc-ymm4togpt-sovits-character",
       "name": "ymm4ToGPT_SoVITS_character",
-      "description": "YMM4(ゆっくりムービーメーカー)からGPT_SoVITSを使えるようにするプラ��インとか",
+      "description": "YMM4(ゆっくりムービーメーカー)からGPT_SoVITSを使えるようにするプラグインとか",
       "author": "3e456-123abc",
       "authorUrl": "https://github.com/3e456-123abc",
       "repoUrl": "https://github.com/3e456-123abc/ymm4ToGPT_SoVITS_character",
@@ -790,7 +790,7 @@
     {
       "id": "routersys-ymm4-container",
       "name": "YMM4-Container",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、複数の映像エフェクトをタブで管理するプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する���複数の映像エフェクトをタブで管理するプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Container",
@@ -1007,7 +1007,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波���マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -1298,7 +1298,7 @@
     {
       "id": "bluemistel-katasumicapture",
       "name": "KatasumiCapture",
-      "description": "デスクトップ上の任意の範囲を矩形選択し、クリップボードへ��ピーするか、タイムラインへ画像として貼り付けるYMM4プラグイン",
+      "description": "デスクトップ上の任意の範囲を矩形選択し、クリップボードへコピーするか、タイムラインへ画像として貼り付けるYMM4プラグイン",
       "author": "bluemistel",
       "authorUrl": "https://github.com/bluemistel",
       "repoUrl": "https://github.com/bluemistel/KatasumiCapture",
@@ -1408,7 +1408,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不���明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -1534,7 +1534,7 @@
     {
       "id": "benikazura-texttemplate",
       "name": "TextTemplate",
-      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せるプラグインです。",
+      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せるプ��グインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/TextTemplate",
@@ -1876,7 +1876,7 @@
     {
       "id": "haisangames813-drawingsettingseffect",
       "name": "DrawingSettingsEffect",
-      "description": "基本的な描画設定ができる「描画設定」エフェクトを追加するプラグイン",
+      "description": "基本的な��画設定ができる「描画設定」エフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/DrawingSettingsEffect",
@@ -2130,7 +2130,7 @@
     {
       "id": "thiramisu-ymm4-plugin-general-in-out",
       "name": "ymm4-plugin-general-in-out",
-      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェク��・図形プラグイン。",
+      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-general-in-out",
@@ -2148,7 +2148,7 @@
     {
       "id": "benikazura-videochecker",
       "name": "VideoChecker",
-      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることができるYMM4用のプラグインです。",
+      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を���べることができるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/VideoChecker",
@@ -2349,7 +2349,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選���・操作できるプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
@@ -2553,7 +2553,7 @@
     {
       "id": "dmmo-com-jp-multicoreimgwavexporter",
       "name": "MultiCoreImgWavExporter",
-      "description": "YMM4の映像をマ��チタスクで連番画像とWavファイルとして書き出す出力プラグイン",
+      "description": "YMM4の映像をマルチタスクで連番画像とWavファイルとして書き出す出力プラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/MultiCoreImgWavExporter",
@@ -2845,7 +2845,7 @@
     {
       "id": "ikoma-reunion-ymm4-plugin-document",
       "name": "ymm4-plugin-document",
-      "description": "��動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。　v4.42.1.3",
+      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。　v4.42.1.3",
       "author": "ikoma-reunion",
       "authorUrl": "https://github.com/ikoma-reunion",
       "repoUrl": "https://github.com/ikoma-reunion/ymm4-plugin-document",
@@ -3044,7 +3044,7 @@
     {
       "id": "tetra-te-specifiedshoweffect",
       "name": "SpecifiedShowEffect",
-      "description": "再生時、一時停止���、出力時の不透明度を指定できる映像エフェクトプラグイン",
+      "description": "再生時、一時停止時、出力時の不透明度を指定できる映像エフェクトプラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SpecifiedShowEffect",
