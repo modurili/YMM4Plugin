@@ -1,6 +1,63 @@
 {
-  "lastUpdated": "2026-06-30T17:09:00.233Z",
+  "lastUpdated": "2026-07-01T17:17:08.299Z",
   "plugins": [
+    {
+      "id": "routersys-ymm4-luascript",
+      "name": "YMM4-LuaScript",
+      "description": "Luaスクリプトでオブジェクトの座標・拡縮・回転・不透明度・ピクセルを直接制御できる映像エフェクト",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-LuaScript",
+      "downloadUrl": "https://github.com/routersys/YMM4-LuaScript/releases/tag/v1.11.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト",
+        "aviutl",
+        "lua",
+        "luajit"
+      ],
+      "stars": 2,
+      "createdAt": "2026-06-21T02:40:43Z",
+      "lastUpdated": "2026-07-01T13:29:49Z",
+      "latestVersion": "v1.11.0",
+      "license": "MIT"
+    },
+    {
+      "id": "manju-summoner-yukkurimoviemaker-plugin-community",
+      "name": "YukkuriMovieMaker.Plugin.Community",
+      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
+      "author": "manju-summoner",
+      "authorUrl": "https://github.com/manju-summoner",
+      "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
+      "downloadUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community/releases",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 31,
+      "createdAt": "2024-05-28T09:50:34Z",
+      "lastUpdated": "2026-07-01T11:16:41Z",
+      "latestVersion": "",
+      "license": "LGPL-3.0"
+    },
+    {
+      "id": "tarutaru247-ymm4-nvencplugin",
+      "name": "YMM4_NVEncPlugin",
+      "description": "説明なし",
+      "author": "tarutaru247",
+      "authorUrl": "https://github.com/tarutaru247",
+      "repoUrl": "https://github.com/tarutaru247/YMM4_NVEncPlugin",
+      "downloadUrl": "https://github.com/tarutaru247/YMM4_NVEncPlugin/releases",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 7,
+      "createdAt": "2026-01-06T05:25:57Z",
+      "lastUpdated": "2026-07-01T12:15:17Z",
+      "latestVersion": "",
+      "license": "MIT"
+    },
     {
       "id": "scpgamerscp-ymm4mcp",
       "name": "ymm4MCP",
@@ -21,27 +78,6 @@
       "lastUpdated": "2026-06-30T15:15:50Z",
       "latestVersion": "",
       "license": ""
-    },
-    {
-      "id": "routersys-ymm4-luascript",
-      "name": "YMM4-LuaScript",
-      "description": "Luaスクリプトでオブジェクトの座標・拡縮・回転・不透明度・ピクセルを直接制御できる映像エフェクト",
-      "author": "routersys",
-      "authorUrl": "https://github.com/routersys",
-      "repoUrl": "https://github.com/routersys/YMM4-LuaScript",
-      "downloadUrl": "https://github.com/routersys/YMM4-LuaScript/releases/tag/v1.9.4",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト",
-        "aviutl",
-        "lua",
-        "luajit"
-      ],
-      "stars": 2,
-      "createdAt": "2026-06-21T02:40:43Z",
-      "lastUpdated": "2026-06-30T14:44:03Z",
-      "latestVersion": "v1.9.4",
-      "license": "MIT"
     },
     {
       "id": "tetra-te-customthemeplugin",
@@ -84,7 +120,7 @@
     {
       "id": "routersys-ymm4-papercutout",
       "name": "YMM4-PaperCutout",
-      "description": "YMM4 向け映像エフェクトプラグイン。輝度と明暗勾配から紙の階層を Direct2D シェーダーで自動生成し、切り絵・紙工作風の立体感へ変換。暗部ほど手前の紙として扱い、階層境界に影・段差・ハイライトを合成。紙目・元色比率・光角度・紙色・アニメーション・8言語対応",
+      "description": "YMM4 向け映像エフェクトプラグイン。輝度と明暗勾配から紙の階層を Direct2D シェーダーで自動生成し、切り絵・紙工作風の立体感へ変換。暗��ほど手前の紙として扱い、階層境界に影・段差・ハイライトを合成。紙目・元色比率・光角度・紙色・アニメーション・8言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PaperCutout",
@@ -138,7 +174,7 @@
     {
       "id": "routersys-ymm4-facetedglass",
       "name": "YMM4-FacetedGlass",
-      "description": "YMM4 向けの映像エフェクトプラグイン。三角形格子で映像を多面体ガラスに分割し、共有頂点の高さから面法線を求めて Direct2D カスタムピクセルシェーダーで屈折・反射を合���する幾何光学エフェクト。三角形格子の生成（面サイズ・分割角度・シード）・共有頂点の高さ差による凹凸・Cauchy 分散モデルによる波長別屈折と色分離・Fresnel 反射と鏡面ハイライト・面境界の反射線・方位/高度指定の指向性ライティング・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。三角形格子で映像を多面体ガラスに分割し、共有頂点の高さから面法線を求めて Direct2D カスタムピクセルシェーダーで屈折・反射を合成する幾何光学エフェクト。三角形格子の生成（面サイズ・分割角度・シード）・共有頂点の高さ差による凹凸・Cauchy 分散モデルによる波長別屈折と色分離・Fresnel 反射と鏡面ハイライト・面境界の反射線・方位/高度指定の指向性ライティング・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-FacetedGlass",
@@ -246,7 +282,7 @@
     {
       "id": "routersys-ymm4-holographicfoil",
       "name": "YMM4-HolographicFoil",
-      "description": "YMM4 向けの映像エフェクトプラグイン��視線角度に応じて変化する回折細線・虹彩・疑似凹凸・きらめきを Direct2D カスタムピクセルシェーダーで映像に合成するホログラフィック箔エフェクト。カメラ・アイテム回転・手動の角度ソース・ギロシェおよび画像アトラスの潜像モード・アルファ／輝度マスク・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。視線角度に応じて変化する回折細線・虹彩・疑似凹凸・きらめきを Direct2D カスタムピクセルシェーダーで映像に合成するホログラフィック箔エフェクト。カメラ・アイテム回転・手動の角度ソース・ギロシェおよび画像アトラスの潜像モード・アルファ／輝度マスク・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HolographicFoil",
@@ -370,24 +406,6 @@
       "license": "MIT"
     },
     {
-      "id": "manju-summoner-yukkurimoviemaker-plugin-community",
-      "name": "YukkuriMovieMaker.Plugin.Community",
-      "description": "YMM4コミュニティで開発するYMM4プラグインです。 プラグインのサンプルも兼ねています。 ここで開発されたプラグインはYMM4にデフォルトで組み込まれます。",
-      "author": "manju-summoner",
-      "authorUrl": "https://github.com/manju-summoner",
-      "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community",
-      "downloadUrl": "https://github.com/manju-summoner/YukkuriMovieMaker.Plugin.Community/releases",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 31,
-      "createdAt": "2024-05-28T09:50:34Z",
-      "lastUpdated": "2026-06-22T18:43:43Z",
-      "latestVersion": "",
-      "license": "LGPL-3.0"
-    },
-    {
       "id": "tetra-te-tadokoronodefixpatch",
       "name": "TadokoroNodeFixPatch",
       "description": "タドコロノードの修正パッチプラグイン",
@@ -421,6 +439,24 @@
       "createdAt": "2026-06-22T11:27:35Z",
       "lastUpdated": "2026-06-22T13:28:14Z",
       "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
+      "id": "panko200-iyahon-d3d11renderer-core",
+      "name": "Iyahon_D3D11Renderer_Core",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。D3D11を利用して、YMM4の基本2D描画のところを、重ね合わせなども考慮したガチ3D描画ができるようになります。ObjLoaderの3Dモデルも読み込むこともでき、照明の追加、影(試験的機能)の追加もされてい���す。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Iyahon_D3D11Renderer_Core",
+      "downloadUrl": "https://github.com/panko200/Iyahon_D3D11Renderer_Core/releases/tag/A5",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 0,
+      "createdAt": "2026-04-21T11:20:14Z",
+      "lastUpdated": "2026-07-01T03:49:56Z",
+      "latestVersion": "A5",
       "license": "MIT"
     },
     {
@@ -500,6 +536,24 @@
       "license": "MIT"
     },
     {
+      "id": "panko200-glowplus",
+      "name": "Glowplus",
+      "description": "YMM4で動く映像エフェクトプラグインです。逆二乗型の発光がされ、より現実的で綺麗な発光ができます。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Glowplus",
+      "downloadUrl": "https://github.com/panko200/Glowplus/releases/tag/v1.1.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 11,
+      "createdAt": "2025-12-25T11:04:41Z",
+      "lastUpdated": "2026-07-01T03:47:11Z",
+      "latestVersion": "v1.1.0",
+      "license": "MIT"
+    },
+    {
       "id": "benikazura-timestamp",
       "name": "Timestamp",
       "description": "専用のアイテムを配置するだけで簡単にYouTubeとニコニコ動画のタイムスタンプを作成できるYMM4用のプラグインです。",
@@ -554,6 +608,114 @@
       "license": "MIT"
     },
     {
+      "id": "panko200-iyahon-texturemap",
+      "name": "Iyahon_TextureMap",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、ノーマルマップ、深度マップなどをアイテムにかけて、3D的な描画ができるようになるプラグインです。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Iyahon_TextureMap",
+      "downloadUrl": "https://github.com/panko200/Iyahon_TextureMap/releases/tag/v1.0.2",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-02-02T12:01:26Z",
+      "lastUpdated": "2026-07-01T03:46:12Z",
+      "latestVersion": "v1.0.2",
+      "license": "MIT"
+    },
+    {
+      "id": "panko200-outlineextension",
+      "name": "OutlineExtension",
+      "description": "YMM4で動く映像エフェクトプラグインです。縁取りの種類・位置を追加・変更可能にし、より多くの縁取りを生み出せます。波打ちに関してはちょっと挙動が怪しいかも。。。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/OutlineExtension",
+      "downloadUrl": "https://github.com/panko200/OutlineExtension/releases/tag/v0.1.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-06-06T15:27:46Z",
+      "lastUpdated": "2026-07-01T03:44:03Z",
+      "latestVersion": "v0.1.0",
+      "license": "NOASSERTION"
+    },
+    {
+      "id": "panko200-sam3cutoutplugin",
+      "name": "SAM3CutoutPlugin",
+      "description": "YMM4で動くツールプラグイン、映像エフェクトプラグインです。SAM3というモデルを用いて、画像・動画の物体を切り抜くことができます",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/SAM3CutoutPlugin",
+      "downloadUrl": "https://github.com/panko200/SAM3CutoutPlugin/releases/tag/v0.1.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 2,
+      "createdAt": "2026-05-28T16:25:30Z",
+      "lastUpdated": "2026-07-01T03:42:50Z",
+      "latestVersion": "v0.1.1",
+      "license": "MIT"
+    },
+    {
+      "id": "panko200-pseudo3dextrusion",
+      "name": "Pseudo3DExtrusion",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、画像を奥に押し出します。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Pseudo3DExtrusion",
+      "downloadUrl": "https://github.com/panko200/Pseudo3DExtrusion/releases/tag/v1.1.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-04T12:18:37Z",
+      "lastUpdated": "2026-07-01T03:41:59Z",
+      "latestVersion": "v1.1.1",
+      "license": "NOASSERTION"
+    },
+    {
+      "id": "panko200-iyahon-shapecore",
+      "name": "Iyahon_ShapeCore",
+      "description": "YMM$で動く映像エフェクトプラグインです。入力されたラスター画像を、無理やりベクター化して、そのベクター化されたデータに対して、処理を追加できます。コア以外のプラグインを入れなければ、意味を成しません。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Iyahon_ShapeCore",
+      "downloadUrl": "https://github.com/panko200/Iyahon_ShapeCore/releases/tag/v0.1.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 2,
+      "createdAt": "2026-02-27T13:35:21Z",
+      "lastUpdated": "2026-07-01T03:39:56Z",
+      "latestVersion": "v0.1.1",
+      "license": "NOASSERTION"
+    },
+    {
+      "id": "panko200-pseudo3dsphere",
+      "name": "Pseudo3DSphere",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、疑似的に3D的な球体を描画します。完璧な球体ではなく、ポリゴンを組み合わせたような見た目になります。逆に、それを利用して3D的な物体を描画することもできます。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Pseudo3DSphere",
+      "downloadUrl": "https://github.com/panko200/Pseudo3DSphere/releases/tag/v0.2.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-08T05:02:36Z",
+      "lastUpdated": "2026-07-01T03:38:22Z",
+      "latestVersion": "v0.2.1",
+      "license": "MIT"
+    },
+    {
       "id": "yurklyk-ymm4musiccontroller",
       "name": "Ymm4MusicController",
       "description": "説明なし",
@@ -588,6 +750,24 @@
       "lastUpdated": "2026-05-31T13:51:30Z",
       "latestVersion": "",
       "license": ""
+    },
+    {
+      "id": "panko200-easy3dpreview",
+      "name": "Easy3DPreview",
+      "description": "YMM4で動くツールプラグインです。3D空間をほぼマウス操作のみで簡単に見ることができ、3D空間での位置関係を簡単に把握することができるプラグインです。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Easy3DPreview",
+      "downloadUrl": "https://github.com/panko200/Easy3DPreview/releases/tag/A4",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 1,
+      "createdAt": "2026-05-02T13:37:23Z",
+      "lastUpdated": "2026-07-01T03:36:56Z",
+      "latestVersion": "A4",
+      "license": "MIT"
     },
     {
       "id": "routersys-ymm4-textpaste",
@@ -788,9 +968,27 @@
       "license": "MIT"
     },
     {
+      "id": "panko200-previewenhancer",
+      "name": "PreviewEnhancer",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。プレビューの解像度を変更することにより、描画そのものや、計算の処理を削ることができます。が、その分、まともに描画されなくなり、かつそこまで軽量化にもならないので、あんまり使い道はありません。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/PreviewEnhancer",
+      "downloadUrl": "https://github.com/panko200/PreviewEnhancer/releases/tag/v0.1.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 1,
+      "createdAt": "2026-05-05T10:49:19Z",
+      "lastUpdated": "2026-07-01T03:29:49Z",
+      "latestVersion": "v0.1.0",
+      "license": "MIT"
+    },
+    {
       "id": "routersys-ymm4-container",
       "name": "YMM4-Container",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する���複数の映像エフェクトをタブで管理するプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、複数の映像エフェクトをタブで管理するプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Container",
@@ -842,6 +1040,24 @@
       "license": "MIT"
     },
     {
+      "id": "panko200-projectionsettings",
+      "name": "ProjectionSettings",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、カメラの焦点距離の変更や、平行投影への変更ができるようになります。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/ProjectionSettings",
+      "downloadUrl": "https://github.com/panko200/ProjectionSettings/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-04-23T15:31:07Z",
+      "lastUpdated": "2026-07-01T03:28:11Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
       "id": "routersys-ymm4-extendedchromakey",
       "name": "YMM4-ExtendedChromakey",
       "description": "YMM4のクロマキーを拡張します。",
@@ -878,6 +1094,24 @@
       "license": "MIT"
     },
     {
+      "id": "panko200-groupcontrolapplyeffectsfirst",
+      "name": "GroupControlApplyEffectsFirst",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。グループ制御下に置かれたアイテムの映像エフェクトに先に映像エフェクトを適用することができるようになります。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/GroupControlApplyEffectsFirst",
+      "downloadUrl": "https://github.com/panko200/GroupControlApplyEffectsFirst/releases/tag/v0.1.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-04-22T10:25:55Z",
+      "lastUpdated": "2026-07-01T03:27:08Z",
+      "latestVersion": "v0.1.0",
+      "license": "MIT"
+    },
+    {
       "id": "haisangames813-instantloopaudioeffect",
       "name": "InstantLoopAudioEffect",
       "description": "音声の先頭部分をループできる音声エフェクトです",
@@ -894,6 +1128,60 @@
       "lastUpdated": "2026-04-29T15:04:14Z",
       "latestVersion": "v1.0.0",
       "license": ""
+    },
+    {
+      "id": "panko200-colorramp",
+      "name": "ColorRamp",
+      "description": "YMM4で動く映像エフェクトプラグインです。画像の成分から、別のパターンの色に変更ができるプラグインです。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/ColorRamp",
+      "downloadUrl": "https://github.com/panko200/ColorRamp/releases/tag/v3.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2025-11-30T15:34:44Z",
+      "lastUpdated": "2026-07-01T03:21:48Z",
+      "latestVersion": "v3.0.0",
+      "license": "MIT"
+    },
+    {
+      "id": "panko200-pseudo3ddisplacementmap",
+      "name": "Pseudo3DDisplacementMap",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用します。入力された深度マップによって、3D的に盛りあげます。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Pseudo3DDisplacementMap",
+      "downloadUrl": "https://github.com/panko200/Pseudo3DDisplacementMap/releases/tag/v0.1.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 3,
+      "createdAt": "2026-04-02T15:28:22Z",
+      "lastUpdated": "2026-07-01T03:21:02Z",
+      "latestVersion": "v0.1.1",
+      "license": "MIT"
+    },
+    {
+      "id": "panko200-iterativemovementextension",
+      "name": "IterativeMovementExtension",
+      "description": "YMM4で動くイージング追加プラグインです。反復移動（拡張）が追加され、位相、反復の仕方などが指定できます。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/IterativeMovementExtension",
+      "downloadUrl": "https://github.com/panko200/IterativeMovementExtension/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-04-05T15:56:19Z",
+      "lastUpdated": "2026-07-01T03:19:55Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
     },
     {
       "id": "routersys-ymm4-pdf",
@@ -987,6 +1275,24 @@
       "license": ""
     },
     {
+      "id": "panko200-pseudodepthoffield",
+      "name": "PseudoDepthofField",
+      "description": "YMM4で動く映像エフェクトプラグインです。画像から、AIを使用して深度を推定し、その深度マップを使って、ぼかしをかける範囲を指定し、被写界深度的な効果を生み出せるプラグインです。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/PseudoDepthofField",
+      "downloadUrl": "https://github.com/panko200/PseudoDepthofField/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2026-04-01T08:48:02Z",
+      "lastUpdated": "2026-07-01T03:18:49Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
       "id": "tetra-te-partssplittetra",
       "name": "PartsSplitTetra",
       "description": "パーツ分解エフェクト",
@@ -1007,7 +1313,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメ��ション対応・HLSLカスタムシェーダーによるGPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -1039,6 +1345,24 @@
       "createdAt": "2026-03-17T01:29:50Z",
       "lastUpdated": "2026-04-12T09:21:22Z",
       "latestVersion": "v1.0.2",
+      "license": "MIT"
+    },
+    {
+      "id": "panko200-shapecroppingplus",
+      "name": "ShapeCroppingPlus",
+      "description": "YMM4で動く映像エフェクトプラグインです。図形切り抜きの切り抜き側の図形に映像エフェクトをかけることができます。それだけです。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/ShapeCroppingPlus",
+      "downloadUrl": "https://github.com/panko200/ShapeCroppingPlus/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-29T16:29:35Z",
+      "lastUpdated": "2026-07-01T03:17:40Z",
+      "latestVersion": "v1.0.0",
       "license": "MIT"
     },
     {
@@ -1098,18 +1422,18 @@
     {
       "id": "panko200-particles3d",
       "name": "Particles3D",
-      "description": "説明なし",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、疑似的な3Dパーティクルを表示できます。パラメータ量はとんでもないです。ですが、使いこなせば割と何でもできるかと思います。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Particles3D",
       "downloadUrl": "https://github.com/panko200/Particles3D/releases/tag/v2.0.0",
       "category": "video-effect",
       "tags": [
-        "その他"
+        "映像エフェクト"
       ],
       "stars": 9,
       "createdAt": "2025-11-02T09:10:33Z",
-      "lastUpdated": "2026-06-14T02:48:55Z",
+      "lastUpdated": "2026-07-01T03:16:59Z",
       "latestVersion": "v2.0.0",
       "license": "NOASSERTION"
     },
@@ -1315,6 +1639,42 @@
       "license": "MIT"
     },
     {
+      "id": "panko200-timelineart",
+      "name": "TimelineArt",
+      "description": "YMM$で動くツールプラグインです。エイプリルフールプラグインです。ツールを追加し、画像を入力することで、タイムライン上にその画像を表現することができるようになります。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/TimelineArt",
+      "downloadUrl": "https://github.com/panko200/TimelineArt/releases/tag/v1.0.0",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-19T17:41:21Z",
+      "lastUpdated": "2026-07-01T03:15:56Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
+      "id": "panko200-ymm4-ntsc-rs",
+      "name": "YMM4_ntsc-rs",
+      "description": "YMM4で動く映像エフェクトプラグインです。ntsc-rsを利用して、VHS風の加工をすることができるプラグインです。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/YMM4_ntsc-rs",
+      "downloadUrl": "https://github.com/panko200/YMM4_ntsc-rs/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 2,
+      "createdAt": "2026-03-18T16:02:56Z",
+      "lastUpdated": "2026-07-01T03:14:47Z",
+      "latestVersion": "v1.0.0",
+      "license": "Apache-2.0"
+    },
+    {
       "id": "rindai0123-artifact-ymm4-jetcut-plugin",
       "name": "ymm4-jetcut-plugin",
       "description": "YMM4（ゆっくりMovieMaker4）用ジェットカット（無音カット）プラグイン",
@@ -1370,9 +1730,27 @@
       "license": "MIT"
     },
     {
+      "id": "panko200-ymm4simplegraphingfunctions",
+      "name": "YMM4SimpleGraphingfunctions",
+      "description": "YMM4で動く図形プラグインです。関数を入力すると、グラフが描画されます。だいぶ無理やりですが、変数にも対応しています。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/YMM4SimpleGraphingfunctions",
+      "downloadUrl": "https://github.com/panko200/YMM4SimpleGraphingfunctions/releases/tag/v0.1.0",
+      "category": "shape",
+      "tags": [
+        "図形"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-15T04:52:42Z",
+      "lastUpdated": "2026-07-01T13:31:49Z",
+      "latestVersion": "v0.1.0",
+      "license": "MIT"
+    },
+    {
       "id": "haisangames813-rotationpersecondeffect",
       "name": "RotationPerSecondEffect",
-      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラグインです",
+      "description": "指定した秒数で何回回転するかを指定できる���像エフェクトを追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/RotationPerSecondEffect",
@@ -1386,6 +1764,42 @@
       "lastUpdated": "2026-03-15T01:59:40Z",
       "latestVersion": "v1.0.1",
       "license": ""
+    },
+    {
+      "id": "panko200-pseudo3dline",
+      "name": "Pseudo3DLine",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、立体的な線を引くことが出来る映像エフェクトです。図形アイテムでないのは、アイテム側から、カメラ値を使う方法がわからなかったからです。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Pseudo3DLine",
+      "downloadUrl": "https://github.com/panko200/Pseudo3DLine/releases/tag/v0.1.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-03-11T14:36:33Z",
+      "lastUpdated": "2026-07-01T03:10:05Z",
+      "latestVersion": "v0.1.0",
+      "license": "MIT"
+    },
+    {
+      "id": "panko200-interitemnode",
+      "name": "InterItemNode",
+      "description": "YMM4で動く映像エフェクトプラグインです。アイテムとアイテム同士を線でつなげるようになるプラグインです。使い方がだいぶ複雑です。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/InterItemNode",
+      "downloadUrl": "https://github.com/panko200/InterItemNode/releases/tag/v0.1.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2026-03-11T13:27:05Z",
+      "lastUpdated": "2026-07-01T03:08:39Z",
+      "latestVersion": "v0.1.0",
+      "license": "MIT"
     },
     {
       "id": "haisangames813-pluginlistplugin",
@@ -1408,7 +1822,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不���明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -1478,6 +1892,24 @@
       "license": "MIT"
     },
     {
+      "id": "panko200-ymm4-ffmosh",
+      "name": "YMM4_ffMosh",
+      "description": "YMM4で動くツールプラグインです。ffglitchを使って、動画データを破壊して、データモッシュを発生させます。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/YMM4_ffMosh",
+      "downloadUrl": "https://github.com/panko200/YMM4_ffMosh/releases/tag/v0.1.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2026-03-03T14:02:57Z",
+      "lastUpdated": "2026-07-01T03:07:58Z",
+      "latestVersion": "v0.1.0",
+      "license": "GPL-3.0"
+    },
+    {
       "id": "tetra-te-ratiocropeffect",
       "name": "RatioCropEffect",
       "description": "比率で指定するクリッピングエフェクト",
@@ -1534,7 +1966,7 @@
     {
       "id": "benikazura-texttemplate",
       "name": "TextTemplate",
-      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せるプ��グインです。",
+      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せるプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/TextTemplate",
@@ -1548,6 +1980,24 @@
       "lastUpdated": "2026-06-14T06:25:58Z",
       "latestVersion": "ver3.0.2",
       "license": ""
+    },
+    {
+      "id": "panko200-wavepluseffect",
+      "name": "WaveplusEffect",
+      "description": "YMM4で動く映像エフェクトプラグインです。波打ちを拡張して、波打ちの種類や、固定端などを指定することができるようになります。Aeのwavewarp的な感じです。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/WaveplusEffect",
+      "downloadUrl": "https://github.com/panko200/WaveplusEffect/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2026-02-14T08:32:59Z",
+      "lastUpdated": "2026-07-01T03:06:56Z",
+      "latestVersion": "v1.0.0",
+      "license": "LGPL-3.0"
     },
     {
       "id": "tetra-te-indicator",
@@ -1566,6 +2016,60 @@
       "lastUpdated": "2026-03-15T01:57:53Z",
       "latestVersion": "v1.0.0",
       "license": "CC0-1.0"
+    },
+    {
+      "id": "panko200-simplescreenmotionblureffect",
+      "name": "SimpleScreenMotionBlurEffect",
+      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/SimpleScreenMotionBlurEffect",
+      "downloadUrl": "https://github.com/panko200/SimpleScreenMotionBlurEffect/releases/tag/v1.0.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2026-02-11T14:52:01Z",
+      "lastUpdated": "2026-07-01T03:05:44Z",
+      "latestVersion": "v1.0.1",
+      "license": "MIT"
+    },
+    {
+      "id": "panko200-cuboidtransform",
+      "name": "CuboidTransform",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使って、物体を長方形にするプラグインです。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/CuboidTransform",
+      "downloadUrl": "https://github.com/panko200/CuboidTransform/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 3,
+      "createdAt": "2026-02-10T11:00:11Z",
+      "lastUpdated": "2026-07-01T03:03:48Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
+      "id": "panko200-z-depthoffield",
+      "name": "Z_DepthofField",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用します。カメラからのZ軸、もしくは、距離を使って、ピント距離と合致していない場合、アイテム全体にぼかしがかかります。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Z_DepthofField",
+      "downloadUrl": "https://github.com/panko200/Z_DepthofField/releases/tag/v1.1.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2026-02-07T08:29:12Z",
+      "lastUpdated": "2026-07-01T03:04:10Z",
+      "latestVersion": "v1.1.0",
+      "license": "MIT"
     },
     {
       "id": "taisan11-ymm4-monaural-plugin",
@@ -1694,24 +2198,6 @@
       "license": ""
     },
     {
-      "id": "tarutaru247-ymm4-nvencplugin",
-      "name": "YMM4_NVEncPlugin",
-      "description": "説明なし",
-      "author": "tarutaru247",
-      "authorUrl": "https://github.com/tarutaru247",
-      "repoUrl": "https://github.com/tarutaru247/YMM4_NVEncPlugin",
-      "downloadUrl": "https://github.com/tarutaru247/YMM4_NVEncPlugin/releases",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 4,
-      "createdAt": "2026-01-06T05:25:57Z",
-      "lastUpdated": "2026-06-14T02:54:01Z",
-      "latestVersion": "",
-      "license": "MIT"
-    },
-    {
       "id": "namakemono-san-ymm4-cloudsync",
       "name": "YMM4-CloudSync",
       "description": "Plugin to quickly save YukkuriMovieMaker 4 projects to the cloud.",
@@ -1784,6 +2270,24 @@
       "license": "MIT"
     },
     {
+      "id": "panko200-lightweightoutline",
+      "name": "Lightweightoutline",
+      "description": "YMM4で動く映像エフェクトプラグインです。軽量化された縁取り。でしたが、現在はYMM4公式の縁取りが軽量化されており、このプラグインを使う理由はなくなりました。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Lightweightoutline",
+      "downloadUrl": "https://github.com/panko200/Lightweightoutline/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2026-01-04T12:46:52Z",
+      "lastUpdated": "2026-07-01T03:01:25Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
       "id": "benikazura-crossingscreen",
       "name": "CrossingScreen",
       "description": "画面の端から端に移動させるYMM4用映像エフェクトプラグインです。",
@@ -1800,6 +2304,24 @@
       "lastUpdated": "2026-03-15T01:59:23Z",
       "latestVersion": "ver1.1.0",
       "license": ""
+    },
+    {
+      "id": "panko200-vectormelt",
+      "name": "VectorMelt",
+      "description": "YMM4で動く映像エフェクトプラグインです。データモッシュの成り損ないです。前フレームのデータを利用して、動きフレームのみを変更してぐちゃぐちゃに崩します。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/VectorMelt",
+      "downloadUrl": "https://github.com/panko200/VectorMelt/releases/tag/v0.1.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 2,
+      "createdAt": "2025-12-31T03:04:17Z",
+      "lastUpdated": "2026-07-01T03:45:09Z",
+      "latestVersion": "v0.1.0",
+      "license": "MIT"
     },
     {
       "id": "tetra-te-effectcategorycustomizer",
@@ -1876,7 +2398,7 @@
     {
       "id": "haisangames813-drawingsettingseffect",
       "name": "DrawingSettingsEffect",
-      "description": "基本的な��画設定ができる「描画設定」エフェクトを追加するプラグイン",
+      "description": "基本的な描画設定ができる「描画設定」エフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/DrawingSettingsEffect",
@@ -1894,7 +2416,7 @@
     {
       "id": "routersys-ymm4-fontmanager",
       "name": "YMM4-FontManager",
-      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシステムへインストール・管理できます。",
+      "description": "YukkuriMovieMaker4 (YMM4) 用のフォント管理プラグイン。Google Fontsを簡単に検索・プレビューし、ワンクリックでシステムへインストール・管理で���ます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-FontManager",
@@ -1930,7 +2452,7 @@
     {
       "id": "routersys-ymm4-midi",
       "name": "YMM4-MIDI",
-      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載しています。",
+      "description": "YMM4でSF2を介したMIDI音声ファイルを再生することができます。加えて、MIDI作成・編集に役立つ機能も搭載���ています。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MIDI",
@@ -1948,7 +2470,7 @@
     {
       "id": "dmmo-com-jp-textyurashiplugin",
       "name": "TextYurashiPlugin",
-      "description": "YMM4で映像エフェクト「揺らす」を追加するプラグイン",
+      "description": "YMM4で映像エフェクト「揺らす」を追加するプラグイ��",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/TextYurashiPlugin",
@@ -2148,7 +2670,7 @@
     {
       "id": "benikazura-videochecker",
       "name": "VideoChecker",
-      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を���べることができるYMM4用のプラグインです。",
+      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることができるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/VideoChecker",
@@ -2427,7 +2949,7 @@
     {
       "id": "haisangames813-characterinversionandreverseconversionplugin",
       "name": "CharacterInversionAndReverseConversionPlugin",
-      "description": "文字反転・逆再生変換ができるツールウィンドウを追加するプラグイン",
+      "description": "文字反転・逆再生変換ができるツー��ウィンドウを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/CharacterInversionAndReverseConversionPlugin",
@@ -2679,7 +3201,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインで��。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
