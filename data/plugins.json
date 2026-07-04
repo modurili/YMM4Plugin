@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-07-03T16:27:45.413Z",
+  "lastUpdated": "2026-07-04T16:05:57.725Z",
   "plugins": [
     {
       "id": "routersys-ymm4-luascript",
       "name": "YMM4-LuaScript",
-      "description": "Luaスクリプトでオブジェクトの座標・拡縮・回転・不透明度・ピクセルを直接制御できる映像エフェクト",
+      "description": "Luaスクリプトでオブジェクトの座標・拡縮・回転・不��明度・ピクセルを直接制御できる映像エフェクト",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-LuaScript",
-      "downloadUrl": "https://github.com/routersys/YMM4-LuaScript/releases/tag/v1.14.0",
+      "downloadUrl": "https://github.com/routersys/YMM4-LuaScript/releases/tag/v1.17.0",
       "category": "video-effect",
       "tags": [
         "映像エフェクト",
@@ -18,8 +18,8 @@
       ],
       "stars": 2,
       "createdAt": "2026-06-21T02:40:43Z",
-      "lastUpdated": "2026-07-03T14:20:30Z",
-      "latestVersion": "v1.14.0",
+      "lastUpdated": "2026-07-04T15:42:21Z",
+      "latestVersion": "v1.17.0",
       "license": "MIT"
     },
     {
@@ -36,7 +36,7 @@
       ],
       "stars": 31,
       "createdAt": "2024-05-28T09:50:34Z",
-      "lastUpdated": "2026-07-01T11:16:41Z",
+      "lastUpdated": "2026-07-04T08:57:24Z",
       "latestVersion": "",
       "license": "LGPL-3.0"
     },
@@ -246,7 +246,7 @@
     {
       "id": "routersys-ymm4-waveoptics",
       "name": "YMM4-WaveOptics",
-      "description": "YMM4 向けの映像エフェクトプラグイン。フラウンホーファー回折理論に基づき FFT で点像分布関数を計算し、Direct2D カスタムピクセルシェーダーで映像に畳み込む波動光学エフェクト。円形・正多角形開口・中央遮蔽・6 種類のゼルニケ波面収差・3 段階の品質設定・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像��フェクトプラグイン。フラウンホーファー回折理論に基づき FFT で点像分布関数を計算し、Direct2D カスタムピクセルシェーダーで映像に畳み込む波動光学エフェクト。円形・正多角形開口・中央遮蔽・6 種類のゼルニケ波面収差・3 段階の品質設定・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveOptics",
@@ -282,7 +282,7 @@
     {
       "id": "routersys-ymm4-holographicfoil",
       "name": "YMM4-HolographicFoil",
-      "description": "YMM4 向けの映像エフェクトプラグイン。視線���度に応じて変化する回折細線・虹彩・疑似凹凸・きらめきを Direct2D カスタムピクセルシェーダーで映像に合成するホログラフィック箔エフェクト。カメラ・アイテム回転・手動の角度ソース・ギロシェおよび画像アトラスの潜像モード・アルファ／輝度マスク・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。視線角度に応じて変化する回折細線・虹彩・疑似凹凸・きらめきを Direct2D カスタムピクセルシェーダーで映像に合成するホログラフィック箔エフェクト。カメラ・アイテム回転・手動の角度ソース・ギロシェおよび画像アトラスの潜像モード・アルファ／輝度マスク・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HolographicFoil",
@@ -444,7 +444,7 @@
     {
       "id": "panko200-iyahon-d3d11renderer-core",
       "name": "Iyahon_D3D11Renderer_Core",
-      "description": "YMM4で動く既存機能に機能追加するプラグインです。D3D11を利用して、YMM4の基本2D描画のところを、重ね合わせなども考慮したガチ3D描画ができるようになります。ObjLoaderの3Dモデルも読み込むこともでき、照明の追加���影(試験的機能)の追加もされています。",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。D3D11を利用して、YMM4の基本2D描画のところを、重ね合わせなども考慮したガチ3D描画ができるようになります。ObjLoaderの3Dモデルも読み込むこともでき、照明の追加、影(試験的機能)の追加もされています。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_D3D11Renderer_Core",
@@ -501,14 +501,14 @@
     {
       "id": "routersys-ymm4-equalizer",
       "name": "YMM4-Equalizer",
-      "description": "YMM4向け高機能パラメトリックイコライザープラグイン。最大32バンド・Biquad/TPT-SVF対応・スペクトラムアナライザー・プリセット管理・���ニメーション統合",
+      "description": "YMM4向け高機能パラメトリックイコライザープラグイン。最大32バンド・Biquad/TPT-SVF対応・スペクトラムアナライザー・プリセット管理・アニメーション統合",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Equalizer",
       "downloadUrl": "https://github.com/routersys/YMM4-Equalizer/releases/tag/v1.2.3",
-      "category": "audio-effect",
+      "category": "video-effect",
       "tags": [
-        "音声エフェクト",
+        "映像エフェクト",
         "equalizer"
       ],
       "stars": 0,
@@ -556,7 +556,7 @@
     {
       "id": "benikazura-timestamp",
       "name": "Timestamp",
-      "description": "専用のアイテムを配置するだけで簡単にYouTubeとニコニコ動画のタイムスタンプを作成できるYMM4用のプラグインです。",
+      "description": "専用のアイテムを配置するだけで簡単にYouTubeとニコニコ動画のタイムスタンプ���作成できるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/Timestamp",
@@ -585,7 +585,7 @@
       ],
       "stars": 0,
       "createdAt": "2025-09-05T10:16:37Z",
-      "lastUpdated": "2026-06-13T15:24:56Z",
+      "lastUpdated": "2026-07-04T07:57:38Z",
       "latestVersion": "v0.3.0",
       "license": "MIT"
     },
@@ -628,7 +628,7 @@
     {
       "id": "panko200-outlineextension",
       "name": "OutlineExtension",
-      "description": "YMM4で動く映像エフェクトプラグインです。縁取りの種類・位置を追加・変更可能にし、より多くの縁取りを生み出せます。波打ちに関してはちょっと挙動が怪しいかも。。。",
+      "description": "YMM4で動く映像エフェクトプラグインです。縁取りの種類・位置を追加・変更可能にし、より多くの縁取りを生み出せます。波打ちに関し���はちょっと挙動が怪しいかも。。。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/OutlineExtension",
@@ -970,7 +970,7 @@
     {
       "id": "panko200-previewenhancer",
       "name": "PreviewEnhancer",
-      "description": "YMM4で動く既存機能に機能追加するプラグインです。プレビューの解像度を変更することにより、描画そのものや、計算の処理を削ることができます。が、その分、まともに描画されなくなり、かつそこまで軽量化にもならないので、あんまり使い��はありません。",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。プレビューの解像度を変更することにより、描画そのものや、計算の処理を削ることができます。が、その分、まともに描画されなくなり、かつそこまで軽量化にもならないので、あんまり使い道はありません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PreviewEnhancer",
@@ -988,7 +988,7 @@
     {
       "id": "routersys-ymm4-container",
       "name": "YMM4-Container",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、複数の映像エフェクトをタブで管理するプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、複数��映像エフェクトをタブで管理するプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Container",
@@ -2706,7 +2706,7 @@
     {
       "id": "haisangames813-reverseplaybackaudioeffectplugin",
       "name": "ReversePlaybackAudioEffectPlugin",
-      "description": "逆再生エフェクト(音声)を追加するプラグイン",
+      "description": "逆再生エフェクト(音声)を追加するプラグイ��",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/ReversePlaybackAudioEffectPlugin",
@@ -2742,7 +2742,7 @@
     {
       "id": "benikazura-automaticaspectratio",
       "name": "AutomaticAspectRatio",
-      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映��エフェクトプラグインです。字幕のサイズ調整を自動で行うことができます。",
+      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことができます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AutomaticAspectRatio",
@@ -3641,7 +3641,7 @@
     {
       "id": "kotolin-sub-ymm4audiodelayplugin",
       "name": "YMM4AudioDelayPlugin",
-      "description": "指定した分遅れて再生されまる音声エフェクトを追加するYMM4のプラグイン",
+      "description": "指定した分遅れて再��されまる音声エフェクトを追加するYMM4のプラグイン",
       "author": "kotolin-sub",
       "authorUrl": "https://github.com/kotolin-sub",
       "repoUrl": "https://github.com/kotolin-sub/YMM4AudioDelayPlugin",
