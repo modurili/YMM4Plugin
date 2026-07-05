@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T16:05:57.725Z",
+  "lastUpdated": "2026-07-05T16:12:33.142Z",
   "plugins": [
     {
       "id": "routersys-ymm4-luascript",
@@ -8,7 +8,7 @@
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-LuaScript",
-      "downloadUrl": "https://github.com/routersys/YMM4-LuaScript/releases/tag/v1.17.0",
+      "downloadUrl": "https://github.com/routersys/YMM4-LuaScript/releases/tag/v1.20.3",
       "category": "video-effect",
       "tags": [
         "映像エフェクト",
@@ -18,8 +18,44 @@
       ],
       "stars": 2,
       "createdAt": "2026-06-21T02:40:43Z",
-      "lastUpdated": "2026-07-04T15:42:21Z",
-      "latestVersion": "v1.17.0",
+      "lastUpdated": "2026-07-05T10:52:55Z",
+      "latestVersion": "v1.20.3",
+      "license": "MIT"
+    },
+    {
+      "id": "haisangames813-instantloopaudioeffect",
+      "name": "InstantLoopAudioEffect",
+      "description": "音声の先頭部分をループできる音声エフェクトです",
+      "author": "HAIsanGames813",
+      "authorUrl": "https://github.com/HAIsanGames813",
+      "repoUrl": "https://github.com/HAIsanGames813/InstantLoopAudioEffect",
+      "downloadUrl": "https://github.com/HAIsanGames813/InstantLoopAudioEffect/releases/tag/v1.1.0",
+      "category": "audio-effect",
+      "tags": [
+        "音声エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-04-21T12:23:21Z",
+      "lastUpdated": "2026-07-05T01:57:11Z",
+      "latestVersion": "v1.1.0",
+      "license": ""
+    },
+    {
+      "id": "panko200-sam3dobjectsplugin",
+      "name": "SAM3DObjectsPlugin",
+      "description": "YMM4で動くツールプラグインです。SAM3Dを使って画像から、3Dモデルを作れるプラグインです。OBJLoaderが入っていれば、自動配置することも可能です。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/SAM3DObjectsPlugin",
+      "downloadUrl": "https://github.com/panko200/SAM3DObjectsPlugin/releases/tag/v0.1.0",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 0,
+      "createdAt": "2026-07-04T20:36:47Z",
+      "lastUpdated": "2026-07-05T08:35:33Z",
+      "latestVersion": "v0.1.0",
       "license": "MIT"
     },
     {
@@ -246,7 +282,7 @@
     {
       "id": "routersys-ymm4-waveoptics",
       "name": "YMM4-WaveOptics",
-      "description": "YMM4 向けの映像��フェクトプラグイン。フラウンホーファー回折理論に基づき FFT で点像分布関数を計算し、Direct2D カスタムピクセルシェーダーで映像に畳み込む波動光学エフェクト。円形・正多角形開口・中央遮蔽・6 種類のゼルニケ波面収差・3 段階の品質設定・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。フラウンホーファー回折理論に基づき FFT で点像分布関数を計算し、Direct2D カスタムピクセルシェーダーで映像に畳み込む波動光学エフェクト。円形・正多角形開口・中央遮蔽・6 種類のゼルニケ波面収差・3 段階の品質設定・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveOptics",
@@ -556,7 +592,7 @@
     {
       "id": "benikazura-timestamp",
       "name": "Timestamp",
-      "description": "専用のアイテムを配置するだけで簡単にYouTubeとニコニコ動画のタイムスタンプ���作成できるYMM4用のプラグインです。",
+      "description": "専用のアイテムを配置するだけで簡単にYouTubeとニコニコ動画のタイムスタンプを作成できるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/Timestamp",
@@ -628,7 +664,7 @@
     {
       "id": "panko200-outlineextension",
       "name": "OutlineExtension",
-      "description": "YMM4で動く映像エフェクトプラグインです。縁取りの種類・位置を追加・変更可能にし、より多くの縁取りを生み出せます。波打ちに関し���はちょっと挙動が怪しいかも。。。",
+      "description": "YMM4で動く映像エフェクトプラグインです。縁取りの種類・位置を追加・変更可能にし、より多くの縁取りを生み出せます。波打ちに関してはちょっと挙動が怪しいかも。。。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/OutlineExtension",
@@ -934,7 +970,7 @@
     {
       "id": "routersys-ymm4-dynamiceffect",
       "name": "YMM4-DynamicEffect",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、音量レベルに応じて異なるエフェクトを自動で切り替える音声エフェクトプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、音量レベルに応じて異なるエフェクト��自動で切り替える音声エフェクトプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-DynamicEffect",
@@ -988,7 +1024,7 @@
     {
       "id": "routersys-ymm4-container",
       "name": "YMM4-Container",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、複数��映像エフェクトをタブで管理するプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、複数の映像エフェクトをタブで管理するプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Container",
@@ -1110,24 +1146,6 @@
       "lastUpdated": "2026-07-01T03:27:08Z",
       "latestVersion": "v0.1.0",
       "license": "MIT"
-    },
-    {
-      "id": "haisangames813-instantloopaudioeffect",
-      "name": "InstantLoopAudioEffect",
-      "description": "音声の先頭部分をループできる音声エフェクトです",
-      "author": "HAIsanGames813",
-      "authorUrl": "https://github.com/HAIsanGames813",
-      "repoUrl": "https://github.com/HAIsanGames813/InstantLoopAudioEffect",
-      "downloadUrl": "https://github.com/HAIsanGames813/InstantLoopAudioEffect/releases/tag/v1.0.0",
-      "category": "audio-effect",
-      "tags": [
-        "音声エフェクト"
-      ],
-      "stars": 0,
-      "createdAt": "2026-04-21T12:23:21Z",
-      "lastUpdated": "2026-04-29T15:04:14Z",
-      "latestVersion": "v1.0.0",
-      "license": ""
     },
     {
       "id": "panko200-colorramp",
@@ -1622,14 +1640,14 @@
     {
       "id": "bluemistel-katasumicapture",
       "name": "KatasumiCapture",
-      "description": "デスクトップ上の任意の範囲を矩形選択し、クリップボードへコピーするか、タイムラインへ画像として貼り付けるYMM4プラグイン",
+      "description": "デスクトップ上の任意の範囲を矩形選択し、ク��ップボードへコピーするか、タイムラインへ画像として貼り付けるYMM4プラグイン",
       "author": "bluemistel",
       "authorUrl": "https://github.com/bluemistel",
       "repoUrl": "https://github.com/bluemistel/KatasumiCapture",
       "downloadUrl": "https://github.com/bluemistel/KatasumiCapture/releases/tag/1.0.1",
-      "category": "utility",
+      "category": "other",
       "tags": [
-        "ユーティリティ",
+        "その他",
         "capture-screen"
       ],
       "stars": 2,
@@ -2706,7 +2724,7 @@
     {
       "id": "haisangames813-reverseplaybackaudioeffectplugin",
       "name": "ReversePlaybackAudioEffectPlugin",
-      "description": "逆再生エフェクト(音声)を追加するプラグイ��",
+      "description": "逆再生エフェクト(音声)を追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/ReversePlaybackAudioEffectPlugin",
@@ -2742,7 +2760,7 @@
     {
       "id": "benikazura-automaticaspectratio",
       "name": "AutomaticAspectRatio",
-      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことができます。",
+      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことがで���ます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AutomaticAspectRatio",
@@ -2871,7 +2889,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムラ��ン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
@@ -3641,7 +3659,7 @@
     {
       "id": "kotolin-sub-ymm4audiodelayplugin",
       "name": "YMM4AudioDelayPlugin",
-      "description": "指定した分遅れて再��されまる音声エフェクトを追加するYMM4のプラグイン",
+      "description": "指定した分遅れて再生されまる音声エフェクトを追加するYMM4のプラグイン",
       "author": "kotolin-sub",
       "authorUrl": "https://github.com/kotolin-sub",
       "repoUrl": "https://github.com/kotolin-sub/YMM4AudioDelayPlugin",
