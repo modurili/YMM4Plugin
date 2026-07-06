@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T16:12:33.142Z",
+  "lastUpdated": "2026-07-06T17:46:36.697Z",
   "plugins": [
     {
       "id": "routersys-ymm4-luascript",
@@ -136,7 +136,7 @@
     {
       "id": "bluemistel-em-filtersets",
       "name": "EM-FilterSets",
-      "description": "エモそうなフィルター(画面エフェクト)のセットをYMM4の映像エフェクトとして追加するプラグインです。",
+      "description": "エモそうなフィルター(画面エフェクト)のセットをYMM4の映像エフェクトとして追加するプラグ���ンです。",
       "author": "bluemistel",
       "authorUrl": "https://github.com/bluemistel",
       "repoUrl": "https://github.com/bluemistel/EM-FilterSets",
@@ -210,7 +210,7 @@
     {
       "id": "routersys-ymm4-facetedglass",
       "name": "YMM4-FacetedGlass",
-      "description": "YMM4 向けの映像エフェクトプラグイン。三角形格子で映像を多面体ガラスに分割し、共有頂点の高さから面法線を求めて Direct2D カスタムピクセルシェーダーで屈折・反射を合成する幾何光学エフェクト。三角形格子の生成（面サイズ・分割角度・シード）・共有頂点の高さ差による凹凸・Cauchy 分散モデルによる波長別屈折と色分離・Fresnel 反射と鏡面ハイライト・面境界の反射線・方位/高度指定の指向性ライティング・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。三角形格子で映像を多面体ガラスに分割し、共有頂点の高さから面法線を求めて Direct2D カスタムピクセルシェーダーで屈折・反射を合成する幾何光学エフェクト。三角形格子の生成（面���イズ・分割角度・シード）・共有頂点の高さ差による凹凸・Cauchy 分散モデルによる波長別屈折と色分離・Fresnel 反射と鏡面ハイライト・面境界の反射線・方位/高度指定の指向性ライティング・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-FacetedGlass",
@@ -318,7 +318,7 @@
     {
       "id": "routersys-ymm4-holographicfoil",
       "name": "YMM4-HolographicFoil",
-      "description": "YMM4 向けの映像エフェクトプラグイン。視線角度に応じて変化する回折細線・虹彩・疑似凹凸・きらめきを Direct2D カスタムピクセルシェーダーで映像に合成するホログラフィック箔エフェクト。カメラ・アイテム回転・手動の角度ソース・ギロシェおよび画像アトラスの潜像モード・アルファ／輝度マスク・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。視線角度に応じて変化する回折細線・虹彩・疑似��凸・きらめきを Direct2D カスタムピクセルシェーダーで映像に合成するホログラフィック箔エフェクト。カメラ・アイテム回転・手動の角度ソース・ギロシェおよび画像アトラスの潜像モード・アルファ／輝度マスク・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HolographicFoil",
@@ -970,7 +970,7 @@
     {
       "id": "routersys-ymm4-dynamiceffect",
       "name": "YMM4-DynamicEffect",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、音量レベルに応じて異なるエフェクト��自動で切り替える音声エフェクトプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、音量レベルに応じて異なるエフェ��トを自動で切り替える音声エフェクトプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-DynamicEffect",
@@ -1349,7 +1349,7 @@
     {
       "id": "routersys-ymm4-mcserver",
       "name": "YMM4-MCServer",
-      "description": "YMM4上で動作するMinecraftサーバー管理ツールプラグイン。Vanilla/Paper/Fabric/Forge/Bedrockに対応し、JAR取得・整合性検証・起動停止・プラグイン管理・認可システムを提供します",
+      "description": "YMM4上で動作するMinecraftサーバー管理ツールプラグイン。Vanilla/Paper/Fabric/Forge/Bedrockに対応し、JAR取得・整合性検証��起動停止・プラグイン管理・認可システムを提供します",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MCServer",
@@ -1422,7 +1422,7 @@
     {
       "id": "routersys-ymm4-proxyforge",
       "name": "YMM4-ProxyForge",
-      "description": "YMM4向け動画プロキシ自動生成プラグイン。H.264プロキシ・HWアクセラレーション・永続キャッシュ・エクスポート時自動切替",
+      "description": "YMM4向け動画プロキシ自���生成プラグイン。H.264プロキシ・HWアクセラレーション・永続キャッシュ・エクスポート時自動切替",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ProxyForge",
@@ -1622,7 +1622,7 @@
     {
       "id": "dolphin-kun-partssplitter",
       "name": "PartsSplitter",
-      "description": "「パーツ分解」映像エフェクトプラグインです。",
+      "description": "「パーツ分解」映像エフェクトプラグインです��",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/PartsSplitter",
@@ -1640,14 +1640,14 @@
     {
       "id": "bluemistel-katasumicapture",
       "name": "KatasumiCapture",
-      "description": "デスクトップ上の任意の範囲を矩形選択し、ク��ップボードへコピーするか、タイムラインへ画像として貼り付けるYMM4プラグイン",
+      "description": "デスクトップ上の任意の範囲を矩形選択し、クリップボードへコピーするか、タイムラインへ画像として貼り付けるYMM4プラグイン",
       "author": "bluemistel",
       "authorUrl": "https://github.com/bluemistel",
       "repoUrl": "https://github.com/bluemistel/KatasumiCapture",
       "downloadUrl": "https://github.com/bluemistel/KatasumiCapture/releases/tag/1.0.1",
-      "category": "other",
+      "category": "utility",
       "tags": [
-        "その他",
+        "ユーティリティ",
         "capture-screen"
       ],
       "stars": 2,
@@ -2488,7 +2488,7 @@
     {
       "id": "dmmo-com-jp-textyurashiplugin",
       "name": "TextYurashiPlugin",
-      "description": "YMM4で映像エフェクト「揺らす」を追加するプラグイン",
+      "description": "YMM4で映像エフェクト「揺���す」を追加するプラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/TextYurashiPlugin",
@@ -2760,7 +2760,7 @@
     {
       "id": "benikazura-automaticaspectratio",
       "name": "AutomaticAspectRatio",
-      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことがで���ます。",
+      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことができます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AutomaticAspectRatio",
@@ -2889,7 +2889,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムラ��ン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
