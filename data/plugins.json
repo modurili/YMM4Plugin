@@ -1,10 +1,163 @@
 {
-  "lastUpdated": "2026-07-06T17:46:36.697Z",
+  "lastUpdated": "2026-07-07T17:17:34.690Z",
   "plugins": [
+    {
+      "id": "harumaki4649-ymm4-radeonfastpsdtachieplugin",
+      "name": "YMM4_RadeonFastPsdTachiePlugin",
+      "description": "YMM4プラグイン：PSDの読み込みを高速化＆キャッシュします",
+      "author": "harumaki4649",
+      "authorUrl": "https://github.com/harumaki4649",
+      "repoUrl": "https://github.com/harumaki4649/YMM4_RadeonFastPsdTachiePlugin",
+      "downloadUrl": "https://github.com/harumaki4649/YMM4_RadeonFastPsdTachiePlugin/releases/tag/v1.0.4rc3",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ",
+        "tool"
+      ],
+      "stars": 0,
+      "createdAt": "2026-07-07T10:30:10Z",
+      "lastUpdated": "2026-07-07T10:49:40Z",
+      "latestVersion": "v1.0.4rc3",
+      "license": ""
+    },
+    {
+      "id": "harumaki4649-ymm4-radeonfastfilesourceplugin",
+      "name": "YMM4_RadeonFastFileSourcePlugin",
+      "description": "YMM4プラグイン：音声・画像・動画の読み込みを高速化＆キャッシュします",
+      "author": "harumaki4649",
+      "authorUrl": "https://github.com/harumaki4649",
+      "repoUrl": "https://github.com/harumaki4649/YMM4_RadeonFastFileSourcePlugin",
+      "downloadUrl": "https://github.com/harumaki4649/YMM4_RadeonFastFileSourcePlugin/releases/tag/v1.0.4rc3",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ",
+        "tool"
+      ],
+      "stars": 0,
+      "createdAt": "2026-07-07T10:28:21Z",
+      "lastUpdated": "2026-07-07T10:49:41Z",
+      "latestVersion": "v1.0.4rc3",
+      "license": ""
+    },
+    {
+      "id": "harumaki4649-ymm4-radeonamfplugin",
+      "name": "YMM4_RadeonAmfPlugin",
+      "description": "YMM4プラグイン：Radeon搭載PCで動画出力を高速化します",
+      "author": "harumaki4649",
+      "authorUrl": "https://github.com/harumaki4649",
+      "repoUrl": "https://github.com/harumaki4649/YMM4_RadeonAmfPlugin",
+      "downloadUrl": "https://github.com/harumaki4649/YMM4_RadeonAmfPlugin/releases/tag/v1.0.4rc3",
+      "category": "video-output",
+      "tags": [
+        "動画出力"
+      ],
+      "stars": 0,
+      "createdAt": "2026-07-07T10:25:10Z",
+      "lastUpdated": "2026-07-07T10:26:19Z",
+      "latestVersion": "v1.0.4rc3",
+      "license": ""
+    },
+    {
+      "id": "harumaki4649-ymm4-radeon-fast-plugin-pack",
+      "name": "YMM4-Radeon_Fast_Plugin_Pack",
+      "description": "YMM4を高速化する非公式プラグインです",
+      "author": "harumaki4649",
+      "authorUrl": "https://github.com/harumaki4649",
+      "repoUrl": "https://github.com/harumaki4649/YMM4-Radeon_Fast_Plugin_Pack",
+      "downloadUrl": "https://github.com/harumaki4649/YMM4-Radeon_Fast_Plugin_Pack/releases/tag/v1.0.4rc3",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ",
+        "directx",
+        "export",
+        "output",
+        "tool"
+      ],
+      "stars": 0,
+      "createdAt": "2026-06-22T11:17:08Z",
+      "lastUpdated": "2026-07-07T10:48:30Z",
+      "latestVersion": "v1.0.4rc3",
+      "license": "MIT"
+    },
+    {
+      "id": "panko200-easy3dpreview",
+      "name": "Easy3DPreview",
+      "description": "YMM4で動くツールプラグインです。3D空間をほぼマウス操作のみで簡単に見ることができ、3D空間での位置関係を簡単に把握することができるプラグインです。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Easy3DPreview",
+      "downloadUrl": "https://github.com/panko200/Easy3DPreview/releases/tag/A5",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 1,
+      "createdAt": "2026-05-02T13:37:23Z",
+      "lastUpdated": "2026-07-07T08:40:49Z",
+      "latestVersion": "A5",
+      "license": "MIT"
+    },
+    {
+      "id": "panko200-pseudo3ddisplacementmap",
+      "name": "Pseudo3DDisplacementMap",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用します。入力された深度マップによって、3D的に盛りあげます。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Pseudo3DDisplacementMap",
+      "downloadUrl": "https://github.com/panko200/Pseudo3DDisplacementMap/releases/tag/v0.2.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 3,
+      "createdAt": "2026-04-02T15:28:22Z",
+      "lastUpdated": "2026-07-07T06:34:06Z",
+      "latestVersion": "v0.2.0",
+      "license": "MIT"
+    },
+    {
+      "id": "bluemistel-ymm4-2dcamera",
+      "name": "YMM4-2DCamera",
+      "description": "平面的な2DカメラワークにFOV(パースの強弱)とDOF(Z被写界深度)を与えるYMM4映像エフェクトプラグインです。",
+      "author": "bluemistel",
+      "authorUrl": "https://github.com/bluemistel",
+      "repoUrl": "https://github.com/bluemistel/YMM4-2DCamera",
+      "downloadUrl": "https://github.com/bluemistel/YMM4-2DCamera/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト",
+        "camera",
+        "depth-of-field",
+        "fov"
+      ],
+      "stars": 0,
+      "createdAt": "2026-07-07T02:37:48Z",
+      "lastUpdated": "2026-07-07T02:38:04Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
+      "id": "panko200-pathfolloweffect",
+      "name": "PathFollowEffect",
+      "description": "YMM4で動く映像エフェクトプラグインです。パスに沿ってテキストを配置したり、パスに沿ってモーション(X,Y)をさせたりできます。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/PathFollowEffect",
+      "downloadUrl": "https://github.com/panko200/PathFollowEffect/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-07-06T22:10:25Z",
+      "lastUpdated": "2026-07-07T08:42:02Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
     {
       "id": "routersys-ymm4-luascript",
       "name": "YMM4-LuaScript",
-      "description": "Luaスクリプトでオブジェクトの座標・拡縮・回転・不��明度・ピクセルを直接制御できる映像エフェクト",
+      "description": "Luaスクリプトでオブジェクトの座標・拡縮・回転・不透明度・ピクセルを直接制御できる映像エフェクト",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-LuaScript",
@@ -136,7 +289,7 @@
     {
       "id": "bluemistel-em-filtersets",
       "name": "EM-FilterSets",
-      "description": "エモそうなフィルター(画面エフェクト)のセットをYMM4の映像エフェクトとして追加するプラグ���ンです。",
+      "description": "エモそうなフィルター(画面エフェクト)のセットをYMM4の映像エフェクトとして追加するプラグインです。",
       "author": "bluemistel",
       "authorUrl": "https://github.com/bluemistel",
       "repoUrl": "https://github.com/bluemistel/EM-FilterSets",
@@ -156,7 +309,7 @@
     {
       "id": "routersys-ymm4-papercutout",
       "name": "YMM4-PaperCutout",
-      "description": "YMM4 向け映像エフェクトプラグイン。輝度と明暗勾配から紙の階層を Direct2D シェーダーで自動生成し、切り絵・紙工作風の立体感へ変換。暗部ほど手前の紙として扱い、階層境界に影・段差・ハイライトを合成。紙目・元色比率・光角度・紙色・アニメーション・8言語対応",
+      "description": "YMM4 向け映像エフェクトプラグイン。輝度と明暗勾配から紙の階層を Direct2D シェーダーで自動生成し、切り絵・紙工作風の立体感へ変換。暗部ほど手前の紙として扱い、階層境界に影・段差・ハイライ��を合成。紙目・元色比率・光角度・紙色・アニメーション・8言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PaperCutout",
@@ -210,7 +363,7 @@
     {
       "id": "routersys-ymm4-facetedglass",
       "name": "YMM4-FacetedGlass",
-      "description": "YMM4 向けの映像エフェクトプラグイン。三角形格子で映像を多面体ガラスに分割し、共有頂点の高さから面法線を求めて Direct2D カスタムピクセルシェーダーで屈折・反射を合成する幾何光学エフェクト。三角形格子の生成（面���イズ・分割角度・シード）・共有頂点の高さ差による凹凸・Cauchy 分散モデルによる波長別屈折と色分離・Fresnel 反射と鏡面ハイライト・面境界の反射線・方位/高度指定の指向性ライティング・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。三角形格子で映像を多面体ガラスに分割し、共有頂点の高さから面法線を求めて Direct2D カスタムピクセルシェーダーで屈折・反射を合成する幾何光学エフェクト。三角形格子の生成（面サイズ・分割角度・シード）・共有頂点の高さ差による凹凸・Cauchy 分散モデルによる波長別屈折と色分離・Fresnel 反射と鏡面ハイライト・面境界の反射線・方位/高度指定の指向性ライティング・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-FacetedGlass",
@@ -241,24 +394,6 @@
       "createdAt": "2026-01-15T02:49:12Z",
       "lastUpdated": "2026-06-25T14:11:18Z",
       "latestVersion": "v0.4.0",
-      "license": "MIT"
-    },
-    {
-      "id": "harumaki4649-ymm4-radeon-fast-plugin-pack",
-      "name": "YMM4-Radeon_Fast_Plugin_Pack",
-      "description": "YMM4を高速化する非公式プラグインです",
-      "author": "harumaki4649",
-      "authorUrl": "https://github.com/harumaki4649",
-      "repoUrl": "https://github.com/harumaki4649/YMM4-Radeon_Fast_Plugin_Pack",
-      "downloadUrl": "https://github.com/harumaki4649/YMM4-Radeon_Fast_Plugin_Pack/releases/tag/v1.0.4rc2",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 0,
-      "createdAt": "2026-06-22T11:17:08Z",
-      "lastUpdated": "2026-06-25T14:08:08Z",
-      "latestVersion": "v1.0.4rc2",
       "license": "MIT"
     },
     {
@@ -318,7 +453,7 @@
     {
       "id": "routersys-ymm4-holographicfoil",
       "name": "YMM4-HolographicFoil",
-      "description": "YMM4 向けの映像エフェクトプラグイン。視線角度に応じて変化する回折細線・虹彩・疑似��凸・きらめきを Direct2D カスタムピクセルシェーダーで映像に合成するホログラフィック箔エフェクト。カメラ・アイテム回転・手動の角度ソース・ギロシェおよび画像アトラスの潜像モード・アルファ／輝度マスク・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。視線角度に応じて変化する回折細線・虹彩・疑似凹凸・きらめきを Direct2D カスタムピクセルシェーダーで映像に合成するホログラフィック箔エフェクト。カメラ・アイテム回転・手動の角度ソース・ギロシェおよび画像アトラスの潜像モード・アルファ／輝度マスク・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HolographicFoil",
@@ -788,24 +923,6 @@
       "license": ""
     },
     {
-      "id": "panko200-easy3dpreview",
-      "name": "Easy3DPreview",
-      "description": "YMM4で動くツールプラグインです。3D空間をほぼマウス操作のみで簡単に見ることができ、3D空間での位置関係を簡単に把握することができるプラグインです。",
-      "author": "panko200",
-      "authorUrl": "https://github.com/panko200",
-      "repoUrl": "https://github.com/panko200/Easy3DPreview",
-      "downloadUrl": "https://github.com/panko200/Easy3DPreview/releases/tag/A4",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 1,
-      "createdAt": "2026-05-02T13:37:23Z",
-      "lastUpdated": "2026-07-01T03:36:56Z",
-      "latestVersion": "A4",
-      "license": "MIT"
-    },
-    {
       "id": "routersys-ymm4-textpaste",
       "name": "YMM4-TextPaste",
       "description": "アイテムの上にテキストを描画・合成する映像エフェクト",
@@ -970,7 +1087,7 @@
     {
       "id": "routersys-ymm4-dynamiceffect",
       "name": "YMM4-DynamicEffect",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、音量レベルに応じて異なるエフェ��トを自動で切り替える音声エフェクトプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、音量レベルに応じて異なるエフェクトを自動で切り替える音声エフェクトプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-DynamicEffect",
@@ -1024,7 +1141,7 @@
     {
       "id": "routersys-ymm4-container",
       "name": "YMM4-Container",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、複数の映像エフェクトをタブで管理するプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、複数の映像エフェクトをタブで���理するプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Container",
@@ -1051,9 +1168,9 @@
       "tags": [
         "その他"
       ],
-      "stars": 0,
+      "stars": 1,
       "createdAt": "2026-04-29T06:53:39Z",
-      "lastUpdated": "2026-04-29T10:38:28Z",
+      "lastUpdated": "2026-07-07T10:57:04Z",
       "latestVersion": "v1.0",
       "license": "MIT"
     },
@@ -1069,9 +1186,9 @@
       "tags": [
         "音声エフェクト"
       ],
-      "stars": 0,
+      "stars": 1,
       "createdAt": "2026-04-20T18:03:30Z",
-      "lastUpdated": "2026-04-20T18:57:16Z",
+      "lastUpdated": "2026-07-07T10:56:26Z",
       "latestVersion": "v1.1",
       "license": "MIT"
     },
@@ -1166,24 +1283,6 @@
       "license": "MIT"
     },
     {
-      "id": "panko200-pseudo3ddisplacementmap",
-      "name": "Pseudo3DDisplacementMap",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用します。入力された深度マップによって、3D的に盛りあげます。",
-      "author": "panko200",
-      "authorUrl": "https://github.com/panko200",
-      "repoUrl": "https://github.com/panko200/Pseudo3DDisplacementMap",
-      "downloadUrl": "https://github.com/panko200/Pseudo3DDisplacementMap/releases/tag/v0.1.1",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 3,
-      "createdAt": "2026-04-02T15:28:22Z",
-      "lastUpdated": "2026-07-01T03:21:02Z",
-      "latestVersion": "v0.1.1",
-      "license": "MIT"
-    },
-    {
       "id": "panko200-iterativemovementextension",
       "name": "IterativeMovementExtension",
       "description": "YMM4で動くイージング追加プラグインです。反復移動（拡張）が追加され、位相、反復の仕方などが指定できます。",
@@ -1259,7 +1358,7 @@
     {
       "id": "tenkonta-itemparametertextshape",
       "name": "ItemParameterTextShape",
-      "description": "アイテムのパラメーターを取得しテキストとして表示できる図形アイテム。",
+      "description": "アイテム���パラメーターを取得しテキストとして表示できる図形アイテム。",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/ItemParameterTextShape",
@@ -1349,7 +1448,7 @@
     {
       "id": "routersys-ymm4-mcserver",
       "name": "YMM4-MCServer",
-      "description": "YMM4上で動作するMinecraftサーバー管理ツールプラグイン。Vanilla/Paper/Fabric/Forge/Bedrockに対応し、JAR取得・整合性検証��起動停止・プラグイン管理・認可システムを提供します",
+      "description": "YMM4上で動作するMinecraftサーバー管理ツールプラグイン。Vanilla/Paper/Fabric/Forge/Bedrockに対応し、JAR取得・整合性検証・起動停止・プラグイン管理・認可システムを提供します",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-MCServer",
@@ -1422,7 +1521,7 @@
     {
       "id": "routersys-ymm4-proxyforge",
       "name": "YMM4-ProxyForge",
-      "description": "YMM4向け動画プロキシ自���生成プラグイン。H.264プロキシ・HWアクセラレーション・永続キャッシュ・エクスポート時自動切替",
+      "description": "YMM4向け動画プロキシ自動生成プラグイン。H.264プロキシ・HWアクセラレーション・永続キャッシュ・エクスポート時自動切替",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ProxyForge",
@@ -1622,7 +1721,7 @@
     {
       "id": "dolphin-kun-partssplitter",
       "name": "PartsSplitter",
-      "description": "「パーツ分解」映像エフェクトプラグインです��",
+      "description": "「パーツ���解」映像エフェクトプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/PartsSplitter",
@@ -1714,7 +1813,7 @@
     {
       "id": "haisangames813-shrinkcompositeeffect",
       "name": "ShrinkCompositeEffect",
-      "description": "ドロステ効果が使えるエフェクトを追加するプラグインです",
+      "description": "ドロステ���果が使えるエフェクトを追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/ShrinkCompositeEffect",
@@ -1741,9 +1840,9 @@
       "tags": [
         "映像エフェクト"
       ],
-      "stars": 6,
+      "stars": 7,
       "createdAt": "2026-03-17T18:12:51Z",
-      "lastUpdated": "2026-06-24T06:50:20Z",
+      "lastUpdated": "2026-07-07T10:56:24Z",
       "latestVersion": "v1.0",
       "license": "MIT"
     },
@@ -2236,7 +2335,7 @@
     {
       "id": "haisangames813-addshapeeffect",
       "name": "AddShapeEffect",
-      "description": "図形アイテムをエフェクトとして追加するプラグイン",
+      "description": "図形アイテムをエフェクトとして追加するプラグイ��",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/AddShapeEffect",
@@ -2416,7 +2515,7 @@
     {
       "id": "haisangames813-drawingsettingseffect",
       "name": "DrawingSettingsEffect",
-      "description": "基本的な描画設定ができる「描画設定」エフェクトを追加するプラグイン",
+      "description": "基本的な描画設定ができる「描画設定」エフェクトを追加する��ラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/DrawingSettingsEffect",
@@ -2488,7 +2587,7 @@
     {
       "id": "dmmo-com-jp-textyurashiplugin",
       "name": "TextYurashiPlugin",
-      "description": "YMM4で映像エフェクト「揺���す」を追加するプラグイン",
+      "description": "YMM4で映像エフェクト「揺らす」を追加するプラグイン",
       "author": "dmmo-com-jp",
       "authorUrl": "https://github.com/dmmo-com-jp",
       "repoUrl": "https://github.com/dmmo-com-jp/TextYurashiPlugin",
@@ -3057,7 +3156,7 @@
     {
       "id": "routersys-ymm4-huecorrection",
       "name": "YMM4-HueCorrection",
-      "description": "YMM4で色相スライダーを使って色相補正をおこないます。",
+      "description": "YMM4で色相スライダーを使って色相補��をおこないます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HueCorrection",
