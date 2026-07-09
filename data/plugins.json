@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T16:42:31.703Z",
+  "lastUpdated": "2026-07-09T17:25:01.412Z",
   "plugins": [
     {
       "id": "harumaki4649-ymm4-radeonfastpsdtachieplugin",
@@ -157,7 +157,7 @@
     {
       "id": "routersys-ymm4-luascript",
       "name": "YMM4-LuaScript",
-      "description": "Luaスクリプトでオブジェクトの座標・拡縮・回転・不透明度・ピクセルを直接制御できる映像エフェクト",
+      "description": "Luaスクリプトでオブジェクトの座標・拡縮・回転・不透明度・ピクセルを直接制御できる映像エフェク��",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-LuaScript",
@@ -345,7 +345,7 @@
     {
       "id": "routersys-ymm4-crosshatching",
       "name": "YMM4-CrossHatching",
-      "description": "YMM4 向け映像エフェクトプラグイン。輝度と明暗勾配からクロスハッチ線を Direct2D シェーダーで生成し、ペン画・版画・漫画・設計図風の陰影へ変換。暗部ほど線層が増え、勾配に沿う線方向・輪郭・粒状感・色モード・アニメーション・8 言語対応",
+      "description": "YMM4 向け映像エフェ��トプラグイン。輝度と明暗勾配からクロスハッチ線を Direct2D シェーダーで生成し、ペン画・版画・漫画・設計図風の陰影へ変換。暗部ほど線層が増え、勾配に沿う線方向・輪郭・粒状感・色モード・アニメーション・8 言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CrossHatching",
@@ -799,7 +799,7 @@
     {
       "id": "panko200-outlineextension",
       "name": "OutlineExtension",
-      "description": "YMM4で動く映像エフェクト���ラグインです。縁取りの種類・位置を追加・変更可能にし、より多くの縁取り���生み出せます。波打ちに関してはちょっと挙動が怪しいかも。。。",
+      "description": "YMM4で動く映像エフェクトプラグインです。縁取りの種類・位置を追加・変更可能にし、より多くの縁取りを生み出せます。波打ちに関してはちょっと挙動が怪しいかも。。。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/OutlineExtension",
@@ -871,7 +871,7 @@
     {
       "id": "panko200-pseudo3dsphere",
       "name": "Pseudo3DSphere",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、疑似的に3D的な球体を描画します。完璧な球体ではなく、ポリゴンを組み合��せたような見た目になります。逆に、それを利用して3D的な物体を描画することもできます。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、疑似的に3D的な球体を描画します。完璧な球体ではなく、ポリゴンを組み合わせたような見た目になります。逆に、それを利用して3D的な物体を描画することもできます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Pseudo3DSphere",
@@ -1105,7 +1105,7 @@
     {
       "id": "routersys-ymm4-timeline",
       "name": "YMM4-Timeline",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、現在開いてい��タイムラインをツールパネルとして複製表示するプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、現在開いているタイムラインをツールパネルとして複製表示するプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Timeline",
@@ -1195,7 +1195,7 @@
     {
       "id": "panko200-projectionsettings",
       "name": "ProjectionSettings",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、カメラの焦点距離の変更や、平行投影への変更ができるようになります。",
+      "description": "YMM4���動く映像エフェクトプラグインです。カメラ値を使用して、カメラの焦点距離の変更や、平行投影への変更ができるようになります。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/ProjectionSettings",
@@ -1303,7 +1303,7 @@
     {
       "id": "routersys-ymm4-pdf",
       "name": "YMM4-PDF",
-      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
+      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パ��メーターがアニメーション対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PDF",
@@ -1430,7 +1430,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメ���タアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -1503,7 +1503,7 @@
     {
       "id": "benikazura-bpmsync",
       "name": "BpmSync",
-      "description": "リズムに合わせてエフェクトを制御する映像エフェク��プラグインです。",
+      "description": "リズムに合わせてエフェクトを制御する映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/BpmSync",
@@ -2137,7 +2137,7 @@
     {
       "id": "panko200-simplescreenmotionblureffect",
       "name": "SimpleScreenMotionBlurEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場��は、モーションブラーはかかりません。",
+      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SimpleScreenMotionBlurEffect",
@@ -2155,7 +2155,7 @@
     {
       "id": "panko200-cuboidtransform",
       "name": "CuboidTransform",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使って、物体を長方形にするプラグインです。",
+      "description": "YMM4で動く映像エフェクトプラグ��ンです。カメラ値を使って、物体を長方形にするプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/CuboidTransform",
@@ -2353,7 +2353,7 @@
     {
       "id": "haisangames813-canvasplugin",
       "name": "CanvasPlugin",
-      "description": "ツールウィンドウ「キャンバス」を追加するプラグイン",
+      "description": "ツールウィンドウ「キャンバス」を追加する��ラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/CanvasPlugin",
@@ -2715,7 +2715,7 @@
     {
       "id": "thiramisu-ymm4-plugin-long-text-scroller",
       "name": "ymm4-plugin-long-text-scroller",
-      "description": "長文テキストを軽量にスクロール���るための、YMM4の図形プラグイン。",
+      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-long-text-scroller",
@@ -2751,7 +2751,7 @@
     {
       "id": "routersys-ymm4-browser",
       "name": "YMM4-Browser",
-      "description": "YMM4で簡易的なウェブブラウジングが可能になります���",
+      "description": "YMM4で簡易的なウェブブラウジングが可能になります。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Browser",
@@ -2877,7 +2877,7 @@
     {
       "id": "tenkonta-checkpatterncollection",
       "name": "CheckPatternCollection",
-      "description": "YMM4にチェック柄の模様5種類を追加するプラグイン",
+      "description": "YMM4にチェック柄の模様5種類を追加するプ��グイン",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/CheckPatternCollection",
@@ -3318,7 +3318,7 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフェクトを追加するプラグインで���。",
+      "description": "裏面に単色化画像を重ねながら不透明度��調整できるエフェクトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
@@ -3903,7 +3903,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮���装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
