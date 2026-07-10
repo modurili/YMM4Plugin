@@ -1,6 +1,46 @@
 {
-  "lastUpdated": "2026-07-09T17:25:01.412Z",
+  "lastUpdated": "2026-07-10T16:59:26.090Z",
   "plugins": [
+    {
+      "id": "nennneko5787-ymm4minecraftavatar",
+      "name": "YMM4MinecraftAvatar",
+      "description": "マイクラのアバ���ーを動画に表示させるプラグイン。",
+      "author": "nennneko5787",
+      "authorUrl": "https://github.com/nennneko5787",
+      "repoUrl": "https://github.com/nennneko5787/YMM4MinecraftAvatar",
+      "downloadUrl": "https://github.com/nennneko5787/YMM4MinecraftAvatar/releases/tag/1.0.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "createdAt": "2026-07-04T10:53:48Z",
+      "lastUpdated": "2026-07-10T15:43:09Z",
+      "latestVersion": "1.0.0",
+      "license": ""
+    },
+    {
+      "id": "akina910-ymm4vocaloidbridge",
+      "name": "YMM4VocaloidBridge",
+      "description": "Unofficial open-source YMM4 bridge for locally installed VOCALOID6 voicebanks, starting with Hatsune Miku V6.",
+      "author": "akina910",
+      "authorUrl": "https://github.com/akina910",
+      "repoUrl": "https://github.com/akina910/YMM4VocaloidBridge",
+      "downloadUrl": "https://github.com/akina910/YMM4VocaloidBridge/releases",
+      "category": "voice-synthesis",
+      "tags": [
+        "音声合成",
+        "dotnet",
+        "hatsune-miku-v6",
+        "lip-sync",
+        "vocaloid6"
+      ],
+      "stars": 0,
+      "createdAt": "2026-07-10T04:41:36Z",
+      "lastUpdated": "2026-07-10T05:00:20Z",
+      "latestVersion": "",
+      "license": "MIT"
+    },
     {
       "id": "harumaki4649-ymm4-radeonfastpsdtachieplugin",
       "name": "YMM4_RadeonFastPsdTachiePlugin",
@@ -157,7 +197,7 @@
     {
       "id": "routersys-ymm4-luascript",
       "name": "YMM4-LuaScript",
-      "description": "Luaスクリプトでオブジェクトの座標・拡縮・回転・不透明度・ピクセルを直接制御できる映像エフェク��",
+      "description": "Luaスクリプトでオブジェクトの座標・拡縮・回転・不透明度・ピクセルを直接制御できる映像エフェクト",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-LuaScript",
@@ -345,7 +385,7 @@
     {
       "id": "routersys-ymm4-crosshatching",
       "name": "YMM4-CrossHatching",
-      "description": "YMM4 向け映像エフェ��トプラグイン。輝度と明暗勾配からクロスハッチ線を Direct2D シェーダーで生成し、ペン画・版画・漫画・設計図風の陰影へ変換。暗部ほど線層が増え、勾配に沿う線方向・輪郭・粒状感・色モード・アニメーション・8 言語対応",
+      "description": "YMM4 向け映像エフェクトプラグイン。輝度と明暗勾配からクロスハッチ線を Direct2D シェーダーで生成し、ペン画・版画・漫画・設計図風の陰影へ変換。暗部ほど線層が増え、勾配に沿う線方向・輪郭・粒状感・色モード・アニメーション・8 言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CrossHatching",
@@ -417,7 +457,7 @@
     {
       "id": "routersys-ymm4-waveoptics",
       "name": "YMM4-WaveOptics",
-      "description": "YMM4 向けの映像エフェクトプラグイン。フラウンホーファー回折理論に基づき FFT で点像分布関数を計算し、Direct2D カスタムピクセルシェーダーで映像に畳み込む波動光学エフェクト。円形・正多角形開口・中央遮蔽・6 種類のゼルニケ波面収差・3 段階の品質設定・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。フラウンホーファー回折理論に��づき FFT で点像分布関数を計算し、Direct2D カスタムピクセルシェーダーで映像に畳み込む波動光学エフェクト。円形・正多角形開口・中央遮蔽・6 種類のゼルニケ波面収差・3 段階の品質設定・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveOptics",
@@ -453,7 +493,7 @@
     {
       "id": "routersys-ymm4-holographicfoil",
       "name": "YMM4-HolographicFoil",
-      "description": "YMM4 向けの映像エフェクトプラグイン。視線角度に応じて変化する回折細線・虹彩・疑似凹凸・きらめきを Direct2D カスタムピクセルシェーダーで映像に合成するホログラフィック箔エフェクト。カメラ・アイテム回転・手動の角度ソース・ギロシェおよび画像アトラスの潜像モード・アルファ／輝度マスク・アニメーション対応・8 言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。視線角���に応じて変化する回折細線・虹彩・疑似凹凸・きらめきを Direct2D カスタムピクセルシェーダーで映像に合成するホログラフィック箔エフェクト。カメラ・アイテム回転・手動の角度ソース・ギロシェおよび画像アトラスの潜像モード・アルファ／輝度マスク・アニメーション対応・8 言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HolographicFoil",
@@ -597,7 +637,7 @@
     {
       "id": "routersys-ymm4-vectorfieldwarp",
       "name": "YMM4-VectorFieldWarp",
-      "description": "YMM4 向けの映像エフェクトプラグイン。制御点ごとに放射場と渦場を生成し、中点法による数値積分でピクセルを変位させるベクトル場変形エフェクト。最大32制御点・アニメーション対応・プレビュー上でのドラッグ編集・8言語対応を実装",
+      "description": "YMM4 向けの映像エフェクトプラグイン。制御点ごとに放射場と渦場を生成し、中点法による数値積分でピクセルを変位させるベクトル場変形エフェクト。最大32制御点・アニメーション��応・プレビュー上でのドラッグ編集・8言語対応を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-VectorFieldWarp",
@@ -853,7 +893,7 @@
     {
       "id": "panko200-iyahon-shapecore",
       "name": "Iyahon_ShapeCore",
-      "description": "YMM$で動く映像エフェクトプラグインです。入力されたラスター画像を、無理やりベクター化して、そのベクター化されたデータに対して、処理を追加できます。コア以外のプラグインを入れなければ、意味を成しません。",
+      "description": "YMM$で動く映像エフェクトプラグインです。入力されたラスター���像を、無理やりベクター化して、そのベクター化されたデータに対して、処理を追加できます。コア以外のプラグインを入れなければ、意味を成しません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_ShapeCore",
@@ -1195,7 +1235,7 @@
     {
       "id": "panko200-projectionsettings",
       "name": "ProjectionSettings",
-      "description": "YMM4���動く映像エフェクトプラグインです。カメラ値を使用して、カメラの焦点距離の変更や、平行投影への変更ができるようになります。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、カメラの焦点距離の変更や、平行投影への変更ができるようになります。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/ProjectionSettings",
@@ -1303,7 +1343,7 @@
     {
       "id": "routersys-ymm4-pdf",
       "name": "YMM4-PDF",
-      "description": "YMM4向け PDF読み込み・描画図形プラグイン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パ��メーターがアニメーション対応",
+      "description": "YMM4向け PDF読み込み・描画図形プラ���イン。Docnet.Coreベースの描画エンジンにより高品質なベクター描画・高速なラスター描画の2モードとサムネイル付きファイル選択UIを実現。ページ番号など全パラメーターがアニメーション対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PDF",
@@ -1430,7 +1470,7 @@
     {
       "id": "routersys-ymm4-waveclipping",
       "name": "YMM4-WaveClipping",
-      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメ���タアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
+      "description": "YMM4 向け波形マスク映像エフェクトプラグイン。サイン波境界による3モードのクリッピング・全パラメータアニメーション対応・HLSLカスタムシェーダーによるGPU処理を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-WaveClipping",
@@ -1939,7 +1979,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応して���ます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -2101,7 +2141,7 @@
     {
       "id": "panko200-wavepluseffect",
       "name": "WaveplusEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。波打ちを拡張して、波打ちの種類や、固定端などを指定することができるようになります。Aeのwavewarp的な感じです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。波打ちを���張して、波打ちの種類や、固定端などを指定することができるようになります。Aeのwavewarp的な感じです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/WaveplusEffect",
@@ -2155,7 +2195,7 @@
     {
       "id": "panko200-cuboidtransform",
       "name": "CuboidTransform",
-      "description": "YMM4で動く映像エフェクトプラグ��ンです。カメラ値を使って、物体を長方形にするプラグインです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使って、物体を長方形にするプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/CuboidTransform",
@@ -2353,7 +2393,7 @@
     {
       "id": "haisangames813-canvasplugin",
       "name": "CanvasPlugin",
-      "description": "ツールウィンドウ「キャンバス」を追加する��ラグイン",
+      "description": "ツールウィンドウ「キャンバス」を追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/CanvasPlugin",
@@ -2479,7 +2519,7 @@
     {
       "id": "tetra-te-randomswitchingeffect",
       "name": "RandomSwitchingEffect",
-      "description": "エフェクトをランダムに切り替えながら適応する映像エフェクト",
+      "description": "エフェクトをランダムに切り替えながら適���する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomSwitchingEffect",
@@ -2551,7 +2591,7 @@
     {
       "id": "benikazura-dropframe",
       "name": "DropFrame",
-      "description": "映像のフレームレートをわざと低下させる映像エフェクトプラグインです。",
+      "description": "映像のフレームレートをわざ��低下させる映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DropFrame",
@@ -2877,7 +2917,7 @@
     {
       "id": "tenkonta-checkpatterncollection",
       "name": "CheckPatternCollection",
-      "description": "YMM4にチェック柄の模様5種類を追加するプ��グイン",
+      "description": "YMM4にチェック柄の模様5種類を追加するプラグイン",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/CheckPatternCollection",
@@ -2942,9 +2982,9 @@
         "dotnet",
         "performance-monitoring"
       ],
-      "stars": 1,
+      "stars": 2,
       "createdAt": "2025-09-12T12:35:11Z",
-      "lastUpdated": "2026-03-15T01:59:29Z",
+      "lastUpdated": "2026-07-10T05:21:30Z",
       "latestVersion": "v0.1.1",
       "license": "MIT"
     },
@@ -3318,14 +3358,14 @@
     {
       "id": "benikazura-pseudoopacityeffect",
       "name": "PseudoOpacityEffect",
-      "description": "裏面に単色化画像を重ねながら不透明度��調整できるエフェクトを追加するプラグインです。",
+      "description": "裏面に単色化画像を重ねながら不透明度を調整できるエフ��クトを追加するプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/PseudoOpacityEffect",
       "downloadUrl": "https://github.com/benikazura/PseudoOpacityEffect/releases/tag/ver1.1.1",
-      "category": "video-effect",
+      "category": "other",
       "tags": [
-        "映像エフェクト"
+        "その他"
       ],
       "stars": 1,
       "createdAt": "2025-08-23T11:27:23Z",
@@ -3831,7 +3871,7 @@
     {
       "id": "sometea01-ymm4pluginpack-vol1",
       "name": "YMM4PluginPack_vol1",
-      "description": "YMM4のプラグウインを集めたパックです",
+      "description": "YMM4のプラグウインを集めたパ���クです",
       "author": "SomeTea01",
       "authorUrl": "https://github.com/SomeTea01",
       "repoUrl": "https://github.com/SomeTea01/YMM4PluginPack_vol1",
@@ -3903,7 +3943,7 @@
     {
       "id": "manju-summoner-samplereverseplaybackaudioeffectplugin",
       "name": "SampleReversePlaybackAudioEffectPlugin",
-      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮���装のため実用には適しません。",
+      "description": "キャッシュ機構を備えたYMM4音声エフェクトの実装サンプルです。音声の逆再生機能を提供します。ただし、仮実装のため実用には適しません。",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/SampleReversePlaybackAudioEffectPlugin",
