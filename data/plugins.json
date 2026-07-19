@@ -1,6 +1,78 @@
 {
-  "lastUpdated": "2026-07-18T16:01:07.345Z",
+  "lastUpdated": "2026-07-19T16:01:29.474Z",
   "plugins": [
+    {
+      "id": "panko200-pseudo3ddisplacementmap",
+      "name": "Pseudo3DDisplacementMap",
+      "description": "YMM4で動く映像エフェクトプラグインです。��メラ値を使用します。入力された深度マップによって、3D的に盛りあげます。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Pseudo3DDisplacementMap",
+      "downloadUrl": "https://github.com/panko200/Pseudo3DDisplacementMap/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 3,
+      "createdAt": "2026-04-02T15:28:22Z",
+      "lastUpdated": "2026-07-19T15:36:26Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
+      "id": "routersys-ymm4-ukiyoe",
+      "name": "YMM4-Ukiyoe",
+      "description": "YMM4 向け映像エフェクトプラグイン。素材を多色木版画の原画とみなし、エッジ接線流と流れに沿った差分ガウスで求めた輪郭主線と、L1 局所平坦化の反復重み付き最小二乗で均した限定パレットの色面に、シードから決定論的に決まる和紙の繊維とばれん目と版ずれを刷り重ねて浮世絵として描画し元映像へ合成。ComputeSharp による Direct3D 12 GPU 処理と Direct3D 11・12 共有相互運用・シルエットハッシュによる構造キャッシュ・可視範囲への出力矩形最小化・線の太さと流れと量による主線制御・色数と版ずれとばれん目と和紙による意匠制御・3 段階の品質設定・アニメーション・8 言語対応",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-Ukiyoe",
+      "downloadUrl": "https://github.com/routersys/YMM4-Ukiyoe/releases/tag/v1.0.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-07-19T04:48:45Z",
+      "lastUpdated": "2026-07-19T10:44:41Z",
+      "latestVersion": "v1.0.1",
+      "license": "MIT"
+    },
+    {
+      "id": "routersys-ymm4-lowpolyabstraction",
+      "name": "YMM4-LowPolyAbstraction",
+      "description": "YMM4 向け映像エフェクトプラグイン。現在フレームの輝度とアルファからエッジを抽出し、エッジ距離場の特徴フロー場を重みとした重心ボロノイの Lloyd 緩和で頂点を輪郭へ引き寄せ、ボロノイ双対の三角メッシュを刈り込み平均の色で塗り、輝度分散の大きい三角形を細分化しながらローポリ画として元映像の上へ合成。ComputeSharp による Direct3D 12 GPU 処理と Direct3D 11・12 共有相互運用・エッジ拘束点による輪郭保持・誤差駆動の細分化・平坦塗りとグラデーション塗り・輪郭線と彩度と明度ゆらぎ・3 段階の品質設定・アニメーション・8 言語対応",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-LowPolyAbstraction",
+      "downloadUrl": "https://github.com/routersys/YMM4-LowPolyAbstraction/releases/tag/v1.0.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-07-18T22:46:05Z",
+      "lastUpdated": "2026-07-19T00:30:20Z",
+      "latestVersion": "v1.0.1",
+      "license": "MIT"
+    },
+    {
+      "id": "routersys-ymm4-multiscaleretinex",
+      "name": "YMM4-MultiscaleRetinex",
+      "description": "YMM4 向け映像エフェクトプラグイン。現在フレームの画素値を複数スケールの正規化ガウシアンサラウンドと対数領域で比較し、照明成分を除いた反射成分を等重みで合算するマルチスケールレティネックスで、逆光・霞・色かぶりを局所的に補正して元映像へ合成。ComputeSharp による Direct3D 12 GPU 処理と Direct3D 11・12 共有相互運用・色恒常と彩度保持の 2 モード・長辺比で指定する局所／広域スケール・色再現係数・明滅しない決定論的な階調写像・3 段階の品質設定・アニメーション・8 言語対応",
+      "author": "routersys",
+      "authorUrl": "https://github.com/routersys",
+      "repoUrl": "https://github.com/routersys/YMM4-MultiscaleRetinex",
+      "downloadUrl": "https://github.com/routersys/YMM4-MultiscaleRetinex/releases/tag/v1.0.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-07-19T00:07:10Z",
+      "lastUpdated": "2026-07-19T00:08:51Z",
+      "latestVersion": "v1.0.1",
+      "license": "MIT"
+    },
     {
       "id": "routersys-ymm4-inkdispersion",
       "name": "YMM4-InkDispersion",
@@ -40,7 +112,7 @@
     {
       "id": "routersys-ymm4-laplacianremapping",
       "name": "YMM4-LaplacianRemapping",
-      "description": "YMM4 向��映像エフェクトプラグイン。輝度のラプラシアンピラミッドを基準輝度ごとの局所リマップで再構成する高速局所ラプラシアンフィルタにより、しきい値未満のディテールとしきい値以上のトーンをエッジを保ったまま独立に増減し、ハローの無い質感強調と平滑化と逆光補正を輝度比として色へ適用し元映像へ合成。ComputeSharp による Direct3D 12 GPU 処理と Direct3D 11・12 共有相互運用・基準輝度サンプルの線形補間による高速化・不透明画素への出力矩形最小化・入力ハッシュによる構造キャッシュ・ディテールとトーンとしきい値による直交制御・3 段階の品質設定・アニメーション・8 言語対応",
+      "description": "YMM4 向け���像エフェクトプラグイン。輝度のラプラシアンピラミッドを基準輝度ごとの局所リマップで再構成する高速局所ラプラシアンフィルタにより、しきい値未満のディテールとしきい値以上のトーンをエッジを保ったまま独立に増減し、ハローの無い質感強調と平滑化と逆光補正を輝度比として色へ適用し元映像へ合成。ComputeSharp による Direct3D 12 GPU 処理と Direct3D 11・12 共有相互運用・基準輝度サンプルの線形補間による高速化・不透明画素への出力矩形最小化・入力ハッシュによる構造キャッシュ・ディテールとトーンとしきい値による直交制御・3 段階の品質設定・アニメーション・8 言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-LaplacianRemapping",
@@ -58,7 +130,7 @@
     {
       "id": "routersys-ymm4-crystallinegrowth",
       "name": "YMM4-CrystallineGrowth",
-      "description": "YMM4 向け映像エフェクトプラグイン。素材のアルファ輪郭を核形成点とみなし、Gravner–Griffeath 雪結晶成長モデルの氷晶を水蒸気拡散と異方性付着の反復で六方格子上に決定論的に成長させ、凍結度に応じた縁からの凍結の遷移を白濁と背景屈折と光沢を持つ氷として描画し元映像へアルファ合成。ComputeSharp による Direct3D 12 GPU 処理と Direct3D 11・12 共有相互運用・付着ステップ記録による凍結アニメーション・可視範囲への出力矩形最小化・シルエットハッシュによる構造キャッシュ・樹枝化とファセットと到達距離とゆらぎによる形状制御・3 段階の品質設定・アニメーション・8 言語対応",
+      "description": "YMM4 向け映像エフェクトプラグイン。素材のアルファ輪郭を核形成点とみなし、Gravner–Griffeath 雪結晶成長モデルの氷晶を水蒸気拡散と��方性付着の反復で六方格子上に決定論的に成長させ、凍結度に応じた縁からの凍結の遷移を白濁と背景屈折と光沢を持つ氷として描画し元映像へアルファ合成。ComputeSharp による Direct3D 12 GPU 処理と Direct3D 11・12 共有相互運用・付着ステップ記録による凍結アニメーション・可視範囲への出力矩形最小化・シルエットハッシュによる構造キャッシュ・樹枝化とファセットと到達距離とゆらぎによる形状制御・3 段階の品質設定・アニメーション・8 言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CrystallineGrowth",
@@ -97,7 +169,7 @@
     {
       "id": "routersys-ymm4-fog",
       "name": "YMM4-Fog",
-      "description": "YMM4 向け映像エフェクトプラグイン。シーン座標のノイズから霧を Direct2D シェーダーで手続き的に生成し、光学的な厚みに応じて元映像を減衰。奥行き推定で遠方ほど濃く、光源方向のレイマーチングで霧を照らす。むら・高低差・流れ・変化速度・光・シード値・アニメーション・8言語対応",
+      "description": "YMM4 向け映像エフェクトプラグイン。シーン座標のノイズから霧を Direct2D シェーダーで手続き的に生成し、光学的な厚みに応じて元映像を減衰。奥行き推定で遠方ほど濃く、光源方向のレイマーチングで霧��照らす。むら・高低差・流れ・変化速度・光・シード値・アニメーション・8言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Fog",
@@ -115,7 +187,7 @@
     {
       "id": "routersys-ymm4-vst3",
       "name": "YMM4-Vst3",
-      "description": "YMM4 向け音声エフェクトプラグイン。外部の VST3 プラグインを C# 実装の VST3 ホストで読み込み、音声へ適用する。32bit float・ステレオで処理し、プラグインの遅延を自動補正。GUI エディター・原音とのミックス・テンポ同期・設定のプロジェクト保存に対応。8言語対応",
+      "description": "YMM4 向け音声エフェクトプラグイン。外部の VST3 プラグインを C# 実装の VST3 ホストで読み込み、音声へ適用する��32bit float・ステレオで処理し、プラグインの遅延を自動補正。GUI エディター・原音とのミックス・テンポ同期・設定のプロジェクト保存に対応。8言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Vst3",
@@ -263,7 +335,7 @@
     {
       "id": "routersys-ymm4-scotopicvision",
       "name": "YMM4-ScotopicVision",
-      "description": "YMM4 向け映像エフェクトプラグイン。ガウスぼかしを2段掛けて細部を落とし、その差から輪郭を残す。映像の明るさから桿体側の輝度を求め、明るい部分は昼の見えのまま残しつつ、暗い部分ほど人の暗所視へ寄せる。暗部を青へずらし、シード値で固定した桿体ノイズを重ねる。暗さ・中間視しきい値・視力低下・エッジの鋭さ・色シフト・ノイズ・アニメーション・8言語対応",
+      "description": "YMM4 向け映像エフェクトプラグイン。ガウスぼかしを2段掛けて細部を落とし、その差から輪���を残す。映像の明るさから桿体側の輝度を求め、明るい部分は昼の見えのまま残しつつ、暗い部分ほど人の暗所視へ寄せる。暗部を青へずらし、シード値で固定した桿体ノイズを重ねる。暗さ・中間視しきい値・視力低下・エッジの鋭さ・色シフト・ノイズ・アニメーション・8言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-ScotopicVision",
@@ -281,7 +353,7 @@
     {
       "id": "routersys-ymm4-crosshatching",
       "name": "YMM4-CrossHatching",
-      "description": "YMM4 向け映像エ��ェクトプラグイン。輝度と明暗勾配からクロスハッチ線を Direct2D シェーダーで生成し、ペン画・版画・漫画・設計図風の陰影へ変換。暗部ほど線層が増え、勾配に沿う線方向・手描き揺らぎ・輪郭・粒状感・色モード・アニメーション・8 言語対応",
+      "description": "YMM4 向け映像エフェクトプラグイン。輝度と明暗勾配からクロスハッチ線を Direct2D シェーダーで生成し、ペン画・版画・漫画・設計図風の陰影へ変換。暗部ほど線層が増え、勾配に沿う線方向・手描き揺らぎ・輪郭・粒状感・色モード・アニメーション・8 言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CrossHatching",
@@ -299,7 +371,7 @@
     {
       "id": "routersys-ymm4-kaleidoscope",
       "name": "YMM4-Kaleidoscope",
-      "description": "YMM4 向け映像エフェクトプラグイン。映像を中心から放射状に分割し、Direct2D シェーダーで各扇形を鏡映または回転コピーして万華鏡の対称模様を作る。回転・ズーム・中心位置で模様を動かせる。分割数・ミラーリング・適用量・アニメーション・8言語対応",
+      "description": "YMM4 向け映像エフェクトプラグイン。映像を中心から放射状に分割し、Direct2D シェーダーで各扇形を鏡映または回転コピーして万華鏡の対称模様を作る。回転・ズーム・中心位置で模様を���かせる。分割数・ミラーリング・適用量・アニメーション・8言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Kaleidoscope",
@@ -317,7 +389,7 @@
     {
       "id": "routersys-ymm4-directionalcolorkey",
       "name": "YMM4-DirectionalColorKey",
-      "description": "YMM4 向け映像エフェクトプラグイン。除去する背景色を基準に、各ピクセルの Oklab 色空間での色変位方向を ComputeSharp の GPU で算出し、方向場を k-means クラスタリングして前景を分離するクロマキー。背景に近い変位を透過させ、方向ごとに切り分けた最大 4 層の前景を色差直線モ���ルで復元しながらスピルを除去。到達判定・ノイズ閾値・エッジの柔らかさ・スピル除去・アルファスケール決定・前景色推定・アニメーション・8言語対応",
+      "description": "YMM4 向け映像エフェクトプラグイン。除去する背景色を基準に、各ピクセルの Oklab 色空間での色変位方向を ComputeSharp の GPU で算出し、方向場を k-means クラスタリングして前景を分離するクロマキー。背景に近い変位を透過させ、方向ごとに切り分けた最大 4 層の前景を色差直線モデルで復元しながらスピルを除去。到達判定・ノイズ閾値・エッジの柔らかさ・スピル除去・アルファスケール決定・前景色推定・アニメーション・8言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-DirectionalColorKey",
@@ -335,7 +407,7 @@
     {
       "id": "routersys-ymm4-model3d",
       "name": "YMM4-Model3D",
-      "description": "YMM4 向け 3D モデル図形プラグイン。PMX・glTF・OBJ・STL など多くの形式を読み込み、Direct3D 11 で物理ベース（メタリック・ラフネス）にレンダリングして図形として表示。位置・回転・拡大率・視野角・4 種のライトに対応。モデルはディスクと GPU にキャッシュし更新を自動再読み込み。アニメーション・8言語対応",
+      "description": "YMM4 向け 3D モデル図形プラグイン。PMX・glTF・OBJ・STL など多くの形式を読���込み、Direct3D 11 で物理ベース（メタリック・ラフネス）にレンダリングして図形として表示。位置・回転・拡大率・視野角・4 種のライトに対応。モデルはディスクと GPU にキャッシュし更新を自動再読み込み。アニメーション・8言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-Model3D",
@@ -407,7 +479,7 @@
     {
       "id": "routersys-ymm4-ambientocclusion",
       "name": "YMM4-AmbientOcclusion",
-      "description": "YMM4 向け映像エフェクトプラグイン。映像の明るさを起伏とみなし、Direct2D シェーダーの2パス処理でくぼみや接触部に陰を落として立体感を与える。多スケール位相解析で塗り分けの模様と形状の陰影を見分け、模様が��にならないよう抑制。半径・高さ・方向数・サンプル数・陰の色・アニメーション・8言語対応",
+      "description": "YMM4 向け映像エフェクトプラグイン。映像の明るさを起伏とみなし、Direct2D シェーダーの2パス処理でくぼみや接触部に陰を落として立体感を与える。多スケール位相解析で塗り分けの模様と形状の陰影を見分け、模様が陰にならないよう抑制。半径・高さ・方向数・サンプル数・陰の色・アニメーション・8言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-AmbientOcclusion",
@@ -609,27 +681,9 @@
       "license": "MIT"
     },
     {
-      "id": "panko200-pseudo3ddisplacementmap",
-      "name": "Pseudo3DDisplacementMap",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用します。入力された深度マップによって、3D的に盛りあげます。",
-      "author": "panko200",
-      "authorUrl": "https://github.com/panko200",
-      "repoUrl": "https://github.com/panko200/Pseudo3DDisplacementMap",
-      "downloadUrl": "https://github.com/panko200/Pseudo3DDisplacementMap/releases/tag/v0.2.0",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 3,
-      "createdAt": "2026-04-02T15:28:22Z",
-      "lastUpdated": "2026-07-07T06:34:06Z",
-      "latestVersion": "v0.2.0",
-      "license": "MIT"
-    },
-    {
       "id": "panko200-pathfolloweffect",
       "name": "PathFollowEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。���スに沿ってテキストを配置したり、パスに沿ってモーション(X,Y)をさせたりできます。",
+      "description": "YMM4で動く映像エフェクトプラグインです。パスに沿ってテキストを配置したり、パスに沿ってモーション(X,Y)をさせたりできます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PathFollowEffect",
@@ -647,7 +701,7 @@
     {
       "id": "routersys-ymm4-luascript",
       "name": "YMM4-LuaScript",
-      "description": "Luaスクリプトでオブジェクトの座標・拡縮・回転・不透明度・ピクセルを直接制御できる映像エフェクト",
+      "description": "Luaス��リプトでオブジェクトの座標・拡縮・回転・不透明度・ピクセルを直接制御できる映像エフェクト",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-LuaScript",
@@ -779,7 +833,7 @@
     {
       "id": "bluemistel-em-filtersets",
       "name": "EM-FilterSets",
-      "description": "エモそうなフィルター(画面エフェクト)のセットをYMM4の映像エフェクトとして追加���るプラグインです。",
+      "description": "エモそうなフィルター(画面エフェクト)のセットをYMM4の映像エフェクトとして追加するプラグインです。",
       "author": "bluemistel",
       "authorUrl": "https://github.com/bluemistel",
       "repoUrl": "https://github.com/bluemistel/EM-FilterSets",
@@ -799,7 +853,7 @@
     {
       "id": "routersys-ymm4-papercutout",
       "name": "YMM4-PaperCutout",
-      "description": "YMM4 向け映像エフェクトプラグイン。輝度と明暗勾配から紙の階層を Direct2D シェーダーで自動生成し、切り絵・紙工作風の立体感へ変換。暗部ほど手前の紙として扱い、階層境界に影・段差・ハイライトを合成。紙目・元色比率・光角度・紙色・アニメーション・8言語対応",
+      "description": "YMM4 向け映像エフェクトプラグイン。輝度と明暗勾配から紙の階層を Direct2D シェーダーで自動生成し、切り絵・紙工作風の立体感��変換。暗部ほど手前の紙として扱い、階層境界に影・段差・ハイライトを合成。紙目・元色比率・光角度・紙色・アニメーション・8言語対応",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PaperCutout",
@@ -889,7 +943,7 @@
     {
       "id": "routersys-ymm4-puppetdeformation",
       "name": "YMM4-PuppetDeformation",
-      "description": "ピンを打って画像を自由に変形させるパ��ットワープ映像エフェクト",
+      "description": "ピンを打って画像を自由に変形させるパペットワープ映像エフェクト",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-PuppetDeformation",
@@ -979,7 +1033,7 @@
     {
       "id": "dolphin-kun-textsplitter",
       "name": "TextSplitter",
-      "description": "テキストを文字ごとに別のアイテムとして���割することができるツールプラグインです。",
+      "description": "テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/TextSplitter",
@@ -1069,7 +1123,7 @@
     {
       "id": "panko200-iyahon-d3d11renderer-core",
       "name": "Iyahon_D3D11Renderer_Core",
-      "description": "YMM4で動く既存機能に機能追加するプラグインです。D3D11を利用して、YMM4の基本2D描画のところを��重ね合わせなども考慮したガチ3D描画ができるようになります。ObjLoaderの3Dモデルも読み込むこともでき、照明の追加、影(試験的機能)の追加もされています。",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。D3D11を利用して、YMM4の基本2D描画のところを、重ね合わせなども考慮したガチ3D描画ができるようになります。ObjLoaderの3Dモデルも読み込むこともでき、照明の追加、影(試験的機能)の追加もされています。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_D3D11Renderer_Core",
@@ -1253,7 +1307,7 @@
     {
       "id": "panko200-sam3cutoutplugin",
       "name": "SAM3CutoutPlugin",
-      "description": "YMM4で動くツールプラグイン、映像エフェクトプラグインです。SAM3というモデルを用いて、画像・���画の物体を切り抜くことができます",
+      "description": "YMM4で動くツールプラグイン、映像エフェクトプラグインです。SAM3というモデルを用いて、画像・動画の物体を切り抜くことができます",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SAM3CutoutPlugin",
@@ -1289,14 +1343,14 @@
     {
       "id": "panko200-iyahon-shapecore",
       "name": "Iyahon_ShapeCore",
-      "description": "YMM$で動く映像エフェクトプラグインです。入力されたラスター画像を、無理やりベクター化して、そのベクター化されたデータに対して、処理を追加できます。コア以外のプラグインを入れなければ、意味を成しません。",
+      "description": "YMM$で動く映像���フェクトプラグインです。入力されたラスター画像を、無理やりベクター化して、そのベクター化されたデータに対して、処理を追加できます。コア以外のプラグインを入れなければ、意味を成しません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_ShapeCore",
       "downloadUrl": "https://github.com/panko200/Iyahon_ShapeCore/releases/tag/v0.1.1",
-      "category": "video-effect",
+      "category": "other",
       "tags": [
-        "映像エフェクト"
+        "その他"
       ],
       "stars": 2,
       "createdAt": "2026-02-27T13:35:21Z",
@@ -1487,7 +1541,7 @@
     {
       "id": "routersys-ymm4-godray",
       "name": "YMM4-GodRay",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、映像に放射状の光線（ゴッドレイ）を付加するエフェクトプラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、映像に放射��の光線（ゴッドレイ）を付加するエフェクトプラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-GodRay",
@@ -1505,7 +1559,7 @@
     {
       "id": "routersys-ymm4-coverart",
       "name": "YMM4-CoverArt",
-      "description": "YukkuriMovieMaker4（YMM4）上で動作する、音楽ファイルのアルバムアートをタイムライン上に図形として表示する図形プラグイン",
+      "description": "YukkuriMovieMaker4（YMM4）上で動作する、音楽���ァイルのアルバムアートをタイムライン上に図形として表示する図形プラグイン",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CoverArt",
@@ -1667,7 +1721,7 @@
     {
       "id": "routersys-ymm4-combinedeffect",
       "name": "YMM4-CombinedEffect",
-      "description": "YMM4向けの映像エフェクト管理プラグイン。複数のエフェクトをグループ化してプリセット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
+      "description": "YMM4向けの映像エフェクト管理プラグイン。複数のエフェクトをグループ化してプ��セット保存・呼び出し・共有が可能。Gitライクな履歴管理、8言語対応、CRC32検証付きアトミック書き込みによる安全な永続化を実装",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-CombinedEffect",
@@ -2194,7 +2248,7 @@
     {
       "id": "panko200-timelineart",
       "name": "TimelineArt",
-      "description": "YMM$で動くツールプラグインです。エイプリルフールプラグインです。ツールを追加し、画像を入力することで、タイムライン上にその画像を表現することができるようになります。",
+      "description": "YMM$で動くツールプラグインです。エイプリルフールプラグインです。ツールを追加し、画像を入力することで、タイムライン上��その画像を表現することができるようになります。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/TimelineArt",
@@ -2212,7 +2266,7 @@
     {
       "id": "panko200-ymm4-ntsc-rs",
       "name": "YMM4_ntsc-rs",
-      "description": "YMM4で動く映像エフェクトプラグインです。ntsc-rsを利用して、VHS風の加工をすることができるプラグインです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。ntsc-rsを利用して、VHS風の加工をすることができるプラグ��ンです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/YMM4_ntsc-rs",
@@ -2285,7 +2339,7 @@
     {
       "id": "panko200-ymm4simplegraphingfunctions",
       "name": "YMM4SimpleGraphingfunctions",
-      "description": "YMM4で動く図形プラグインです。関数を入力すると、グラフが描画されます。だいぶ無理やりですが、変数にも対応しています。",
+      "description": "YMM4で動く図形プラグインです。関数を入力すると、グラフが描画されます。だいぶ無理やりですが、変数にも対応してい���す。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/YMM4SimpleGraphingfunctions",
@@ -2321,7 +2375,7 @@
     {
       "id": "panko200-pseudo3dline",
       "name": "Pseudo3DLine",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、立体的な線を引くことが出来る映像エフェクトです。図形アイテムでないのは、アイテム側から、カメラ値を使う方法がわからなかったからです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、立体的な線を引くことが出来る映像エフェクトです。図形アイテムでないのは、アイテム側から、カメラ値を使う方法がわ��らなかったからです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Pseudo3DLine",
@@ -2339,7 +2393,7 @@
     {
       "id": "panko200-interitemnode",
       "name": "InterItemNode",
-      "description": "YMM4で動く映像エフェクトプラグインです。アイテムとアイテム同士を線でつなげるようになるプラグインです。使い方がだいぶ複雑です。",
+      "description": "YMM4で動く映像エフェクトプラグインです。アイテムとアイテム同士を線でつなげるように��るプラグインです。使い方がだいぶ複雑です。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/InterItemNode",
@@ -2357,7 +2411,7 @@
     {
       "id": "haisangames813-pluginlistplugin",
       "name": "PluginListPlugin",
-      "description": "導入しているプラグインの管理ができるツールプラグインです",
+      "description": "導入しているプラグインの管理ができるツール���ラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/PluginListPlugin",
@@ -2519,7 +2573,7 @@
     {
       "id": "benikazura-texttemplate",
       "name": "TextTemplate",
-      "description": "文字装飾をテンプレートとして保存し、��ンクリックでワンクリックで呼び出せるプラグインです。",
+      "description": "文字装飾をテンプレートとして保存し、ワンクリックでワンクリックで呼び出せるプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/TextTemplate",
@@ -2573,7 +2627,7 @@
     {
       "id": "panko200-simplescreenmotionblureffect",
       "name": "SimpleScreenMotionBlurEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比��して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
+      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場���は、モーションブラーはかかりません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SimpleScreenMotionBlurEffect",
@@ -2663,7 +2717,7 @@
     {
       "id": "tetra-te-randomimagesource",
       "name": "RandomImageSource",
-      "description": "指定フォルダ内の画��をランダムに選んで表示する図形プラグイン",
+      "description": "指定フォルダ内の画像をランダムに選んで表示する図形プラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/RandomImageSource",
@@ -2771,7 +2825,7 @@
     {
       "id": "haisangames813-addshapeeffect",
       "name": "AddShapeEffect",
-      "description": "図形アイテムをエフェクトとして追加するプラグイン",
+      "description": "図形アイテムをエフェクトとして���加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/AddShapeEffect",
@@ -2951,7 +3005,7 @@
     {
       "id": "haisangames813-drawingsettingseffect",
       "name": "DrawingSettingsEffect",
-      "description": "基本的な描画設定ができる「描画設定」エフェクトを追加する���ラグイン",
+      "description": "基本的な描画設定ができる「描画設定」エフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/DrawingSettingsEffect",
@@ -3113,14 +3167,14 @@
     {
       "id": "manju-summoner-yukkurimoviemaker4pluginsamples",
       "name": "YukkuriMovieMaker4PluginSamples",
-      "description": "YMM4用プラグインのサンプ���集です",
+      "description": "YMM4用プラグインのサンプル集です",
       "author": "manju-summoner",
       "authorUrl": "https://github.com/manju-summoner",
       "repoUrl": "https://github.com/manju-summoner/YukkuriMovieMaker4PluginSamples",
       "downloadUrl": "https://github.com/manju-summoner/YukkuriMovieMaker4PluginSamples/releases",
-      "category": "other",
+      "category": "utility",
       "tags": [
-        "その他"
+        "ユーティリティ"
       ],
       "stars": 42,
       "createdAt": "2023-09-01T11:04:29Z",
@@ -3151,7 +3205,7 @@
     {
       "id": "thiramisu-ymm4-plugin-long-text-scroller",
       "name": "ymm4-plugin-long-text-scroller",
-      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグ���ン。",
+      "description": "長文テキストを軽量にスクロールするための、YMM4の図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-long-text-scroller",
@@ -3520,7 +3574,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイルの波形を��位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -3592,7 +3646,7 @@
     {
       "id": "routersys-ymm4-huecorrection",
       "name": "YMM4-HueCorrection",
-      "description": "YMM4で色相スライダーを使って色相補正をおこないます。",
+      "description": "YMM4で色相スライダーを使って色相補正をお��ないます。",
       "author": "routersys",
       "authorUrl": "https://github.com/routersys",
       "repoUrl": "https://github.com/routersys/YMM4-HueCorrection",
@@ -3646,7 +3700,7 @@
     {
       "id": "benikazura-letterboxshape",
       "name": "LetterBoxShape",
-      "description": "図形オブジェクトにレターボックス（画面��下や左右の黒帯）を追加します。",
+      "description": "図形オブジェクトにレターボックス（画面上下や左右の黒帯）を追加します。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/LetterBoxShape",
