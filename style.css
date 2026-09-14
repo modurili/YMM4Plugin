@@ -1023,18 +1023,13 @@ html[data-theme="light"] .theme-toggle-btn .icon-moon {
   height: 18px;
 }
 
-/* ===== Plugin Count Trend Section ===== */
-.stats-section {
-  position: relative;
-  z-index: 10;
-  scroll-margin-top: 90px;
-  max-width: var(--max-width);
-  margin: 20px auto 0;
-  padding: 40px 24px;
+/* ===== Plugin Count Trend Modal ===== */
+.stats-modal {
+  max-width: 780px;
 }
 
 .stats-header {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -1042,7 +1037,7 @@ html[data-theme="light"] .theme-toggle-btn .icon-moon {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: -0.02em;
   color: var(--text-primary);
@@ -1050,27 +1045,28 @@ html[data-theme="light"] .theme-toggle-btn .icon-moon {
 }
 
 .stats-title svg {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   color: var(--accent-cyan);
 }
 
 .stats-subtitle {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: var(--text-muted);
   max-width: 560px;
   margin: 0 auto;
 }
 
 .chart-card {
-  background: var(--bg-card);
+  position: relative;
+  background: var(--bg-glass);
   border: 1px solid var(--border-glass);
   border-radius: var(--radius-lg);
-  padding: 28px;
-  box-shadow: var(--shadow-md);
+  padding: 20px;
 }
 
 .chart-wrapper {
+  position: relative;
   width: 100%;
   overflow-x: auto;
 }
@@ -1111,38 +1107,78 @@ html[data-theme="light"] .theme-toggle-btn .icon-moon {
   stroke-linejoin: round;
 }
 
+.chart-hit-area {
+  fill: transparent;
+  cursor: crosshair;
+}
+
 .chart-point {
   fill: var(--bg-card);
   stroke: var(--accent-purple);
   stroke-width: 2;
-  cursor: pointer;
-  transition: r var(--transition-fast);
+  pointer-events: none;
+  transition: r var(--transition-fast), fill var(--transition-fast);
 }
 
-.chart-point:hover {
+.chart-point.is-active {
   r: 6;
   fill: var(--accent-purple);
 }
 
-.chart-point-tooltip {
-  pointer-events: none;
-}
-
-.chart-tooltip-bg {
-  fill: var(--bg-secondary);
-  stroke: var(--border-glass-hover);
+.chart-hover-line {
+  stroke: var(--accent-purple);
   stroke-width: 1;
+  stroke-dasharray: 3 3;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-fast);
 }
 
-.chart-tooltip-text {
-  fill: var(--text-primary);
-  font-family: var(--font-sans);
-  font-weight: 600;
+.chart-hover-line.is-visible {
+  opacity: 0.6;
 }
 
-.chart-tooltip-subtext {
-  fill: var(--text-muted);
-  font-family: var(--font-sans);
+/* カーソル追従のカスタムツールチップ（日付とプラグイン数を表示） */
+.chart-tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  padding: 8px 12px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-glass-hover);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  font-size: 0.78rem;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-50%, -100%);
+  transition: opacity var(--transition-fast);
+}
+
+.chart-tooltip.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.chart-tooltip-date {
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.chart-tooltip-value {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.chart-tooltip-value span {
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .chart-empty {
@@ -1153,16 +1189,12 @@ html[data-theme="light"] .theme-toggle-btn .icon-moon {
 }
 
 @media (max-width: 768px) {
-  .stats-section {
-    padding: 28px 16px;
-  }
-
   .chart-card {
-    padding: 18px 12px;
+    padding: 14px 10px;
   }
 
   .stats-title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 

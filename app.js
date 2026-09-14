@@ -55,6 +55,10 @@
   var $themeToggleBtn = document.getElementById('theme-toggle-btn');
   var $chartWrapper = document.getElementById('chart-wrapper');
   var $chartEmpty = document.getElementById('chart-empty');
+  var $headerStatsBtn = document.getElementById('header-stats-btn');
+  var $statsModalOverlay = document.getElementById('stats-modal-overlay');
+  var $statsModalClose = document.getElementById('stats-modal-close');
+  var chartRendered = false;
 
   // ===== Initialization =====
   async function init() {
@@ -97,7 +101,6 @@
       initSortDropdown();
       applyFilters();
       bindEvents();
-      renderTrendChart();
       $loadingState.style.display = 'none';
     } catch (error) {
       console.error('Error loading plugins:', error);
@@ -255,6 +258,19 @@
       $themeToggleBtn.addEventListener('click', toggleTheme);
     }
 
+    // Stats (trend chart) modal
+    if ($headerStatsBtn) {
+      $headerStatsBtn.addEventListener('click', openStatsModal);
+    }
+    if ($statsModalClose) {
+      $statsModalClose.addEventListener('click', closeStatsModal);
+    }
+    if ($statsModalOverlay) {
+      $statsModalOverlay.addEventListener('click', function (e) {
+        if (e.target === $statsModalOverlay) closeStatsModal();
+      });
+    }
+
     // Modal close
     $modalClose.addEventListener('click', closeModal);
     $modalOverlay.addEventListener('click', function (e) {
@@ -263,6 +279,7 @@
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') {
         closeModal();
+        closeStatsModal();
         closeSortDropdown();
       }
     });
@@ -516,7 +533,36 @@
   // Apply theme as early as possible (before full init) to avoid flash
   initTheme();
 
+  // ===== Plugin Count Trend Modal =====
+  function openStatsModal() {
+    if (!$statsModalOverlay) return;
+    if (!chartRendered) {
+      renderTrendChart();
+      chartRendered = true;
+    }
+    document.body.style.overflow = 'hidden';
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        $statsModalOverlay.classList.add('active');
+      });
+    });
+  }
+
+  function closeStatsModal() {
+    if (!$statsModalOverlay) return;
+    $statsModalOverlay.classList.remove('active');
+    setTimeout(function () {
+      if (!$statsModalOverlay.classList.contains('active') &&
+          !($modalOverlay && $modalOverlay.classList.contains('active'))) {
+        document.body.style.overflow = '';
+      }
+    }, 300);
+  }
+
   // ===== Plugin Count Trend Chart =====
+  var chartPointsData = [];
+  var chartGeometry = null;
+
   function renderTrendChart() {
     if (!$chartWrapper) return;
 
@@ -546,14 +592,11 @@
       var parts = key.split('-');
       return {
         label: parts[0] + '年' + parseInt(parts[1], 10) + '月',
-        shortLabel: parts[1] + '月',
-        year: parts[0],
         value: cumulative
       };
     });
 
     if (points.length < 2) {
-      // データ点が少なすぎる場合は現在の合計のみ表示
       $chartWrapper.style.display = 'none';
       if ($chartEmpty) $chartEmpty.style.display = 'block';
       return;
@@ -562,8 +605,17 @@
     $chartWrapper.style.display = 'block';
     if ($chartEmpty) $chartEmpty.style.display = 'none';
 
-    $chartWrapper.innerHTML = buildChartSvg(points);
-    bindChartTooltips();
+    chartPointsData = points;
+    var built = buildChartSvg(points);
+    chartGeometry = built.geometry;
+
+    $chartWrapper.innerHTML = built.svg +
+      '<div class="chart-tooltip" id="chart-tooltip">' +
+        '<div class="chart-tooltip-date" id="chart-tooltip-date"></div>' +
+        '<div class="chart-tooltip-value" id="chart-tooltip-value"></div>' +
+      '</div>';
+
+    bindChartInteraction();
   }
 
   function buildChartSvg(points) {
@@ -608,23 +660,21 @@
     var maxLabels = 10;
     var labelInterval = Math.max(1, Math.ceil(points.length / maxLabels));
     var xLabels = '';
+    var pointCoords = [];
     points.forEach(function (p, i) {
-      if (i % labelInterval !== 0 && i !== points.length - 1) return;
-      xLabels += '<text class="chart-axis-label" x="' + xForIndex(i) + '" y="' + (height - paddingBottom + 20) + '" text-anchor="middle">' + escapeHtml(p.label) + '</text>';
-    });
-
-    // データ点（丸）とツールチップ用のtitle
-    var circles = points.map(function (p, i) {
       var cx = xForIndex(i);
       var cy = yForValue(p.value);
-      return '<g class="chart-point-group" data-label="' + escapeHtml(p.label) + '" data-value="' + p.value + '">' +
-        '<circle class="chart-point" cx="' + cx + '" cy="' + cy + '" r="4"></circle>' +
-        '<title>' + escapeHtml(p.label) + ': ' + p.value + '件</title>' +
-        '</g>';
+      pointCoords.push({ x: cx, y: cy, label: p.label, value: p.value });
+      if (i % labelInterval !== 0 && i !== points.length - 1) return;
+      xLabels += '<text class="chart-axis-label" x="' + cx + '" y="' + (height - paddingBottom + 20) + '" text-anchor="middle">' + escapeHtml(p.label) + '</text>';
+    });
+
+    var circles = pointCoords.map(function (p) {
+      return '<circle class="chart-point" data-x="' + p.x + '" cx="' + p.x + '" cy="' + p.y + '" r="4"></circle>';
     }).join('');
 
-    return (
-      '<svg viewBox="0 0 ' + width + ' ' + height + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="プラグイン総数の推移グラフ">' +
+    var svg =
+      '<svg viewBox="0 0 ' + width + ' ' + height + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="プラグイン総数の推移グラフ" id="trend-chart-svg">' +
         '<defs>' +
           '<linearGradient id="chart-line-grad" x1="0" y1="0" x2="1" y2="0">' +
             '<stop offset="0%" stop-color="#a78bfa"/>' +
@@ -642,14 +692,90 @@
         xLabels +
         '<polygon class="chart-area-fill" points="' + areaPoints + '"></polygon>' +
         '<polyline class="chart-line" points="' + linePoints + '"></polyline>' +
+        '<line class="chart-hover-line" id="chart-hover-line" x1="0" y1="' + paddingTop + '" x2="0" y2="' + (paddingTop + chartH) + '"></line>' +
         circles +
-      '</svg>'
-    );
+        '<rect class="chart-hit-area" x="' + paddingLeft + '" y="' + paddingTop + '" width="' + chartW + '" height="' + chartH + '"></rect>' +
+      '</svg>';
+
+    return {
+      svg: svg,
+      geometry: { width: width, height: height, points: pointCoords }
+    };
   }
 
-  function bindChartTooltips() {
-    // ネイティブ<title>によるツールチップのみ使用（シンプル・軽量）
-    // 追加のインタラクションが必要な場合はここに拡張
+  function bindChartInteraction() {
+    var $svg = document.getElementById('trend-chart-svg');
+    var $hoverLine = document.getElementById('chart-hover-line');
+    var $tooltip = document.getElementById('chart-tooltip');
+    var $tooltipDate = document.getElementById('chart-tooltip-date');
+    var $tooltipValue = document.getElementById('chart-tooltip-value');
+    if (!$svg || !chartGeometry) return;
+
+    var points = chartGeometry.points;
+    var viewW = chartGeometry.width;
+
+    function findNearestPoint(svgX) {
+      var nearest = points[0];
+      var minDist = Math.abs(points[0].x - svgX);
+      for (var i = 1; i < points.length; i++) {
+        var dist = Math.abs(points[i].x - svgX);
+        if (dist < minDist) {
+          minDist = dist;
+          nearest = points[i];
+        }
+      }
+      return nearest;
+    }
+
+    function setActivePoint(point, clientX, clientY) {
+      $svg.querySelectorAll('.chart-point').forEach(function (c) {
+        c.classList.toggle('is-active', parseFloat(c.dataset.x) === point.x);
+      });
+      $hoverLine.setAttribute('x1', point.x);
+      $hoverLine.setAttribute('x2', point.x);
+      $hoverLine.classList.add('is-visible');
+
+      $tooltipDate.textContent = point.label + ' 時点';
+      $tooltipValue.innerHTML = '<span>' + point.value + '</span> 件';
+
+      var wrapperRect = $chartWrapper.getBoundingClientRect();
+      var relX = clientX - wrapperRect.left;
+      var relY = clientY - wrapperRect.top;
+      $tooltip.style.left = relX + 'px';
+      $tooltip.style.top = (relY - 14) + 'px';
+      $tooltip.classList.add('is-visible');
+    }
+
+    function clearActivePoint() {
+      $svg.querySelectorAll('.chart-point').forEach(function (c) {
+        c.classList.remove('is-active');
+      });
+      $hoverLine.classList.remove('is-visible');
+      $tooltip.classList.remove('is-visible');
+    }
+
+    function handleMove(clientX, clientY) {
+      var rect = $svg.getBoundingClientRect();
+      var relativeX = (clientX - rect.left) / rect.width * viewW;
+      var point = findNearestPoint(relativeX);
+      setActivePoint(point, clientX, clientY);
+    }
+
+    $svg.addEventListener('mousemove', function (e) {
+      handleMove(e.clientX, e.clientY);
+    });
+    $svg.addEventListener('mouseleave', clearActivePoint);
+
+    // タッチ操作対応（スワイプで値を確認できるように）
+    $svg.addEventListener('touchstart', function (e) {
+      var touch = e.touches[0];
+      if (touch) handleMove(touch.clientX, touch.clientY);
+    }, { passive: true });
+    $svg.addEventListener('touchmove', function (e) {
+      var touch = e.touches[0];
+      if (touch) handleMove(touch.clientX, touch.clientY);
+    }, { passive: true });
+    $svg.addEventListener('touchend', clearActivePoint);
   }
 
   // ===== Utilities =====
