@@ -52,6 +52,9 @@
   var $totalCount = document.getElementById('total-count');
   var $authorCount = document.getElementById('author-count');
   var $lastUpdated = document.getElementById('last-updated');
+  var $themeToggleBtn = document.getElementById('theme-toggle-btn');
+  var $chartWrapper = document.getElementById('chart-wrapper');
+  var $chartEmpty = document.getElementById('chart-empty');
 
   // ===== Initialization =====
   async function init() {
@@ -94,6 +97,7 @@
       initSortDropdown();
       applyFilters();
       bindEvents();
+      renderTrendChart();
       $loadingState.style.display = 'none';
     } catch (error) {
       console.error('Error loading plugins:', error);
@@ -245,6 +249,11 @@
       initSortDropdown();
       applyFilters();
     });
+
+    // Theme toggle
+    if ($themeToggleBtn) {
+      $themeToggleBtn.addEventListener('click', toggleTheme);
+    }
 
     // Modal close
     $modalClose.addEventListener('click', closeModal);
@@ -472,6 +481,175 @@
         document.body.style.overflow = '';
       }
     }, 300);
+  }
+
+  // ===== Theme (Dark/Light) =====
+  var THEME_STORAGE_KEY = 'ymm4-catalog-theme';
+
+  function initTheme() {
+    var saved = null;
+    try {
+      saved = localStorage.getItem(THEME_STORAGE_KEY);
+    } catch (e) { /* localStorage unavailable */ }
+
+    var theme = saved;
+    if (!theme) {
+      theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches)
+        ? 'light'
+        : 'dark';
+    }
+    applyTheme(theme);
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    try {
+      localStorage.setItem(THEME_STORAGE_KEY, theme);
+    } catch (e) { /* localStorage unavailable */ }
+  }
+
+  function toggleTheme() {
+    var current = document.documentElement.getAttribute('data-theme') || 'dark';
+    applyTheme(current === 'dark' ? 'light' : 'dark');
+  }
+
+  // Apply theme as early as possible (before full init) to avoid flash
+  initTheme();
+
+  // ===== Plugin Count Trend Chart =====
+  function renderTrendChart() {
+    if (!$chartWrapper) return;
+
+    // createdAt を基に、月ごとの累積プラグイン数を算出
+    var withDates = allPlugins.filter(function (p) { return p._createdAt; });
+
+    if (withDates.length === 0) {
+      $chartWrapper.style.display = 'none';
+      if ($chartEmpty) $chartEmpty.style.display = 'block';
+      return;
+    }
+
+    var sorted = withDates.slice().sort(function (a, b) { return a._createdAt - b._createdAt; });
+
+    // 月単位（YYYY-MM）でグループ化して累積カウント
+    var monthlyCounts = {};
+    sorted.forEach(function (p) {
+      var d = new Date(p._createdAt);
+      var key = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0');
+      monthlyCounts[key] = (monthlyCounts[key] || 0) + 1;
+    });
+
+    var months = Object.keys(monthlyCounts).sort();
+    var cumulative = 0;
+    var points = months.map(function (key) {
+      cumulative += monthlyCounts[key];
+      var parts = key.split('-');
+      return {
+        label: parts[0] + '年' + parseInt(parts[1], 10) + '月',
+        shortLabel: parts[1] + '月',
+        year: parts[0],
+        value: cumulative
+      };
+    });
+
+    if (points.length < 2) {
+      // データ点が少なすぎる場合は現在の合計のみ表示
+      $chartWrapper.style.display = 'none';
+      if ($chartEmpty) $chartEmpty.style.display = 'block';
+      return;
+    }
+
+    $chartWrapper.style.display = 'block';
+    if ($chartEmpty) $chartEmpty.style.display = 'none';
+
+    $chartWrapper.innerHTML = buildChartSvg(points);
+    bindChartTooltips();
+  }
+
+  function buildChartSvg(points) {
+    var width = 1000;
+    var height = 340;
+    var paddingLeft = 46;
+    var paddingRight = 20;
+    var paddingTop = 24;
+    var paddingBottom = 40;
+
+    var chartW = width - paddingLeft - paddingRight;
+    var chartH = height - paddingTop - paddingBottom;
+
+    var maxValue = points[points.length - 1].value;
+    var niceMax = Math.ceil(maxValue / 5) * 5 || 5;
+
+    var stepX = chartW / (points.length - 1);
+
+    function xForIndex(i) { return paddingLeft + i * stepX; }
+    function yForValue(v) { return paddingTop + chartH - (v / niceMax) * chartH; }
+
+    var linePoints = points.map(function (p, i) {
+      return xForIndex(i) + ',' + yForValue(p.value);
+    }).join(' ');
+
+    var areaPoints = linePoints +
+      ' ' + xForIndex(points.length - 1) + ',' + (paddingTop + chartH) +
+      ' ' + xForIndex(0) + ',' + (paddingTop + chartH);
+
+    // Y軸グリッド線・ラベル（5分割）
+    var gridLines = '';
+    var yLabels = '';
+    var gridCount = 5;
+    for (var g = 0; g <= gridCount; g++) {
+      var val = Math.round((niceMax / gridCount) * g);
+      var y = yForValue(val);
+      gridLines += '<line class="chart-grid-line" x1="' + paddingLeft + '" y1="' + y + '" x2="' + (width - paddingRight) + '" y2="' + y + '"/>';
+      yLabels += '<text class="chart-axis-label" x="' + (paddingLeft - 10) + '" y="' + (y + 4) + '" text-anchor="end">' + val + '</text>';
+    }
+
+    // X軸ラベル（データ点が多い場合は間引く）
+    var maxLabels = 10;
+    var labelInterval = Math.max(1, Math.ceil(points.length / maxLabels));
+    var xLabels = '';
+    points.forEach(function (p, i) {
+      if (i % labelInterval !== 0 && i !== points.length - 1) return;
+      xLabels += '<text class="chart-axis-label" x="' + xForIndex(i) + '" y="' + (height - paddingBottom + 20) + '" text-anchor="middle">' + escapeHtml(p.label) + '</text>';
+    });
+
+    // データ点（丸）とツールチップ用のtitle
+    var circles = points.map(function (p, i) {
+      var cx = xForIndex(i);
+      var cy = yForValue(p.value);
+      return '<g class="chart-point-group" data-label="' + escapeHtml(p.label) + '" data-value="' + p.value + '">' +
+        '<circle class="chart-point" cx="' + cx + '" cy="' + cy + '" r="4"></circle>' +
+        '<title>' + escapeHtml(p.label) + ': ' + p.value + '件</title>' +
+        '</g>';
+    }).join('');
+
+    return (
+      '<svg viewBox="0 0 ' + width + ' ' + height + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="プラグイン総数の推移グラフ">' +
+        '<defs>' +
+          '<linearGradient id="chart-line-grad" x1="0" y1="0" x2="1" y2="0">' +
+            '<stop offset="0%" stop-color="#a78bfa"/>' +
+            '<stop offset="100%" stop-color="#06b6d4"/>' +
+          '</linearGradient>' +
+          '<linearGradient id="chart-area-grad" x1="0" y1="0" x2="0" y2="1">' +
+            '<stop offset="0%" stop-color="#a78bfa" stop-opacity="0.35"/>' +
+            '<stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>' +
+          '</linearGradient>' +
+        '</defs>' +
+        gridLines +
+        '<line class="chart-axis-line" x1="' + paddingLeft + '" y1="' + paddingTop + '" x2="' + paddingLeft + '" y2="' + (paddingTop + chartH) + '"/>' +
+        '<line class="chart-axis-line" x1="' + paddingLeft + '" y1="' + (paddingTop + chartH) + '" x2="' + (width - paddingRight) + '" y2="' + (paddingTop + chartH) + '"/>' +
+        yLabels +
+        xLabels +
+        '<polygon class="chart-area-fill" points="' + areaPoints + '"></polygon>' +
+        '<polyline class="chart-line" points="' + linePoints + '"></polyline>' +
+        circles +
+      '</svg>'
+    );
+  }
+
+  function bindChartTooltips() {
+    // ネイティブ<title>によるツールチップのみ使用（シンプル・軽量）
+    // 追加のインタラクションが必要な場合はここに拡張
   }
 
   // ===== Utilities =====

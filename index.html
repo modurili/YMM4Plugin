@@ -77,10 +77,23 @@
             <span class="stat-label">開発者</span>
           </div>
         </div>
+        <a href="#stats-section" class="header-about-btn" id="header-stats-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.1-2.8-2.8L7 14.1"/></svg>
+          プラグイン総数推移
+        </a>
         <a href="about.html" class="header-about-btn" id="header-about-btn">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
           このサイトについて
         </a>
+        <button class="theme-toggle-btn" id="theme-toggle-btn" title="ダークモード/ライトモード切り替え" aria-label="テーマ切り替え">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
       </div>
     </div>
   </header>
@@ -183,6 +196,27 @@
       </div>
     </div>
   </div>
+
+  <!-- Plugin Count Trend -->
+  <section class="stats-section" id="stats-section">
+    <div class="stats-section-inner">
+      <div class="stats-header">
+        <h2 class="stats-title">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.1-2.8-2.8L7 14.1"/></svg>
+          プラグイン総数の推移
+        </h2>
+        <p class="stats-subtitle">GitHubから収集したデータをもとに、YMM4プラグインの公開累計数の推移を表示しています</p>
+      </div>
+      <div class="chart-card">
+        <div class="chart-wrapper" id="chart-wrapper">
+          <!-- Chart rendered by JavaScript -->
+        </div>
+        <div class="chart-empty" id="chart-empty" style="display:none;">
+          <p>グラフを表示するのに十分なデータがありません</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="footer">
