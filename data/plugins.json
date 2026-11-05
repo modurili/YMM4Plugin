@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-11-04T21:07:25.619Z",
+  "lastUpdated": "2026-11-05T21:23:27.240Z",
   "plugins": [
+    {
+      "id": "namakemono-san-ymm4-liquidglass",
+      "name": "YMM4-LiquidGlass",
+      "description": "A video effect plugin for YukkuriMovieMaker4 that renders Apple's Liquid Glass-style glass panels",
+      "author": "namakemono-san",
+      "authorUrl": "https://github.com/namakemono-san",
+      "repoUrl": "https://github.com/namakemono-san/YMM4-LiquidGlass",
+      "downloadUrl": "https://github.com/namakemono-san/YMM4-LiquidGlass/releases/tag/v1.0.2",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 14,
+      "createdAt": "2026-08-31T09:54:02Z",
+      "lastUpdated": "2026-11-05T14:19:31Z",
+      "latestVersion": "v1.0.2",
+      "license": "MIT"
+    },
     {
       "id": "teamneoutl-madoka-launcher",
       "name": "Madoka-Launcher",
@@ -20,14 +38,14 @@
       ],
       "stars": 0,
       "createdAt": "2026-10-26T21:56:28Z",
-      "lastUpdated": "2026-11-04T11:45:49Z",
+      "lastUpdated": "2026-11-05T07:45:49Z",
       "latestVersion": "v0.2.2",
       "license": "GPL-3.0"
     },
     {
       "id": "scpgamerscp-ymm4mcp",
       "name": "ymm4MCP",
-      "description": "ゆっくりムービーメーカー4のMCPです。将来的にはゆっくり動画を全自動で作れるようにしたいです。",
+      "description": "ゆっくりムービーメーカー4のMCPです。将来的にはゆっくり動画を全自動で作���るようにしたいです。",
       "author": "SCPgamerscp",
       "authorUrl": "https://github.com/SCPgamerscp",
       "repoUrl": "https://github.com/SCPgamerscp/ymm4MCP",
@@ -80,24 +98,6 @@
       "lastUpdated": "2026-11-04T08:38:33Z",
       "latestVersion": "",
       "license": "LGPL-3.0"
-    },
-    {
-      "id": "namakemono-san-ymm4-liquidglass",
-      "name": "YMM4-LiquidGlass",
-      "description": "A video effect plugin for YukkuriMovieMaker4 that renders Apple's Liquid Glass-style glass panels",
-      "author": "namakemono-san",
-      "authorUrl": "https://github.com/namakemono-san",
-      "repoUrl": "https://github.com/namakemono-san/YMM4-LiquidGlass",
-      "downloadUrl": "https://github.com/namakemono-san/YMM4-LiquidGlass/releases/tag/v1.0.1",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 14,
-      "createdAt": "2026-08-31T09:54:02Z",
-      "lastUpdated": "2026-11-03T16:25:37Z",
-      "latestVersion": "v1.0.1",
-      "license": "MIT"
     },
     {
       "id": "iroiro296-ymm4-run-timer",
@@ -942,7 +942,7 @@
     {
       "id": "benikazura-bpmsync",
       "name": "BpmSync",
-      "description": "リズムに合わせてエフェクトを制御する映像エフェクトプ��グインです。",
+      "description": "リズムに合わせてエフェクトを制御する映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/BpmSync",
@@ -1431,7 +1431,7 @@
     {
       "id": "panko200-pseudo3dsphere",
       "name": "Pseudo3DSphere",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、疑似的に3D的な球体を描画します。完璧な球体ではなく、ポリゴンを組み合わせたよう��見た目になります。逆に、それを利用して3D的な物体を描画することもできます。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、疑似的に3D的な球体を描画します。完璧な球体ではなく、ポリゴンを組み合わせたよ���な見た目になります。逆に、それを利用して3D的な物体を描画することもできます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Pseudo3DSphere",
@@ -1503,7 +1503,7 @@
     {
       "id": "haisangames813-addshapeeffect",
       "name": "AddShapeEffect",
-      "description": "図形アイテムをエフェクトとして��加するプラグイン",
+      "description": "図形アイテムをエフェクトとして追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/AddShapeEffect",
@@ -1687,7 +1687,7 @@
     {
       "id": "panko200-sam3dobjectsplugin",
       "name": "SAM3DObjectsPlugin",
-      "description": "YMM4で動くツールプラグインです。SAM3Dを使って画像から、3Dモデルを作れるプラグインです。OBJLoaderが入ってい��ば、自動配置することも可能です。",
+      "description": "YMM4で動くツールプラグイン��す。SAM3Dを使って画像から、3Dモデルを作れるプラグインです。OBJLoaderが入っていれば、自動配置することも可能です。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SAM3DObjectsPlugin",
@@ -1869,7 +1869,7 @@
     {
       "id": "panko200-iyahon-d3d11renderer-core",
       "name": "Iyahon_D3D11Renderer_Core",
-      "description": "YMM4で動く既存機能に機能追加するプラグ���ンです。D3D11を利用して、YMM4の基本2D描画のところを、重ね合わせなども考慮したガチ3D描画ができるようになります。ObjLoaderの3Dモデルも読み込むこともでき、照明の追加、影(試験的機能)の追加もされています。",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。D3D11を利用して、YMM4の基本2D描画のところを、重ね合わせなども考慮したガチ3D描画ができるようになります。ObjLoaderの3Dモデルも読み込むこともでき、照明の追加、影(試験的機能)の追加もされています。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_D3D11Renderer_Core",
@@ -3116,7 +3116,7 @@
     {
       "id": "benikazura-automaticaspectratio",
       "name": "AutomaticAspectRatio",
-      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。���幕のサイズ調整を自動で行うことができます。",
+      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことができ��す。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AutomaticAspectRatio",
@@ -3209,7 +3209,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
+      "description": "YMM4���ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
@@ -3269,7 +3269,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位相化するプ���グインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -3652,7 +3652,7 @@
     {
       "id": "tetra-te-specifiedshoweffect",
       "name": "SpecifiedShowEffect",
-      "description": "再生時、一時停止時、出力時の不透���度を指定できる映像エフェクトプラグイン",
+      "description": "再生時、一時停止時、出力時の不透明度を指定できる映像エフェクトプラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SpecifiedShowEffect",
