@@ -1,6 +1,47 @@
 {
-  "lastUpdated": "2026-11-05T21:23:27.240Z",
+  "lastUpdated": "2026-11-06T20:45:11.307Z",
   "plugins": [
+    {
+      "id": "haisangames813-templatewithpreviewbyhaisan",
+      "name": "TemplateWithPreviewByHAIsan",
+      "description": "プレビュー付きのプリセット(テキスト/エフェクト/テンプレート)と素材ライブラリを利用できるようにするプラグインのハイさんバージョンです",
+      "author": "HAIsanGames813",
+      "authorUrl": "https://github.com/HAIsanGames813",
+      "repoUrl": "https://github.com/HAIsanGames813/TemplateWithPreviewByHAIsan",
+      "downloadUrl": "https://github.com/HAIsanGames813/TemplateWithPreviewByHAIsan/releases",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-11-03T12:52:26Z",
+      "lastUpdated": "2026-11-06T12:41:34Z",
+      "latestVersion": "",
+      "license": ""
+    },
+    {
+      "id": "teamneoutl-madoka-launcher",
+      "name": "Madoka-Launcher",
+      "description": "Launcher for AviUtl (ExEdit0 & 2), YMM4, and NeoUtl.",
+      "author": "TeamNeoUtl",
+      "authorUrl": "https://github.com/TeamNeoUtl",
+      "repoUrl": "https://github.com/TeamNeoUtl/Madoka-Launcher",
+      "downloadUrl": "https://github.com/TeamNeoUtl/Madoka-Launcher/releases/tag/v0.2.3",
+      "category": "other",
+      "tags": [
+        "その他",
+        "aviutl",
+        "aviutl-plugin",
+        "aviutl2",
+        "aviutl2-plugin",
+        "exedit"
+      ],
+      "stars": 0,
+      "createdAt": "2026-10-26T21:56:28Z",
+      "lastUpdated": "2026-11-06T08:00:52Z",
+      "latestVersion": "v0.2.3",
+      "license": "GPL-3.0"
+    },
     {
       "id": "namakemono-san-ymm4-liquidglass",
       "name": "YMM4-LiquidGlass",
@@ -20,32 +61,9 @@
       "license": "MIT"
     },
     {
-      "id": "teamneoutl-madoka-launcher",
-      "name": "Madoka-Launcher",
-      "description": "Launcher for AviUtl (ExEdit0 & 2), YMM4, and NeoUtl.",
-      "author": "TeamNeoUtl",
-      "authorUrl": "https://github.com/TeamNeoUtl",
-      "repoUrl": "https://github.com/TeamNeoUtl/Madoka-Launcher",
-      "downloadUrl": "https://github.com/TeamNeoUtl/Madoka-Launcher/releases/tag/v0.2.2",
-      "category": "other",
-      "tags": [
-        "その他",
-        "aviutl",
-        "aviutl-plugin",
-        "aviutl2",
-        "aviutl2-plugin",
-        "exedit"
-      ],
-      "stars": 0,
-      "createdAt": "2026-10-26T21:56:28Z",
-      "lastUpdated": "2026-11-05T07:45:49Z",
-      "latestVersion": "v0.2.2",
-      "license": "GPL-3.0"
-    },
-    {
       "id": "scpgamerscp-ymm4mcp",
       "name": "ymm4MCP",
-      "description": "ゆっくりムービーメーカー4のMCPです。将来的にはゆっくり動画を全自動で作���るようにしたいです。",
+      "description": "ゆっくりムービーメーカー4のMCPです。将来的にはゆっくり動画を全自動で作れるようにしたいです。",
       "author": "SCPgamerscp",
       "authorUrl": "https://github.com/SCPgamerscp",
       "repoUrl": "https://github.com/SCPgamerscp/ymm4MCP",
@@ -147,9 +165,9 @@
       "tags": [
         "映像エフェクト"
       ],
-      "stars": 2,
+      "stars": 3,
       "createdAt": "2025-06-12T11:59:37Z",
-      "lastUpdated": "2026-11-04T08:38:35Z",
+      "lastUpdated": "2026-11-06T08:21:01Z",
       "latestVersion": "v2.2.0",
       "license": "MIT"
     },
@@ -165,9 +183,9 @@
       "tags": [
         "動画出力"
       ],
-      "stars": 0,
+      "stars": 1,
       "createdAt": "2026-11-01T07:06:45Z",
-      "lastUpdated": "2026-11-03T08:18:31Z",
+      "lastUpdated": "2026-11-06T08:03:51Z",
       "latestVersion": "v1.1.0",
       "license": "MIT"
     },
@@ -409,7 +427,7 @@
     {
       "id": "jiraiyap-speech-time-tracker",
       "name": "Speech-Time-Tracker",
-      "description": "タイムライン上のセリフをキャラクター別に自動で集計し、専用パネルにシンプルなテキストと棒グラフで表示します。 「特定のキャラだけ喋りすぎてないかな？」「動画のテンポ（無音時間）は適切かな？」といった確認がボタン一つで簡単に行えます。 ■ 主な機能 ・キャラクター別の合計発話時間＆比率（％）の自動計算 ・セリフの重なりを考慮した、正確な「無音時間」の集計 ・比率の棒グラフ表示、ワンクリックでの再集計 ■ 詳細・ダウンロード（.ymme）",
+      "description": "タイムライン上のセリフをキャラクター別に自動で集計し、専用パネルにシンプルなテキストと棒グラフで表示します。 「特定のキャラだけ喋りすぎてないかな？」「動画のテンポ（無音��間）は適切かな？」といった確認がボタン一つで簡単に行えます。 ■ 主な機能 ・キャラクター別の合計発話時間＆比率（％）の自動計算 ・セリフの重なりを考慮した、正確な「無音時間」の集計 ・比率の棒グラフ表示、ワンクリックでの再集計 ■ 詳細・ダウンロード（.ymme）",
       "author": "jiraiyap",
       "authorUrl": "https://github.com/jiraiyap",
       "repoUrl": "https://github.com/jiraiyap/Speech-Time-Tracker",
@@ -885,14 +903,14 @@
     {
       "id": "bluemistel-ymm4-2dcamera",
       "name": "YMM4-2DCamera",
-      "description": "平面的な2DカメラワークにFOV(パースの強弱)とDOF(Z被写界深度)を与えるYMM4映像エフェクトプラグインです。",
+      "description": "平面的な2DカメラワークにFOV(パースの強弱)とDOF(Z被写界深度)を与えるYMM4映像エフェ��トプラグインです。",
       "author": "bluemistel",
       "authorUrl": "https://github.com/bluemistel",
       "repoUrl": "https://github.com/bluemistel/YMM4-2DCamera",
       "downloadUrl": "https://github.com/bluemistel/YMM4-2DCamera/releases/tag/v1.1.1",
-      "category": "video-effect",
+      "category": "other",
       "tags": [
-        "映像エフェクト",
+        "その他",
         "camera",
         "depth-of-field",
         "fov"
@@ -1431,7 +1449,7 @@
     {
       "id": "panko200-pseudo3dsphere",
       "name": "Pseudo3DSphere",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、疑似的に3D的な球体を描画します。完璧な球体ではなく、ポリゴンを組み合わせたよ���な見た目になります。逆に、それを利用して3D的な物体を描画することもできます。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、疑似的に3D的な球体を描画します。完璧な球体ではなく、ポリゴンを組み合わせたような見た目になります。逆に、それを利用して3D的な物体を描画することもできます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Pseudo3DSphere",
@@ -1633,7 +1651,7 @@
     {
       "id": "panko200-colortemperaturecorrection",
       "name": "ColorTemperatureCorrection",
-      "description": "YMM4で動く映像エフェクトプラグインです。色温度を変えられます。何故か標準機能にない(と思われる)ので作りました。",
+      "description": "YMM4で動く映像エフェクトプラグインです。色温度を変えられます。何故か標準機��にない(と思われる)ので作りました。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/ColorTemperatureCorrection",
@@ -1687,7 +1705,7 @@
     {
       "id": "panko200-sam3dobjectsplugin",
       "name": "SAM3DObjectsPlugin",
-      "description": "YMM4で動くツールプラグイン��す。SAM3Dを使って画像から、3Dモデルを作れるプラグインです。OBJLoaderが入っていれば、自動配置することも可能です。",
+      "description": "YMM4で動くツールプラグインです。SAM3Dを使って画像から、3Dモデルを作れるプラグインです。OBJLoaderが入っていれば、自動配置することも可能です。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SAM3DObjectsPlugin",
@@ -1905,7 +1923,7 @@
     {
       "id": "panko200-glowplus",
       "name": "Glowplus",
-      "description": "YMM4で動く映像エフェクトプラグインです。逆二乗型の発光がされ、より現実的で綺麗な発光ができます。",
+      "description": "YMM4で動く映像エフェクトプラグインです。逆二乗型の発光がされ、より現実的で綺麗な発光が���きます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Glowplus",
@@ -1959,7 +1977,7 @@
     {
       "id": "panko200-outlineextension",
       "name": "OutlineExtension",
-      "description": "YMM4で動く映像エフェクトプラグインです。縁取りの種類・位置を追加・変更可能にし、より多くの縁取りを生み出せます。波打ちに関してはちょっと挙動が怪しいかも。。。",
+      "description": "YMM4で動く映像エフェ���トプラグインです。縁取りの種類・位置を追加・変更可能にし、より多くの縁取りを生み出せます。波打ちに関してはちょっと挙動が怪しいかも。。。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/OutlineExtension",
@@ -2085,7 +2103,7 @@
     {
       "id": "mochinekoo-ymm4-earthquake-plugin",
       "name": "YMM4_Earthquake_Plugin",
-      "description": "YMM4の地震情報プラグイン",
+      "description": "YMM4の地震情報プラグ��ン",
       "author": "mochinekoo",
       "authorUrl": "https://github.com/mochinekoo",
       "repoUrl": "https://github.com/mochinekoo/YMM4_Earthquake_Plugin",
@@ -2158,7 +2176,7 @@
     {
       "id": "panko200-shapecroppingplus",
       "name": "ShapeCroppingPlus",
-      "description": "YMM4で動く映像エフェクトプラグインです。図形切り抜きの切り抜き側の図形に映像エフェクトをかけることができます。それだけです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。図形切り抜きの切り��き側の図形に映像エフェクトをかけることができます。それだけです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/ShapeCroppingPlus",
@@ -2466,7 +2484,7 @@
     {
       "id": "panko200-pseudo3dline",
       "name": "Pseudo3DLine",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、立体的な線を引くことが出来る映像エフェクトです。図形アイテムでないのは、アイテム側から、カメラ値を使う方法がわからなかったからです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、立体的な線を引くことが出来る映像エフェクトです。図形アイテムでないのは、アイテ��側から、カメラ値を使う方法がわからなかったからです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Pseudo3DLine",
@@ -2484,7 +2502,7 @@
     {
       "id": "panko200-interitemnode",
       "name": "InterItemNode",
-      "description": "YMM4で動く映像エフェクトプラグインです。アイテムとアイテム同士を線でつなげるようになるプラグインです。使い方がだいぶ複雑です。",
+      "description": "YMM4で動く映像エフェクトプラグインです。アイテムと���イテム同士を線でつなげるようになるプラグインです。使い方がだいぶ複雑です。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/InterItemNode",
@@ -2916,7 +2934,7 @@
     {
       "id": "haisangames813-drawingsettingseffect",
       "name": "DrawingSettingsEffect",
-      "description": "基本的な描画設定ができる「描画設定」エフェクトを追加するプラグイン",
+      "description": "基本的な描画設���ができる「描画設定」エフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/DrawingSettingsEffect",
@@ -3116,7 +3134,7 @@
     {
       "id": "benikazura-automaticaspectratio",
       "name": "AutomaticAspectRatio",
-      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことができ��す。",
+      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことができます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AutomaticAspectRatio",
@@ -3209,7 +3227,7 @@
     {
       "id": "inuinu2022-ymm4objectlistplugin",
       "name": "YMM4ObjectListPlugin",
-      "description": "YMM4���ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作できるプラグインです。",
+      "description": "YMM4（ゆっくりムービーメーカー4）で作業中のタイムライン上のオブジェクト（アイテム）を一覧表示し、素早く選択・操作で���るプラグインです。",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/YMM4ObjectListPlugin",
@@ -3269,7 +3287,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプ���グインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -3377,7 +3395,7 @@
     {
       "id": "benikazura-fanclipping",
       "name": "FanClipping",
-      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)の機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力することもできます。",
+      "description": "AviUtlスクリプト\"扇クリッピング(R)\"(作 : rikky)���機能の一部を再現したYMM4用のプラグインです。扇クリッピング(R)としてexo出力することもできます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/FanClipping",
@@ -3395,7 +3413,7 @@
     {
       "id": "benikazura-outlinet",
       "name": "OutlineT",
-      "description": "縁取りT(作 : ティム)としてExo出力される縁取りエフェクトです。",
+      "description": "縁取りT(作 : ティム)としてExo出力される縁取りエフェクトで���。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/OutlineT",
@@ -3652,7 +3670,7 @@
     {
       "id": "tetra-te-specifiedshoweffect",
       "name": "SpecifiedShowEffect",
-      "description": "再生時、一時停止時、出力時の不透明度を指定できる映像エフェクトプラグイン",
+      "description": "再生時、一時停止時、出力時の不透明度を指���できる映像エフェクトプラグイン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/SpecifiedShowEffect",
