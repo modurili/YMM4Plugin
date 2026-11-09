@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-11-08T19:24:38.429Z",
+  "lastUpdated": "2026-11-09T23:44:49.091Z",
   "plugins": [
     {
-      "id": "game-obera-ymm4-credit-plugin",
-      "name": "ymm4-credit-plugin",
-      "description": "ゆっくりMovieMaker4 で使った素材のクレジットを ymmp から自動で書き出すプラグイン",
-      "author": "game-obera",
-      "authorUrl": "https://github.com/game-obera",
-      "repoUrl": "https://github.com/game-obera/ymm4-credit-plugin",
-      "downloadUrl": "https://github.com/game-obera/ymm4-credit-plugin/releases",
+      "id": "dolphin-kun-multiuseredit",
+      "name": "MultiUserEdit",
+      "description": "複数人が同じプ���ジェクトを同時に編集できるようにするプラグインです。",
+      "author": "Dolphin-kun",
+      "authorUrl": "https://github.com/Dolphin-kun",
+      "repoUrl": "https://github.com/Dolphin-kun/MultiUserEdit",
+      "downloadUrl": "https://github.com/Dolphin-kun/MultiUserEdit/releases/tag/v1.2.3",
       "category": "other",
       "tags": [
         "その他"
       ],
-      "stars": 0,
-      "createdAt": "2026-11-08T13:31:03Z",
-      "lastUpdated": "2026-11-08T13:57:17Z",
-      "latestVersion": "",
+      "stars": 12,
+      "createdAt": "2026-09-13T04:54:33Z",
+      "lastUpdated": "2026-11-09T11:10:21Z",
+      "latestVersion": "v1.2.3",
       "license": "MIT"
     },
     {
@@ -26,15 +26,33 @@
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/YMM43D",
-      "downloadUrl": "https://github.com/Dolphin-kun/YMM43D/releases/tag/v1.1.0",
+      "downloadUrl": "https://github.com/Dolphin-kun/YMM43D/releases/tag/v2.0.0",
       "category": "other",
       "tags": [
         "その他"
       ],
       "stars": 4,
       "createdAt": "2026-04-27T11:03:31Z",
-      "lastUpdated": "2026-11-08T13:27:20Z",
-      "latestVersion": "v1.1.0",
+      "lastUpdated": "2026-11-09T01:51:38Z",
+      "latestVersion": "v2.0.0",
+      "license": "MIT"
+    },
+    {
+      "id": "game-obera-ymm4-credit-plugin",
+      "name": "ymm4-credit-plugin",
+      "description": "ゆっくりMovieMaker4 で使った素材のクレジットを ymmp から自動で書き出すプラグイン",
+      "author": "game-obera",
+      "authorUrl": "https://github.com/game-obera",
+      "repoUrl": "https://github.com/game-obera/ymm4-credit-plugin",
+      "downloadUrl": "https://github.com/game-obera/ymm4-credit-plugin/releases/tag/v1.0.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "createdAt": "2026-11-09T00:18:42Z",
+      "lastUpdated": "2026-11-09T01:12:26Z",
+      "latestVersion": "v1.0.0",
       "license": "MIT"
     },
     {
@@ -174,7 +192,7 @@
     {
       "id": "iroiro296-ymm4-run-timer",
       "name": "ymm4-run-timer",
-      "description": "YMM4図形プラグイン: LiveSplit風の可変桁タイマー（開始/停止フレーム・状態色・グラデーション）",
+      "description": "YMM4図形プラグイン: LiveSplit風の可変桁タイマー（開始/停止フレーム��状態色・グラデーション）",
       "author": "iroiro296",
       "authorUrl": "https://github.com/iroiro296",
       "repoUrl": "https://github.com/iroiro296/ymm4-run-timer",
@@ -228,7 +246,7 @@
     {
       "id": "dolphin-kun-encodenavi",
       "name": "EncodeNavi",
-      "description": "YMM4でタイムラインの素材を調べて目的に合った動画出力の設定を提案するツールプラグインです。",
+      "description": "YMM4でタイムラインの素材を調べて目的に合った動���出力の設定を提案するツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/EncodeNavi",
@@ -425,24 +443,6 @@
       "license": ""
     },
     {
-      "id": "dolphin-kun-multiuseredit",
-      "name": "MultiUserEdit",
-      "description": "複数人が同じプロジェクトを同時に編集できるようにするプラグインです。",
-      "author": "Dolphin-kun",
-      "authorUrl": "https://github.com/Dolphin-kun",
-      "repoUrl": "https://github.com/Dolphin-kun/MultiUserEdit",
-      "downloadUrl": "https://github.com/Dolphin-kun/MultiUserEdit/releases/tag/v1.2.2",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 12,
-      "createdAt": "2026-09-13T04:54:33Z",
-      "lastUpdated": "2026-10-23T12:14:44Z",
-      "latestVersion": "v1.2.2",
-      "license": "MIT"
-    },
-    {
       "id": "darui3018823-ymm-source-control",
       "name": "YMM-Source-Control",
       "description": "YukkuriMovieMaker 4向けのGit Source Controlプラグイン",
@@ -463,7 +463,7 @@
     {
       "id": "dolphin-kun-ymm4craft",
       "name": "YMM4Craft",
-      "description": "YMM4（ゆっくりMovieMaker4）で、Minecraft（Java版）の世界をそのまま映���として使えるようにするプラグインと Mod です。 カメラ・時刻・天気・プレイヤーや Mob を YMM4 のタイムラインで動かせるほか、録画したプレイを好きな視点から再生できます。",
+      "description": "YMM4（ゆっくりMovieMaker4）���、Minecraft（Java版）の世界をそのまま映像として使えるようにするプラグインと Mod です。 カメラ・時刻・天気・プレイヤーや Mob を YMM4 のタイムラインで動かせるほか、録画したプレイを好きな視点から再生できます。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/YMM4Craft",
@@ -795,7 +795,7 @@
     {
       "id": "hakhatz2486-ymm4-subtitle-exporter",
       "name": "ymm4-subtitle-exporter",
-      "description": "YMM4プラグイン。動画のエンコード不要で、字幕ファイルを複数形式とキャラ名有無を選択して出力します。",
+      "description": "YMM4プラグイン。動画のエンコード不要で、字幕ファイルを複数形式とキャラ���有無を選択して出力します。",
       "author": "hakhatz2486",
       "authorUrl": "https://github.com/hakhatz2486",
       "repoUrl": "https://github.com/hakhatz2486/ymm4-subtitle-exporter",
@@ -831,7 +831,7 @@
     {
       "id": "wea017net-ymm4-sequencetiffplugin",
       "name": "YMM4-SequenceTIFFPlugin",
-      "description": "YMM4で連番TIFF画像及びマルチページTIFF画像を扱えるようにするプ���グイン",
+      "description": "YMM4で連番TIFF画像及びマルチページTIFF画像を扱えるようにするプラグイン",
       "author": "Wea017net",
       "authorUrl": "https://github.com/Wea017net",
       "repoUrl": "https://github.com/Wea017net/YMM4-SequenceTIFFPlugin",
@@ -939,7 +939,7 @@
     {
       "id": "bluemistel-ymm4-2dcamera",
       "name": "YMM4-2DCamera",
-      "description": "平面的な2DカメラワークにFOV(パースの強弱)とDOF(Z被写界深度)を与えるYMM4映像エフェクトプ��グインです。",
+      "description": "平面的な2DカメラワークにFOV(パースの強弱)とDOF(Z被写界深度)を与えるYMM4映像エフェクトプラグインです。",
       "author": "bluemistel",
       "authorUrl": "https://github.com/bluemistel",
       "repoUrl": "https://github.com/bluemistel/YMM4-2DCamera",
@@ -1104,7 +1104,7 @@
     {
       "id": "panko200-vectormelt",
       "name": "VectorMelt",
-      "description": "YMM4で動く映像エフェクトプラグインです。データモッシュの成り損ないです。前フレームのデータを利用して、動きフレームのみを変更してぐちゃぐちゃに崩します。",
+      "description": "YMM4で動く映像エフェクトプラグインです。データモッシュの成り損ないです。前フレームのデータを利用して、動きフレームのみを変更してぐちゃぐちゃに��します。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/VectorMelt",
@@ -1377,7 +1377,7 @@
     {
       "id": "panko200-iterativemovementextension",
       "name": "IterativeMovementExtension",
-      "description": "YMM4で動くイージング追加プラグインです。反復移動���拡張）が追加され、位相、反復の仕方などが指定できます。",
+      "description": "YMM4で動くイージング追加プラグインです。反復移動（拡張）が追加され、位相、反復の仕方などが指定できます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/IterativeMovementExtension",
@@ -1395,7 +1395,7 @@
     {
       "id": "panko200-simplescreenmotionblureffect",
       "name": "SimpleScreenMotionBlurEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
+      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使���て、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SimpleScreenMotionBlurEffect",
@@ -1611,7 +1611,7 @@
     {
       "id": "sinbetakun-sintachieplugin",
       "name": "SinTachiePlugin",
-      "description": "『sin型カスタムパーツ立ち絵』の���ポジトリ",
+      "description": "『sin型カスタムパーツ立ち絵』のリポジトリ",
       "author": "sinBetaKun",
       "authorUrl": "https://github.com/sinBetaKun",
       "repoUrl": "https://github.com/sinBetaKun/SinTachiePlugin",
@@ -1777,7 +1777,7 @@
     {
       "id": "bluemistel-em-filtersets",
       "name": "EM-FilterSets",
-      "description": "エモそうなフィルタ���(画面エフェクト)のセットをYMM4の映像エフェクトとして追加するプラグインです。",
+      "description": "エモそうなフィルター(画面エフェクト)のセットをYMM4の映像エフェクトとして追加するプラグインです。",
       "author": "bluemistel",
       "authorUrl": "https://github.com/bluemistel",
       "repoUrl": "https://github.com/bluemistel/EM-FilterSets",
@@ -1995,7 +1995,7 @@
     {
       "id": "panko200-iyahon-texturemap",
       "name": "Iyahon_TextureMap",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、ノーマルマップ、深度マップなどをアイテムにかけて、3D的な描画ができるようになるプラグインです。",
+      "description": "YMM4で動く映像エフェクトプラグ���ンです。カメラ値を使用して、ノーマルマップ、深度マップなどをアイテムにかけて、3D的な描画ができるようになるプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_TextureMap",
@@ -2049,7 +2049,7 @@
     {
       "id": "panko200-previewenhancer",
       "name": "PreviewEnhancer",
-      "description": "YMM4で動く既存機能に機能追加するプラグインです。プレビューの解像度を変更することにより、描画そのものや、計算の処理を削ることができます。が、その分、まともに描画されなくなり、かつそこまで軽量化にもならないので、あんまり使い道はありません。",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。プレビューの解像度を変更することにより、描画そのものや、計算の処理を削ることができます。が、その分、まともに描画���れなくなり、かつそこまで軽量化にもならないので、あんまり使い道はありません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PreviewEnhancer",
@@ -2448,14 +2448,14 @@
     {
       "id": "haisangames813-shrinkcompositeeffect",
       "name": "ShrinkCompositeEffect",
-      "description": "ドロステ効果が使える��フェクトを追加するプラグインです",
+      "description": "ドロステ効果が使えるエフェクトを追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/ShrinkCompositeEffect",
       "downloadUrl": "https://github.com/HAIsanGames813/ShrinkCompositeEffect/releases/tag/1.0.0",
-      "category": "other",
+      "category": "video-effect",
       "tags": [
-        "その他"
+        "映像エフェクト"
       ],
       "stars": 0,
       "createdAt": "2026-03-18T12:02:13Z",
@@ -2574,7 +2574,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角���不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -2772,7 +2772,7 @@
     {
       "id": "panko200-z-depthoffield",
       "name": "Z_DepthofField",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用します。カメラからのZ軸、もしくは、距離を使って、ピント距離と合致していない場合、アイテム全体にぼかしがかかります。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用します。カメラからのZ軸、もしくは、距離を使って、ピント距離と合致していない場合、アイテム全体にぼか��がかかります。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Z_DepthofField",
@@ -3561,7 +3561,7 @@
     {
       "id": "tetra-te-alphafilleffect",
       "name": "AlphaFillEffect",
-      "description": "画像��薄い部分を塗りつぶす映像エフェクト",
+      "description": "画像の薄い部分を塗りつぶす映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/AlphaFillEffect",
@@ -3652,7 +3652,7 @@
     {
       "id": "dolphin-kun-reflecteffect",
       "name": "ReflectEffect",
-      "description": "「反射」エフェクトプラグイン",
+      "description": "「反射」エフェ��トプラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ReflectEffect",
