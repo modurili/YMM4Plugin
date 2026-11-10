@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-11-09T23:44:49.091Z",
+  "lastUpdated": "2026-11-10T21:15:48.024Z",
   "plugins": [
     {
       "id": "dolphin-kun-multiuseredit",
       "name": "MultiUserEdit",
-      "description": "複数人が同じプ���ジェクトを同時に編集できるようにするプラグインです。",
+      "description": "複数人が同じプロジェクトを同時に編集できるようにするプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/MultiUserEdit",
-      "downloadUrl": "https://github.com/Dolphin-kun/MultiUserEdit/releases/tag/v1.2.3",
-      "category": "other",
+      "downloadUrl": "https://github.com/Dolphin-kun/MultiUserEdit/releases/tag/v1.2.4",
+      "category": "utility",
       "tags": [
-        "その他"
+        "ユーティリティ"
       ],
       "stars": 12,
       "createdAt": "2026-09-13T04:54:33Z",
-      "lastUpdated": "2026-11-09T11:10:21Z",
-      "latestVersion": "v1.2.3",
+      "lastUpdated": "2026-11-10T07:26:31Z",
+      "latestVersion": "v1.2.4",
       "license": "MIT"
     },
     {
@@ -192,7 +192,7 @@
     {
       "id": "iroiro296-ymm4-run-timer",
       "name": "ymm4-run-timer",
-      "description": "YMM4図形プラグイン: LiveSplit風の可変桁タイマー（開始/停止フレーム��状態色・グラデーション）",
+      "description": "YMM4図形プラグイン: LiveSplit風の可変桁タイマー（開始/停止フレーム・状態色・グラデーション）",
       "author": "iroiro296",
       "authorUrl": "https://github.com/iroiro296",
       "repoUrl": "https://github.com/iroiro296/ymm4-run-timer",
@@ -246,7 +246,7 @@
     {
       "id": "dolphin-kun-encodenavi",
       "name": "EncodeNavi",
-      "description": "YMM4でタイムラインの素材を調べて目的に合った動���出力の設定を提案するツールプラグインです。",
+      "description": "YMM4でタイムラインの素材を調べて目的に合った動画出力の設定を提案するツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/EncodeNavi",
@@ -463,7 +463,7 @@
     {
       "id": "dolphin-kun-ymm4craft",
       "name": "YMM4Craft",
-      "description": "YMM4（ゆっくりMovieMaker4）���、Minecraft（Java版）の世界をそのまま映像として使えるようにするプラグインと Mod です。 カメラ・時刻・天気・プレイヤーや Mob を YMM4 のタイムラインで動かせるほか、録画したプレイを好きな視点から再生できます。",
+      "description": "YMM4（ゆっくりMovieMaker4）で、Minecraft（Java版）の世界をそのまま映像として使えるようにするプラグインと Mod です。 カメラ・時刻・天気・プレイヤーや Mob を YMM4 のタイムラインで動かせ���ほか、録画したプレイを好きな視点から再生できます。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/YMM4Craft",
@@ -481,7 +481,7 @@
     {
       "id": "jiraiyap-speech-time-tracker",
       "name": "Speech-Time-Tracker",
-      "description": "タイムライン上のセリフをキャラクター別に自動で集計し、専用パネルにシンプルなテキストと棒グラフで表示します。 「特定のキャラだけ喋りすぎてないかな？」「動画のテンポ（無音時間）は適切かな？」といった確認がボタン一つで簡単に行えます。 ■ 主な機能 ・キャラクター別の合計発話時間＆比率（％）の自動計算 ・セリフの重なりを考慮した、正確な「無音時間」の集計 ・比率の棒グラフ表示、ワンクリックでの再集計 ■ 詳細・ダウンロード（.ymme）",
+      "description": "タイムライン上のセリフをキャラクター別に自���で集計し、専用パネルにシンプルなテキストと棒グラフで表示します。 「特定のキャラだけ喋りすぎてないかな？」「動画のテンポ（無音時間）は適切かな？」といった確認がボタン一つで簡単に行えます。 ■ 主な機能 ・キャラクター別の合計発話時間＆比率（％）の自動計算 ・セリフの重なりを考慮した、正確な「無音時間」の集計 ・比率の棒グラフ表示、ワンクリックでの再集計 ■ 詳細・ダウンロード（.ymme）",
       "author": "jiraiyap",
       "authorUrl": "https://github.com/jiraiyap",
       "repoUrl": "https://github.com/jiraiyap/Speech-Time-Tracker",
@@ -795,7 +795,7 @@
     {
       "id": "hakhatz2486-ymm4-subtitle-exporter",
       "name": "ymm4-subtitle-exporter",
-      "description": "YMM4プラグイン。動画のエンコード不要で、字幕ファイルを複数形式とキャラ���有無を選択して出力します。",
+      "description": "YMM4プラグイン。動画のエンコード不要で、字幕ファイルを複数形式とキャラ名有無を選択して出力します。",
       "author": "hakhatz2486",
       "authorUrl": "https://github.com/hakhatz2486",
       "repoUrl": "https://github.com/hakhatz2486/ymm4-subtitle-exporter",
@@ -903,7 +903,7 @@
     {
       "id": "panko200-sam3cutoutplugin",
       "name": "SAM3CutoutPlugin",
-      "description": "YMM4で動くツールプラグイン、映像エフェクトプラグインです。SAM3というモデルを用いて、画像・動画の物体を切り抜くことができます",
+      "description": "YMM4で動くツールプラグイン、映像エフェクトプラ��インです。SAM3というモデルを用いて、画像・動画の物体を切り抜くことができます",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SAM3CutoutPlugin",
@@ -1104,7 +1104,7 @@
     {
       "id": "panko200-vectormelt",
       "name": "VectorMelt",
-      "description": "YMM4で動く映像エフェクトプラグインです。データモッシュの成り損ないです。前フレームのデータを利用して、動きフレームのみを変更してぐちゃぐちゃに��します。",
+      "description": "YMM4で動く映像エフェクトプラグインです。データモッシュの成り損ないです。前フレームのデータを利用して、動きフレームのみを変更してぐちゃぐちゃに���します。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/VectorMelt",
@@ -1395,7 +1395,7 @@
     {
       "id": "panko200-simplescreenmotionblureffect",
       "name": "SimpleScreenMotionBlurEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使���て、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
+      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SimpleScreenMotionBlurEffect",
@@ -1467,7 +1467,7 @@
     {
       "id": "panko200-iyahon-shapecore",
       "name": "Iyahon_ShapeCore",
-      "description": "YMM$で動く映像エフェクトプラグインです。入力されたラスター画像を、無理やりベクター化して、そのベクター化されたデータに対して、処理を追加できます。コア以外のプラグインを入れなければ、意味を成しません。",
+      "description": "YMM$で動く映像エフェクトプラグインです。入力されたラスター画像を、無理やりベクター化して、そのベクター化されたデータに対して、処理を追加できます。��ア以外のプラグインを入れなければ、意味を成しません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_ShapeCore",
@@ -1669,7 +1669,7 @@
     {
       "id": "haisangames813-movingpreviewplugin",
       "name": "MovingPreviewPlugin",
-      "description": "拡大縮小移動が可能なプレビューウィンドウを追加するツールプラグインです",
+      "description": "拡大縮小移動が可能なプレビューウィン��ウを追加するツールプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/MovingPreviewPlugin",
@@ -1995,7 +1995,7 @@
     {
       "id": "panko200-iyahon-texturemap",
       "name": "Iyahon_TextureMap",
-      "description": "YMM4で動く映像エフェクトプラグ���ンです。カメラ値を使用して、ノーマルマップ、深度マップなどをアイテムにかけて、3D的な描画ができるようになるプラグインです。",
+      "description": "YMM4で動く映像エフェクトプラグイ���です。カメラ値を使用して、ノーマルマップ、深度マップなどをアイテムにかけて、3D的な描画ができるようになるプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_TextureMap",
@@ -2049,7 +2049,7 @@
     {
       "id": "panko200-previewenhancer",
       "name": "PreviewEnhancer",
-      "description": "YMM4で動く既存機能に機能追加するプラグインです。プレビューの解像度を変更することにより、描画そのものや、計算の処理を削ることができます。が、その分、まともに描画���れなくなり、かつそこまで軽量化にもならないので、あんまり使い道はありません。",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。プレビューの解像度を変更することにより、描画そのものや、計算の処理を削ることができます。が、その分、まともに描画さ���なくなり、かつそこまで軽量化にもならないので、あんまり使い道はありません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PreviewEnhancer",
@@ -2574,7 +2574,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角���不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -2772,7 +2772,7 @@
     {
       "id": "panko200-z-depthoffield",
       "name": "Z_DepthofField",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用します。カメラからのZ軸、もしくは、距離を使って、ピント距離と合致していない場合、アイテム全体にぼか��がかかります。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用します。カメラからのZ軸、もしくは、距離を使って、ピント距離と合致していない場合、アイテム全体にぼかしがかかります。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Z_DepthofField",
@@ -3543,7 +3543,7 @@
     {
       "id": "ikoma-reunion-ymm4-plugin-document",
       "name": "ymm4-plugin-document",
-      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です。　v4.42.1.3",
+      "description": "自動生成されたYukkuriMovieMaker.PluginのAPIリファレンスのようなもの。　非公式です���　v4.42.1.3",
       "author": "ikoma-reunion",
       "authorUrl": "https://github.com/ikoma-reunion",
       "repoUrl": "https://github.com/ikoma-reunion/ymm4-plugin-document",
@@ -3652,7 +3652,7 @@
     {
       "id": "dolphin-kun-reflecteffect",
       "name": "ReflectEffect",
-      "description": "「反射」エフェ��トプラグイン",
+      "description": "「反射」エフェクトプラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ReflectEffect",
