@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T21:48:45.882Z",
+  "lastUpdated": "2026-11-12T21:48:06.857Z",
   "plugins": [
     {
       "id": "manju-summoner-yukkurimoviemaker4pluginsamples",
@@ -183,9 +183,9 @@
         "mcp-server",
         "model-context-protocol"
       ],
-      "stars": 31,
+      "stars": 32,
       "createdAt": "2026-02-26T05:58:21Z",
-      "lastUpdated": "2026-11-04T03:29:04Z",
+      "lastUpdated": "2026-11-12T17:54:17Z",
       "latestVersion": "",
       "license": ""
     },
@@ -318,7 +318,7 @@
     {
       "id": "haisangames813-extendedscreensplit",
       "name": "ExtendedScreenSplit",
-      "description": "「グループ制御中のアイテムで画面分割」エフェクトを独自に改造した「グループ制御中のアイテムで画面分割（拡張）」を追加するプラグインです",
+      "description": "「グループ制御中のアイテムで画面分割���エフェクトを独自に改造した「グループ制御中のアイテムで画面分割（拡張）」を追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/ExtendedScreenSplit",
@@ -499,7 +499,7 @@
     {
       "id": "dolphin-kun-ymm4craft",
       "name": "YMM4Craft",
-      "description": "YMM4（ゆっくりMovieMaker4）で、Minecraft（Java版）��世界をそのまま映像として使えるようにするプラグインと Mod です。 カメラ・時刻・天気・プレイヤーや Mob を YMM4 のタイムラインで動かせるほか、録画したプレイを好きな視点から再生できます。",
+      "description": "YMM4（ゆっくりMovieMaker4）で、Minecraft（Java版）の世界をそのまま映像として使えるようにするプラグインと Mod です。 カメラ・時刻・天気・プレイヤーや Mob を YMM4 のタイムラインで動かせるほか、録画したプレイを好きな視点から再生できます。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/YMM4Craft",
@@ -517,7 +517,7 @@
     {
       "id": "jiraiyap-speech-time-tracker",
       "name": "Speech-Time-Tracker",
-      "description": "タイムライン上のセリフをキャラクター別に自動で集計し、専用パネルにシンプルなテキストと棒グラフで表示します。 「特定のキャラだけ喋りすぎてないかな？」「動画のテンポ（無音時間）は適切かな？」といった確認がボタン一つで簡単に行えます。 ■ 主な機能 ・キャラクター別の合計発話時間＆比率（％）の自動計算 ・セリフの重なりを考慮した、正確な「無音時間」の集計 ・比率の棒グラフ表示、ワンクリックでの再集計 ■ 詳細・ダウンロード（.ymme）",
+      "description": "タイムライン上のセリフをキャラクター別に自動で集計し、専用パネルにシンプルなテキストと棒グラフで表示します。 「特定のキャラだけ喋りすぎてないかな？」「動画のテンポ（無音時間）は適切かな？」といった確認がボタン一つで簡単に行えます。 ■ 主な機能 ・キャラクター別の合計発話時間���比率（％）の自動計算 ・セリフの重なりを考慮した、正確な「無音時間」の集計 ・比率の棒グラフ表示、ワンクリックでの再集計 ■ 詳細・ダウンロード（.ymme）",
       "author": "jiraiyap",
       "authorUrl": "https://github.com/jiraiyap",
       "repoUrl": "https://github.com/jiraiyap/Speech-Time-Tracker",
@@ -647,7 +647,7 @@
     {
       "id": "mine-tech-jp-ymm4raindrop",
       "name": "YMM4Raindrop",
-      "description": "YMM4用の非公式映像エフェクト「雫と拭痕」。曇りガラスの拭き取りと雨粒・雨だれを表現します。",
+      "description": "YMM4用の非公式映像エフェクト「雫と拭痕」。曇りガ��スの拭き取りと雨粒・雨だれを表現します。",
       "author": "Mine-Tech-JP",
       "authorUrl": "https://github.com/Mine-Tech-JP",
       "repoUrl": "https://github.com/Mine-Tech-JP/YMM4Raindrop",
@@ -1305,7 +1305,7 @@
     {
       "id": "haisangames813-cropzoomeffect",
       "name": "CropZoomEffect",
-      "description": "領���内で拡大縮小や移動ができるプラグインです",
+      "description": "領域内で拡大縮小や移動ができるプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/CropZoomEffect",
@@ -1395,7 +1395,7 @@
     {
       "id": "panko200-reversemovementvalues",
       "name": "ReverseMovementValues",
-      "description": "YMM4で動く既存機能に機能���加するプラグインです。イージングにて値の反転を行うことができます。(イージングの反転ではないことに注意してください。)",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。イージングにて値の反転を行うことができます。(イージングの反転ではないことに注意してください。)",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/ReverseMovementValues",
@@ -1413,14 +1413,14 @@
     {
       "id": "panko200-iterativemovementextension",
       "name": "IterativeMovementExtension",
-      "description": "YMM4で動くイージング追加プラグインです。反復移動（拡張）が追加され、位相、反復の仕方などが指定できます。",
+      "description": "YMM4で動くイ��ジング追加プラグインです。反復移動（拡張）が追加され、位相、反復の仕方などが指定できます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/IterativeMovementExtension",
       "downloadUrl": "https://github.com/panko200/IterativeMovementExtension/releases/tag/v1.0.1",
-      "category": "video-effect",
+      "category": "other",
       "tags": [
-        "映像エフェクト"
+        "その他"
       ],
       "stars": 0,
       "createdAt": "2026-04-05T15:56:19Z",
@@ -1431,7 +1431,7 @@
     {
       "id": "panko200-simplescreenmotionblureffect",
       "name": "SimpleScreenMotionBlurEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーは��かりません。",
+      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SimpleScreenMotionBlurEffect",
@@ -2013,14 +2013,14 @@
     {
       "id": "panko200-iyahon-texturemap",
       "name": "Iyahon_TextureMap",
-      "description": "YMM4で動く映像エフェ���トプラグインです。カメラ値を使用して、ノーマルマップ、深度マップなどをアイテムにかけて、3D的な描画ができるようになるプラグインです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、ノーマルマップ、深度マップなどをアイテムにかけて、3D的な描画ができるようになる��ラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_TextureMap",
       "downloadUrl": "https://github.com/panko200/Iyahon_TextureMap/releases/tag/v1.0.2",
-      "category": "utility",
+      "category": "video-effect",
       "tags": [
-        "ユーティリティ"
+        "映像エフェクト"
       ],
       "stars": 0,
       "createdAt": "2026-02-02T12:01:26Z",
@@ -2266,7 +2266,7 @@
     {
       "id": "panko200-particles3d",
       "name": "Particles3D",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、疑似的な3Dパーティクルを表示できます。パラメータ量はとんでもないです。ですが、使いこなせば割と何でもできるかと思います。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、疑似的な3Dパーティ��ルを表示できます。パラメータ量はとんでもないです。ですが、使いこなせば割と何でもできるかと思います。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Particles3D",
@@ -2284,7 +2284,7 @@
     {
       "id": "dolphin-kun-afterimage",
       "name": "Afterimage",
-      "description": "アイテムに残像を発生させるプラグインです。",
+      "description": "アイテムに残像を発生さ��るプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/Afterimage",
@@ -2374,7 +2374,7 @@
     {
       "id": "haisangames813-usedmediafinderplugin",
       "name": "UsedMediaFinderPlugin",
-      "description": "使用/未使用メディアを検出しリネームを行えるツールプラグインです",
+      "description": "使用/未使���メディアを検出しリネームを行えるツールプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/UsedMediaFinderPlugin",
@@ -2520,7 +2520,7 @@
     {
       "id": "haisangames813-rotationpersecondeffect",
       "name": "RotationPerSecondEffect",
-      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラグイ��です",
+      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/RotationPerSecondEffect",
@@ -2592,7 +2592,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクト���紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -2934,7 +2934,7 @@
     {
       "id": "panko200-lightweightoutline",
       "name": "Lightweightoutline",
-      "description": "YMM4で動く映像エフェクトプラ��インです。軽量化された縁取り。でしたが、現在はYMM4公式の縁取りが軽量化されており、このプラグインを使う理由はなくなりました。",
+      "description": "YMM4で動く映像エフェクトプラグインです。軽量化された縁取り。でしたが、現在はYMM4公式の縁取りが軽量化されており、このプラグインを使う理由はなくなりました。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Lightweightoutline",
@@ -3134,7 +3134,7 @@
     {
       "id": "thiramisu-ymm4-plugin-general-in-out",
       "name": "ymm4-plugin-general-in-out",
-      "description": "汎用���な登場・退場アニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
+      "description": "汎用的な登場・退場アニメーションを実現するための、YMM4のエフェクト・図形プラグイン。",
       "author": "thiramisu",
       "authorUrl": "https://github.com/thiramisu",
       "repoUrl": "https://github.com/thiramisu/ymm4-plugin-general-in-out",
@@ -3341,7 +3341,7 @@
     {
       "id": "tetra-te-imageloop3d",
       "name": "ImageLoop3D",
-      "description": "3D画像ループエフェクト",
+      "description": "3D画像ループエフェク��",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/ImageLoop3D",
@@ -3652,7 +3652,7 @@
     {
       "id": "dolphin-kun-reflecteffect",
       "name": "ReflectEffect",
-      "description": "「反射」エフェク���プラグイン",
+      "description": "「反射」エフェクトプラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ReflectEffect",
