@@ -1,6 +1,42 @@
 {
-  "lastUpdated": "2026-11-14T19:48:30.109Z",
+  "lastUpdated": "2026-11-15T20:14:05.916Z",
   "plugins": [
+    {
+      "id": "taisan11-ymm4-morebouyomiplugin",
+      "name": "YMM4-MoreBOUYOMIPlugin",
+      "description": "説明なし",
+      "author": "taisan11",
+      "authorUrl": "https://github.com/taisan11",
+      "repoUrl": "https://github.com/taisan11/YMM4-MoreBOUYOMIPlugin",
+      "downloadUrl": "https://github.com/taisan11/YMM4-MoreBOUYOMIPlugin/releases/tag/1.1.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 2,
+      "createdAt": "2025-01-04T09:32:40Z",
+      "lastUpdated": "2026-07-22T01:02:44Z",
+      "latestVersion": "1.1.0",
+      "license": "MIT"
+    },
+    {
+      "id": "dolphin-kun-presetstudio",
+      "name": "PresetStudio",
+      "description": "テキストやエフェクトをプリセットとして保存できるYMM4ツールプラグインです",
+      "author": "Dolphin-kun",
+      "authorUrl": "https://github.com/Dolphin-kun",
+      "repoUrl": "https://github.com/Dolphin-kun/PresetStudio",
+      "downloadUrl": "https://github.com/Dolphin-kun/PresetStudio/releases/tag/v1.0.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2026-11-15T02:49:29Z",
+      "lastUpdated": "2026-11-15T14:12:08Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
     {
       "id": "darui3018823-ymm-source-control",
       "name": "YMM-Source-Control",
@@ -112,7 +148,7 @@
     {
       "id": "haisangames813-templatewithpreviewbyhaisan",
       "name": "TemplateWithPreviewByHAIsan",
-      "description": "プレビュー付きのプリセット(テキスト/エフェクト/テンプレート)と素材ライブラリを利用できるようにするプラグインのハイさんバージョンです",
+      "description": "プレビュー付きのプリセット(��キスト/エフェクト/テンプレート)と素材ライブラリを利用できるようにするプラグインのハイさんバージョンです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/TemplateWithPreviewByHAIsan",
@@ -282,7 +318,7 @@
     {
       "id": "dolphin-kun-encodenavi",
       "name": "EncodeNavi",
-      "description": "YMM4でタイムラインの素材を調べて���的に合った動画出力の設定を提案するツールプラグインです。",
+      "description": "YMM4でタイムラインの素材を調べて目的に合った動画出力の設定を提案するツールプ���グインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/EncodeNavi",
@@ -481,7 +517,7 @@
     {
       "id": "haisangames813-texteditinginpreviewplugin",
       "name": "TextEditingInPreviewPlugin",
-      "description": "プレビュー上のテキストをダブルクリックすることでテキスト編集モードに入れるようにするプラグインです",
+      "description": "プレビュー上の��キストをダブルクリックすることでテキスト編集モードに入れるようにするプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/TextEditingInPreviewPlugin",
@@ -517,7 +553,7 @@
     {
       "id": "jiraiyap-speech-time-tracker",
       "name": "Speech-Time-Tracker",
-      "description": "タイムライン上のセリフをキャラクター別に自動で集計し、専用パネルにシンプルなテキストと棒グラフで表示します。 「特定のキャラだけ喋りすぎてないかな？」「動画のテンポ（無音時間）は適切かな？」といった確認がボタン一つで簡単に行えます。 ■ 主な機能 ・キャラクター別の合計発話時間＆比率（％）の自動計算 ・セリフの重なりを考慮した、正確な「無音時間」の集計 ・比率の棒グラフ表示、ワンクリックでの再集計 ■ 詳細・ダウンロード（.ymme）",
+      "description": "タイムライン上のセリフをキャラクター別に自動で集計し、専用パネルにシンプルなテキストと棒グラフで表示します。 「特定のキャラだけ喋りすぎてないかな？」「動画のテンポ（無音時間）は適切かな？」といった確認がボタン一つで簡単に行えます。 ■ 主な機能 ・キャラクター別の合計発話時間＆比率（％）の自動計算 ・セリフの重なりを考慮��た、正確な「無音時間」の集計 ・比率の棒グラフ表示、ワンクリックでの再集計 ■ 詳細・ダウンロード（.ymme）",
       "author": "jiraiyap",
       "authorUrl": "https://github.com/jiraiyap",
       "repoUrl": "https://github.com/jiraiyap/Speech-Time-Tracker",
@@ -1140,7 +1176,7 @@
     {
       "id": "panko200-vectormelt",
       "name": "VectorMelt",
-      "description": "YMM4で動く映像エフェクトプラグインです。データモッシュの成り損ないです。前フレームのデータを利用して、動きフレームのみ��変更してぐちゃぐちゃに崩します。",
+      "description": "YMM4で動く映像エフェクトプラグインです。データモッシュの成り損ないです。前フレームのデータを利用して、動きフレームのみを変更してぐちゃぐちゃに崩します。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/VectorMelt",
@@ -1269,7 +1305,7 @@
     {
       "id": "lmnrz-ymm4lut",
       "name": "YMM4LUT",
-      "description": "ymm4で.cube形式のLUTを読み込んで使えます",
+      "description": "ymm4で.cube���式のLUTを読み込んで使えます",
       "author": "lmnrz",
       "authorUrl": "https://github.com/lmnrz",
       "repoUrl": "https://github.com/lmnrz/YMM4LUT",
@@ -1431,7 +1467,7 @@
     {
       "id": "panko200-simplescreenmotionblureffect",
       "name": "SimpleScreenMotionBlurEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだ���動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
+      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SimpleScreenMotionBlurEffect",
@@ -1609,24 +1645,6 @@
       "license": ""
     },
     {
-      "id": "taisan11-ymm4-morebouyomiplugin",
-      "name": "YMM4-MoreBOUYOMIPlugin",
-      "description": "説明なし",
-      "author": "taisan11",
-      "authorUrl": "https://github.com/taisan11",
-      "repoUrl": "https://github.com/taisan11/YMM4-MoreBOUYOMIPlugin",
-      "downloadUrl": "https://github.com/taisan11/YMM4-MoreBOUYOMIPlugin/releases/tag/1.0.1",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 2,
-      "createdAt": "2025-01-04T09:32:40Z",
-      "lastUpdated": "2026-07-22T01:02:44Z",
-      "latestVersion": "1.0.1",
-      "license": "MIT"
-    },
-    {
       "id": "panko200-colorramp",
       "name": "ColorRamp",
       "description": "YMM4で動く映像エフェクトプラグインです。画像の成分から、別のパターンの色に変更ができるプラグインです。",
@@ -1687,7 +1705,7 @@
     {
       "id": "haisangames813-movingpreviewplugin",
       "name": "MovingPreviewPlugin",
-      "description": "拡大縮小移動が可能なプレビューウィン���ウを追加するツールプラグインです",
+      "description": "拡大縮小移動が可能なプレビューウィンドウを追加するツールプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/MovingPreviewPlugin",
@@ -1723,7 +1741,7 @@
     {
       "id": "panko200-easy3dpreview",
       "name": "Easy3DPreview",
-      "description": "YMM4で動くツールプラグインです。3D空間をほぼマウス操作のみで簡単に見ることができ、3D空間での位置関係を簡単に把握することができるプラグインです。",
+      "description": "YMM4で動くツールプラグインです。3D空間をほぼマウス操作のみで簡単に見ることができ、3D空間での位置関係を簡単に把握することができ���プラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Easy3DPreview",
@@ -2356,7 +2374,7 @@
     {
       "id": "rindai0123-artifact-ymm4-text-splitter-plugin",
       "name": "ymm4-text-splitter-plugin",
-      "description": "YMM4（ゆっくりMovieMaker4）用テキスト座標自動計算分割プラグイン",
+      "description": "YMM4（ゆ���くりMovieMaker4）用テキスト座標自動計算分割プラグイン",
       "author": "Rindai0123-Artifact",
       "authorUrl": "https://github.com/Rindai0123-Artifact",
       "repoUrl": "https://github.com/Rindai0123-Artifact/ymm4-text-splitter-plugin",
@@ -2664,7 +2682,7 @@
     {
       "id": "panko200-ymm4-ffmosh",
       "name": "YMM4_ffMosh",
-      "description": "YMM4で動くツールプラグインです。ffglitchを使っ��、動画データを破壊して、データモッシュを発生させます。",
+      "description": "YMM4で動くツールプラグインです。ffglitchを使って、動画データを破壊して、データモッシュを発生させます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/YMM4_ffMosh",
@@ -2862,7 +2880,7 @@
     {
       "id": "haisangames813-inputsoundplugin",
       "name": "InputSoundPlugin",
-      "description": "入力検知で効果音を鳴らす\"ネタ\"プラグ��ンです",
+      "description": "入力検知で効果音を鳴らす\"ネタ\"プラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/InputSoundPlugin",
@@ -3413,7 +3431,7 @@
     {
       "id": "benikazura-charactormotion",
       "name": "CharactorMotion",
-      "description": "20種類以上の立ち絵用アニメーションを一つの映像エフェクトにまとめたYMM4用のプラグインです。",
+      "description": "20種類以上の立ち絵用アニメーションを一つの映像エフェク���にまとめたYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CharactorMotion",
@@ -3561,7 +3579,7 @@
     {
       "id": "tetra-te-alphafilleffect",
       "name": "AlphaFillEffect",
-      "description": "画像の薄い部分を塗り���ぶす映像エフェクト",
+      "description": "画像の薄い部分を塗りつぶす映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/AlphaFillEffect",
@@ -3634,7 +3652,7 @@
     {
       "id": "tetra-te-fitrotateeffect",
       "name": "FitRotateEffect",
-      "description": "画像の回転に合わせて画像を拡大する映像エフェクト",
+      "description": "画像の回転に合わせて画像を拡大する映像���フェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/FitRotateEffect",
