@@ -1,6 +1,101 @@
 {
-  "lastUpdated": "2026-11-15T20:14:05.916Z",
+  "lastUpdated": "2026-11-16T23:41:57.113Z",
   "plugins": [
+    {
+      "id": "teamneoutl-madoka-launcher",
+      "name": "Madoka-Launcher",
+      "description": "Launcher for AviUtl (ExEdit0 & 2), YMM4, and NeoUtl.",
+      "author": "TeamNeoUtl",
+      "authorUrl": "https://github.com/TeamNeoUtl",
+      "repoUrl": "https://github.com/TeamNeoUtl/Madoka-Launcher",
+      "downloadUrl": "https://github.com/TeamNeoUtl/Madoka-Launcher/releases/tag/v0.2.7",
+      "category": "other",
+      "tags": [
+        "その他",
+        "aviutl",
+        "aviutl-plugin",
+        "aviutl2",
+        "aviutl2-plugin",
+        "exedit"
+      ],
+      "stars": 0,
+      "createdAt": "2026-10-26T21:56:28Z",
+      "lastUpdated": "2026-11-08T06:47:40Z",
+      "latestVersion": "v0.2.7",
+      "license": "GPL-3.0"
+    },
+    {
+      "id": "sinbetakun-superexcitingcloneeffect",
+      "name": "SuperExcitingCloneEffect",
+      "description": "説明なし",
+      "author": "sinBetaKun",
+      "authorUrl": "https://github.com/sinBetaKun",
+      "repoUrl": "https://github.com/sinBetaKun/SuperExcitingCloneEffect",
+      "downloadUrl": "https://github.com/sinBetaKun/SuperExcitingCloneEffect/releases/tag/v1.2.0",
+      "category": "video-effect",
+      "tags": [
+        "その他"
+      ],
+      "stars": 2,
+      "createdAt": "2025-10-16T13:26:57Z",
+      "lastUpdated": "2026-06-19T08:37:12Z",
+      "latestVersion": "v1.2.0",
+      "license": "MIT"
+    },
+    {
+      "id": "tebasaki-bsg-ymm4-fastpsd",
+      "name": "YMM4-FastPSD",
+      "description": "YMM4標準のPSD立ち絵を高速化・高機能化したもの。PSDToolKitの「*」,「!」,「:flip」のルールに対応したほか、プリセット機能も追加。目パチ、口パク、母音口パク対応。",
+      "author": "tebasaki-bsg",
+      "authorUrl": "https://github.com/tebasaki-bsg",
+      "repoUrl": "https://github.com/tebasaki-bsg/YMM4-FastPSD",
+      "downloadUrl": "https://github.com/tebasaki-bsg/YMM4-FastPSD/releases/tag/v1.0.0",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 0,
+      "createdAt": "2026-11-15T19:12:04Z",
+      "lastUpdated": "2026-11-16T22:53:19Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
+      "id": "tebasaki-bsg-ymm4-fastpsdshape",
+      "name": "YMM4-FastPSDShape",
+      "description": "図形アイテムのPSDファイルを高速化・高機能化したもの。PSDToolKitの「*」,「!」,「;flip」のルールに対応したほか、プリセット機能も追加。",
+      "author": "tebasaki-bsg",
+      "authorUrl": "https://github.com/tebasaki-bsg",
+      "repoUrl": "https://github.com/tebasaki-bsg/YMM4-FastPSDShape",
+      "downloadUrl": "https://github.com/tebasaki-bsg/YMM4-FastPSDShape/releases/tag/v1.0.0",
+      "category": "shape",
+      "tags": [
+        "図形"
+      ],
+      "stars": 0,
+      "createdAt": "2026-10-24T09:58:18Z",
+      "lastUpdated": "2026-11-16T22:53:33Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
+      "id": "cathandnya-ymm4faceassign",
+      "name": "YMM4FaceAssign",
+      "description": "セリフからLLMで立ち絵の表情を割り当てる YMM4 ツールプラグイン",
+      "author": "cathandnya",
+      "authorUrl": "https://github.com/cathandnya",
+      "repoUrl": "https://github.com/cathandnya/YMM4FaceAssign",
+      "downloadUrl": "https://github.com/cathandnya/YMM4FaceAssign/releases/tag/v1.0.0",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 0,
+      "createdAt": "2026-09-27T01:29:38Z",
+      "lastUpdated": "2026-11-16T02:14:05Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
     {
       "id": "taisan11-ymm4-morebouyomiplugin",
       "name": "YMM4-MoreBOUYOMIPlugin",
@@ -67,9 +162,9 @@
       "tags": [
         "ユーティリティ"
       ],
-      "stars": 44,
+      "stars": 45,
       "createdAt": "2023-09-01T11:04:29Z",
-      "lastUpdated": "2026-11-11T12:55:15Z",
+      "lastUpdated": "2026-11-16T12:06:41Z",
       "latestVersion": "",
       "license": ""
     },
@@ -148,7 +243,7 @@
     {
       "id": "haisangames813-templatewithpreviewbyhaisan",
       "name": "TemplateWithPreviewByHAIsan",
-      "description": "プレビュー付きのプリセット(��キスト/エフェクト/テンプレート)と素材ライブラリを利用できるようにするプラグインのハイさんバージョンです",
+      "description": "プレビュー付きのプリセット(テキスト/エフェクト/テンプレート)と素材ライブラリを利用できるようにするプラグインのハイさんバージョンです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/TemplateWithPreviewByHAIsan",
@@ -162,29 +257,6 @@
       "lastUpdated": "2026-11-08T09:17:06Z",
       "latestVersion": "",
       "license": ""
-    },
-    {
-      "id": "teamneoutl-madoka-launcher",
-      "name": "Madoka-Launcher",
-      "description": "Launcher for AviUtl (ExEdit0 & 2), YMM4, and NeoUtl.",
-      "author": "TeamNeoUtl",
-      "authorUrl": "https://github.com/TeamNeoUtl",
-      "repoUrl": "https://github.com/TeamNeoUtl/Madoka-Launcher",
-      "downloadUrl": "https://github.com/TeamNeoUtl/Madoka-Launcher/releases/tag/v0.2.4",
-      "category": "other",
-      "tags": [
-        "その他",
-        "aviutl",
-        "aviutl-plugin",
-        "aviutl2",
-        "aviutl2-plugin",
-        "exedit"
-      ],
-      "stars": 0,
-      "createdAt": "2026-10-26T21:56:28Z",
-      "lastUpdated": "2026-11-08T06:47:40Z",
-      "latestVersion": "v0.2.4",
-      "license": "GPL-3.0"
     },
     {
       "id": "manju-summoner-yukkurimoviemaker-plugin-community",
@@ -318,7 +390,7 @@
     {
       "id": "dolphin-kun-encodenavi",
       "name": "EncodeNavi",
-      "description": "YMM4でタイムラインの素材を調べて目的に合った動画出力の設定を提案するツールプ���グインです。",
+      "description": "YMM4でタイムラインの素材を調べて目的に合った動画出力の設定を提案するツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/EncodeNavi",
@@ -517,7 +589,7 @@
     {
       "id": "haisangames813-texteditinginpreviewplugin",
       "name": "TextEditingInPreviewPlugin",
-      "description": "プレビュー上の��キストをダブルクリックすることでテキスト編集モードに入れるようにするプラグインです",
+      "description": "プレビュー上のテキストをダブルクリックすることでテキスト編集モードに入れるようにするプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/TextEditingInPreviewPlugin",
@@ -553,7 +625,7 @@
     {
       "id": "jiraiyap-speech-time-tracker",
       "name": "Speech-Time-Tracker",
-      "description": "タイムライン上のセリフをキャラクター別に自動で集計し、専用パネルにシンプルなテキストと棒グラフで表示します。 「特定のキャラだけ喋りすぎてないかな？」「動画のテンポ（無音時間）は適切かな？」といった確認がボタン一つで簡単に行えます。 ■ 主な機能 ・キャラクター別の合計発話時間＆比率（％）の自動計算 ・セリフの重なりを考慮��た、正確な「無音時間」の集計 ・比率の棒グラフ表示、ワンクリックでの再集計 ■ 詳細・ダウンロード（.ymme）",
+      "description": "タイムライン上のセリフをキャラクター別に自動で集計し、専用パネルにシンプルなテキストと棒グラフで表示します。 「特定のキャラだけ喋りすぎてないかな？」「動画のテンポ（無音時間）は適切かな？」といった確認がボタン一つで簡単に行えます。 ■ 主な機能 ・キャラクター別の合計発話時間＆比率（％）の自動計算 ・セリフの重なりを考慮した、正確な「無音時間」の集計 ・比率の棒グラフ表示、ワンクリックでの再集計 ■ 詳細・ダウンロード（.ymme）",
       "author": "jiraiyap",
       "authorUrl": "https://github.com/jiraiyap",
       "repoUrl": "https://github.com/jiraiyap/Speech-Time-Tracker",
@@ -611,7 +683,7 @@
     {
       "id": "leftcontroller0518-ymm4plugin-template",
       "name": "YMM4plugin_template",
-      "description": "左コントローラー式汎用YMM4プラグインテンプレート",
+      "description": "左コントローラー式汎用YMM4プ��グインテンプレート",
       "author": "leftcontroller0518",
       "authorUrl": "https://github.com/leftcontroller0518",
       "repoUrl": "https://github.com/leftcontroller0518/YMM4plugin_template",
@@ -647,7 +719,7 @@
     {
       "id": "ar-ca-na-ymm4-effectiveposition",
       "name": "YMM4-EffectivePosition",
-      "description": "YMM4 のアイテム編集パネルに、グループ制御込みの実質座標を表示するプラグイン",
+      "description": "YMM4 のアイテ��編集パネルに、グループ制御込みの実質座標を表示するプラグイン",
       "author": "ar-ca-na",
       "authorUrl": "https://github.com/ar-ca-na",
       "repoUrl": "https://github.com/ar-ca-na/YMM4-EffectivePosition",
@@ -1068,7 +1140,7 @@
     {
       "id": "benikazura-bpmsync",
       "name": "BpmSync",
-      "description": "リズムに合わせてエフェクトを制御する映像エフェクトプラグインです。",
+      "description": "リズムに合わせてエフェクトを制御する映像エフェクトプラグイン��す。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/BpmSync",
@@ -1305,7 +1377,7 @@
     {
       "id": "lmnrz-ymm4lut",
       "name": "YMM4LUT",
-      "description": "ymm4で.cube���式のLUTを読み込んで使えます",
+      "description": "ymm4で.cube形式のLUTを読み込んで使えます",
       "author": "lmnrz",
       "authorUrl": "https://github.com/lmnrz",
       "repoUrl": "https://github.com/lmnrz/YMM4LUT",
@@ -1575,7 +1647,7 @@
     {
       "id": "panko200-pseudo3ddisplacementmap",
       "name": "Pseudo3DDisplacementMap",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用します。入力された深度マップによって、3D的に盛りあげます。",
+      "description": "YMM4で動く映像エフェクトプラグイン���す。カメラ値を使用します。入力された深度マップによって、3D的に盛りあげます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Pseudo3DDisplacementMap",
@@ -1629,7 +1701,7 @@
     {
       "id": "haisangames813-addshapeeffect",
       "name": "AddShapeEffect",
-      "description": "図形アイテムをエフェクトとして追加するプラグイン",
+      "description": "図形アイテムをエフェクトとして追加する��ラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/AddShapeEffect",
@@ -1741,7 +1813,7 @@
     {
       "id": "panko200-easy3dpreview",
       "name": "Easy3DPreview",
-      "description": "YMM4で動くツールプラグインです。3D空間をほぼマウス操作のみで簡単に見ることができ、3D空間での位置関係を簡単に把握することができ���プラグインです。",
+      "description": "YMM4で動くツールプラグインです。3D空間をほぼマウス操作のみで簡単に見ることができ、3D空間での位置関係を簡単に把握することができるプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Easy3DPreview",
@@ -1975,24 +2047,6 @@
       "license": "MIT"
     },
     {
-      "id": "sinbetakun-superexcitingcloneeffect",
-      "name": "SuperExcitingCloneEffect",
-      "description": "説明なし",
-      "author": "sinBetaKun",
-      "authorUrl": "https://github.com/sinBetaKun",
-      "repoUrl": "https://github.com/sinBetaKun/SuperExcitingCloneEffect",
-      "downloadUrl": "https://github.com/sinBetaKun/SuperExcitingCloneEffect/releases/tag/v1.1.1",
-      "category": "video-effect",
-      "tags": [
-        "その他"
-      ],
-      "stars": 2,
-      "createdAt": "2025-10-16T13:26:57Z",
-      "lastUpdated": "2026-06-19T08:37:12Z",
-      "latestVersion": "v1.1.1",
-      "license": "MIT"
-    },
-    {
       "id": "panko200-glowplus",
       "name": "Glowplus",
       "description": "YMM4で動く映像エフェクトプラグインです。逆二乗型の発光がされ、より現実的で綺麗な発光ができます。",
@@ -2031,7 +2085,7 @@
     {
       "id": "panko200-iyahon-texturemap",
       "name": "Iyahon_TextureMap",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、ノーマルマップ、深度マップなどをアイテムにかけて、3D的な描画ができるようになるプラグインです。",
+      "description": "YMM4で動く映��エフェクトプラグインです。カメラ値を使用して、ノーマルマップ、深度マップなどをアイテムにかけて、3D的な描画ができるようになるプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_TextureMap",
@@ -2085,7 +2139,7 @@
     {
       "id": "panko200-previewenhancer",
       "name": "PreviewEnhancer",
-      "description": "YMM4で動く既存機能に機能追加するプラグインです。プレビューの解像度を変更することにより、描画そのものや、計算の処理を削ることができます。が、その分、まともに描画されなくなり、かつそこまで軽量化にもならないので、あんまり使い道はありません。",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。プレビューの解像度を変更することにより、描画そのものや、計算の処理を削ることができます。が、そ��分、まともに描画されなくなり、かつそこまで軽量化にもならないので、あんまり使い道はありません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PreviewEnhancer",
@@ -2139,7 +2193,7 @@
     {
       "id": "panko200-projectionsettings",
       "name": "ProjectionSettings",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、カメラの焦点距離の変更や、平行投影への変更ができるようになります。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、カメラの焦点距離���変更や、平行投影への変更ができるようになります。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/ProjectionSettings",
@@ -2374,7 +2428,7 @@
     {
       "id": "rindai0123-artifact-ymm4-text-splitter-plugin",
       "name": "ymm4-text-splitter-plugin",
-      "description": "YMM4（ゆ���くりMovieMaker4）用テキスト座標自動計算分割プラグイン",
+      "description": "YMM4（ゆっくりMovieMaker4）用テキスト座標自動計算分割プラグイン",
       "author": "Rindai0123-Artifact",
       "authorUrl": "https://github.com/Rindai0123-Artifact",
       "repoUrl": "https://github.com/Rindai0123-Artifact/ymm4-text-splitter-plugin",
@@ -2952,7 +3006,7 @@
     {
       "id": "panko200-lightweightoutline",
       "name": "Lightweightoutline",
-      "description": "YMM4で動く映像エフェクトプラグインです。軽量化された縁取り。でしたが、現在はYMM4公式の縁取りが軽量化されており、このプラグインを使う理由はなくなりました。",
+      "description": "YMM4で動く映像エフェクトプラグインです。軽量化された縁取り。でしたが、現在はYMM4公���の縁取りが軽量化されており、このプラグインを使う理由はなくなりました。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Lightweightoutline",
@@ -3431,7 +3485,7 @@
     {
       "id": "benikazura-charactormotion",
       "name": "CharactorMotion",
-      "description": "20種類以上の立ち絵用アニメーションを一つの映像エフェク���にまとめたYMM4用のプラグインです。",
+      "description": "20種類以上の立ち絵用アニメーションを一つの映像エフェクトにまとめたYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/CharactorMotion",
@@ -3597,7 +3651,7 @@
     {
       "id": "dolphin-kun-shuffletext",
       "name": "ShuffleText",
-      "description": "シャッフルテキストプラグイン",
+      "description": "シャッフルテキスト��ラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ShuffleText",
@@ -3652,7 +3706,7 @@
     {
       "id": "tetra-te-fitrotateeffect",
       "name": "FitRotateEffect",
-      "description": "画像の回転に合わせて画像を拡大する映像���フェクト",
+      "description": "画像の回転に合わせて画像を拡大する映像エフェクト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/FitRotateEffect",
