@@ -1,6 +1,24 @@
 {
-  "lastUpdated": "2026-11-16T23:41:57.113Z",
+  "lastUpdated": "2026-11-17T22:50:07.239Z",
   "plugins": [
+    {
+      "id": "tebasaki-bsg-ymm4puppetkai",
+      "name": "YMM4PuppetKai",
+      "description": "パペット変形に切れ込みを入れる機能を加えたものです。処理も変更し、同じ処理時間でより高精度になっています。",
+      "author": "tebasaki-bsg",
+      "authorUrl": "https://github.com/tebasaki-bsg",
+      "repoUrl": "https://github.com/tebasaki-bsg/YMM4PuppetKai",
+      "downloadUrl": "https://github.com/tebasaki-bsg/YMM4PuppetKai/releases",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "createdAt": "2026-11-17T19:14:13Z",
+      "lastUpdated": "2026-11-17T19:15:45Z",
+      "latestVersion": "",
+      "license": ""
+    },
     {
       "id": "teamneoutl-madoka-launcher",
       "name": "Madoka-Launcher",
@@ -135,7 +153,7 @@
     {
       "id": "darui3018823-ymm-source-control",
       "name": "YMM-Source-Control",
-      "description": "YukkuriMovieMaker 4向けのGit Source Controlプラグイン",
+      "description": "YukkuriMovieMaker 4向け��Git Source Controlプラグイン",
       "author": "darui3018823",
       "authorUrl": "https://github.com/darui3018823",
       "repoUrl": "https://github.com/darui3018823/YMM-Source-Control",
@@ -200,7 +218,7 @@
       ],
       "stars": 4,
       "createdAt": "2026-04-27T11:03:31Z",
-      "lastUpdated": "2026-11-09T01:51:38Z",
+      "lastUpdated": "2026-11-17T12:45:37Z",
       "latestVersion": "v2.0.0",
       "license": "MIT"
     },
@@ -641,13 +659,13 @@
       "license": ""
     },
     {
-      "id": "ibuki-hum4-ymm4-media-pool",
+      "id": "ya-hari-ymm4-media-pool",
       "name": "ymm4-media-pool",
       "description": "ゆっくりMovieMaker4（YMM4）用のメディアプール（素材ブラウザ）プラグイン",
-      "author": "ibuki-hum4",
-      "authorUrl": "https://github.com/ibuki-hum4",
-      "repoUrl": "https://github.com/ibuki-hum4/ymm4-media-pool",
-      "downloadUrl": "https://github.com/ibuki-hum4/ymm4-media-pool/releases/tag/v1.0.0",
+      "author": "Ya-hari",
+      "authorUrl": "https://github.com/Ya-hari",
+      "repoUrl": "https://github.com/Ya-hari/ymm4-media-pool",
+      "downloadUrl": "https://github.com/Ya-hari/ymm4-media-pool/releases/tag/v1.0.0",
       "category": "utility",
       "tags": [
         "ユーティリティ"
@@ -683,7 +701,7 @@
     {
       "id": "leftcontroller0518-ymm4plugin-template",
       "name": "YMM4plugin_template",
-      "description": "左コントローラー式汎用YMM4プ��グインテンプレート",
+      "description": "左コントローラー式汎用YMM4プラグインテンプレート",
       "author": "leftcontroller0518",
       "authorUrl": "https://github.com/leftcontroller0518",
       "repoUrl": "https://github.com/leftcontroller0518/YMM4plugin_template",
@@ -719,7 +737,7 @@
     {
       "id": "ar-ca-na-ymm4-effectiveposition",
       "name": "YMM4-EffectivePosition",
-      "description": "YMM4 のアイテ��編集パネルに、グループ制御込みの実質座標を表示するプラグイン",
+      "description": "YMM4 のアイテム編集パネルに、グループ制御込みの実質座標を表示するプラグイン",
       "author": "ar-ca-na",
       "authorUrl": "https://github.com/ar-ca-na",
       "repoUrl": "https://github.com/ar-ca-na/YMM4-EffectivePosition",
@@ -939,7 +957,7 @@
     {
       "id": "hakhatz2486-ymm4-subtitle-exporter",
       "name": "ymm4-subtitle-exporter",
-      "description": "YMM4プラグイン。動画のエンコード不要で、字幕ファイルを複数形式とキャラ名有無を選択して出力します。",
+      "description": "YMM4プラグイン。動画のエンコード不要で、字幕ファイルを複数形式とキャラ名��無を選択して出力します。",
       "author": "hakhatz2486",
       "authorUrl": "https://github.com/hakhatz2486",
       "repoUrl": "https://github.com/hakhatz2486/ymm4-subtitle-exporter",
@@ -1047,7 +1065,7 @@
     {
       "id": "panko200-sam3cutoutplugin",
       "name": "SAM3CutoutPlugin",
-      "description": "YMM4で動くツールプラグイン、映像エフェクトプラグインです。SAM3というモデルを用いて、画像・動画の物体を切り抜くことができます",
+      "description": "YMM4で動くツールプラグイン、映像エフェクトプラグイ���です。SAM3というモデルを用いて、画像・動画の物体を切り抜くことができます",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SAM3CutoutPlugin",
@@ -1140,7 +1158,7 @@
     {
       "id": "benikazura-bpmsync",
       "name": "BpmSync",
-      "description": "リズムに合わせてエフェクトを制御する映像エフェクトプラグイン��す。",
+      "description": "リズムに合わせてエフェクトを制御する映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/BpmSync",
@@ -1539,7 +1557,7 @@
     {
       "id": "panko200-simplescreenmotionblureffect",
       "name": "SimpleScreenMotionBlurEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
+      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使っ��、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SimpleScreenMotionBlurEffect",
@@ -1611,7 +1629,7 @@
     {
       "id": "panko200-iyahon-shapecore",
       "name": "Iyahon_ShapeCore",
-      "description": "YMM$で動く映像エフェクトプラグインです。入力されたラスター画像を、無理やりベクター化して、そのベクター化されたデータに対して、処理を追加できます。コア以外のプラグインを入れなければ、意味を成しません。",
+      "description": "YMM$で動く映像エフェクトプラグインです。入力されたラスター画像を、無理やりベク���ー化して、そのベクター化されたデータに対して、処理を追加できます。コア以外のプラグインを入れなければ、意味を成しません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_ShapeCore",
@@ -1647,7 +1665,7 @@
     {
       "id": "panko200-pseudo3ddisplacementmap",
       "name": "Pseudo3DDisplacementMap",
-      "description": "YMM4で動く映像エフェクトプラグイン���す。カメラ値を使用します。入力された深度マップによって、3D的に盛りあげます。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用します。入力された深度マップによって、3D的に盛りあげます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Pseudo3DDisplacementMap",
@@ -1701,7 +1719,7 @@
     {
       "id": "haisangames813-addshapeeffect",
       "name": "AddShapeEffect",
-      "description": "図形アイテムをエフェクトとして追加する��ラグイン",
+      "description": "図形アイテムをエフェクトとして追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/AddShapeEffect",
@@ -2085,7 +2103,7 @@
     {
       "id": "panko200-iyahon-texturemap",
       "name": "Iyahon_TextureMap",
-      "description": "YMM4で動く映��エフェクトプラグインです。カメラ値を使用して、ノーマルマップ、深度マップなどをアイテムにかけて、3D的な描画ができるようになるプラグインです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、ノーマルマップ、深度マップなどをアイテムにかけて、3D的な描画ができるようになるプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_TextureMap",
@@ -2139,7 +2157,7 @@
     {
       "id": "panko200-previewenhancer",
       "name": "PreviewEnhancer",
-      "description": "YMM4で動く既存機能に機能追加するプラグインです。プレビューの解像度を変更することにより、描画そのものや、計算の処理を削ることができます。が、そ��分、まともに描画されなくなり、かつそこまで軽量化にもならないので、あんまり使い道はありません。",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。プレビューの解像度を変更することにより���描画そのものや、計算の処理を削ることができます。が、その分、まともに描画されなくなり、かつそこまで軽量化にもならないので、あんまり使い道はありません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PreviewEnhancer",
@@ -2193,7 +2211,7 @@
     {
       "id": "panko200-projectionsettings",
       "name": "ProjectionSettings",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、カメラの焦点距離���変更や、平行投影への変更ができるようになります。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、カメラの焦点距離の変更や、平行投影への変更ができるようになります。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/ProjectionSettings",
@@ -2483,7 +2501,7 @@
     {
       "id": "panko200-timelineart",
       "name": "TimelineArt",
-      "description": "YMM$で動くツールプラグインです。エイプリルフールプラグインです。ツールを追加し、画像を入力することで、タイムライン上にその画像を表現することができるようになります。",
+      "description": "YMM$で動くツールプラグインです。エイプリルフールプラグイン��す。ツールを追加し、画像を入力することで、タイムライン上にその画像を表現することができるようになります。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/TimelineArt",
@@ -2501,7 +2519,7 @@
     {
       "id": "panko200-ymm4-ntsc-rs",
       "name": "YMM4_ntsc-rs",
-      "description": "YMM4で動く映像エフェクトプラグインです。ntsc-rsを利用して、VHS風の加工をすることができるプラグインです。",
+      "description": "YMM4で動く映像エフェクトプラグイ��です。ntsc-rsを利用して、VHS風の加工をすることができるプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/YMM4_ntsc-rs",
@@ -2556,7 +2574,7 @@
     {
       "id": "modurili-imageoverlay",
       "name": "ImageOverlay",
-      "description": "映像エフェクトで画像・動画を挿入することができるYMM4プラグイン",
+      "description": "映像エフェクトで画像・動画を挿入��ることができるYMM4プラグイン",
       "author": "modurili",
       "authorUrl": "https://github.com/modurili",
       "repoUrl": "https://github.com/modurili/ImageOverlay",
@@ -2574,7 +2592,7 @@
     {
       "id": "panko200-ymm4simplegraphingfunctions",
       "name": "YMM4SimpleGraphingfunctions",
-      "description": "YMM4で動く図形プラグインです。関数を入力すると、グラフが描画されます。だいぶ無理やりですが、変数にも対応しています。",
+      "description": "YMM4で動く図形プラグインです。関数を入力すると、��ラフが描画されます。だいぶ無理やりですが、変数にも対応しています。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/YMM4SimpleGraphingfunctions",
@@ -3006,7 +3024,7 @@
     {
       "id": "panko200-lightweightoutline",
       "name": "Lightweightoutline",
-      "description": "YMM4で動く映像エフェクトプラグインです。軽量化された縁取り。でしたが、現在はYMM4公���の縁取りが軽量化されており、このプラグインを使う理由はなくなりました。",
+      "description": "YMM4で動く映像エフェクトプラグインです。軽量化された縁取り。でしたが、現在はYMM4公式の縁取りが軽量化されており、このプラグインを使う理由はなくなりました。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Lightweightoutline",
@@ -3633,14 +3651,14 @@
     {
       "id": "tetra-te-alphafilleffect",
       "name": "AlphaFillEffect",
-      "description": "画像の薄い部分を塗りつぶす映像エフェクト",
+      "description": "画像の薄い部分を塗りつぶす映像エフェ��ト",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/AlphaFillEffect",
       "downloadUrl": "https://github.com/tetra-te/AlphaFillEffect/releases/tag/v1.1.0",
-      "category": "video-effect",
+      "category": "other",
       "tags": [
-        "映像エフェクト"
+        "その他"
       ],
       "stars": 4,
       "createdAt": "2025-06-10T13:16:11Z",
@@ -3651,7 +3669,7 @@
     {
       "id": "dolphin-kun-shuffletext",
       "name": "ShuffleText",
-      "description": "シャッフルテキスト��ラグイン",
+      "description": "シャッフルテキストプラグイン",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/ShuffleText",
