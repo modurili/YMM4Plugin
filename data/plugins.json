@@ -1,6 +1,65 @@
 {
-  "lastUpdated": "2026-11-19T22:37:47.816Z",
+  "lastUpdated": "2026-11-20T22:10:31.258Z",
   "plugins": [
+    {
+      "id": "dolphin-kun-ymm43d",
+      "name": "YMM43D",
+      "description": "説明なし",
+      "author": "Dolphin-kun",
+      "authorUrl": "https://github.com/Dolphin-kun",
+      "repoUrl": "https://github.com/Dolphin-kun/YMM43D",
+      "downloadUrl": "https://github.com/Dolphin-kun/YMM43D/releases/tag/v3.1.1",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 5,
+      "createdAt": "2026-04-27T11:03:31Z",
+      "lastUpdated": "2026-11-20T11:19:41Z",
+      "latestVersion": "v3.1.1",
+      "license": "MIT"
+    },
+    {
+      "id": "teamneoutl-madoka-launcher",
+      "name": "Madoka-Launcher",
+      "description": "Launcher for AviUtl (ExEdit0 & 2), YMM4, and NeoUtl.",
+      "author": "TeamNeoUtl",
+      "authorUrl": "https://github.com/TeamNeoUtl",
+      "repoUrl": "https://github.com/TeamNeoUtl/Madoka-Launcher",
+      "downloadUrl": "https://github.com/TeamNeoUtl/Madoka-Launcher/releases/tag/v0.5.5",
+      "category": "other",
+      "tags": [
+        "その他",
+        "aviutl",
+        "aviutl-plugin",
+        "aviutl2",
+        "aviutl2-plugin",
+        "exedit"
+      ],
+      "stars": 0,
+      "createdAt": "2026-10-26T21:56:28Z",
+      "lastUpdated": "2026-11-08T06:47:40Z",
+      "latestVersion": "v0.5.5",
+      "license": "GPL-3.0"
+    },
+    {
+      "id": "leftcontroller0518-searchable",
+      "name": "Searchable",
+      "description": "高度な検索を使用できるYMM4プラグイン",
+      "author": "leftcontroller0518",
+      "authorUrl": "https://github.com/leftcontroller0518",
+      "repoUrl": "https://github.com/leftcontroller0518/Searchable",
+      "downloadUrl": "https://github.com/leftcontroller0518/Searchable/releases/tag/v1.0.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 1,
+      "createdAt": "2026-11-19T09:31:54Z",
+      "lastUpdated": "2026-11-20T04:08:13Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
     {
       "id": "sola5866-ymm4playbacktimingplugin",
       "name": "YMM4PlaybackTimingPlugin",
@@ -31,9 +90,9 @@
       "tags": [
         "ユーティリティ"
       ],
-      "stars": 0,
+      "stars": 1,
       "createdAt": "2026-11-15T19:12:04Z",
-      "lastUpdated": "2026-11-16T22:53:19Z",
+      "lastUpdated": "2026-11-20T04:07:55Z",
       "latestVersion": "v1.1.1",
       "license": "MIT"
     },
@@ -54,65 +113,6 @@
       "lastUpdated": "2026-07-11T12:48:58Z",
       "latestVersion": "v1.0.1",
       "license": ""
-    },
-    {
-      "id": "leftcontroller0518-searchable",
-      "name": "Searchable",
-      "description": "説明なし",
-      "author": "leftcontroller0518",
-      "authorUrl": "https://github.com/leftcontroller0518",
-      "repoUrl": "https://github.com/leftcontroller0518/Searchable",
-      "downloadUrl": "https://github.com/leftcontroller0518/Searchable/releases/tag/v1.0.0",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 0,
-      "createdAt": "2026-11-19T09:31:54Z",
-      "lastUpdated": "2026-11-19T09:33:32Z",
-      "latestVersion": "v1.0.0",
-      "license": "MIT"
-    },
-    {
-      "id": "dolphin-kun-ymm43d",
-      "name": "YMM43D",
-      "description": "説明なし",
-      "author": "Dolphin-kun",
-      "authorUrl": "https://github.com/Dolphin-kun",
-      "repoUrl": "https://github.com/Dolphin-kun/YMM43D",
-      "downloadUrl": "https://github.com/Dolphin-kun/YMM43D/releases/tag/v3.0.0",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 4,
-      "createdAt": "2026-04-27T11:03:31Z",
-      "lastUpdated": "2026-11-17T12:45:37Z",
-      "latestVersion": "v3.0.0",
-      "license": "MIT"
-    },
-    {
-      "id": "teamneoutl-madoka-launcher",
-      "name": "Madoka-Launcher",
-      "description": "Launcher for AviUtl (ExEdit0 & 2), YMM4, and NeoUtl.",
-      "author": "TeamNeoUtl",
-      "authorUrl": "https://github.com/TeamNeoUtl",
-      "repoUrl": "https://github.com/TeamNeoUtl/Madoka-Launcher",
-      "downloadUrl": "https://github.com/TeamNeoUtl/Madoka-Launcher/releases/tag/v0.5.0",
-      "category": "other",
-      "tags": [
-        "その他",
-        "aviutl",
-        "aviutl-plugin",
-        "aviutl2",
-        "aviutl2-plugin",
-        "exedit"
-      ],
-      "stars": 0,
-      "createdAt": "2026-10-26T21:56:28Z",
-      "lastUpdated": "2026-11-08T06:47:40Z",
-      "latestVersion": "v0.5.0",
-      "license": "GPL-3.0"
     },
     {
       "id": "tebasaki-bsg-ymm4puppetkai",
@@ -516,7 +516,7 @@
     {
       "id": "haisangames813-extendedscreensplit",
       "name": "ExtendedScreenSplit",
-      "description": "「グループ制御��のアイテムで画面分割」エフェクトを独自に改造した「グループ制御中のアイテムで画面分割（拡張）」を追加するプラグインです",
+      "description": "「グループ制御中のアイテムで画面分割」エフェクトを独自に改造した「グループ制御中のアイテムで画面分割（拡張）」を追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/ExtendedScreenSplit",
@@ -733,7 +733,7 @@
     {
       "id": "disnana-ymm4-amf-plugin",
       "name": "YMM4_AMF_Plugin",
-      "description": "YMM4向けAMD Radeon AMF H.264/HEVCハードウェア動画出力プラグイン",
+      "description": "YMM4向けAMD Radeon AMF H.264/HEVCハード���ェア動画出力プラグイン",
       "author": "disnana",
       "authorUrl": "https://github.com/disnana",
       "repoUrl": "https://github.com/disnana/YMM4_AMF_Plugin",
@@ -1065,7 +1065,7 @@
     {
       "id": "panko200-pathfolloweffect",
       "name": "PathFollowEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。パスに沿ってテキストを配置したり、パスに沿ってモーション(X,Y)をさせたりできます。",
+      "description": "YMM4で動く映像エフェクトプラグインです。パスに沿ってテキストを配置したり、パスに沿ってモ��ション(X,Y)をさせたりできます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PathFollowEffect",
@@ -1320,7 +1320,7 @@
     {
       "id": "panko200-vectormelt",
       "name": "VectorMelt",
-      "description": "YMM4で動く映像エフェクトプラグインです。データモッシュの成り損ないです。前フレームのデータを利用して、動��フレームのみを変更してぐちゃぐちゃに崩します。",
+      "description": "YMM4で動く映像エフェクトプラグインです。データモッシュの成り損ないです。前フレームのデータを利用して、動きフレームのみを変更してぐちゃぐちゃに崩します。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/VectorMelt",
@@ -1611,7 +1611,7 @@
     {
       "id": "panko200-simplescreenmotionblureffect",
       "name": "SimpleScreenMotionBlurEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピ���セルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
+      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SimpleScreenMotionBlurEffect",
@@ -1885,7 +1885,7 @@
     {
       "id": "haisangames813-instantloopaudioeffect",
       "name": "InstantLoopAudioEffect",
-      "description": "音声の先頭部分をループできる音声エフェクト��す",
+      "description": "音声の先頭部分をループできる音声エフェクトで��",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/InstantLoopAudioEffect",
@@ -2338,7 +2338,7 @@
     {
       "id": "panko200-pseudodepthoffield",
       "name": "PseudoDepthofField",
-      "description": "YMM4で動く映像エフェクトプラグインです。画像から、AIを使用して深度を推定し、その深度マップを使って、ぼかしをかける範囲を指定し、被写界深度的な効果を生み出せるプラグインです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。画像から、AIを使用して深度を推定し、その深度マップを使って、ぼかしをかける範囲を指定���、被写界深度的な効果を生み出せるプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PseudoDepthofField",
@@ -2518,7 +2518,7 @@
     {
       "id": "bluemistel-katasumicapture",
       "name": "KatasumiCapture",
-      "description": "デスクトップ上の任意の範囲を矩形選択し、クリップボード���コピーするか、タイムラインへ画像として貼り付けるYMM4プラグイン",
+      "description": "デスクトップ上の任意の範囲を矩形選択し、クリップボードへコピーするか、タイムラインへ画像として貼り付けるYMM4プラグイン",
       "author": "bluemistel",
       "authorUrl": "https://github.com/bluemistel",
       "repoUrl": "https://github.com/bluemistel/KatasumiCapture",
@@ -2537,7 +2537,7 @@
     {
       "id": "panko200-timelineart",
       "name": "TimelineArt",
-      "description": "YMM$で動くツールプラグインです。エイプリルフールプラグインです。ツールを追加し、画像を入力することで、タイムライン上にその画像を表現することができるようになります。",
+      "description": "YMM$で動くツールプラグインです。エイプリルフールプラグインです。ツールを追加し、画像を入力するこ��で、タイムライン上にその画像を表現することができるようになります。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/TimelineArt",
@@ -2555,7 +2555,7 @@
     {
       "id": "panko200-ymm4-ntsc-rs",
       "name": "YMM4_ntsc-rs",
-      "description": "YMM4で動く映像エフェクトプラグインです。ntsc-rsを利用して、VHS風の加工をすることができるプラグインです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。ntsc-rsを利用して、VHS風の加工をす���ことができるプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/YMM4_ntsc-rs",
@@ -2700,7 +2700,7 @@
     {
       "id": "haisangames813-pluginlistplugin",
       "name": "PluginListPlugin",
-      "description": "導入しているプラグインの管理ができるツールプラグインです",
+      "description": "導入しているプラグインの管理ができるツー���プラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/PluginListPlugin",
@@ -3278,7 +3278,7 @@
     {
       "id": "benikazura-videochecker",
       "name": "VideoChecker",
-      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることができるYMM4用のプラグインです。",
+      "description": "映像アイテム(図形アイテムや動画アイテム等)��内部数値を調べることができるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/VideoChecker",
@@ -3647,7 +3647,7 @@
     {
       "id": "inuinu2022-sampleymmegetprojinfo",
       "name": "SampleYmmeGetProjInfo",
-      "description": "プラグイ��からYMM4の現在のプロジェクト情報を取得するためのサンプル",
+      "description": "プラグイン��らYMM4の現在のプロジェクト情報を取得するためのサンプル",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/SampleYmmeGetProjInfo",
