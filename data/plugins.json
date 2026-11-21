@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-11-20T22:10:31.258Z",
+  "lastUpdated": "2026-11-21T20:49:35.160Z",
   "plugins": [
     {
-      "id": "dolphin-kun-ymm43d",
-      "name": "YMM43D",
-      "description": "説明なし",
+      "id": "dolphin-kun-multiuseredit",
+      "name": "MultiUserEdit",
+      "description": "複数人が同じプ���ジェクトを同時に編集できるようにするプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
-      "repoUrl": "https://github.com/Dolphin-kun/YMM43D",
-      "downloadUrl": "https://github.com/Dolphin-kun/YMM43D/releases/tag/v3.1.1",
+      "repoUrl": "https://github.com/Dolphin-kun/MultiUserEdit",
+      "downloadUrl": "https://github.com/Dolphin-kun/MultiUserEdit/releases/tag/v1.2.5",
       "category": "other",
       "tags": [
         "その他"
       ],
-      "stars": 5,
-      "createdAt": "2026-04-27T11:03:31Z",
-      "lastUpdated": "2026-11-20T11:19:41Z",
-      "latestVersion": "v3.1.1",
+      "stars": 12,
+      "createdAt": "2026-09-13T04:54:33Z",
+      "lastUpdated": "2026-11-10T07:26:31Z",
+      "latestVersion": "v1.2.5",
       "license": "MIT"
     },
     {
@@ -41,6 +41,24 @@
       "lastUpdated": "2026-11-08T06:47:40Z",
       "latestVersion": "v0.5.5",
       "license": "GPL-3.0"
+    },
+    {
+      "id": "dolphin-kun-ymm43d",
+      "name": "YMM43D",
+      "description": "説明なし",
+      "author": "Dolphin-kun",
+      "authorUrl": "https://github.com/Dolphin-kun",
+      "repoUrl": "https://github.com/Dolphin-kun/YMM43D",
+      "downloadUrl": "https://github.com/Dolphin-kun/YMM43D/releases/tag/v3.1.1",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 5,
+      "createdAt": "2026-04-27T11:03:31Z",
+      "lastUpdated": "2026-11-20T11:19:41Z",
+      "latestVersion": "v3.1.1",
+      "license": "MIT"
     },
     {
       "id": "leftcontroller0518-searchable",
@@ -277,24 +295,6 @@
       "license": "LGPL-3.0"
     },
     {
-      "id": "dolphin-kun-multiuseredit",
-      "name": "MultiUserEdit",
-      "description": "複数人が同じプロジェクトを同時に編集できるようにするプラグインです。",
-      "author": "Dolphin-kun",
-      "authorUrl": "https://github.com/Dolphin-kun",
-      "repoUrl": "https://github.com/Dolphin-kun/MultiUserEdit",
-      "downloadUrl": "https://github.com/Dolphin-kun/MultiUserEdit/releases/tag/v1.2.4",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 12,
-      "createdAt": "2026-09-13T04:54:33Z",
-      "lastUpdated": "2026-11-10T07:26:31Z",
-      "latestVersion": "v1.2.4",
-      "license": "MIT"
-    },
-    {
       "id": "game-obera-ymm4-credit-plugin",
       "name": "ymm4-credit-plugin",
       "description": "ゆっくりMovieMaker4 で使った素材のクレジットを ymmp から自動で書き出すプラグイン",
@@ -362,7 +362,7 @@
       ],
       "stars": 14,
       "createdAt": "2026-08-31T09:54:02Z",
-      "lastUpdated": "2026-11-05T14:19:31Z",
+      "lastUpdated": "2026-11-21T10:21:22Z",
       "latestVersion": "v1.0.2",
       "license": "MIT"
     },
@@ -733,7 +733,7 @@
     {
       "id": "disnana-ymm4-amf-plugin",
       "name": "YMM4_AMF_Plugin",
-      "description": "YMM4向けAMD Radeon AMF H.264/HEVCハード���ェア動画出力プラグイン",
+      "description": "YMM4向けAMD Radeon AMF H.264/HEVCハードウェア動画出力プラグイン",
       "author": "disnana",
       "authorUrl": "https://github.com/disnana",
       "repoUrl": "https://github.com/disnana/YMM4_AMF_Plugin",
@@ -1047,7 +1047,7 @@
     {
       "id": "wea017net-ymm4-sequencetiffplugin",
       "name": "YMM4-SequenceTIFFPlugin",
-      "description": "YMM4で連番TIFF画像及びマルチページTIFF画像を扱えるようにするプラグイン",
+      "description": "YMM4��連番TIFF画像及びマルチページTIFF画像を扱えるようにするプラグイン",
       "author": "Wea017net",
       "authorUrl": "https://github.com/Wea017net",
       "repoUrl": "https://github.com/Wea017net/YMM4-SequenceTIFFPlugin",
@@ -1065,7 +1065,7 @@
     {
       "id": "panko200-pathfolloweffect",
       "name": "PathFollowEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。パスに沿ってテキストを配置したり、パスに沿ってモ��ション(X,Y)をさせたりできます。",
+      "description": "YMM4で動く映像エフェクトプラグインです。パスに沿ってテキストを配置したり、パスに沿ってモーション(X,Y)をさせたりできます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PathFollowEffect",
@@ -1367,9 +1367,9 @@
         "localisation",
         "translation"
       ],
-      "stars": 2,
+      "stars": 3,
       "createdAt": "2026-08-21T13:30:06Z",
-      "lastUpdated": "2026-10-22T13:11:34Z",
+      "lastUpdated": "2026-11-21T15:35:35Z",
       "latestVersion": "v1.0",
       "license": "MIT"
     },
@@ -1885,7 +1885,7 @@
     {
       "id": "haisangames813-instantloopaudioeffect",
       "name": "InstantLoopAudioEffect",
-      "description": "音声の先頭部分をループできる音声エフェクトで��",
+      "description": "音声の先頭部分をループできる音声エフェクト��す",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/InstantLoopAudioEffect",
@@ -2193,7 +2193,7 @@
     {
       "id": "panko200-previewenhancer",
       "name": "PreviewEnhancer",
-      "description": "YMM4で動く既存機能に機能追加するプラグインです。プレビューの解像度を変更することにより、描画そのものや、計算の処理を削ることができます。が、その分、まともに描画されなくなり、かつそこまで軽量化にもならないので、あんまり使い道はありません。",
+      "description": "YMM4で動���既存機能に機能追加するプラグインです。プレビューの解像度を変更することにより、描画そのものや、計算の処理を削ることができます。が、その分、まともに描画されなくなり、かつそこまで軽量化にもならないので、あんまり使い道はありません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PreviewEnhancer",
@@ -2338,7 +2338,7 @@
     {
       "id": "panko200-pseudodepthoffield",
       "name": "PseudoDepthofField",
-      "description": "YMM4で動く映像エフェクトプラグインです。画像から、AIを使用して深度を推定し、その深度マップを使って、ぼかしをかける範囲を指定���、被写界深度的な効果を生み出せるプラグインです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。画像から、AIを使用して深度を推定し、その深度マップを使って、ぼかしをかける範囲を指定し、被写界深度的な効果を生み出せるプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PseudoDepthofField",
@@ -2537,7 +2537,7 @@
     {
       "id": "panko200-timelineart",
       "name": "TimelineArt",
-      "description": "YMM$で動くツールプラグインです。エイプリルフールプラグインです。ツールを追加し、画像を入力するこ��で、タイムライン上にその画像を表現することができるようになります。",
+      "description": "YMM$で動くツールプラグインです。エイプリルフールプラグインです。ツールを追加し、画像を入力することで、タイムライン上にその画像を表現することができるようになります。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/TimelineArt",
@@ -2555,7 +2555,7 @@
     {
       "id": "panko200-ymm4-ntsc-rs",
       "name": "YMM4_ntsc-rs",
-      "description": "YMM4で動く映像エフェクトプラグインです。ntsc-rsを利用して、VHS風の加工をす���ことができるプラグインです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。ntsc-rsを利用して、VHS風の加工をすることができるプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/YMM4_ntsc-rs",
@@ -2592,7 +2592,7 @@
     {
       "id": "haisangames813-shrinkcompositeeffect",
       "name": "ShrinkCompositeEffect",
-      "description": "ドロステ効果が使えるエフェクトを追加するプラグインです",
+      "description": "ドロステ効果��使えるエフェクトを追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/ShrinkCompositeEffect",
@@ -2700,7 +2700,7 @@
     {
       "id": "haisangames813-pluginlistplugin",
       "name": "PluginListPlugin",
-      "description": "導入しているプラグインの管理ができるツー���プラグインです",
+      "description": "導入しているプラグインの管理ができるツールプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/PluginListPlugin",
@@ -3278,7 +3278,7 @@
     {
       "id": "benikazura-videochecker",
       "name": "VideoChecker",
-      "description": "映像アイテム(図形アイテムや動画アイテム等)��内部数値を調べることができるYMM4用のプラグインです。",
+      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることができるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/VideoChecker",
@@ -3647,7 +3647,7 @@
     {
       "id": "inuinu2022-sampleymmegetprojinfo",
       "name": "SampleYmmeGetProjInfo",
-      "description": "プラグイン��らYMM4の現在のプロジェクト情報を取得するためのサンプル",
+      "description": "プラグイ��からYMM4の現在のプロジェクト情報を取得するためのサンプル",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/SampleYmmeGetProjInfo",
@@ -4066,6 +4066,25 @@
       "lastUpdated": "2026-03-15T01:57:46Z",
       "latestVersion": "",
       "license": ""
+    },
+    {
+      "id": "leftcontroller0518-rename",
+      "name": "ReName",
+      "description": "アイテム名を変更できるようにするYMM4プラグイン",
+      "author": "leftcontroller0518",
+      "authorUrl": "https://github.com/leftcontroller0518",
+      "repoUrl": "https://github.com/leftcontroller0518/ReName",
+      "downloadUrl": "https://github.com/leftcontroller0518/ReName/releases/tag/v1.0.0",
+      "category": "other",
+      "tags": [
+        "その他",
+        "harmonylib"
+      ],
+      "stars": 0,
+      "createdAt": "2026-11-21T07:55:51Z",
+      "lastUpdated": "2026-11-21T07:59:14Z",
+      "latestVersion": "v1.0.0",
+      "license": "Apache-2.0"
     }
   ]
 }
