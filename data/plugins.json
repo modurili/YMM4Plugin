@@ -1,10 +1,67 @@
 {
-  "lastUpdated": "2026-11-24T02:03:17.130Z",
+  "lastUpdated": "2026-11-24T23:49:04.527Z",
   "plugins": [
+    {
+      "id": "tebasaki-bsg-ymm4-fastpsdshape",
+      "name": "YMM4-FastPSDShape",
+      "description": "図形アイテムのPSDファイルを高速化・高機能化したもの。PSDToolKitの「*」,「!」,「;flip」のルールに対応したほか、プリセット機能も追加。",
+      "author": "tebasaki-bsg",
+      "authorUrl": "https://github.com/tebasaki-bsg",
+      "repoUrl": "https://github.com/tebasaki-bsg/YMM4-FastPSDShape",
+      "downloadUrl": "https://github.com/tebasaki-bsg/YMM4-FastPSDShape/releases/tag/v1.1.0",
+      "category": "shape",
+      "tags": [
+        "図形"
+      ],
+      "stars": 0,
+      "createdAt": "2026-10-24T09:58:18Z",
+      "lastUpdated": "2026-11-16T22:53:33Z",
+      "latestVersion": "v1.1.0",
+      "license": "MIT"
+    },
+    {
+      "id": "tebasaki-bsg-ymm4-fastpsd",
+      "name": "YMM4-FastPSD",
+      "description": "YMM4標準のPSD立ち絵を高速化・高機能化したもの。PSDToolKitの「*」,「!」,「:flip」のルールに対応したほか、プリセット機能も追加。目パチ、口パク、母音口パク対応。",
+      "author": "tebasaki-bsg",
+      "authorUrl": "https://github.com/tebasaki-bsg",
+      "repoUrl": "https://github.com/tebasaki-bsg/YMM4-FastPSD",
+      "downloadUrl": "https://github.com/tebasaki-bsg/YMM4-FastPSD/releases/tag/v1.1.2",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 1,
+      "createdAt": "2026-11-15T19:12:04Z",
+      "lastUpdated": "2026-11-20T04:07:55Z",
+      "latestVersion": "v1.1.2",
+      "license": "MIT"
+    },
+    {
+      "id": "scpgamerscp-ymm4mcp",
+      "name": "ymm4MCP",
+      "description": "ゆっくりムービーメーカー4のMCPです。将来的にはゆっくり動画を全自動で作れるようにしたいです。",
+      "author": "SCPgamerscp",
+      "authorUrl": "https://github.com/SCPgamerscp",
+      "repoUrl": "https://github.com/SCPgamerscp/ymm4MCP",
+      "downloadUrl": "https://github.com/SCPgamerscp/ymm4MCP/releases",
+      "category": "other",
+      "tags": [
+        "その他",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol"
+      ],
+      "stars": 33,
+      "createdAt": "2026-02-26T05:58:21Z",
+      "lastUpdated": "2026-11-24T08:23:23Z",
+      "latestVersion": "",
+      "license": ""
+    },
     {
       "id": "panko200-iyahon-d3d11renderer-core",
       "name": "Iyahon_D3D11Renderer_Core",
-      "description": "YMM4で動く既存機能に���能追加するプラグインです。D3D11を利用して、YMM4の基本2D描画のところを、重ね合わせなども考慮したガチ3D描画ができるようになります。ObjLoaderの3Dモデルも読み込むこともでき、照明の追加、影(試験的機能)の追加もされています。",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。D3D11を利用して、YMM4の基本2D描画のところを、重ね合わせなども考慮したガチ3D描画ができるようになります。ObjLoaderの3Dモデルも読み込むこともでき、照明の追加、影(試験的機能)の追加もされています。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_D3D11Renderer_Core",
@@ -169,24 +226,6 @@
       "license": "MIT"
     },
     {
-      "id": "tebasaki-bsg-ymm4-fastpsd",
-      "name": "YMM4-FastPSD",
-      "description": "YMM4標準のPSD立ち絵を高速化・高機能化したもの。PSDToolKitの「*」,「!」,「:flip」のルールに対応したほか、プリセット機能も追加。目パチ、口パク、母音口パク対応。",
-      "author": "tebasaki-bsg",
-      "authorUrl": "https://github.com/tebasaki-bsg",
-      "repoUrl": "https://github.com/tebasaki-bsg/YMM4-FastPSD",
-      "downloadUrl": "https://github.com/tebasaki-bsg/YMM4-FastPSD/releases/tag/v1.1.1",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 1,
-      "createdAt": "2026-11-15T19:12:04Z",
-      "lastUpdated": "2026-11-20T04:07:55Z",
-      "latestVersion": "v1.1.1",
-      "license": "MIT"
-    },
-    {
       "id": "haisangames813-movingpreviewplugin",
       "name": "MovingPreviewPlugin",
       "description": "拡大縮小移動が可能なプレビューウィンドウを追加するツールプラグインです",
@@ -220,24 +259,6 @@
       "createdAt": "2025-10-16T13:26:57Z",
       "lastUpdated": "2026-06-19T08:37:12Z",
       "latestVersion": "v1.2.0",
-      "license": "MIT"
-    },
-    {
-      "id": "tebasaki-bsg-ymm4-fastpsdshape",
-      "name": "YMM4-FastPSDShape",
-      "description": "図形アイテムのPSDファイルを高速化・高機能化したもの。PSDToolKitの「*」,「!」,「;flip」のルールに対応したほか、プリセット機能も追加。",
-      "author": "tebasaki-bsg",
-      "authorUrl": "https://github.com/tebasaki-bsg",
-      "repoUrl": "https://github.com/tebasaki-bsg/YMM4-FastPSDShape",
-      "downloadUrl": "https://github.com/tebasaki-bsg/YMM4-FastPSDShape/releases/tag/v1.0.0",
-      "category": "shape",
-      "tags": [
-        "図形"
-      ],
-      "stars": 0,
-      "createdAt": "2026-10-24T09:58:18Z",
-      "lastUpdated": "2026-11-16T22:53:33Z",
-      "latestVersion": "v1.0.0",
       "license": "MIT"
     },
     {
@@ -279,14 +300,14 @@
     {
       "id": "dolphin-kun-presetstudio",
       "name": "PresetStudio",
-      "description": "テキストやエフェクトをプリセットとして保存できるYMM4ツールプラグインです",
+      "description": "テキストや���フェクトをプリセットとして保存できるYMM4ツールプラグインです",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/PresetStudio",
       "downloadUrl": "https://github.com/Dolphin-kun/PresetStudio/releases/tag/v1.0.0",
-      "category": "video-effect",
+      "category": "text",
       "tags": [
-        "映像エフェクト"
+        "テキスト"
       ],
       "stars": 1,
       "createdAt": "2026-11-15T02:49:29Z",
@@ -360,9 +381,9 @@
       "tags": [
         "その他"
       ],
-      "stars": 0,
+      "stars": 1,
       "createdAt": "2026-11-08T09:12:36Z",
-      "lastUpdated": "2026-11-08T11:22:12Z",
+      "lastUpdated": "2026-11-24T13:53:21Z",
       "latestVersion": "v0.2.0",
       "license": "MIT"
     },
@@ -401,27 +422,6 @@
       "lastUpdated": "2026-11-21T10:21:22Z",
       "latestVersion": "v1.0.2",
       "license": "MIT"
-    },
-    {
-      "id": "scpgamerscp-ymm4mcp",
-      "name": "ymm4MCP",
-      "description": "ゆっくりムービーメーカー4のMCPです。将来的にはゆっくり動画を全自動で作れるようにしたいです。",
-      "author": "SCPgamerscp",
-      "authorUrl": "https://github.com/SCPgamerscp",
-      "repoUrl": "https://github.com/SCPgamerscp/ymm4MCP",
-      "downloadUrl": "https://github.com/SCPgamerscp/ymm4MCP/releases",
-      "category": "other",
-      "tags": [
-        "その他",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol"
-      ],
-      "stars": 32,
-      "createdAt": "2026-02-26T05:58:21Z",
-      "lastUpdated": "2026-11-12T17:54:17Z",
-      "latestVersion": "",
-      "license": ""
     },
     {
       "id": "leftcontroller0518-effectbrowsertoolplugin",
@@ -1101,7 +1101,7 @@
     {
       "id": "panko200-pathfolloweffect",
       "name": "PathFollowEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。パスに沿って��キストを配置したり、パスに沿ってモーション(X,Y)をさせたりできます。",
+      "description": "YMM4で動く映像エフェクトプラグインです。パスに沿ってテキストを配置したり、パスに沿ってモーション(X,Y)をさせたりできます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PathFollowEffect",
@@ -1155,7 +1155,7 @@
     {
       "id": "panko200-sam3cutoutplugin",
       "name": "SAM3CutoutPlugin",
-      "description": "YMM4で動くツールプラグイン、映像エフェクトプラグインです。SAM3というモデルを用いて、画像・動画の物体を切り抜くことができます",
+      "description": "YMM4で動くツールプラグイン、映像エフェクトプラグインです。SAM3というモデ��を用いて、画像・動画の物体を切り抜くことができます",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SAM3CutoutPlugin",
@@ -1266,7 +1266,7 @@
     {
       "id": "benikazura-individualkeyframe",
       "name": "IndividualKeyFrame",
-      "description": "子エフェクトに独自の中間点を設定できる映像エフェクトプラグインです。",
+      "description": "子エフェクトに独自の中間点を設定できる映像エフェクトプラグインです��",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/IndividualKeyFrame",
@@ -1647,7 +1647,7 @@
     {
       "id": "panko200-simplescreenmotionblureffect",
       "name": "SimpleScreenMotionBlurEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
+      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化し���いない場合は、モーションブラーはかかりません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SimpleScreenMotionBlurEffect",
@@ -1737,7 +1737,7 @@
     {
       "id": "panko200-pseudo3dsphere",
       "name": "Pseudo3DSphere",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、疑似的に3D的な球体を描画します。完璧な球体ではなく、ポリゴンを組み合わせたような見た目になります。逆に、それを利用して3D的な物体を描画することもできます。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用��て、疑似的に3D的な球体を描画します。完璧な球体ではなく、ポリゴンを組み合わせたような見た目になります。逆に、それを利用して3D的な物体を描画することもできます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Pseudo3DSphere",
@@ -2067,7 +2067,7 @@
     {
       "id": "dolphin-kun-textsplitter",
       "name": "TextSplitter",
-      "description": "テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
+      "description": "テキストを文字ごとに別のアイテムとして分割することができるツール���ラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/TextSplitter",
@@ -2265,7 +2265,7 @@
     {
       "id": "panko200-projectionsettings",
       "name": "ProjectionSettings",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、カメラの焦点距離の変更や、平行投影へ��変更ができるようになります。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、カメラの焦点距離の変更や、平行投影への変更ができるようになります。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/ProjectionSettings",
@@ -2320,7 +2320,7 @@
     {
       "id": "tenkonta-itemparametertextshape",
       "name": "ItemParameterTextShape",
-      "description": "アイテムのパラメーターを取得しテキストとして表示できる図形アイ��ム。",
+      "description": "アイテムのパラメーターを取得しテキストとして表示できる図形アイテム。",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/ItemParameterTextShape",
@@ -2536,7 +2536,7 @@
     {
       "id": "bluemistel-katasumicapture",
       "name": "KatasumiCapture",
-      "description": "デスクトップ上の任意の���囲を矩形選択し、クリップボードへコピーするか、タイムラインへ画像として貼り付けるYMM4プラグイン",
+      "description": "デスクトップ上の任意の範囲を矩形選択し、クリップボードへコピーするか、タイムラインへ画像として貼り付けるYMM4プラグイン",
       "author": "bluemistel",
       "authorUrl": "https://github.com/bluemistel",
       "repoUrl": "https://github.com/bluemistel/KatasumiCapture",
@@ -2664,7 +2664,7 @@
     {
       "id": "haisangames813-rotationpersecondeffect",
       "name": "RotationPerSecondEffect",
-      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラグインです",
+      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラ���インです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/RotationPerSecondEffect",
@@ -3296,7 +3296,7 @@
     {
       "id": "benikazura-videochecker",
       "name": "VideoChecker",
-      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部��値を調べることができるYMM4用のプラグインです。",
+      "description": "映像アイテム(図形アイテムや動画アイテム等)の内部数値を調べることができるYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/VideoChecker",
@@ -3467,7 +3467,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイ���の波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -3665,7 +3665,7 @@
     {
       "id": "inuinu2022-sampleymmegetprojinfo",
       "name": "SampleYmmeGetProjInfo",
-      "description": "プラグインからYMM4の現在のプロジェクト���報を取得するためのサンプル",
+      "description": "プラグインからYMM4の現在のプロジェクト情報を取得するためのサンプル",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/SampleYmmeGetProjInfo",
@@ -4070,7 +4070,7 @@
     {
       "id": "34j-yukkurimoviemaker4sovitssvcfork",
       "name": "YukkuriMovieMaker4SoVitsSvcFork",
-      "description": "YMM4用`so-vits-svc-fork`音声エフ��クト",
+      "description": "YMM4用`so-vits-svc-fork`音声エフェクト",
       "author": "34j",
       "authorUrl": "https://github.com/34j",
       "repoUrl": "https://github.com/34j/YukkuriMovieMaker4SoVitsSvcFork",
