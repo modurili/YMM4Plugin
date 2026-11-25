@@ -1,10 +1,64 @@
 {
-  "lastUpdated": "2026-11-24T23:49:04.527Z",
+  "lastUpdated": "2026-11-25T23:31:21.503Z",
   "plugins": [
+    {
+      "id": "panko200-iyahon-d3d11renderer-core",
+      "name": "Iyahon_D3D11Renderer_Core",
+      "description": "YMM4で動く既存機能に���能追加するプラグインです。D3D11を利用して、YMM4の基本2D描画のところを、重ね合わせなども考慮したガチ3D描画ができるようになります。ObjLoaderの3Dモデルも読み込むこともでき、照明の追加、影(試験的機能)の追加もされています。",
+      "author": "panko200",
+      "authorUrl": "https://github.com/panko200",
+      "repoUrl": "https://github.com/panko200/Iyahon_D3D11Renderer_Core",
+      "downloadUrl": "https://github.com/panko200/Iyahon_D3D11Renderer_Core/releases/tag/A6.1",
+      "category": "utility",
+      "tags": [
+        "ユーティリティ"
+      ],
+      "stars": 0,
+      "createdAt": "2026-04-21T11:20:14Z",
+      "lastUpdated": "2026-07-01T03:49:56Z",
+      "latestVersion": "A6.1",
+      "license": "MIT"
+    },
+    {
+      "id": "dolphin-kun-ymm43d",
+      "name": "YMM43D",
+      "description": "説明なし",
+      "author": "Dolphin-kun",
+      "authorUrl": "https://github.com/Dolphin-kun",
+      "repoUrl": "https://github.com/Dolphin-kun/YMM43D",
+      "downloadUrl": "https://github.com/Dolphin-kun/YMM43D/releases/tag/v3.1.2",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 5,
+      "createdAt": "2026-04-27T11:03:31Z",
+      "lastUpdated": "2026-11-20T11:19:41Z",
+      "latestVersion": "v3.1.2",
+      "license": "MIT"
+    },
+    {
+      "id": "leftcontroller0518-echo",
+      "name": "Echo",
+      "description": "Aeのエコーを再現したYMM4プラグイン",
+      "author": "leftcontroller0518",
+      "authorUrl": "https://github.com/leftcontroller0518",
+      "repoUrl": "https://github.com/leftcontroller0518/Echo",
+      "downloadUrl": "https://github.com/leftcontroller0518/Echo/releases/tag/v1.0.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "createdAt": "2026-11-21T23:17:59Z",
+      "lastUpdated": "2026-11-21T23:28:21Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
     {
       "id": "tebasaki-bsg-ymm4-fastpsdshape",
       "name": "YMM4-FastPSDShape",
-      "description": "図形アイテムのPSDファイルを高速化・高機能化したもの。PSDToolKitの「*」,「!」,「;flip」のルールに対応したほか、プリセット機能も追加。",
+      "description": "図形アイテムのPSDファイルを高速化・高機能化したもの。PSDToolKitの「*」,「!」,「;flip」のルールに対応したほか、プリセット機能も追���。",
       "author": "tebasaki-bsg",
       "authorUrl": "https://github.com/tebasaki-bsg",
       "repoUrl": "https://github.com/tebasaki-bsg/YMM4-FastPSDShape",
@@ -59,27 +113,9 @@
       "license": ""
     },
     {
-      "id": "panko200-iyahon-d3d11renderer-core",
-      "name": "Iyahon_D3D11Renderer_Core",
-      "description": "YMM4で動く既存機能に機能追加するプラグインです。D3D11を利用して、YMM4の基本2D描画のところを、重ね合わせなども考慮したガチ3D描画ができるようになります。ObjLoaderの3Dモデルも読み込むこともでき、照明の追加、影(試験的機能)の追加もされています。",
-      "author": "panko200",
-      "authorUrl": "https://github.com/panko200",
-      "repoUrl": "https://github.com/panko200/Iyahon_D3D11Renderer_Core",
-      "downloadUrl": "https://github.com/panko200/Iyahon_D3D11Renderer_Core/releases/tag/A6",
-      "category": "utility",
-      "tags": [
-        "ユーティリティ"
-      ],
-      "stars": 0,
-      "createdAt": "2026-04-21T11:20:14Z",
-      "lastUpdated": "2026-07-01T03:49:56Z",
-      "latestVersion": "A6",
-      "license": "MIT"
-    },
-    {
       "id": "tebasaki-bsg-ymm4puppetkai",
       "name": "YMM4PuppetKai",
-      "description": "パペット変形に切れ込みを入れる機能を加えたものです。処理も変更し、同じ処理時間でより高精度になっています。",
+      "description": "パペット変形に切れ込みを入れる機能を加えたものです。処理も変更し、���じ処理時間でより高精度になっています。",
       "author": "tebasaki-bsg",
       "authorUrl": "https://github.com/tebasaki-bsg",
       "repoUrl": "https://github.com/tebasaki-bsg/YMM4PuppetKai",
@@ -111,24 +147,6 @@
       "lastUpdated": "2026-11-18T07:46:50Z",
       "latestVersion": "",
       "license": "LGPL-3.0"
-    },
-    {
-      "id": "leftcontroller0518-echo",
-      "name": "Echo",
-      "description": "Aeのエコーを再現したYMM4プラグイン",
-      "author": "leftcontroller0518",
-      "authorUrl": "https://github.com/leftcontroller0518",
-      "repoUrl": "https://github.com/leftcontroller0518/Echo",
-      "downloadUrl": "https://github.com/leftcontroller0518/Echo/releases/tag/v1.0.0",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 0,
-      "createdAt": "2026-11-21T23:17:59Z",
-      "lastUpdated": "2026-11-21T23:28:21Z",
-      "latestVersion": "v1.0.0",
-      "license": "MIT"
     },
     {
       "id": "dolphin-kun-multiuseredit",
@@ -170,24 +188,6 @@
       "lastUpdated": "2026-11-08T06:47:40Z",
       "latestVersion": "v0.5.5",
       "license": "GPL-3.0"
-    },
-    {
-      "id": "dolphin-kun-ymm43d",
-      "name": "YMM43D",
-      "description": "説明なし",
-      "author": "Dolphin-kun",
-      "authorUrl": "https://github.com/Dolphin-kun",
-      "repoUrl": "https://github.com/Dolphin-kun/YMM43D",
-      "downloadUrl": "https://github.com/Dolphin-kun/YMM43D/releases/tag/v3.1.1",
-      "category": "other",
-      "tags": [
-        "その他"
-      ],
-      "stars": 5,
-      "createdAt": "2026-04-27T11:03:31Z",
-      "lastUpdated": "2026-11-20T11:19:41Z",
-      "latestVersion": "v3.1.1",
-      "license": "MIT"
     },
     {
       "id": "leftcontroller0518-searchable",
@@ -300,14 +300,14 @@
     {
       "id": "dolphin-kun-presetstudio",
       "name": "PresetStudio",
-      "description": "テキストや���フェクトをプリセットとして保存できるYMM4ツールプラグインです",
+      "description": "テキストやエフェクトをプリセットとして保存できるYMM4ツールプラグインです",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/PresetStudio",
       "downloadUrl": "https://github.com/Dolphin-kun/PresetStudio/releases/tag/v1.0.0",
-      "category": "text",
+      "category": "video-effect",
       "tags": [
-        "テキスト"
+        "映像エフェクト"
       ],
       "stars": 1,
       "createdAt": "2026-11-15T02:49:29Z",
@@ -1155,7 +1155,7 @@
     {
       "id": "panko200-sam3cutoutplugin",
       "name": "SAM3CutoutPlugin",
-      "description": "YMM4で動くツールプラグイン、映像エフェクトプラグインです。SAM3というモデ��を用いて、画像・動画の物体を切り抜くことができます",
+      "description": "YMM4で動くツールプラグイン、映像エフェクトプラグインです。SAM3というモデルを用いて、画像・動画の物体を切り抜くことができます",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SAM3CutoutPlugin",
@@ -1266,7 +1266,7 @@
     {
       "id": "benikazura-individualkeyframe",
       "name": "IndividualKeyFrame",
-      "description": "子エフェクトに独自の中間点を設定できる映像エフェクトプラグインです��",
+      "description": "子エフェクトに独自の中間点を設定できる映像エフェクトプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/IndividualKeyFrame",
@@ -1467,14 +1467,14 @@
     {
       "id": "tenkonta-uioverlayeffect",
       "name": "UIOverlayEffect",
-      "description": "プレビューのUIを映像エフェクトで再現し常時表示・出力を可能にするYMM4プラグイン",
+      "description": "プレビューのUIを映像エフ��クトで再現し常時表示・出力を可能にするYMM4プラグイン",
       "author": "tenkonta",
       "authorUrl": "https://github.com/tenkonta",
       "repoUrl": "https://github.com/tenkonta/UIOverlayEffect",
       "downloadUrl": "https://github.com/tenkonta/UIOverlayEffect/releases/tag/1.0.0",
-      "category": "video-effect",
+      "category": "video-output",
       "tags": [
-        "映像エフェクト"
+        "動画出力"
       ],
       "stars": 0,
       "createdAt": "2026-08-15T06:56:25Z",
@@ -1557,7 +1557,7 @@
     {
       "id": "tetra-te-effectcategorycustomizer",
       "name": "EffectCategoryCustomizer",
-      "description": "エフェクトのカテゴリを自由に設定できるYMM4プラグイン",
+      "description": "エフェクトのカテゴリを自由に設定できるYMM4プラグ���ン",
       "author": "tetra-te",
       "authorUrl": "https://github.com/tetra-te",
       "repoUrl": "https://github.com/tetra-te/EffectCategoryCustomizer",
@@ -1647,7 +1647,7 @@
     {
       "id": "panko200-simplescreenmotionblureffect",
       "name": "SimpleScreenMotionBlurEffect",
-      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化し���いない場合は、モーションブラーはかかりません。",
+      "description": "YMM4で動く映像エフェクトプラグインです。前回のフレームと比較して、どのピクセルがどれだけ動いたかのベクトルを使って、ブラーをかけます。そのアイテムの画像に対してモーションブラーをかけるので、画像自体が変化していない場合は、モーションブラーはかかりません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SimpleScreenMotionBlurEffect",
@@ -1737,7 +1737,7 @@
     {
       "id": "panko200-pseudo3dsphere",
       "name": "Pseudo3DSphere",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用��て、疑似的に3D的な球体を描画します。完璧な球体ではなく、ポリゴンを組み合わせたような見た目になります。逆に、それを利用して3D的な物体を描画することもできます。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、疑似的に3D的な球体を描画します。完璧な球体ではなく、ポリゴンを組み合わせたような見た目になります。逆に、それを利用して3D的な物体を描画することもできます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Pseudo3DSphere",
@@ -1903,7 +1903,7 @@
     {
       "id": "panko200-easy3dpreview",
       "name": "Easy3DPreview",
-      "description": "YMM4で動くツールプラグインです。3D空間をほぼマウス操作のみで簡単に見ることができ、3D空間での位置関係を簡単に把握することができるプラグインです。",
+      "description": "YMM4で動くツールプラグインです。3D空間をほぼマウス操作のみで簡単に見ることができ、3D空間での位置関���を簡単に把握することができるプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Easy3DPreview",
@@ -2067,7 +2067,7 @@
     {
       "id": "dolphin-kun-textsplitter",
       "name": "TextSplitter",
-      "description": "テキストを文字ごとに別のアイテムとして分割することができるツール���ラグインです。",
+      "description": "テキストを文字ごとに別のアイテムとして分割することができるツールプラグインです。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/TextSplitter",
@@ -2356,7 +2356,7 @@
     {
       "id": "panko200-pseudodepthoffield",
       "name": "PseudoDepthofField",
-      "description": "YMM4で動く映像エフェクトプラグインです。画像から、AIを使用して深度を推定し、その深度マップを使って、ぼかしをかける範囲を指定し、被写界深度的な効果を生み出せるプラグインです。",
+      "description": "YMM4で動く映像エフ���クトプラグインです。画像から、AIを使用して深度を推定し、その深度マップを使って、ぼかしをかける範囲を指定し、被写界深度的な効果を生み出せるプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PseudoDepthofField",
@@ -2664,7 +2664,7 @@
     {
       "id": "haisangames813-rotationpersecondeffect",
       "name": "RotationPerSecondEffect",
-      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラ���インです",
+      "description": "指定した秒数で何回回転するかを指定できる映像エフェクトを追加するプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/RotationPerSecondEffect",
@@ -2682,7 +2682,7 @@
     {
       "id": "panko200-pseudo3dline",
       "name": "Pseudo3DLine",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、立体的な線を引くことが出来る映像エフェクトです。図形アイテムでないのは、アイテム側から、カメラ値を使う方法がわからなかったからです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。��メラ値を使用して、立体的な線を引くことが出来る映像エフェクトです。図形アイテムでないのは、アイテム側から、カメラ値を使う方法がわからなかったからです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Pseudo3DLine",
@@ -2700,7 +2700,7 @@
     {
       "id": "panko200-interitemnode",
       "name": "InterItemNode",
-      "description": "YMM4で動く映像エフェクトプラグインです。アイテムとアイテム同士を線でつなげるようになるプラグインです。使い方がだいぶ複雑です。",
+      "description": "YMM4で動く映像エフェクト���ラグインです。アイテムとアイテム同士を線でつなげるようになるプラグインです。使い方がだいぶ複雑です。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/InterItemNode",
@@ -2808,7 +2808,7 @@
     {
       "id": "panko200-ymm4-ffmosh",
       "name": "YMM4_ffMosh",
-      "description": "YMM4で動くツールプラグインです。ffglitchを使って、動画データを破壊して、データモッシュを発生させます。",
+      "description": "YMM4で動くツールプラグインです。ffglitchを使って、動画データを破壊して、データモッシ��を発生させます。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/YMM4_ffMosh",
@@ -2934,7 +2934,7 @@
     {
       "id": "panko200-z-depthoffield",
       "name": "Z_DepthofField",
-      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用します。カメラからのZ軸、もしくは、距離を使って、ピント距離と合致していない場合、アイテム全体にぼかしがかかります。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用します。カメラからのZ軸、もしくは、距離を使って、ピント距離と合致していない場合、アイテム全体にぼかしがかかり���す。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Z_DepthofField",
@@ -3467,7 +3467,7 @@
     {
       "id": "megria-scarlet-antiphaseaudioeffect",
       "name": "AntiphaseAudioEffect",
-      "description": "音声ファイ���の波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
+      "description": "音声ファイルの波形を逆位相化するプラグインです。 おまけで入力音声のサンプリングレート単位で遅延させるエフェクトも追加します。",
       "author": "Megria-Scarlet",
       "authorUrl": "https://github.com/Megria-Scarlet",
       "repoUrl": "https://github.com/Megria-Scarlet/AntiphaseAudioEffect",
@@ -3521,7 +3521,7 @@
     {
       "id": "benikazura-scrolleffect",
       "name": "ScrollEffect",
-      "description": "一定の方向に繰り返しスクロールを行う映像エフェクトを追加するYMM4用のプラグインです。",
+      "description": "��定の方向に繰り返しスクロールを行う映像エフェクトを追加するYMM4用のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/ScrollEffect",
@@ -3539,7 +3539,7 @@
     {
       "id": "benikazura-wavetext",
       "name": "WaveText",
-      "description": "テキストアイテムを波状に配置できるYMM4用のプラグインです。",
+      "description": "テキストアイテムを波状に配置できるYMM4��のプラグインです。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/WaveText",
@@ -3665,7 +3665,7 @@
     {
       "id": "inuinu2022-sampleymmegetprojinfo",
       "name": "SampleYmmeGetProjInfo",
-      "description": "プラグインからYMM4の現在のプロジェクト情報を取得するためのサンプル",
+      "description": "プラグインからYMM4の現在のプロジェクト���報を取得するためのサンプル",
       "author": "InuInu2022",
       "authorUrl": "https://github.com/InuInu2022",
       "repoUrl": "https://github.com/InuInu2022/SampleYmmeGetProjInfo",
