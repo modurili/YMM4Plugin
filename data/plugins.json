@@ -1,10 +1,100 @@
 {
-  "lastUpdated": "2026-11-26T23:33:48.874Z",
+  "lastUpdated": "2026-11-27T23:17:46.909Z",
   "plugins": [
+    {
+      "id": "monochromepenguin-publicvalue",
+      "name": "PublicValue",
+      "description": "説明なし",
+      "author": "MonochromePenguin",
+      "authorUrl": "https://github.com/MonochromePenguin",
+      "repoUrl": "https://github.com/MonochromePenguin/PublicValue",
+      "downloadUrl": "https://github.com/MonochromePenguin/PublicValue/releases/tag/v1.0.0",
+      "category": "other",
+      "tags": [
+        "その他"
+      ],
+      "stars": 0,
+      "createdAt": "2026-11-27T07:37:29Z",
+      "lastUpdated": "2026-11-27T22:00:59Z",
+      "latestVersion": "v1.0.0",
+      "license": "MIT"
+    },
+    {
+      "id": "haisangames813-movingpreviewplugin",
+      "name": "MovingPreviewPlugin",
+      "description": "拡大縮小移動が可能なプレビューウィンドウを追加するツールプラグインです",
+      "author": "HAIsanGames813",
+      "authorUrl": "https://github.com/HAIsanGames813",
+      "repoUrl": "https://github.com/HAIsanGames813/MovingPreviewPlugin",
+      "downloadUrl": "https://github.com/HAIsanGames813/MovingPreviewPlugin/releases/tag/v1.0.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 0,
+      "createdAt": "2026-07-11T07:20:33Z",
+      "lastUpdated": "2026-07-11T12:48:58Z",
+      "latestVersion": "v1.0.1",
+      "license": ""
+    },
+    {
+      "id": "haisangames813-addshapeeffect",
+      "name": "AddShapeEffect",
+      "description": "図形アイテムをエフェクトとして追加するプラグイン",
+      "author": "HAIsanGames813",
+      "authorUrl": "https://github.com/HAIsanGames813",
+      "repoUrl": "https://github.com/HAIsanGames813/AddShapeEffect",
+      "downloadUrl": "https://github.com/HAIsanGames813/AddShapeEffect/releases/tag/4.0.1",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 2,
+      "createdAt": "2025-10-12T07:29:37Z",
+      "lastUpdated": "2026-11-04T08:38:37Z",
+      "latestVersion": "4.0.1",
+      "license": ""
+    },
+    {
+      "id": "tetra-te-simplekerningeffect",
+      "name": "SimpleKerningEffect",
+      "description": "テキストの位置などを文字ごとに調整する映像エフェクトプラグイン",
+      "author": "tetra-te",
+      "authorUrl": "https://github.com/tetra-te",
+      "repoUrl": "https://github.com/tetra-te/SimpleKerningEffect",
+      "downloadUrl": "https://github.com/tetra-te/SimpleKerningEffect/releases/tag/v3.8",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 9,
+      "createdAt": "2025-01-26T01:57:23Z",
+      "lastUpdated": "2026-08-30T15:33:22Z",
+      "latestVersion": "v3.8",
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "dolphin-kun-effecttrigger",
+      "name": "EffectTrigger",
+      "description": "「エフェクトトリガー」プラグイン",
+      "author": "Dolphin-kun",
+      "authorUrl": "https://github.com/Dolphin-kun",
+      "repoUrl": "https://github.com/Dolphin-kun/EffectTrigger",
+      "downloadUrl": "https://github.com/Dolphin-kun/EffectTrigger/releases/tag/v2.0",
+      "category": "video-effect",
+      "tags": [
+        "映像エフェクト"
+      ],
+      "stars": 1,
+      "createdAt": "2025-05-25T10:16:05Z",
+      "lastUpdated": "2026-03-15T01:59:41Z",
+      "latestVersion": "v2.0",
+      "license": "MIT"
+    },
     {
       "id": "panko200-iyahon-d3d11renderer-core",
       "name": "Iyahon_D3D11Renderer_Core",
-      "description": "YMM4で動く既存機能に���能追加するプラグインです。D3D11を利用して、YMM4の基本2D描画のところを、重ね合わせなども考慮したガチ3D描画ができるようになります。ObjLoaderの3Dモデルも読み込むこともでき、照明の追加、影(試験的機能)の追加もされています。",
+      "description": "YMM4で動く既存機能に機能追加するプラグインです。D3D11を利用して、YMM4の基本2D描画のところを、重ね合わせなども考慮したガチ3D描画ができるようになります。ObjLoaderの3Dモデルも読み込むこともでき、照明の追加、影(試験的機能)の追加もされています。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_D3D11Renderer_Core",
@@ -22,7 +112,7 @@
     {
       "id": "dolphin-kun-ymm4craft",
       "name": "YMM4Craft",
-      "description": "YMM4（ゆっくりMovieMaker4）で、Minecraft（Java版）の世界をそのまま映像として使えるようにするプラグインと Mod です。 カメラ・時刻・天気・プレイヤーや Mob を YMM4 のタイムラインで動かせるほか、録画したプレイを好きな視点から再生できます。",
+      "description": "YMM4（ゆっくりMovieMaker4）で、Minecraft（Java版）の世界をそのまま映像として使えるようにするプラ���インと Mod です。 カメラ・時刻・天気・プレイヤーや Mob を YMM4 のタイムラインで動かせるほか、録画したプレイを好きな視点から再生できます。",
       "author": "Dolphin-kun",
       "authorUrl": "https://github.com/Dolphin-kun",
       "repoUrl": "https://github.com/Dolphin-kun/YMM4Craft",
@@ -244,24 +334,6 @@
       "license": "MIT"
     },
     {
-      "id": "haisangames813-movingpreviewplugin",
-      "name": "MovingPreviewPlugin",
-      "description": "拡大縮小移動が可能なプレビューウィンドウを追加するツールプラグインです",
-      "author": "HAIsanGames813",
-      "authorUrl": "https://github.com/HAIsanGames813",
-      "repoUrl": "https://github.com/HAIsanGames813/MovingPreviewPlugin",
-      "downloadUrl": "https://github.com/HAIsanGames813/MovingPreviewPlugin/releases/tag/v1.0.1",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 0,
-      "createdAt": "2026-07-11T07:20:33Z",
-      "lastUpdated": "2026-07-11T12:48:58Z",
-      "latestVersion": "v1.0.1",
-      "license": ""
-    },
-    {
       "id": "sinbetakun-superexcitingcloneeffect",
       "name": "SuperExcitingCloneEffect",
       "description": "説明なし",
@@ -408,7 +480,7 @@
     {
       "id": "haisangames813-templatewithpreviewbyhaisan",
       "name": "TemplateWithPreviewByHAIsan",
-      "description": "プレビュー付きのプリセット(テキスト/エフェクト/テンプレート)と素材ライブラリを利用できるように��るプラグインのハイさんバージョンです",
+      "description": "プレビュー付きのプリセット(テキスト/エフェクト/テンプレート)と素材ライブラリを利用できるようにするプラグインのハイさんバージョンです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/TemplateWithPreviewByHAIsan",
@@ -697,7 +769,7 @@
     {
       "id": "sinbetakun-sintachieplugin",
       "name": "SinTachiePlugin",
-      "description": "高度な立ち絵制御のためのYMM4プラグイン",
+      "description": "高度な立ち絵制御のため��YMM4プラグイン",
       "author": "sinBetaKun",
       "authorUrl": "https://github.com/sinBetaKun",
       "repoUrl": "https://github.com/sinBetaKun/SinTachiePlugin",
@@ -733,7 +805,7 @@
     {
       "id": "jiraiyap-speech-time-tracker",
       "name": "Speech-Time-Tracker",
-      "description": "タイムライン上のセリフをキャラクター別に自動で集計し、専用パネルにシンプルなテキストと棒グラフで表示します。 「特定のキャラだけ喋りすぎてないかな？」「動画のテンポ（無音時間）は適切かな？」といった確認がボタン一つで簡単に行えます。 ■ 主な機能 ・キャラクター別の合計発話時間＆比率（％）の自動計算 ・セリフの重なりを考慮した、正確な「無音時間」の集計 ・比率の棒グラフ表示、ワンクリックでの再集計 ■ 詳細・ダウンロード（.ymme）",
+      "description": "タイムライン上のセリフをキャラクター別に自動で集計し、専用パネルにシンプルなテキストと棒グラフで表示します。 「特定のキャラだけ喋りすぎてないかな？」「動画のテンポ（無音時間）は適切かな？」といった確認がボタン一つで簡単に行えます。 ■ 主な機能 ・キャラクター別の合計発話時間＆比率（％）の自動計算 ・セリフの重なりを考慮した、正確な「無音時間」の集計 ・比率の棒グラフ表示、ワンクリッ��での再集計 ■ 詳細・ダウンロード（.ymme）",
       "author": "jiraiyap",
       "authorUrl": "https://github.com/jiraiyap",
       "repoUrl": "https://github.com/jiraiyap/Speech-Time-Tracker",
@@ -791,14 +863,14 @@
     {
       "id": "leftcontroller0518-ymm4plugin-template",
       "name": "YMM4plugin_template",
-      "description": "左コントローラー式汎用YMM4プラグインテン���レート",
+      "description": "左コントローラー式汎用YMM4プラグインテンプレート",
       "author": "leftcontroller0518",
       "authorUrl": "https://github.com/leftcontroller0518",
       "repoUrl": "https://github.com/leftcontroller0518/YMM4plugin_template",
       "downloadUrl": "https://github.com/leftcontroller0518/YMM4plugin_template/releases/tag/v1.0.0",
-      "category": "other",
+      "category": "utility",
       "tags": [
-        "その他"
+        "ユーティリティ"
       ],
       "stars": 0,
       "createdAt": "2026-09-18T01:50:52Z",
@@ -827,7 +899,7 @@
     {
       "id": "ar-ca-na-ymm4-effectiveposition",
       "name": "YMM4-EffectivePosition",
-      "description": "YMM4 のアイテム編集パネル���、グループ制御込みの実質座標を表示するプラグイン",
+      "description": "YMM4 のアイテム編集パネルに、グループ制御込みの実質座標を表示するプラグイン",
       "author": "ar-ca-na",
       "authorUrl": "https://github.com/ar-ca-na",
       "repoUrl": "https://github.com/ar-ca-na/YMM4-EffectivePosition",
@@ -881,7 +953,7 @@
     {
       "id": "leftcontroller0518-channelremap",
       "name": "ChannelRemap",
-      "description": "カラーチャンネルを別のチャンネルに割り当てることができるYMM4プラグインです。",
+      "description": "カラーチャ���ネルを別のチャンネルに割り当てることができるYMM4プラグインです。",
       "author": "leftcontroller0518",
       "authorUrl": "https://github.com/leftcontroller0518",
       "repoUrl": "https://github.com/leftcontroller0518/ChannelRemap",
@@ -1336,27 +1408,9 @@
       "license": "MIT"
     },
     {
-      "id": "tetra-te-simplekerningeffect",
-      "name": "SimpleKerningEffect",
-      "description": "テキストの位置などを文字ごとに調整する映像エフェクトプラグイン",
-      "author": "tetra-te",
-      "authorUrl": "https://github.com/tetra-te",
-      "repoUrl": "https://github.com/tetra-te/SimpleKerningEffect",
-      "downloadUrl": "https://github.com/tetra-te/SimpleKerningEffect/releases/tag/v3.8",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 9,
-      "createdAt": "2025-01-26T01:57:23Z",
-      "lastUpdated": "2026-08-30T15:33:22Z",
-      "latestVersion": "v3.8",
-      "license": "CC0-1.0"
-    },
-    {
       "id": "panko200-vectormelt",
       "name": "VectorMelt",
-      "description": "YMM4で動く映像エフェクトプラグインです。データモッシュの成り損ないです。前フレームのデータを利用して、動きフレームのみを変更してぐちゃぐちゃに崩します。",
+      "description": "YMM4で動く映像エフェクトプラグインです。データモッシュの成り損ないです。前フレームのデータを利用して、動きフレームの���を変更してぐちゃぐちゃに崩します。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/VectorMelt",
@@ -1593,7 +1647,7 @@
     {
       "id": "panko200-seededrandommovement",
       "name": "SeededRandomMovement",
-      "description": "YMM4で動くイージング追加プラグインです。シード付きランダム移動が追加されます。シードを指定することができるランダム移動方式です。",
+      "description": "YMM4で動くイージング追加プラグインです。シード付きランダム移動が追加されます。シードを指定することができるランダ��移動方式です。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/SeededRandomMovement",
@@ -1719,7 +1773,7 @@
     {
       "id": "panko200-iyahon-shapecore",
       "name": "Iyahon_ShapeCore",
-      "description": "YMM$で動く映像エフェクトプラグインです。入力されたラスター画像を、無理やりベクター化して、そのベクター化されたデータに対して、処理を追加できます。コア以外のプラグインを入れなければ、意味を成しません。",
+      "description": "YMM$で動く映像エフェクトプラグインです。入力されたラスター画像を、無理やりベクター化して、そのベクター化されたデータに対��て、処理を追加できます。コア以外のプラグインを入れなければ、意味を成しません。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Iyahon_ShapeCore",
@@ -1773,7 +1827,7 @@
     {
       "id": "panko200-pseudo3dextrusion",
       "name": "Pseudo3DExtrusion",
-      "description": "YMM4で動く映像エフェクトプ��グインです。カメラ値を使用して、画像を奥に押し出します。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使用して、画像を奥に押し出します。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/Pseudo3DExtrusion",
@@ -1805,24 +1859,6 @@
       "lastUpdated": "2026-09-05T00:38:09Z",
       "latestVersion": "v1.0.1",
       "license": "MIT"
-    },
-    {
-      "id": "haisangames813-addshapeeffect",
-      "name": "AddShapeEffect",
-      "description": "図形アイテムをエフェクトとして追加するプラグイン",
-      "author": "HAIsanGames813",
-      "authorUrl": "https://github.com/HAIsanGames813",
-      "repoUrl": "https://github.com/HAIsanGames813/AddShapeEffect",
-      "downloadUrl": "https://github.com/HAIsanGames813/AddShapeEffect/releases/tag/4.0.0",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 2,
-      "createdAt": "2025-10-12T07:29:37Z",
-      "lastUpdated": "2026-11-04T08:38:37Z",
-      "latestVersion": "4.0.0",
-      "license": ""
     },
     {
       "id": "panko200-colorramp",
@@ -2229,7 +2265,7 @@
     {
       "id": "modurili-nineslice",
       "name": "NineSlice",
-      "description": "9スライスを使って画像の引き伸ばしやタイリングができるYMM4プラグイン",
+      "description": "9スライスを使って画像の引き伸ばしやタイリン��ができるYMM4プラグイン",
       "author": "modurili",
       "authorUrl": "https://github.com/modurili",
       "repoUrl": "https://github.com/modurili/NineSlice",
@@ -2299,25 +2335,6 @@
       "license": "MIT"
     },
     {
-      "id": "mochinekoo-ymm4-earthquake-plugin",
-      "name": "YMM4_Earthquake_Plugin",
-      "description": "YMM4の地震情報プラグイン",
-      "author": "mochinekoo",
-      "authorUrl": "https://github.com/mochinekoo",
-      "repoUrl": "https://github.com/mochinekoo/YMM4_Earthquake_Plugin",
-      "downloadUrl": "https://github.com/mochinekoo/YMM4_Earthquake_Plugin/releases/tag/v0.0.2",
-      "category": "other",
-      "tags": [
-        "その他",
-        "wpf"
-      ],
-      "stars": 0,
-      "createdAt": "2026-04-01T10:09:21Z",
-      "lastUpdated": "2026-04-04T04:04:04Z",
-      "latestVersion": "v0.0.2",
-      "license": ""
-    },
-    {
       "id": "tenkonta-itemparametertextshape",
       "name": "ItemParameterTextShape",
       "description": "アイテムのパラメーターを取得しテキストとして表示できる図形アイテム。",
@@ -2356,7 +2373,7 @@
     {
       "id": "panko200-pseudodepthoffield",
       "name": "PseudoDepthofField",
-      "description": "YMM4で動く映像エフェクトプラグインです。画像から、AIを使用して深度を推定し、その深度マップを使って、ぼかしをかける範囲を指定し、被写界深度的な効果を生み出せるプラ��インです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。画像から、AIを使用して深度を推定し、その深度マップを使って、ぼかしをかける範囲を指定し、被写界深度的な効果を生み出せるプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/PseudoDepthofField",
@@ -2518,7 +2535,7 @@
     {
       "id": "haisangames813-usedmediafinderplugin",
       "name": "UsedMediaFinderPlugin",
-      "description": "使用/未使用メディアを検出しリネームを行えるツールプラグインです",
+      "description": "使��/未使用メディアを検出しリネームを行えるツールプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/UsedMediaFinderPlugin",
@@ -2718,7 +2735,7 @@
     {
       "id": "haisangames813-pluginlistplugin",
       "name": "PluginListPlugin",
-      "description": "導入しているプラグインの管理が��きるツールプラグインです",
+      "description": "導入しているプラグインの管理ができるツールプラグインです",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/PluginListPlugin",
@@ -2736,7 +2753,7 @@
     {
       "id": "benikazura-drawconversioneffect",
       "name": "DrawConversionEffect",
-      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降削除されてます。) また、上下反転にも対応しています。",
+      "description": "本来全ての映像エフェクトを処理した後に処理される拡大率、回転角、不透明度、左右反転を映像エフェクトを紹介するタイミングで処理します。(回転角の機能はバージョン2.0.0以降���除されてます。) また、上下反転にも対応しています。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/DrawConversionEffect",
@@ -2880,14 +2897,14 @@
     {
       "id": "panko200-wavepluseffect",
       "name": "WaveplusEffect",
-      "description": "YMM4で動く映像��フェクトプラグインです。波打ちを拡張して、波打ちの種類や、固定端などを指定することができるようになります。Aeのwavewarp的な感じです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。波打ちを拡張して、波打ちの種類や、固定端などを指定することができるようになります。Aeのwavewarp的な感じです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/WaveplusEffect",
       "downloadUrl": "https://github.com/panko200/WaveplusEffect/releases/tag/v1.0.0",
-      "category": "other",
+      "category": "video-effect",
       "tags": [
-        "その他"
+        "映像エフェクト"
       ],
       "stars": 1,
       "createdAt": "2026-02-14T08:32:59Z",
@@ -2916,14 +2933,14 @@
     {
       "id": "panko200-cuboidtransform",
       "name": "CuboidTransform",
-      "description": "YMM4で動く映像エフ��クトプラグインです。カメラ値を使って、物体を長方形にするプラグインです。",
+      "description": "YMM4で動く映像エフェクトプラグインです。カメラ値を使って、物体を長方形にするプラグインです。",
       "author": "panko200",
       "authorUrl": "https://github.com/panko200",
       "repoUrl": "https://github.com/panko200/CuboidTransform",
       "downloadUrl": "https://github.com/panko200/CuboidTransform/releases/tag/v1.0.0",
-      "category": "other",
+      "category": "video-effect",
       "tags": [
-        "その他"
+        "映像エフェクト"
       ],
       "stars": 3,
       "createdAt": "2026-02-10T11:00:11Z",
@@ -3024,7 +3041,7 @@
     {
       "id": "enu-dayo-ymm4tritonevideoeffect",
       "name": "YMM4TritoneVideoEffect",
-      "description": "YMM4用のトライ���ーンエフェクトです",
+      "description": "YMM4用のトライトーンエフェクトです",
       "author": "ENU-DAYO",
       "authorUrl": "https://github.com/ENU-DAYO",
       "repoUrl": "https://github.com/ENU-DAYO/YMM4TritoneVideoEffect",
@@ -3060,7 +3077,7 @@
     {
       "id": "haisangames813-canvasplugin",
       "name": "CanvasPlugin",
-      "description": "ツールウィンドウ「キャンバス」を追加するプラグイン",
+      "description": "ツールウィンドウ「キャンバス」を追加���るプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/CanvasPlugin",
@@ -3132,14 +3149,14 @@
     {
       "id": "haisangames813-drawingsettingseffect",
       "name": "DrawingSettingsEffect",
-      "description": "基本的な描画設定ができる「描画設定」���フェクトを追加するプラグイン",
+      "description": "基本的な描画設定ができる「描画設定」エフェクトを追加するプラグイン",
       "author": "HAIsanGames813",
       "authorUrl": "https://github.com/HAIsanGames813",
       "repoUrl": "https://github.com/HAIsanGames813/DrawingSettingsEffect",
       "downloadUrl": "https://github.com/HAIsanGames813/DrawingSettingsEffect/releases/tag/v1.0.1",
-      "category": "other",
+      "category": "video-effect",
       "tags": [
-        "その他"
+        "映像エフェクト"
       ],
       "stars": 1,
       "createdAt": "2025-08-31T09:37:36Z",
@@ -3164,24 +3181,6 @@
       "lastUpdated": "2026-10-18T14:05:04Z",
       "latestVersion": "ver1.0.3",
       "license": ""
-    },
-    {
-      "id": "dolphin-kun-effecttrigger",
-      "name": "EffectTrigger",
-      "description": "「エフェクトトリガー」プラグイン",
-      "author": "Dolphin-kun",
-      "authorUrl": "https://github.com/Dolphin-kun",
-      "repoUrl": "https://github.com/Dolphin-kun/EffectTrigger",
-      "downloadUrl": "https://github.com/Dolphin-kun/EffectTrigger/releases/tag/v1.0",
-      "category": "video-effect",
-      "tags": [
-        "映像エフェクト"
-      ],
-      "stars": 1,
-      "createdAt": "2025-05-25T10:16:05Z",
-      "lastUpdated": "2026-03-15T01:59:41Z",
-      "latestVersion": "v1.0",
-      "license": "MIT"
     },
     {
       "id": "tetra-te-videooutputmessage",
@@ -3314,7 +3313,7 @@
     {
       "id": "benikazura-automaticaspectratio",
       "name": "AutomaticAspectRatio",
-      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うこ���ができます。",
+      "description": "画面に収めるように拡大縮小を片方向に限定したYMM4用映像エフェクトプラグインです。字幕のサイズ調整を自動で行うことができます。",
       "author": "benikazura",
       "authorUrl": "https://github.com/benikazura",
       "repoUrl": "https://github.com/benikazura/AutomaticAspectRatio",
